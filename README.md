@@ -10,4 +10,4 @@ Simply open a pull request adding the new file or updating an existing document.
 
 GitBook is built automatically via Travis, and changes pushed to the gh-pages branch.
 
-If you want content to be linked from the sidebar, make sure to add it to [SUMMARY.md](SUMMARY.md).
+If you want content to appear on Gitbook, it needs to be listed in [SUMMARY.md](SUMMARY.md).
