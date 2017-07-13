@@ -16,7 +16,7 @@ This document may be updated or completed in the course of translation. Where no
   * Persona    
   * Reference terminology    
   * Terminology not found in the glossary or style guide
-* [Abbreviations, Acronyms, Articles, and Loan Words](aaalw.md)
+* [Abbreviations, Acronyms, Articles, and Loan Words](aaa.md)
   * Abbreviations    
     * Common Abbreviations    
     * Measurements and Numerals    
@@ -28,7 +28,8 @@ This document may be updated or completed in the course of translation. Where no
     * Unlocalized Acronyms    
   * Articles    
     * Product Names    
-    * Copyrights and Trademarks     
+    * Copyrights and Trademarks
+* [Non-translated and Loan Words](loanwords.md)
   * Localized term vs. English term    
     * Inflections    
     * Singular & Plural    
