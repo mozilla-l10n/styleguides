@@ -1,6 +1,6 @@
 # Style Guide Slovenian (sl)
 
-IMAGE
+![sl Logo](/Slovenian_sl/logo_SL.png)
 
 ## Slogovni priročnik za slovensko L10n ekipo
 
@@ -10,7 +10,7 @@ Nočemo se zadovoljiti s površnimi in dobesednimi prevodi, ki jih lahko skropuc
 
 Seveda od tebe, sploh, če si začetnik pri prevajanju, ne zahtevamo že od samega začetka popolnih prevodov - drugi smo tu, da ti pomagamo. Tvoje prevode bomo spočetka pregledovali in po potrebi popravili, ti pa preleti popravke, poišči ponavljajoče se napake in jih vzemi na znanje za prihodnje prevode. Iz izkušenj se naučimo več kot iz vsakega priročnika!
 
-IMAGE
+![ml10n Logo](/Slovenian_sl/logo_Ml10n.png)
 
 ## Kakšen jezik naj uporabljam?
 
