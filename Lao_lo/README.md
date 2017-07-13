@@ -50,8 +50,8 @@
 * Playing audio – &formatS; ---> ກຳລັງເປີດອູດິໂອ – &formatS;
 * &vendorShortName; &brandShortName; ---> &vendorShortName; &brandShortName; ປະໄວ້ຮູບເດີ່ມ ບໍ່ຕ້ອງແປຫຍັງເລີຍ
 
-## IMAGE
+![Pontoon Screen Shot 1](/Lao_lo/Screen1.png)
 
 * About &brandShortName;, FAQs, feedback ---> ກ່ຽວກັບ &brandShortName;, ຄຳຖາມທີພົບເປັນປະຈຳ, ຄໍາຄິດເຫັນ
 
-## IMAGE
+![Pontoon Screen Shot 1](/Lao_lo/Screen2.png)
