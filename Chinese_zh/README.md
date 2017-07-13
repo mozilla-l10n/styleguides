@@ -1,3 +1,5 @@
+# Style Guide Chinese (zh)
+
 ##### 若需分享此文件，可使用 [http://bit.ly/MozTW-L10nGuide](http://bit.ly/MozTW-L10nGuide)
 
 這是由 MozTW 維護的 Mozilla 正體中文（台灣）在地化樣式與翻譯規範文件。除非另有定義，否則這份文件所定義的格式會使用在所有由 MozTW 維護的 Mozilla 產品與網頁內容，在您開始進行貢獻前請先詳讀。若對以下格式有所疑問或意見，請寄信到 [moztw-general@googlegroups.com](moztw-general@googlegroups.com) 並[副本通知 l10n owner](https://moztw.org/about/)，或於 [MozTW 討論區](https://forum.moztw.org/viewforum.php?f=4&sid=998dd151450d0a598267ec98b766d445)提出意見，謝謝。
