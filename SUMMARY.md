@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-# Style Guides
+## Style Guides
 
 * [Africaans (af)](Africaans_af/README.md)
 * [Dutch (nl)](Dutch_nl/README.md)
