@@ -17,7 +17,7 @@ Please refer to the reference documentation supplied by Mozilla and any Mozilla 
 ## Persona
 
 Who will be the user of the Mozilla product, translated communication, documentation or web site?
-[x] Young person (under 30) 
+[x] Young person (under 30)
 [x] Teenager
 
 [x] Young woman
@@ -39,15 +39,15 @@ Who will be the user of the Mozilla product, translated communication, documenta
 [x] Engineer
 
 In Mali, the majority of people who use smartphones are young (under 30 years old), including
-adolescents. There has been an increase in the use of social media on mobile devices, which are 
-now more affordable. 
+adolescents. There has been an increase in the use of social media on mobile devices, which are
+now more affordable.
 
-Among the professionals, we can include teachers, translators, IT professionals, officials (e.g. government agents responsible for the development of the digital economy)  
+Among the professionals, we can include teachers, translators, IT professionals, officials (e.g. government agents responsible for the development of the digital economy)
 
-Most people would be interested in using a Bambara localized OS, for a number of 
-reasons:pride over national language (can be taught in schools, at university and, increasingly to 
-adults – this teaching is supported and promoted by the government), falling prices for 
-smartphones and a general association with smart devices/new technology and social status. 
+Most people would be interested in using a Bambara localized OS, for a number of
+reasons:pride over national language (can be taught in schools, at university and, increasingly to
+adults – this teaching is supported and promoted by the government), falling prices for
+smartphones and a general association with smart devices/new technology and social status.
 The users would not necessary need to be ‘tech savvy’ or ‘techie’.
 
 These people would use either formal or colloquial Bambara.

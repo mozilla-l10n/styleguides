@@ -95,4 +95,4 @@ Si estos nombres son utilizados en una oración, hay que mantener el formato del
 
 `Puedes navegar de forma privada yendo al menú Herramientas y posteriormente seleccionando Navegación privada.`
 
-Esto se hace así porque hacen referencia a elementos de la interfaz que están traducidos de esta manera en el programa 
+Esto se hace así porque hacen referencia a elementos de la interfaz que están traducidos de esta manera en el programa

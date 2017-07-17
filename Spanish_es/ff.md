@@ -4,7 +4,7 @@
 
 Se tratará al usuario de tú. Por ejemplo:
 
-* `Get the easy setup code on your Android phone` -> `Obtén el código de configuración fácil en tu teléfono Android` 
+* `Get the easy setup code on your Android phone` -> `Obtén el código de configuración fácil en tu teléfono Android`
 
 ## Convenciones ortográficas y léxicas
 
@@ -25,7 +25,7 @@ Para cualquier duda, consulta la documentación del proyecto en [Recursos para t
 * Sustituye la raya `—` por los dos puntos `:`
 * Los títulos y encabezados nunca deben acabar `en`.
 
-##Coherencia
+## Coherencia
 
 ### Etiquetas
 

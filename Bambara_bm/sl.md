@@ -4,13 +4,13 @@
 
 ### Descriptors
 
-Use the descriptor (menu, button, command, etc.) only if the source text uses it or if it is needed for clarifying the position of a term in the interface. 
+Use the descriptor (menu, button, command, etc.) only if the source text uses it or if it is needed for clarifying the position of a term in the interface.
 
 ### Status Bar Messages
 
-Please make sure you adequately capture the meaning of messages when translating. 
+Please make sure you adequately capture the meaning of messages when translating.
 
-If you think a source status bar message is ambiguous, query it to make sure you provide the reader with the right information: if you cannot understand it, they are also not certain to. There is nothing more annoying than "help" that doesn't help! 
+If you think a source status bar message is ambiguous, query it to make sure you provide the reader with the right information: if you cannot understand it, they are also not certain to. There is nothing more annoying than "help" that doesn't help!
 
 ### Post-positions
 
@@ -48,18 +48,18 @@ French quotes: no space between the quotation mark and the word in quotes, and n
 
 * Do not use a comma after bulleted points.
 8 If the original source entry contains a period, leave it. If the source text does not contain a period, but you split the translation into several independent sentences, put a period at the end of each sentence.
-* Never put a period after just one word. 
+* Never put a period after just one word.
 The result of this method may be that some entries within one table are with and some entries are without a final period. From a technical point of view this is acceptable. The same convention applies to captions and callouts
 
 ### Comma vs. Period in Numerals
 
-English uses a period as decimal separator. In Bambara, a comma is used. Do not use a space for this purpose as a space separates the numeral from the abbreviation. 
+English uses a period as decimal separator. In Bambara, a comma is used. Do not use a space for this purpose as a space separates the numeral from the abbreviation.
 
 In paper sizes the decimal separator and the abbreviation "in" for inches are kept, since the sizes are US norms and should be represented accordingly.
 
 |English | Bambara |
 | ------ | ------- |
-| 5.25 cm | 5,25 cm | 
+| 5.25 cm | 5,25 cm |
 | 5 x 7.2 inches | 5 x 7,2 inches |
 | Letter Landscape 11 x 8.5 in | Mod Potare11 x 8,5 in |
 
@@ -78,6 +78,6 @@ Bambara adopts French versions.
 
 Consistent use of typographic conventions in documentation helps users locate and interpret information easily. Generally speaking, the source format should be followed as closely as possible, i.e. terms with a particular formatting in the source should have the same formatting in the translation.
 
-If menu, command, option, etc. Names are highlighted by bold print in the source, use bold print for the corresponding translated terms. If menu, command, option, etc. Names are put in quotes in the source, use quotes for the corresponding terms in the translation. 
+If menu, command, option, etc. Names are highlighted by bold print in the source, use bold print for the corresponding translated terms. If menu, command, option, etc. Names are put in quotes in the source, use quotes for the corresponding terms in the translation.
 
 Note that in software strings, you must use two double quotes `""xxx""` to denote names within a string. If you only use a single double quotes `"xxx"`, this will cause problems with the compilation, as strings are generally denoted by double quotes.

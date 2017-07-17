@@ -17,7 +17,7 @@ You should be consistent in the use of existing reliable appropriate term bases 
 Translating terms representing difficult concepts is a tricky task. Here are some ideas to help you translate terms that do not have equivalents in your language:
 
 * Understand the meaning of the term in English. Definitions of a few key terms <a href="http://techterms.com/category/internet">http://techterms.com/category/internet</a>
-* Know your product and understand the function of the feature. 
+* Know your product and understand the function of the feature.
 * Consider similar ideas for those functions in your culture.
 * Associate a culturally specific image with the meaning and function of the term.
 

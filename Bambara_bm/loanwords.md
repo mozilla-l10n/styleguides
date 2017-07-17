@@ -2,12 +2,12 @@
 
 ## Localized term vs. English term
 
-The preferred language in the computer world is English. Therefore, a translator frequently has to decide whether to use the (correct, but obsolete) translation or simply the English word. 
+The preferred language in the computer world is English. Therefore, a translator frequently has to decide whether to use the (correct, but obsolete) translation or simply the English word.
 
 ### Inflections
 
 The examples below show how English loanwords inflect for number in.
- 
+
 |English example | Bambara examples |
 | -------------- | ---------------- |
 | Websites | siti wɛbu |
@@ -15,9 +15,9 @@ The examples below show how English loanwords inflect for number in.
 
 ### Singular & Plural
 
-In Bambara, when the letter `w` is placed at the end of a word, it marks the plural of the word and is pronounced `ou`. 
+In Bambara, when the letter `w` is placed at the end of a word, it marks the plural of the word and is pronounced `ou`.
 
-| English | Bambara, singular | Bambara, plural | Signification | 
+| English | Bambara, singular | Bambara, plural | Signification |
 | ------- | ----------------- | --------------- | ------------- |
 | Tool | minɛn | minɛnw | Minein’ou |
 | name | tɔgɔ | tɔgɔw | Togo’ou |

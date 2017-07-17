@@ -48,4 +48,4 @@ Na překlady článku rozhodně nepoužívat výše zmíněné či ekvivalentní
 
 ### Používejte kontrolu pravopisu
 
-Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů. 
+Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů.
