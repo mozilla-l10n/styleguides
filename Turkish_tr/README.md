@@ -1,6 +1,5 @@
 # Style Guide Turkish (tr)
 
-
 ## Türkçe Yerelleştirme Yönergeleri
 
 Mozilla ürünlerinin Türkçeye çevrilmesi ve yerelleştirmesi çalışmaları yıllardır devam etmektedir. Bu süre boyunca, çevirilerin tutarlılığını sağlamak adına gönüllü çevirmenlerimiz aşağıdaki kuralları benimsemiştir. Yerelleştirme çalışmalarına yeni katılan gönüllülerimizin de bu yönergelere uygun hareket etmesi, çeviri kalitesinin en üst düzeyde tutulmasını sağlayacaktır.
@@ -54,4 +53,3 @@ Aşağıdaki İngilizce wiki sayfaları da yerelleştirme süreciyle ilgili ayr�
 * [Yerelleştirme projesine katılırken bilmeniz gerekenler](http://wiki.mozilla.org/L10n:Contribute)
 * [Tüm yerelleştirme süreciyle ilgili ayrıntılı bilgiler](https://wiki.mozilla.org/L10n:Localization_Process)
 * [Yerelleştirmeye hızlı başlangıç rehberi: Katkılarınız arttıkça bilmeniz gerekecek teknik konular](https://developer.mozilla.org/en/Localization_Quick_Start_Guide)
-

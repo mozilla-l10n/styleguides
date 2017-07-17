@@ -4,7 +4,7 @@
 
 ## Slogovni priročnik za slovensko L10n ekipo
 
-Najlepša hvala, da nam pomagaš pri prevajanju Mozillinih izdelkov in vsebine! Naše delo je odvisno od prostovoljk in prostovoljcev, kot si ti, in veseli smo vsakega novega člana. 
+Najlepša hvala, da nam pomagaš pri prevajanju Mozillinih izdelkov in vsebine! Naše delo je odvisno od prostovoljk in prostovoljcev, kot si ti, in veseli smo vsakega novega člana.
 
 Nočemo se zadovoljiti s površnimi in dobesednimi prevodi, ki jih lahko skropucamo med preklapljanjem z ene računalniške igre na drugo (čeprav so marsikje pogosti). Uporabnikom želimo svoje programe in storitve ponuditi v njihovem jeziku s kvalitetnimi prevodi. Ta priročnik vsebuje nekaj nasvetov, kako lahko izboljšaš svoje prevode, ter opiše pogoste napake, katerim se je treba izogibati.
 
@@ -98,7 +98,7 @@ Pri hitrem in površnem prevajanju pogosto pride do naslednjih nevšečnosti:
 
 #### Predlogi
 
-Predlog `»from«` lahko prevedemo kot `»iz«` ali `»z/s«`, glede na to, ali je nekaj »v« ali »na« nečem. 
+Predlog `»from«` lahko prevedemo kot `»iz«` ali `»z/s«`, glede na to, ali je nekaj »v« ali »na« nečem.
 * `»from the menu«` -> `»iz menija«`
 * `»from the webpage«` -> `»s spletne strani«`
 
@@ -134,7 +134,7 @@ Pravilno: `»Zaščitite svojo zasebnost.«`.
 
 ## Drugi uporabni napotki
 
-###### (Vir: večinoma [https://wiki.lugos.si/slovenjenje:pravila](https://wiki.lugos.si/slovenjenje:pravila))
+*(Vir: večinoma [https://wiki.lugos.si/slovenjenje:pravila](https://wiki.lugos.si/slovenjenje:pravila))*
 
 ### Računalnik je stroj - izogibanje prvi osebi ednine
 
@@ -160,7 +160,7 @@ Imena funkcij pišemo z malo začetnico, čeprav so v angleščini pisana z veli
 
 Opombe, opozorila in nasvete za dvopičjem pišemo z malo začetnico.
 
-Primer: `»Pozor: uporabljate starejšo različico Firefoxa.«` in ne `»Pozor: Uporabljate starejšo različico Firefoxa.«` 
+Primer: `»Pozor: uporabljate starejšo različico Firefoxa.«` in ne `»Pozor: Uporabljate starejšo različico Firefoxa.«`
 
 ### Datumi, zneski ipd.
 
@@ -170,6 +170,6 @@ July 25 → 25. julij
 
 2016/7/25 → 25. 7. 2016
 
-#y/#m/#d → #d. #m. #y
+`#y/#m/#d → #d. #m. #y`
 
 Podobno velja za zneske denarja in njihove valute. €200 → 200 €

@@ -181,7 +181,6 @@ Inconsistency can pop up in many forms. A translator must be consistent in their
 
 Finally, there are times that a translation simply doesn't make sense. It's hard to put your finger on what exactly is wrong with it, but you know it is unintelligible and not fluent. While this is uncommon, it's important to report these unintelligible translations and offer suggestions to correct them.
 
-
 ## Tips to Remember
 
 1. Do limit the word count of the localized string same as source string. Use FUEL guides for consistency.
@@ -190,7 +189,7 @@ Finally, there are times that a translation simply doesn't make sense. It's hard
 4. Don't translate HTML tags. Like `<HTML>`, `&ndash`
 5. Try to use localised developer edition browser.
 6. Don't follow google translator. You can use Shabdkosh/Online Dictionary for word meanings.
-7. Don’t translate numbers `1`, `2`, 3`, letters `a`, `b`, `c`.
+7. Don’t translate numbers `1`, `2`, `3`, letters `a`, `b`, `c`.
 8. Please translate all uppercase strings. For some of them it might make sense (e.g. JSON, SQL), but `BLOCKED`, or `SUGGESTED`, are normal strings displayed uppercase for English, and you should definitely translate them. All terms/verbs which is having `&` in between or in word starting (ex:- `&Hide Toolbars`, `M&ove`) that should be translated, not left in English. I wonder if you will because of the `&`, which only indicates an accesskey in the middle of the word. You can just remove the `&` in the string and it will fallback to English. (Very Important)
 
 ## What are accesskeys?,
@@ -200,4 +199,4 @@ Accesskeys, not to be confused with shortcuts (or commandkeys), are used to acce
 How accesskeys work in Pootle?
 In the original localization file, label and accesskey are two separate strings, for example:
 `<!ENTITY fileMenu.label "File">`
-`<!ENTITY fileMenu.accesskey "F">` 
+`<!ENTITY fileMenu.accesskey "F">`

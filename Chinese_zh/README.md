@@ -1,10 +1,10 @@
 # Style Guide Chinese (zh)
 
-##### 若需分享此文件，可使用 [http://bit.ly/MozTW-L10nGuide](http://bit.ly/MozTW-L10nGuide)
+*若需分享此文件，可使用 [http://bit.ly/MozTW-L10nGuide](http://bit.ly/MozTW-L10nGuide)*
 
 這是由 MozTW 維護的 Mozilla 正體中文（台灣）在地化樣式與翻譯規範文件。除非另有定義，否則這份文件所定義的格式會使用在所有由 MozTW 維護的 Mozilla 產品與網頁內容，在您開始進行貢獻前請先詳讀。若對以下格式有所疑問或意見，請寄信到 [moztw-general@googlegroups.com](moztw-general@googlegroups.com) 並[副本通知 l10n owner](https://moztw.org/about/)，或於 [MozTW 討論區](https://forum.moztw.org/viewforum.php?f=4&sid=998dd151450d0a598267ec98b766d445)提出意見，謝謝。
 
-This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] locale. Except noted elsewhere, this style would apply to all MozTW Projects and Mozilla projects/contents maintained by MozTW. Please read carefully before starting contributing. Should you have any question or concern, or if you want to revise, please raise discussion in [moztw-general@googlegroups.com](moztw-general@googlegroups.com) and [CC l10n owner](https://moztw.org/about/), thanks. 
+This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] locale. Except noted elsewhere, this style would apply to all MozTW Projects and Mozilla projects/contents maintained by MozTW. Please read carefully before starting contributing. Should you have any question or concern, or if you want to revise, please raise discussion in [moztw-general@googlegroups.com](moztw-general@googlegroups.com) and [CC l10n owner](https://moztw.org/about/), thanks.
 
 -----
 
@@ -76,6 +76,7 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
   * 同一句裡面不要重複出現相同的主詞，某些數量與量詞亦可省略，例如：”If you lost your password” 可翻譯為「若您忘記了密碼」而非「若您忘記了您的密碼」
 
 ## MozLinks
+
 1. 開始翻譯時請在標題時間前面加上「[翻譯中]」，文章翻譯完成後改成「[已翻譯]」。翻譯完成後 Mail 至 [mozlinks-zh-editor@googlegroups.com](mozlinks-zh-editor@googlegroups.com) 通知編輯已完成某篇文章翻譯。
 2. 將翻譯內容寫在轉貼原文下方的 ”中譯：（請在下方翻譯）” 區塊；翻譯區塊下的原文、授權等內容應放在翻譯內容的最後，翻譯者不應做任何更改。
 3. 編輯內容如遇連結或其他語法請參考 Markdown 語法編輯。

@@ -9,7 +9,7 @@ Tyyliopas vastaa muutamiin yleisiin tyylikysymyksiin Mozilla-tuotteiden ja Mozil
 Esimerkkejä kansainvälisistä tyylioppaista:
 
 * [https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
-* [https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx) 
+* [https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
 
 ## Tyyli
 
@@ -21,7 +21,7 @@ Sävyltään tekstin pitäisi seurata alkuperäistä englanninkielistä tekstiä
 
 Ohjelmistoja kääntäessä ei yleensä käytetä pronomineja aktiivisesti. Ei siis käännetä “You can click…” “Sinä voit napsauttaa…”, vaan muutetaan ohjeistukset yleensä passiivisiksi “Napsauttamalla…”. Vastaavasti ei yleensä käytetä muotoja minun/sinun käännöksissä (vaan esim. Oma).
 
-Ohjelmia, tavaramerkkejä tai palvelujen nimiä ei yleensä käännetä vaan lisätään tarkentava kuvaus nimen jälkeen, esimerkiksi Firefox Sync -palvelu. Mozillan käännöstiedostoissa tällaiset tuotenimet ovat usein muuttujina, jolloin pitää olla tarkkana että pääte tulee oikein. Kansainvälinen ohjeistus: [https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/).  
+Ohjelmia, tavaramerkkejä tai palvelujen nimiä ei yleensä käännetä vaan lisätään tarkentava kuvaus nimen jälkeen, esimerkiksi Firefox Sync -palvelu. Mozillan käännöstiedostoissa tällaiset tuotenimet ovat usein muuttujina, jolloin pitää olla tarkkana että pääte tulee oikein. Kansainvälinen ohjeistus: [https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/).
 
 ## Oikeinkirjoitus- ja kielioppiohjeistus
 

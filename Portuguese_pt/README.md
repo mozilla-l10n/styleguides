@@ -56,7 +56,6 @@ Por exemplo em um artigo do SUMO:
 **Tradução incorreta:** Baixe essa library Python.
 **Tradução correta:** Baixe essa biblioteca Python.
 
-
 ## Erros de fluência
 
 ### Ortografia
@@ -70,7 +69,6 @@ Use a gramática normativa do Português. Caso tenha dúvidas, consulte: [http:/
 ## Erros de terminologia
 
 Traduza termos de forma consistente, use o [projeto de terminologia](https://pontoon.mozilla.org/terminology/) e o [dicionário Transvision](https://transvision.mozfr.org/) caso tenha dúvidas. Por exemplo, traduza "tab" sempre como "aba", e não "guia" e principalmente não traduza o mesmo termo de formas diferentes no mesmo projeto.
-
 
 ## Erros de estilo
 
