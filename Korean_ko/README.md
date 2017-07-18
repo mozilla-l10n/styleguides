@@ -2,7 +2,7 @@
 
 ## Mozilla 제품 번역 가이드
 
-전체글글쓴이: Channy » 2012 08 05 15:14 47
+전체글글쓴이: [Channy](http://forums.mozilla.or.kr/memberlist.php?mode=viewprofile&u=5580&sid=490bc144a9490048549e0dbce0c055cd) » 2012 08 05 15:14 47
 
 Mozilla 제품 번역을 위한 인터페이스 및 메시지 등의 언어 리소스는 Firefox 나 Thunderbird 및 확장 기능 모두 동일합니다. dtd 파일과 properties 파일에 정의되어 있습니다 확장 기능 소스 코드 중. xul 파일에 사용되는 언어 리소스는 dtd 파일, js 파일에서 사용되는 언어 리소스는 properties라는 파일이라고 기억해두면 좋을 것입니다. 또한 확장 기능은. html 파일이 포함되어있는 경우도 있습니다.
 
