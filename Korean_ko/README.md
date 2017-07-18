@@ -47,8 +47,7 @@ Mozilla 제품의 리소스 파일 위치는 각 모듈에 따라 위치가 정�
 각 영문 repo는 한국어 repo와 구조가 같습니다.
 
 1. Firefox, Mobile, Toolkit : [http://hg.mozilla.org/releases/mozilla- ... ales/en-US](http://hg.mozilla.org/releases/mozilla-aurora/file/xxx/browser/locales/en-US)
-2. Thunderbird, Sunbird, Editor:
-[http://hg.mozilla.org/releases/comm-aur ... ales/en-US](http://hg.mozilla.org/releases/comm-aurora/file/xxx/calendar/locales/en-US)
+2. Thunderbird, Sunbird, Editor:[http://hg.mozilla.org/releases/comm-aur ... ales/en-US](http://hg.mozilla.org/releases/comm-aurora/file/xxx/calendar/locales/en-US)
 
 ## 3. 번역 작업 선정하기
 
@@ -91,10 +90,13 @@ accesskey 같은 경우는 번역 안하고 추가만 하면 됩니다.
 해커
 
 **전체글:** 1005
+
 **가입일:** 2002 03 26 17:41 59
+
 **사는 곳:** 아름다운 제주
 
 [쪽지 보내기](http://forums.mozilla.or.kr/ucp.php?i=pm&mode=compose&action=quotepost&p=46145&sid=490bc144a9490048549e0dbce0c055cd)
+
 [웹사이트](http://channy.creation.net/)
 
 *Are you creative? [http://www.creation.net](http://www.creation.net/)*
