@@ -2,7 +2,7 @@
 
 ## Mozilla 제품 번역 가이드
 
-전체글글쓴이: Channy » 2012 08 05 15:14 47
+전체글글쓴이: [Channy](http://forums.mozilla.or.kr/memberlist.php?mode=viewprofile&u=5580&sid=490bc144a9490048549e0dbce0c055cd) » 2012 08 05 15:14 47
 
 Mozilla 제품 번역을 위한 인터페이스 및 메시지 등의 언어 리소스는 Firefox 나 Thunderbird 및 확장 기능 모두 동일합니다. dtd 파일과 properties 파일에 정의되어 있습니다 확장 기능 소스 코드 중. xul 파일에 사용되는 언어 리소스는 dtd 파일, js 파일에서 사용되는 언어 리소스는 properties라는 파일이라고 기억해두면 좋을 것입니다. 또한 확장 기능은. html 파일이 포함되어있는 경우도 있습니다.
 
@@ -47,8 +47,7 @@ Mozilla 제품의 리소스 파일 위치는 각 모듈에 따라 위치가 정�
 각 영문 repo는 한국어 repo와 구조가 같습니다.
 
 1. Firefox, Mobile, Toolkit : [http://hg.mozilla.org/releases/mozilla- ... ales/en-US](http://hg.mozilla.org/releases/mozilla-aurora/file/xxx/browser/locales/en-US)
-2. Thunderbird, Sunbird, Editor:
-[http://hg.mozilla.org/releases/comm-aur ... ales/en-US](http://hg.mozilla.org/releases/comm-aurora/file/xxx/calendar/locales/en-US)
+2. Thunderbird, Sunbird, Editor:[http://hg.mozilla.org/releases/comm-aur ... ales/en-US](http://hg.mozilla.org/releases/comm-aurora/file/xxx/calendar/locales/en-US)
 
 ## 3. 번역 작업 선정하기
 
@@ -91,10 +90,13 @@ accesskey 같은 경우는 번역 안하고 추가만 하면 됩니다.
 해커
 
 **전체글:** 1005
+
 **가입일:** 2002 03 26 17:41 59
+
 **사는 곳:** 아름다운 제주
 
 [쪽지 보내기](http://forums.mozilla.or.kr/ucp.php?i=pm&mode=compose&action=quotepost&p=46145&sid=490bc144a9490048549e0dbce0c055cd)
+
 [웹사이트](http://channy.creation.net/)
 
 *Are you creative? [http://www.creation.net](http://www.creation.net/)*
