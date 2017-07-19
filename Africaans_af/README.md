@@ -248,6 +248,7 @@ Either way, care should be taken to ensure that every individual item is not an 
 *(In the examples below, “How to use” would require the infinitive form of the verb in Afrikaans, which requires the object to be placed before the main verb, for example “How to use a mouse” would become “Hoe om ’n muis te gebruik”, and therefore translating the heading as “Hoe om te gebruik” would result in incorrect syntax. The heading “First do this” may, depending on what follows, be translated as simply “Doen eers”, for instance in “Doen eers … die berekening”. The context will be the determining factor. The context would also determine whether a heading like “Walkthrough” represents a verb or a noun; in this case the verb would be “Loop deur” and the items should then follow on that verb correctly.)*
 
 | US heading | Afrikaans heading |
+| - | - |
 | In order to | (+) Om die volgende te doen: |
 | Do this | (+) Doen die volgende: |
 | How to use | (+) Hoe om die volgende te gebruik: |
@@ -383,6 +384,7 @@ This convention is less important in normal body text, which is sometimes writte
 See also sections 4.5.5 and 4.6.2.2.
 
 | English example | Afrikaans example (possible body text) |
+| - | - |
 | On the View menu, click Filter | (+) Klik Filter op die Aansig-kieslys |
 | On the Tools menu, click Internet Options, and click the Security tab | (+) Klik Internetopsies en dan die Sekuriteit-duimgids op die Nutsmiddels-kieslys |
 
