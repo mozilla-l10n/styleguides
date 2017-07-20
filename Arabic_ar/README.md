@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This style guide is intended for translators working on Swahili Mozilla projects. It provides in-depth information about the quality standards expected by Mozilla for the translation of all product components. All translators should read this guide before commencing any translation work.
+This style guide is intended for translators working on Arabic Mozilla projects. It provides in-depth information about the quality standards expected by Mozilla for the translation of all product components. All translators should read this guide before commencing any translation work.
 
 This guide addresses general translation issues and specifies certain rules of style and usage specific to your language. It should be used as a guideline to avoid common typographic errors, and to maintain consistent terminology and writing style across a project’s components and indeed a product range. The guide should be used in conjunction with the current and previous product-specific glossaries, glossaries of other products of a product range, and the industry standard platform-specific glossaries, such as those provided by Microsoft.
 
@@ -14,7 +14,7 @@ This document may be updated or completed in the course of translation. Where no
 
 Follow these basic rules:
 
-* Original American English text tends to be rather casual. For **Swahili language** the general style should be clear, friendly and concise. Being friendly does not mean using overly colloquial language – it is crucial to consistently maintain a professional tone, but use contemporary, up-to-date style and common words. Use language that resembles conversation observed in everyday settings as opposed to the formal, technical language that is often used for technical and commercial content.
+* Original American English text tends to be rather casual. For **Arabic language** the general style should be clear, friendly and concise. Being friendly does not mean using overly colloquial language – it is crucial to consistently maintain a professional tone, but use contemporary, up-to-date style and common words. Use language that resembles conversation observed in everyday settings as opposed to the formal, technical language that is often used for technical and commercial content.
 * Try to avoid long, nested sentence constructions. If necessary, break up the original sentence and regroup it syntactically.
 * Use wording that is succinct, unambiguous, and free of jargon.
 * Produce a translation that sounds as it if was originally written in your language, i.e. avoid following the original source sentence structure too closely.
@@ -42,7 +42,7 @@ The following terminology sources should be used as reference in the translation
 ### General Abbreviations
 
 * Avoid the use of non-standard abbreviations such as min. for minutes.  Where no appropriate abbreviation exists, use the whole word.
-* Note: Kiswahili time is counted differently from the am/pm system used in Europe and the US. However, computer systems have not yet been designed that correctly localize time for the East African market. Therefore, computer users currently use the am/pm system when they are interacting with technological components.
+* Note: KiArabic time is counted differently from the am/pm system used in Europe and the US. However, computer systems have not yet been designed that correctly localize time for the East African market. Therefore, computer users currently use the am/pm system when they are interacting with technological components.
 
 ### Measurements and Numerals
 
@@ -94,7 +94,7 @@ Use recognised translations of acronyms where these exist, but avoid creating ne
     Data Access Objects (DAO)
     ActiveX data objects (ADO)
 
-In Swahili, many acronyms are standardized and remain untranslated. They are only followed by their full spelling in English if the acronym needs to be explained to Kiswahili-speaking audiences. In other cases, where the acronym is rather common, adding the fully spelled out form will not add any value but only confuse users. In these cases, the acronym can be used on its own.
+In Arabic, many acronyms are standardized and remain untranslated. They are only followed by their full spelling in English if the acronym needs to be explained to KiArabic-speaking audiences. In other cases, where the acronym is rather common, adding the fully spelled out form will not add any value but only confuse users. In these cases, the acronym can be used on its own.
 
 **Example:**
 
@@ -127,10 +127,10 @@ If in doubt, please contact the Rubric Project Manager.
 
 ## Gender-neutral Translation
 
-In Kiswahili, gender is most often never specified. . In a sentence such as “Mwanafunzi wa darasa hilo alisherekea,” you have no linguistic clues as to the gender of the student (mwanafunzi).
+In KiArabic, gender is most often never specified. . In a sentence such as “Mwanafunzi wa darasa hilo alisherekea,” you have no linguistic clues as to the gender of the student (mwanafunzi).
 
-Only a few verbs in Kiswahili are gender specific. If you need to mention marriage, use a variant of “kufunga ndoa” to indicate that someone is married, rather than “kuoa” (male) or “kuolewa” (female). The other gender-specific verbs involve sexual situations.
-Kiswahili does not distinguish gender for nouns, except for pairs that are explicitly about gender: "man/woman", "boy/girl" mvulana/msichana, "sister/brother" dada/kaka, etc.
+Only a few verbs in KiArabic are gender specific. If you need to mention marriage, use a variant of “kufunga ndoa” to indicate that someone is married, rather than “kuoa” (male) or “kuolewa” (female). The other gender-specific verbs involve sexual situations.
+KiArabic does not distinguish gender for nouns, except for pairs that are explicitly about gender: "man/woman", "boy/girl" mvulana/msichana, "sister/brother" dada/kaka, etc.
 Example
 
 ## Genitive
@@ -141,7 +141,7 @@ Convention 1 (e.g. Attaching a genitive “s” to (trademarked) product names i
 
 **Example:**
 
-| en-US source | Kiswahili target |
+| en-US source | KiArabic target |
 | - | - |
 | Tom’s computer | Kompyuta ya Tom |
 
@@ -149,11 +149,11 @@ Convention 1 (e.g. Attaching a genitive “s” to (trademarked) product names i
 
 ### Inflections
 
-The examples below show how English loanwords inflect for number in Kiswahili
+The examples below show how English loanwords inflect for number in KiArabic
 
 Example:
 
-| en-US source | Kiswahili target |
+| en-US source | KiArabic target |
 | - | - |
 | Videos | Video |
 | Files | Faili |
@@ -161,13 +161,13 @@ Example:
 
 ### Plural Formation
 
-Kiswahili Plurals are grammatical numbers that refer to more than one of the referent in day to day life.
+KiArabic Plurals are grammatical numbers that refer to more than one of the referent in day to day life.
 
-In Kiswahili, to form the plural of nouns and adjectives depends on the noun class. Kiswahili nouns are divided into 11 classes that generally follow the syntax rules. For most nouns, the prefix before the root tells whether it’s in singular or plural. However, there are some nouns that don’t change in their structure* the change is realized in the syntax. For example we have the noun class of all the nouns that have life* mostly human beings. E.g. Mtu (singular person) watu (plural for people). This class is called M-WA. In this class many nouns have prefix m* in the singular and wa* in the plural. However there are very many irregular nouns that don’t follow this rule. E.g. Rafiki (friend) Daktari (doctor)
+In KiArabic, to form the plural of nouns and adjectives depends on the noun class. KiArabic nouns are divided into 11 classes that generally follow the syntax rules. For most nouns, the prefix before the root tells whether it’s in singular or plural. However, there are some nouns that don’t change in their structure* the change is realized in the syntax. For example we have the noun class of all the nouns that have life* mostly human beings. E.g. Mtu (singular person) watu (plural for people). This class is called M-WA. In this class many nouns have prefix m* in the singular and wa* in the plural. However there are very many irregular nouns that don’t follow this rule. E.g. Rafiki (friend) Daktari (doctor)
 
 **Example:**
 
-| en-US source | Kiswahili target |
+| en-US source | KiArabic target |
 | - | - |
 | Friends | Teachers |
 | Marafiki | Waalimu |
@@ -176,13 +176,13 @@ In Kiswahili, to form the plural of nouns and adjectives depends on the noun cla
 
 For US English Mozilla voice, verb tense helps to convey the clarity of Mozilla voice. Simple tenses are used. The easiest tense to understand is the simple present, like we use in this guide. Avoid future tense unless you are describing something that will really happen in the future and the simple present tense is inapplicable. Use simple past tense when you describe events that have already happened.
 
-Kiswahili verbs are often given in the stem form in dictionaries. Two examples of verb stems are 'lala' meaning 'sleep' and 'sema' meaning speak. Various markers are then added or prefixed to the verb stem to change the meaning. One such prefix is `ku` which is equivalent to the English infinitive or 'to' form of the verb.
+KiArabic verbs are often given in the stem form in dictionaries. Two examples of verb stems are 'lala' meaning 'sleep' and 'sema' meaning speak. Various markers are then added or prefixed to the verb stem to change the meaning. One such prefix is `ku` which is equivalent to the English infinitive or 'to' form of the verb.
 
 So: `ku` + verb stem gives the infinitive.
 
 'kulala' means to sleep 'kusema' meas'to speak'
 
-Verbs in Kiswahili must end in a suffix and this is shown with the verb 'kujua' meaning to know (verb stem 'jua').
+Verbs in KiArabic must end in a suffix and this is shown with the verb 'kujua' meaning to know (verb stem 'jua').
 
 ku (verb prefix) ju (verb stem) a (suffix)
 
@@ -208,7 +208,7 @@ The hyphen is used to divide words between syllables, to link parts of a compoun
 
 **Example:**
 
-| US English | Kiswahili |
+| US English | KiArabic |
 | - | - |
 | Auto-connect | Unganisha-kiotomatiki |
 
@@ -218,11 +218,11 @@ Generally, compounds should be understandable and clear to the user. Overly long
 
 Noun and verb compounds are a frequent word formation strategy in English. Product user interfaces, online help, and documentation contain a number of such examples. However, not all languages use compounding to create complex word meanings.
 
-Kiswahili makes frequent use of compounds. However, you should avoid making up new compound terms, unless the meaning is obvious, because end users will usually not have an easy way to disentangle the invented phrase. You should certainly leave spaces between the words that make up a compound, and the use of “-a” (wa/ cha/ la/ za/ ya, etc) will often clarify the meaning of the new term.
+KiArabic makes frequent use of compounds. However, you should avoid making up new compound terms, unless the meaning is obvious, because end users will usually not have an easy way to disentangle the invented phrase. You should certainly leave spaces between the words that make up a compound, and the use of “-a” (wa/ cha/ la/ za/ ya, etc) will often clarify the meaning of the new term.
 
 **Example:**
 
-| en-US source | Kiswahili target|
+| en-US source | KiArabic target|
 | - | - |
 | Internet Accounts | Akaunti za Wavuti |
 | Workgroup Administrator | Msimamizi wa kikundikazi |
