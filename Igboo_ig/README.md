@@ -134,7 +134,7 @@ Avoid writing sentences that refer to a single person whose gender is unknown. Y
 Use the following strategies to avoid the use of overtly gender-biased expressions:
 
 | Linguistic method | Example |  Context |
-| -- | -- |
+| -- | -- | -- |
 | Use a Neutral noun | person, leader, team lead, expert, employee, user | Concept descriptions, explanations |
 | Combine both genders by means of a slash | he/she, s/he | Only in exceptional cases such as License Terms, sometimes in tables (headers or column/row titles, for example) |
 
