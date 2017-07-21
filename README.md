@@ -8,7 +8,6 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Arabic (ar)](Arabic_ar/README.md)
 * [Armenian (hy)](Armenian_hy/README.md)
 * [Bambara (bm)](Bambara_bm/README.md)
-* [Catalan (ca)](Catalan_ca/README.md)
 * [Chinese, Traditional (zh-TW)](Chinese_zh-TW/README.md)
 * [Czech (cs)](Czech_cs/README.md)
 * [Dutch (nl)](Dutch_nl/README.md)
@@ -36,7 +35,6 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Thai (th)](Thai_th/README.md)
 * [Turkish (tr)](Turkish_tr/README.md)
 * [Ukrainian (uk)](Ukranian_uk/README.md)
-* [Welsh (cy)](Welsh_cy/README.md)
 * [Wolof (wo)](Wolof_wo/README.md)
 * [Xhosa (xh)](Xhosa_xh/README.md)
 
