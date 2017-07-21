@@ -42,7 +42,7 @@ Glossaries of other Mozilla products, to ensure cross-product consistency.
 
 Microsoft / Apple glossaries, to ensure adherence to the industry standards. It is your responsibility to make sure that you always have the latest Microsoft and Apple glossaries at your disposal. The glossaries can be found at: http://www.microsoft.com/language/en/us/search.mspx and http://developer.apple.com/internationalization/download/
 
-Terminology not found in the glossary or style guide
+### Terminology not found in the glossary or style guide
 
 Please make a log of any terms not found in the glossary or style guide that are used frequently in the materials. Return this log to Rubric so that the terms can be incorporated into the glossary. This increases consistency in large projects.
 
@@ -57,7 +57,6 @@ It should be noted that Wolof does not frequently use abbreviations and acronyms
 The few common abbreviations in Wolof include the following examples:
 
 The following table lists common Wolof expressions and their associated, acceptable abbreviations.
-
 
 | Expression | Acceptable Abbreviation |
 | -- | -- |
@@ -231,7 +230,6 @@ Noun and verb compounds are a frequent word formation strategy in Wolof. Product
 
 Generally, compounds should be understandable and clear to the user. Overly long or complex compounds should be avoided by verbally expressing the relationship among the various compound components. Keep in mind that unintuitive compounds are ultimately an intelligibility and usability issue.
 
-
 | English examples | Wolof example |
 | -- | -- |
 | Internet Accounts | (+) Sàqi Internet |
@@ -284,12 +282,12 @@ Note also that the translation of the compounds above is similar in every respec
 ### Prepositions and Articles
 
 #### Articles
+
 There is no specific rules concerning articles in Wolof. In singular “ab” (indefinite) and “bi” are used when in doubt of the right article. In plural, “ay” (indefinite) and “yi” are used.
 
 #### Prepositions
 
 Pay attention to the correct use of the preposition in translations. Influenced by the English language, many translators omit them or change the word order.
-
 
 | US-English expression | Wolof expression | Comment |
 | -- | -- | -- |
