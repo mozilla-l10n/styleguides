@@ -36,7 +36,6 @@
 * [Portuguese (pt-BR)](Portuguese_pt-BR/README.md)
 * [Romanian (ro)](Romanian_ro/README.md)
 * [Scottish Gaelic (gd)](Scottish_Gaelic_gd/README.md)
-    * [Style Guide PDF](Scottish_Gaelic_gd/Stiùireadh-air-stoidhle-cànain.pdf)
 * [Serbian (sr)](Serbian_sr/README.md)
 * [Sinhala (si)](Sinhala_si/README.md)
 * [Slovenian (sl)](Slovenian_sl/README.md)
