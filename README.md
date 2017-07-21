@@ -24,7 +24,7 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Macedonian (mk)](Macedonian_mk/README.md)
 * [Portuguese (pt-BR)](Portuguese_pt-BR/README.md)
 * [Romanian (ro)](Romanian_ro/README.md)
-* [Scottish Gaelic (gd)](Scottich_Gaelic_gd/README.md)
+* [Scottish Gaelic (gd)](Scottish_Gaelic_gd/README.md)
 * [Serbian (sr)](Serbian_sr/README.md)
 * [Sinhala (si)](Sinhala_si/README.md)
 * [Slovenian (sl)](Slovenian_sl/README.md)
