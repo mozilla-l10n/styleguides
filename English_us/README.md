@@ -40,7 +40,7 @@ Cultural references, idioms, and slang require a full understanding of these ref
 1. Find an equivalent reference phrase in your language.
 2. Remove the cultural reference and translate the core meaning (e.g., `a commencement meeting`)
 
-Define a policy for handling these cultural references, idioms, and slang that you can make standard across all projects. Consider resources you can refer back to in order to find cultural equivalents and list them in this section of your style guide (e.g., a slang dictionary in your language).  
+Define a policy for handling these cultural references, idioms, and slang that you can make standard across all projects. Consider resources you can refer back to in order to find cultural equivalents and list them in this section of your style guide (e.g., a slang dictionary in your language).
 
 #### Style consistency
 
@@ -88,16 +88,17 @@ The translation should strive to achieve proper unit conversions for currency, m
 #### Units and Unit Conversion
 
 ##### Date Format
+
 How are the date formats for weeks and months expressed in the following forms:
 
 * 1). Fully spelled out 2). 2 or 3 letters  3). Single letter
-* What is the order of Year, Month and Day?  
+* What is the order of Year, Month and Day?
 
 Reference material can be find here: [https://en.wikipedia.org/wiki/Date_format_by_country](https://en.wikipedia.org/wiki/Date_format_by_country)
 
 ##### Calendar view:
 
-* Which date is considered the first day of the week, Sunday or Monday?  
+* Which date is considered the first day of the week, Sunday or Monday?
 * Is Lunar calendar observed?  Other regional calendar observed?
 
 ##### Time Format
@@ -118,13 +119,13 @@ What are other widely used currency and symbols used in your country/language fo
 
 Do you use the imperial, metric or nautical system for measuring weight, distance, etc.? Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system.
 
-##### Names  
+##### Names
 
 What are the order of family name and given name in your language?  Here is the guideline on the naming convention from w3c.org:
 
 ##### Address and Postal Code Format
 
-What is the format in your language?  
+What is the format in your language?
 
 * Example: most Asian countries start from big to small: `[Country] [postal code][state/province][city][district][street number and name][building and suite numbers][addressee]`
 * Countries of European languages start from small to big: `[addressee][street number and name][building and suite numbers][district][city][state/province][postal code][Country]`
@@ -143,11 +144,11 @@ Do you have standards for verb forms that indicate or express the time, such as 
 
 #### Word Forms
 
-##### Pluralization  
+##### Pluralization
 
 What is the appropriate form of expressing pluralization in your language?  List all forms of plural forms and examples if there is more than one.  Additional discussions can be found Here. [https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) and here:  [http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html](http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html)
 
-##### Abbreviations  
+##### Abbreviations
 
 How are abbreviations expressed in your language?
 
@@ -181,7 +182,7 @@ What is the appropriate way of using hyphens and compounds in your language?  ( 
 
 What is the appropriate form of expressing prepositions and articles in your language?
 
-##### Diacritics and Special characters  
+##### Diacritics and Special characters
 
 Does your language use any special or accented characters and will they be applied and preserved in sort orders, and other aspects of the translation?  (see: [https://en.wikipedia.org/wiki/Diacritic](https://en.wikipedia.org/wiki/Diacritic))
 
@@ -195,11 +196,11 @@ Does your language require the use of white space around words, sentences, parag
 
 ##### User Interface Elements
 
-* Titles :  Should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.         
+* Titles :  Should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.
 * Buttons: Capitalize the first letter of each word. Limit to one or two words. Use verbs that precisely describe the button's action. For example, `Cancel`, `Clear History`, `Add Email`, `Select All`, etc.
 * Value Selector Lists: Capitalize the first letter of the first word and the first letter of any proper nouns. Limit to one or two words.
-* Articles:  Avoid them where possible. Articles (such as the word `the` in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.     
-* Ellipsis: Ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue.  Focus on making the UI short and precise.  The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.     
+* Articles:  Avoid them where possible. Articles (such as the word `the` in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.
+* Ellipsis: Ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue.  Focus on making the UI short and precise.  The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.
 
 ## General Mozilla l10n style
 
