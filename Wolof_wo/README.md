@@ -78,7 +78,7 @@ Metric System Commonly Used?: Yes
 Temperature: Celsius
 
 | Category | English | Translation |
-| -- | -- | -- | -- |
+| -- | -- | -- |
 | Linear Measure | Kilometer | Kilomeetar |
 | | Meter | Meetar |
 | | Decimeter | Decimeetar |
