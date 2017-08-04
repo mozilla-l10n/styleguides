@@ -71,7 +71,7 @@ The following terminology sources should be used as reference in the translation
 
 * Temperature: Celsius
 
-| Category | English | Translation |
+| Category | English | Translation | Abbreviation |
 | -- | -- | -- | -- |
 | Linear Measure | Kilometer | Kilometatra | Same as Enlish |
 | | Meter | Metatra | Same as Enlish |
