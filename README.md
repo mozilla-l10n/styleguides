@@ -5,7 +5,6 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 ## Style Guides
 
 * [Mozilla General Style Guide](English_us/README.md)
-
 * [Africaans (af)](Africaans_af/README.md)
 * [Arabic (ar)](Arabic_ar/README.md)
 * [Armenian (hy)](Armenian_hy/README.md)
