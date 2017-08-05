@@ -4,6 +4,8 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 
 ## Style Guides
 
+* [Mozilla General Style Guide](English_us/README.md)
+
 * [Africaans (af)](Africaans_af/README.md)
 * [Arabic (ar)](Arabic_ar/README.md)
 * [Armenian (hy)](Armenian_hy/README.md)
@@ -17,11 +19,14 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Hindi (hi)](Hindi_hi/README.md)
 * [Icelandic (is)](Icelandic_is/README.md)
 * [Igbo (ig)](Igbo_ig/README.md)
+* [Irish (ga)](Irish_ga/README.md)
 * [Italian (it)](Italian_it/README.md)
 * [Japanese (ja)](Japanese_ja/README.md)
 * [Korean (ko)](Korean_ko/README.md)
 * [Lao (lo)](Lao_lo/README.md)
 * [Macedonian (mk)](Macedonian_mk/README.md)
+* [Malagasy (mg)](Malagasy_mg/README.md)
+* [Marathi (mr)](Marathi_mr/README.md)
 * [Portuguese (pt-BR)](Portuguese_pt-BR/README.md)
 * [Romanian (ro)](Romanian_ro/README.md)
 * [Scottish Gaelic (gd)](Scottish_Gaelic_gd/README.md)
@@ -30,13 +35,17 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Slovenian (sl)](Slovenian_sl/README.md)
 * [Spanish (es)](Spanish_es/README.md)
 * [Spanish, Chile (es-CL)](Spanish_es-CL/README.md)
+* [Swahili (sw)](Swahili_sw/README.md)
 * [Tagalog (tl)](Tagalog_tl/README.md)
 * [Telugu (te)](Telugu_te/README.md)
 * [Thai (th)](Thai_th/README.md)
 * [Turkish (tr)](Turkish_tr/README.md)
 * [Ukrainian (uk)](Ukranian_uk/README.md)
+* [Vietnamese (vi)](Vietnamese_vi/README.md)
 * [Wolof (wo)](Wolof_wo/README.md)
 * [Xhosa (xh)](Xhosa_xh/README.md)
+* [Yoruba (yo)](Yoruba_yo/README.md)
+* [Zulu (zu)](Zulu_zu/README.md)
 
 ## Updating the documentation
 
