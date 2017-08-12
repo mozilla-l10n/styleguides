@@ -19,6 +19,7 @@
 * [Czech (cs)](Czech_cs/README.md)
 * [Dutch (nl)](Dutch_nl/README.md)
 * [Finnish (fi)](Finnish_fi/README.md)
+* [French (fr)](French_fr/README.md)
 * [German (de)](German_de/README.md)
 * [Hausa (ha)](Hausa_ha/README.md)
 * [Hindi (hi)](Hindi_hi/README.md)
