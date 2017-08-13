@@ -12,6 +12,7 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Chinese, Traditional (zh-TW)](Chinese_zh-TW/README.md)
 * [Czech (cs)](Czech_cs/README.md)
 * [Dutch (nl)](Dutch_nl/README.md)
+* [Esperanto (eo)](Esperanto_eo/README.md)
 * [Finnish (fi)](Finnish_fi/README.md)
 * [German (de)](German_de/README.md)
 * [Hausa (ha)](Hausa_ha/README.md)
