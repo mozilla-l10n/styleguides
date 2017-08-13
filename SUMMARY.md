@@ -18,6 +18,7 @@
 * [Chinese, Traditional (zh-TW)](Chinese_zh-TW/README.md)
 * [Czech (cs)](Czech_cs/README.md)
 * [Dutch (nl)](Dutch_nl/README.md)
+* [Esperanto (eo)](Esperanto_eo/README.md)
 * [Finnish (fi)](Finnish_fi/README.md)
 * [French (fr)](French_fr/README.md)
 * [German (de)](German_de/README.md)
