@@ -35,6 +35,7 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Slovenian (sl)](sl/README.md)
 * [Spanish (es)](es/README.md)
 * [Spanish, Chile (es-CL)](es-CL/README.md)
+* [Spanish, Spain (es-ES)](es-ES/README.md)
 * [Swahili (sw)](sw/README.md)
 * [Tagalog (tl)](tl/README.md)
 * [Telugu (te)](te/README.md)
