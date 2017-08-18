@@ -48,7 +48,7 @@
     * [SUMO Style Guide](es/sumo.md)
     * [Firefox Style Guide](es/ff.md)
 * [Spanish, Chile (es-CL)](es-CL/README.md)
-* [Spanish, Spain](es-ES/README.md)
+* [Spanish, Spain (es-ES)](es-ES/README.md)
 * [Swahili (sw)](sw/README.md)
 * [Tagalog (tl)](tl/README.md)
 * [Telugu (te)](te/README.md)
