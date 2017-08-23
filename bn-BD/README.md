@@ -3,7 +3,7 @@
 ## Intro
 
 Style guides define the standard against which we determine a translation's quality. They contain rules that are both defined by Mozilla and by Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation's quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture.
- 
+
 Available style guide for Bangla:
 
    * [Facebook](https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn2/t39.2365-6/10173500_412391198899035_1962405903_n.pdf)
@@ -20,6 +20,7 @@ The Bengali alphabet or Bangla alphabet (Bengali: বাংলা লিপি B
     To know more about Bengali Alphabets [click here](https://en.wikipedia.org/wiki/Bengali_alphabet)
 
 ## Language-specific Mozilla style
+
 ### Formality and Tone
 
 Instructions from the early days of Bengli l10n from Ankur Bangla Project [read-more](http://www.tldp.org/HOWTO/text/Bangla-HOWTO)
@@ -151,8 +152,8 @@ Brand names, trademarks, product names should be kept as it is. Like Mozilla, Go
 
 ### Address and Postal Code Format
 
-    [House no][Area/Street/Village][Post Office][Thana][District][Post Code][Country] 
-    Example: হাউজ নং ৮৩/বি, রোড নং ৪, কামাল আতাতুর্ক এভিনিউ, বনানী, ঢাকা-১২১৩, বাংলাদেশ 
+    [House no][Area/Street/Village][Post Office][Thana][District][Post Code][Country]
+    Example: হাউজ নং ৮৩/বি, রোড নং ৪, কামাল আতাতুর্ক এভিনিউ, বনানী, ঢাকা-১২১৩, বাংলাদেশ
 
     To know more about Postcode of Bangladesh [click here](http://www.bangladeshpost.gov.bd/PostCode.asp)
 
@@ -208,4 +209,4 @@ Please see page [Unchanged words](http://wiki.mozillabd.org/index.php?title=Unch
 
    * Translating culture-specific references
    * Legal content
-   * Fluency 
+   * Fluency
