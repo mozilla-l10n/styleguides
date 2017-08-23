@@ -9,6 +9,7 @@ This repository is used to store styleguides for Mozilla communities. If you’r
 * [Arabic (ar)](ar/README.md)
 * [Armenian (hy-AM)](hy-AM/README.md)
 * [Bambara (bm)](bm/README.md)
+* [Bengali, Bangladesh (bn-BD)](bn-BD/README.md)
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
 * [Czech (cs)](cs/README.md)
 * [Dutch (nl)](nl/README.md)
