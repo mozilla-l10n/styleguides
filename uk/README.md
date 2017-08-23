@@ -149,10 +149,13 @@ Examples:
 
 | English | Ukrainian |
 | ------- | --------- |
-| `<!ENTITY reloadTab.label "Reload Tab">` `<!ENTITY reloadTab.accesskey "R">` | `<!ENTITY reloadTab.label "Оновити вкладку">``<!ENTITY reloadTab.accesskey "О">` |
-| `<!ENTITY printCmd.label "Print…">``<!ENTITY printCmd.accesskey "P">` | `<!ENTITY printCmd.label "Друкувати…">``<!ENTITY printCmd.accesskey "к">` |
+| reloadTab.label "Reload Tab" | reloadTab.label "Оновити вкладку" |
+| reloadTab.accesskey "R" | reloadTab.accesskey "О" |
+| ------- | --------- |
+| printCmd.label "Print…" | printCmd.label "Друкувати…" |
+| printCmd.accesskey "P" | printCmd.accesskey "к" |
 
-`.accesskey letter is one of the letters presented in the .label string`
+.accesskey letter is one of the letters presented in the .label string
 
 Examples in the UI:
 
@@ -184,10 +187,10 @@ Variables should never be translated. You can recognize a variable within a stri
 
 However, there are some exceptions when variables should be replaced with related words in order to display the whole string in right case.
 
-| Original string | Welcome to &syncBrand.shortName.label; |
-| Incorrect translation | Вітаємо в &syncBrand.shortName.label; |
-| Correct translation | Вітаємо в Синхронізації |
-
+| Original string | Correct translation | Incorrect translation |
+|-----------------|---------------------|-----------------------|
+| Welcome to &syncBrand.shortName.label; | Вітаємо в Синхронізації | Вітаємо в &syncBrand.shortName.label; |
+ 
 In this case the variable &syncBrand.shortName.label; is translated by default like Синхронізація.
 
 Translation Вітаємо в &syncBrand.shortName.label; is not correct, because in the user interface it appears in nominative case like Вітаємо в Синхронізація instead of genitive case.
@@ -199,6 +202,7 @@ It's not related to untranslated variables like Firefox or Mozilla.
 Brand names, as well as copyright and trademarks should never be translated, nor transliterated into a non-Latin based script.
 
 | Brand name | Correct translation | Incorrect translation |
+|------------|---------------------|-----------------------|
 | Mozilla | Mozilla | Мозілла |
 | Firefox | Firefox | Файрфокс |
 
