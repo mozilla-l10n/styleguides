@@ -12,7 +12,7 @@ In general, use the second person (`you`) to address the user in Firefox product
 
 Avoid using the first person (`my`, `I`) as it can create confusion about who is being addressed.
 
-In some projects (like Desktop, Android, IOS, Focus, and Fennec), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful, and remain casual as with all other projects. Casual language should never be used at the expense of sounding disrespectful, regardless of the project.
+In some projects (like Desktop, Android, IOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful, and remain casual as with all other projects. Casual language should never be used at the expense of sounding disrespectful, regardless of the project.
 
 ## Natural Expression
 
@@ -47,28 +47,20 @@ Generally, a 12-hour clock is used in the United States. 24-hour clocks are used
 
 ### Numerals
 
-| Separator | Character Name | Symbol |
-| - | - | - |
-| Decimal | Period | `.` |
-| Thousands | Comma | `,` |
+| Separator | Character Name | Symbol | Example |
+| - | - | - | - |
+| Decimal | Period | `.` | 1.23 |
+| Thousands | Comma | `,` | 1,234 |
 
 ### Currency
 
-The currency of the United States is the dollar (USD). The monetary symbols are `$` and `¢`.
+The currency of the United States is the dollar (USD). The monetary symbols are `$` and rarely `¢`.
 
 ### Units of Measurement
 
 The Imperial system is used for measurement in the United States.
 
-### Proper Names
-
-Typically, names are given as `First Last` in the United States. However, it is common for names to appear `Last, First` (note the comma following the last name.
-
-Middle names and initials may appear, following the first name with no comma ( `First Middle Last` or `Last, First M.`).
-
 ### Address and Postal Code Format
-
-Addresses in the United States follow the format commonly used in Europe.
 
     [addressee]
     [street number and name][building and suite numbers]
@@ -102,7 +94,7 @@ Use sentence case in almost all instances – for screen titles, navigation, lab
 
 Use all caps for all buttons that contain text.
 
-#### Firefox for iOS
+#### Firefox for iOS and Focus
 
 Use title case for screen titles, navigation and section headings, labels, and buttons.
 
