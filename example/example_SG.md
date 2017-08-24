@@ -2,7 +2,7 @@
 
 This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](general_L10n_SG.md)
 
-## Formality and Tone
+## Formality and tone
 
 In English, the tone of Mozilla's language should be adaptable to anyone. From new users to season Mozillians, the tone should be approachable, welcoming, and inclusive.
 
@@ -14,20 +14,20 @@ Avoid using the first person (`my`, `I`) as it can create confusion about who is
 
 In some projects (like Desktop, Android, IOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful, and remain casual as with all other projects. Casual language should never be used at the expense of sounding disrespectful, regardless of the project.
 
-## Natural Expression
+## Natural expression
 
 Translations should sound as natural as possible. Borrowed words should never be used (with the exception of branded names).
 
-## Cultural References, Idioms, and Slang
+## Cultural references, idioms, and slang
 
 When dealing with cultural references, idioms, and slang in English, references to American pop culture (music, movies), sports (basketball, baseball, football), sayings, and some proverbs will be generally recognized. If a cultural reference is difficult to express in English, use the meaning to find a good equivalent. Refer to sources and databases of common expressions to help find an adequate equivalent.
 
 * [List of Common Proverbs](https://www.engvid.com/english-resource/50-common-proverbs-sayings/)
 * [List of Common Idioms](http://www.smart-words.org/quotes-sayings/idioms-meaning.html)
 
-## Local Units
+## Local units
 
-### Date Format
+### Date format
 
 | | Format | Example |
 | - | - | - |
@@ -37,11 +37,11 @@ When dealing with cultural references, idioms, and slang in English, references 
 
 It is acceptable to use any of the date formats; however, always coordinate the translated date format with the source text unless the specifications for a project indicate otherwise.
 
-### Calendar View
+### Calendar view
 
 In the United States, the 12-month Gregorian calendar is used with the week starting on Monday.
 
-### Time Format
+### Time format
 
 Generally, a 12-hour clock is used in the United States. 24-hour clocks are used in the military and it is possible that 24-hour time could be used to make reference or allusion to military.
 
@@ -56,11 +56,11 @@ Generally, a 12-hour clock is used in the United States. 24-hour clocks are used
 
 The currency of the United States is the dollar (USD). The monetary symbols are `$` and rarely `¢`.
 
-### Units of Measurement
+### Units of measurement
 
 The Imperial system is used for measurement in the United States.
 
-### Address and Postal Code Format
+### Address and postal code format
 
     [addressee]
     [street number and name][building and suite numbers]
@@ -72,7 +72,7 @@ The Imperial system is used for measurement in the United States.
     Mountain View, CA 94041
     USA
 
-### Telephone Number Format
+### Telephone number format
 
 Area codes are surrounded by parentheses and separated by a space. The Phone number is separated by a dash.
 
@@ -82,7 +82,7 @@ Area codes are surrounded by parentheses and separated by a space. The Phone num
 
 Read about emphasis styles in the [General Mozilla L10n Style Guide](general_L10n_SG.md#emphasis-guidelines).
 
-#### Firefox for Desktop
+#### Firefox for desktop
 
 Use title case for labels for items in the menu, navigation and section headings, page titles, and buttons.
 

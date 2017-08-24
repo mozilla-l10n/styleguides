@@ -34,7 +34,7 @@ Sometimes translation memory and machine translation tools can offer bad suggest
 
 At times there will be English content included in Mozilla products or web projects (e.g., marketing campaigns) that makes references to American culture and concepts. When translating these, it is best to find an equivalent cultural reference within your own culture that accurately conveys the meaning of the English reference. For example, an American might say, `Good job, home run!` A `home run` is a baseball reference for a successful outcome. An appropriate translation would be an equivalent metaphor within your culture. Using soccer as an example, you might translate `Good job, home run!` into `Good job, nice goal!` in your language.
 
-### Units and Measurement
+### Units and measurement
 
 The translation should strive to achieve proper unit conversions for currency, measurements, etc. for the target audience. Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system.
 
@@ -121,7 +121,7 @@ All Caps is a style where every letter is capitalized. Use these for all buttons
 
 Example: `CANCEL`
 
-### User Interface Elements
+### User interface elements
 
 * **Titles**:  Should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.
 * **Headlines**: which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages
