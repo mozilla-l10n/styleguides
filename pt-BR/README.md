@@ -6,7 +6,7 @@ Nós levantamos alguns tipos de erros comuns em traduções e achamos que seria 
 
 ## Erros de precisão
 
-São divididos em quatro tipos:
+São divididos em quatro tipos: **Tradução**, **Adição**, **Omissão** e **Texto não traduzido**, todos estes tipos são explicados abaixo.
 
 ### Tradução
 
@@ -14,9 +14,9 @@ Certifique-se que a sua tradução mantenha o mesmo significado do texto origina
 
 Por exemplo, em um artigo do SUMO:
 
-**Original:** Download this Python library.
-**Tradução incorreta:** Baixe essa livraria de Python.
-**Tradução correta:** Baixe essa biblioteca Python.
+* **Original:** Download this Python library.
+* **Tradução incorreta:** Baixe essa livraria de Python.
+* **Tradução correta:** Baixe essa biblioteca Python.
 
 ### Adição
 
@@ -24,9 +24,9 @@ A sua tradução deve manter o sentido do texto original, não adicione novos co
 
 Por exemplo, em um produto:
 
-**Original:** Download this Python library.
-**Tradução incorreta:** Baixar e instalar essa biblioteca Python.
-**Tradução correta:** Baixar essa biblioteca Python.
+* **Original:** Download this Python library.
+* **Tradução incorreta:** Baixar e instalar essa biblioteca Python.
+* **Tradução correta:** Baixar essa biblioteca Python.
 
 Caso a explicação de um termo seja longa, procure fazer um link para outro artigo do SuMo ou externo que trate do assunto.
 
@@ -42,9 +42,9 @@ Sempre traduza todo o conteúdo do texto original. Por exemplo: se o texto origi
 
 Por exemplo em um produto:
 
-**Original:** Download this Python library.
-**Tradução incorreta:** Baixar essa biblioteca.
-**Tradução correta:** Baixar essa biblioteca Python.
+* **Original:** Download this Python library.
+* **Tradução incorreta:** Baixar essa biblioteca.
+* **Tradução correta:** Baixar essa biblioteca Python.
 
 ### Texto não traduzido
 
@@ -52,9 +52,9 @@ Evite deixar trechos do texto original no artigo após terminar a tradução. Al
 
 Por exemplo em um artigo do SUMO:
 
-**Original:** Download this Python library.
-**Tradução incorreta:** Baixe essa library Python.
-**Tradução correta:** Baixe essa biblioteca Python.
+* **Original:** Download this Python library.
+* **Tradução incorreta:** Baixe essa library Python.
+* **Tradução correta:** Baixe essa biblioteca Python.
 
 ## Erros de fluência
 
@@ -90,7 +90,7 @@ As vezes é melhor reduzir ou abreviar uma palavra para manter o sentido entre o
 
 ### Tags de marcação de texto e código
 
-Tags de marcação são comuns em strings de produtos da Mozilla. Uma regra geral é que qualquer texto entre colchetes (<>) não deve ser traduzido. Se uma string contém codigo HTML, normalmente isso demonstra a formatação em que o texto é exibido. Por exemplo, uma string em Inglês pode ser "Firefox is the <em>best</em> browser!". Algumas vezes faz sentido manter a marcação na mesma palavra em Português mas em outras será necessário colocar as marcações em outra palavra na tradução. Se uma string contém o marcador de nova linha (\n em PHP e <br> em HTML) será necessário adequar o posicionamento dela para garantir que a tradução está corretamente formatada.
+Tags de marcação são comuns em strings de produtos da Mozilla. Uma regra geral é que qualquer texto entre os sinais de "menor que" e "maior que" (<>) não deve ser traduzido. Se uma string contém codigo HTML, normalmente isso demonstra a formatação em que o texto é exibido. Por exemplo, uma string em Inglês pode ser `"Firefox is the <em>best</em> browser!"`. Algumas vezes faz sentido manter a marcação na mesma palavra em Português mas em outras será necessário colocar as marcações em outra palavra na tradução. Se uma string contém o marcador de nova linha (`\n` em PHP e `<br>` em HTML) será necessário adequar o posicionamento dela para garantir que a tradução está corretamente formatada.
 
 ### Manipulação de variáveis
 
