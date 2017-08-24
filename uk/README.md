@@ -190,7 +190,7 @@ However, there are some exceptions when variables should be replaced with relate
 | Original string | Correct translation | Incorrect translation |
 |-----------------|---------------------|-----------------------|
 | Welcome to &syncBrand.shortName.label; | Вітаємо в Синхронізації | Вітаємо в &syncBrand.shortName.label; |
- 
+
 In this case the variable &syncBrand.shortName.label; is translated by default like Синхронізація.
 
 Translation Вітаємо в &syncBrand.shortName.label; is not correct, because in the user interface it appears in nominative case like Вітаємо в Синхронізація instead of genitive case.
