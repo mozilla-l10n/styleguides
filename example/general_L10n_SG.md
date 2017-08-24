@@ -55,6 +55,7 @@ You should be consistent in the use of existing reliable appropriate term bases 
 Abbreviations and acronyms, should come from either a standard reference (like a dictionary of abbreviations) or should follow your language's rules for creating abbreviations and acronyms. Once used, abbreviations and acronyms must remain consistent every place that it is used in the translation.
 
 > Link to list of common abbreviations in Mozilla products
+
 > Link to list of common Acronyms in Mozilla products
 
 ### Branding
