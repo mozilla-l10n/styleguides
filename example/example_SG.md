@@ -78,23 +78,23 @@ Area codes are surrounded by parentheses and separated by a space. The Phone num
 
 `(###) ###-####`
 
-### Emphasis
+## Emphasis
 
 Read about emphasis styles in the [General Mozilla L10n Style Guide](general_L10n_SG.md#emphasis-guidelines).
 
-#### Firefox for desktop
+### Firefox for desktop
 
 Use title case for labels for items in the menu, navigation and section headings, page titles, and buttons.
 
 Use sentence case for headlines, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages,  and text links without terminal punctuation unless the phrase is a question or exclamation or if the link is embedded in running text. (Note, include the terminal punctuation in hyperlink if the entire phrase is linked, and do not include the terminal punctuation in the hyperlink if the link is within running text)
 
-#### Firefox for Android
+### Firefox for Android
 
 Use sentence case in almost all instances – for screen titles, navigation, labels – except for buttons.
 
 Use all caps for all buttons that contain text.
 
-#### Firefox for iOS and Focus
+### Firefox for iOS and Focus
 
 Use title case for screen titles, navigation and section headings, labels, and buttons.
 
