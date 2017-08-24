@@ -1,5 +1,7 @@
 # Example Style Guide English, USA (en-US)
 
+This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](general_L10n_SG.md)
+
 ## Formality and Tone
 
 In English, the tone of Mozilla's language should be adaptable to anyone. From new users to season Mozillians, the tone should be approachable, welcoming, and inclusive.
