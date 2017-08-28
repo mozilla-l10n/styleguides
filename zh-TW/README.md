@@ -1,8 +1,8 @@
 # Style Guide Chinese (zh)
 
-*若需分享此文件，可使用 [http://bit.ly/MozTW-L10nGuide](http://bit.ly/MozTW-L10nGuide)*
+*若需分享此文件，可使用 [http://bit.ly/MozTW-L10nStyles](http://bit.ly/MozTW-L10nStyles)*
 
-這是由 MozTW 維護的 Mozilla 正體中文（台灣）在地化樣式與翻譯規範文件。除非另有定義，否則這份文件所定義的格式會使用在所有由 MozTW 維護的 Mozilla 產品與網頁內容，在您開始進行貢獻前請先詳讀。若對以下格式有所疑問或意見，請寄信到 [moztw-general@googlegroups.com](moztw-general@googlegroups.com) 並[副本通知 l10n owner](https://moztw.org/about/)，或於 [MozTW 討論區](https://forum.moztw.org/viewforum.php?f=4&sid=998dd151450d0a598267ec98b766d445)提出意見，謝謝。
+這是由 MozTW 維護的 Mozilla 正體中文（台灣）在地化樣式與翻譯規範文件。除非另有定義，否則這份文件所定義的格式會使用在所有由 MozTW 維護的 Mozilla 產品與網頁內容，在您開始進行貢獻前請先詳讀。若對以下格式有所疑問或意見，請寄信到 [moztw-general@googlegroups.com](moztw-general@googlegroups.com) 並[副本通知 l10n owner](https://moztw.org/about/)，或於 [MozTW 討論區](https://forum.moztw.org/viewforum.php?f=4)提出意見，謝謝。
 
 This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] locale. Except noted elsewhere, this style would apply to all MozTW Projects and Mozilla projects/contents maintained by MozTW. Please read carefully before starting contributing. Should you have any question or concern, or if you want to revise, please raise discussion in [moztw-general@googlegroups.com](moztw-general@googlegroups.com) and [CC l10n owner](https://moztw.org/about/), thanks.
 
@@ -25,7 +25,7 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
   * 但仍需考慮這一句有沒有被塞入不同數量的可能
 11. 注意中英文的 and / or 意義可能相反，尤其是反向表列的時候。
 12. 注意 Gettext 的跳脫符號 \，例如 \"%s\" 應翻譯為「%s」，但若能確定該參數會顯示的內容語言非中文時則保留使用跳脫符號與引號。
-13. 注意用詞的一致，若不知道該怎麼翻可至[翻譯站](http://translate.moztw.org/)或 [Transvision](https://transvision.mozfr.org/) 尋找 Translation Memory。
+13. 注意用詞的一致，若不知道該怎麼翻可至 [Transvision](https://transvision.mozfr.org/) 尋找 Translation Memory。
 
 ## 商標/品牌/產品
 
@@ -39,7 +39,7 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
 
 ## 標點符號
 
-1. 使用中華民國教育部出版之[《重訂標點符號手冊》修訂版](http://www.edu.tw/files/site_content/M0001/HAU/haushou.htm)當中的標點符號。
+1. 使用中華民國教育部出版之[《重訂標點符號手冊》修訂版](http://language.moe.gov.tw/001/Upload/FILES/SITE_CONTENT/M0001/HAU/haushou.htm)當中的標點符號。
 2. 中文字、標點符號與半形英數、符號字元間需用半形空格隔開，但與全形符號間則免。
   * 例如：「這是 Firefox」的「是」與「F」間有使用空格隔開，而「對於使用者，Mozilla」當中的「，」與「M」間則沒有空格。
 3. 無論句子語言為何，句尾冒號使用半形冒號「:」，而非全形冒號「：」。
@@ -50,8 +50,8 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
 ## SUMO
 
 1. 文章的 slug（網址後面的 seo 文章 id）不須翻譯，直接複製英文版即可。
-2. 若不小心搞出人命弄出了 slug 錯誤的文件，請聯絡 L10n 團隊編輯將錯誤的文件砍除，並修正連結。
-3. 語意正確度、不漏譯、標點符號正確為先，文章的連貫性與通順度次之。不要有太多沒必要的空格或是零碎的句子。
+2. 若不小心弄出了 slug 錯誤的文件，請聯絡 L10n 團隊編輯將錯誤的文件砍除，並修正連結。
+3. 語意正確度、不漏譯、標點符號正確為先，文章的連貫性與通順度次之。不要有沒必要的空格或是零碎的句子。
 4. 未完成翻譯前若需先送出手上的文件，請在送出審核前描述編修內容時勾選 "This edit does not make this article up to date. The English differences should not change on the next edit."，下次進行翻譯時將不會自動取回最新的原文。
 5. 文件中若提及某軟體或產品內的功能，應依照該軟體內的文字翻譯。
 6. “Warning: ”譯為「警告: 」、"Note: " 譯為「註: 」、"Tip: " 譯為「秘訣: 」
