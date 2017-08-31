@@ -36,7 +36,7 @@ At times there will be English content included in Mozilla products or web proje
 
 ### Units and measurement
 
-The translation should strive to achieve proper unit conversions for currency, measurements, etc. for the target audience. Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system when the measurement is provided as a number. If the measurement is provided as a variable, the translation for the imperial system unit.
+The translation should strive to achieve proper unit conversions for currency, measurements, etc. for the target audience. Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system when the measurement is provided as a number. If the measurement is provided as a variable, use the translation for the imperial system unit.
 
 | Example | Source | Translation |
 | - | - | - |
