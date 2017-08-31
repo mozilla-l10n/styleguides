@@ -1,8 +1,8 @@
 # Mozilla L10n Style Guide Template
 
+> This document is still a draft and is not ready for review
+
 Your localization community's style is largely up to you to define. It is a part of your community's instructions and standards for translating strings within each project type. Style encompasses various elements, such as formality, tone, natural expression, handling cultural references, idioms, or slang, and maintaining consistency with Mozilla and 3rd party branding and style guides. Your localization community should define these style elements for localizing Mozilla projects into your language.
-
-
 
 ## Formality and Tone
 

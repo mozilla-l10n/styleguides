@@ -86,7 +86,9 @@ Read about emphasis styles in the [General Mozilla L10n Style Guide](general_L10
 
 Use title case for labels for items in the menu, navigation and section headings, page titles, and buttons.
 
-Use sentence case for headlines, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages,  and text links without terminal punctuation unless the phrase is a question or exclamation or if the link is embedded in running text. (Note, include the terminal punctuation in hyperlink if the entire phrase is linked, and do not include the terminal punctuation in the hyperlink if the link is within running text)
+Use sentence case for headlines, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages, and text links without terminal punctuation unless the phrase is a question or exclamation or if the link is embedded in running text.
+
+Note, include the terminal punctuation in hyperlink if the entire phrase is linked, and do not include the terminal punctuation in the hyperlink if the link is within running text.
 
 ### Firefox for Android
 

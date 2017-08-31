@@ -1,5 +1,7 @@
 # Mozilla L10n Style Guide English (us)
 
+> This document is still a draft and is not ready for review
+
 ## Intro
 
 Style guides define the standard against which we determine a translation's quality. They contain rules that are both defined by Mozilla and by Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation's quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture. Some examples of international style guides created by other organizations are:

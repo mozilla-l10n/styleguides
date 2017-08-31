@@ -4,17 +4,17 @@ This style guide provides the basic guidelines for translating Mozilla products.
 
 ## Content
 
-* [Fluency](general_L10n_SG.md#fluency)
-* [Meaning-based Translation](general_L10n_SG.md#meaning-based-translation)
-* [Terminology](general_L10n_SG.md#terminology)
-* [Text that should not be translated](general_L10n_SG.md#text-that-should-not-be-translated)
-* [Emphasis guidelines](general_L10n_SG.md#emphasis-guidelines)
+* [Fluency](#fluency)
+* [Meaning-based Translation](#meaning-based-translation)
+* [Terminology](#terminology)
+* [Text that should not be translated](#text-that-should-not-be-translated)
+* [Emphasis guidelines](#emphasis-guidelines)
 
 ## Fluency
 
 To produce a fluent translation, not only should the translation follow the language's standard grammar, punctuation, and spelling rules, but it should avoid being ambiguous, incoherent, inconsistent or unintelligible.
 
-To avoid ambiguity, the translator must thoroughly understand the meaning behind the source text, including any references that text might include. For example, if the English source text uses the word, `it`, the translator must know what "it" is to avoid an ambiguous translation. Clearly understanding the source text will also allow a translator to make the source text's logical connections in their own translation. This helps to keep the translation coherent.
+To avoid ambiguity, the translator must thoroughly understand the meaning behind the source text, including any references that text might include. For example, if the English source text uses the word `it`, the translator must know what "it" is to avoid an ambiguous translation. Clearly understanding the source text will also allow a translator to make the source text's logical connections in their own translation. This helps to keep the translation coherent.
 
 Inconsistency can pop up in many forms. A translator must be consistent in their use of abbreviations, references, and links within each localization project. They must also be consistent with Mozilla and the localization communities' style guides and approved terminology.
 
@@ -36,17 +36,22 @@ At times there will be English content included in Mozilla products or web proje
 
 ### Units and measurement
 
-The translation should strive to achieve proper unit conversions for currency, measurements, etc. for the target audience. Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system.
+The translation should strive to achieve proper unit conversions for currency, measurements, etc. for the target audience. Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system when the measurement is provided as a number. If the measurement is provided as a variable, the translation for the imperial system unit.
+
+| Example | Source | Translation |
+| - | - | - |
+| Number as string | `320 miles` | `500 meters` |
+| Number as variable | `%d miles` | `%d miles` |
 
 ## Terminology
 
-You should be consistent in the use of existing reliable appropriate term bases in your language. These term bases could be developed and approved by the community, or leveraged from another party that adhere to national, international or local standards for software and internet terminology. Avoid inconsistent use of terminology within the project, within term base, or across all of your projects and using terminology from another subject matter (e.g., don't use medical terminology in Firefox).
+You should be consistent in the use of terminology in your language. These term bases could be developed and approved by the community, or leveraged from another party that adhere to national, international or local standards for software and internet terminology. Avoid inconsistent use of terminology within the project, within term base, or across all of your projects and using terminology from another subject matter (e.g., don't use medical terminology in Firefox).
 
 [Pontoon](https://pontoon.mozilla.org) features terminology support for all locales. Terminology is managed by each community in Pontoon itself. Here are a few things to keep in mind when managing your team's terminology:
 
-* Avoid overly borrowing English expressions
-* Referencing another language from the same language family may inspire you to come up with your own terms
-* Consider the product target audience (age, level of literacy, education, social and economic status)
+* Avoid overly borrowing English expressions.
+* Referencing another language from the same language family may inspire you to come up with your own terms.
+* Consider the product target audience (age, level of literacy, education, social and economic status).
 * Will you use loan words from another language or coin new terms in your language to maintain language purity? Is there government requirement or policy to encourage creating new terms for new concepts, or will loan words be sufficient to reach broader masses and expedite new technology adoption?
 * If there are two acceptable scripts commonly used by the general public, what is the commonly used script on the web or government sites?  What is the script used by major web technology companies?
 
@@ -105,7 +110,7 @@ Title case is a capitalization style that includes the following rules:
 * Capitalize conjunctions of four or more letters, but also capitalize if
 * Capitalize prepositions for four or more letters
 * Do not capitalize articles, prepositions of three or fewer letters, and conjunctions of three or fewer letters (but not if)
-* A note about hyphens: Capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word according to title case rules. So, capitalize the S in Quick-Search Options, lowercase the o in Add-on Choices.
+* A note about hyphens: capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word according to title case rules. So, capitalize the S in Quick-Search Options, lowercase the o in Add-on Choices.
 
 Example: `All Your Activity`
 
@@ -117,15 +122,15 @@ Example: `Sign in to continue to Firefox Sync`
 
 ### All Caps
 
-All Caps is a style where every letter is capitalized. Use these for all buttons that contain text.
+All Caps is a style where every letter is capitalized.
 
 Example: `CANCEL`
 
 ### User interface elements
 
-* **Titles**:  Should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.
+* **Titles**: should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.
 * **Headlines**: which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages
-* **Buttons**: Capitalize the first letter of each word. Limit to one or two words. Use verbs that precisely describe the button's action. For example, `Cancel`, `Clear History`, `Add Email`, `Select All`, etc.
-* **Value Selector Lists**: Capitalize the first letter of the first word and the first letter of any proper nouns. Limit to one or two words.
-* **Articles**:  Avoid them where possible. Articles (such as the word `the` in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.
-* **Ellipsis**: Ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue.  Focus on making the UI short and precise.  The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.
+* **Buttons**: capitalize the first letter of each word. Limit to one or two words. Use verbs that precisely describe the button's action. For example, `Cancel`, `Clear History`, `Add Email`, `Select All`, etc.
+* **Value Selector Lists**: capitalize the first letter of the first word and the first letter of any proper nouns. Limit to one or two words.
+* **Articles**:  avoid them where possible. Articles (such as the word `the` in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.
+* **Ellipsis**: ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue.  Focus on making the UI short and precise.  The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.
