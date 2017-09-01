@@ -45,6 +45,8 @@ The translation should strive to achieve proper unit conversions for currency, m
 
 ## Terminology
 
+> This section is based on support in Pontoon that is not currently available. This section should not be merged until Pontoon's terminology management system is live.
+
 You should be consistent in the use of terminology in your language. These term bases could be developed and approved by the community, or leveraged from another party that adhere to national, international or local standards for software and internet terminology. Avoid inconsistent use of terminology within the project, within term base, or across all of your projects and using terminology from another subject matter (e.g., don't use medical terminology in Firefox).
 
 [Pontoon](https://pontoon.mozilla.org) features terminology support for all locales. Terminology is managed by each community in Pontoon itself. Here are a few things to keep in mind when managing your team's terminology:

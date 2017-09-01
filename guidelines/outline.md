@@ -1,19 +1,20 @@
-# Mozilla L10n Style Guide Template
+# Style guide Langauge (ab-CD)
 
-> This document is still a draft and is not ready for review
+<!---Insert your locale name into the paragraph below--->
 
-Your localization community's style is largely up to you to define. It is a part of your community's instructions and standards for translating strings within each project type. Style encompasses various elements, such as formality, tone, natural expression, handling cultural references, idioms, or slang, and maintaining consistency with Mozilla and 3rd party branding and style guides. Your localization community should define these style elements for localizing Mozilla projects into your language.
+This style guide provides instruction for translating to the [Your locale name] locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](mozilla_general/README.md).
+
+<!---Include other relevant introductory information here, such as a community webpage or contact information--->
 
 ## Formality and Tone
 
-When determining the formality or tone of a Mozilla l10n project in your language, ask yourself these questions:
+<!---Who is the target user for this project and what is their background?--->
 
-* Who is the target user for this project and what is their background?
-* How would a target user for this project expect to interact with this project? For example, would they expect a friendly, casual interaction?
-* Is formal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?
-* Is informal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?
+<!---How would a target user for this project expect to interact with this project?--->
 
-In fact, localization should not use a level of formality higher or lower than required by this community-defined style guideline. An example of this would be using "click here" (not formal) vs. "please click here" (more formal). Also, the tone employed throughout a l10n project(s) should stay consistent within itself.
+<!---Is formal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?--->
+
+<!---Is informal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?--->
 
 ## Natural expression
 
