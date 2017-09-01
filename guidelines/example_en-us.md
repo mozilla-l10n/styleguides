@@ -18,7 +18,7 @@ In some projects (like Desktop, Android, IOS, Focus), the language will be direc
 
 Translations should sound as natural as possible. Borrowed words should never be used (with the exception of branded names).
 
-## Cultural references, idioms, and slang
+### Cultural references, idioms, and slang
 
 When dealing with cultural references, idioms, and slang in English, references to American pop culture (music, movies), sports (basketball, baseball, football), sayings, and some proverbs will be generally recognized. If a cultural reference is difficult to express in English, use the meaning to find a good equivalent. Refer to sources and databases of common expressions to help find an adequate equivalent.
 
@@ -78,9 +78,9 @@ Area codes are surrounded by parentheses and separated by a space. The Phone num
 
 `(###) ###-####`
 
-## Emphasis
+## Copy rules
 
-Read about emphasis styles in the [General Mozilla L10n Style Guide](general_L10n_SG.md#emphasis-guidelines).
+Read about copy rules styles in the [General Mozilla L10n Style Guide](mozilla_general/README.md#copy-rules).
 
 ### Firefox for desktop
 

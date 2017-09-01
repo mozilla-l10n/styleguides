@@ -1,6 +1,24 @@
-# Style guide Langauge (ab-CD)
+# Guidelines for creating community style guides
 
-This style guide provides instruction for translating to the [Your locale name] locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](mozilla_general/README.md)
+> this document is not ready for review. It is still a draft
+
+This document provides step-by-step instructions for creating a community style guide. Community style guides are to be used in coordination with the [General Mozilla L10n Style Guide](mozilla_general/README.md) but provide additional information that is vital to producing a high-quality translation in the community locale.
+
+Each heading in this document represents a common style topic in localization. Each topic features one or more questions that pertain to the information of the topic. Below each question is a description of how to answer the question and some examples of relevant information.
+
+## How to use these guidelines
+
+1. [Create a folder for your locale](make_new_folder.md) in the repository.
+2. [Copy the style guide template](make_copy_template.md).
+3. Fill out each section of the template, using the questions and directions from the guidelines below.
+4. [Submit a pull request](make_pull_request.md) to the repository administrators.
+5. [Request a review](make_review_request.md) of your style guide from another member of your community (if there are no other members of your community, include a note in your pull request).
+
+If your community already has a style guide, you can follow these steps, using your style guide as a resource for relevant information, or you can use these guidelines to review and update your style guide.
+
+As you follow these steps, only include information that is relevant to your locale. If you are using the style guide template, remove sections of the template that do not apply to your language or locale.
+
+Once you have updated or create your community style guide, submit a pull request to the repository managers. Read the steps for submitting a pull request for your style guide [here](make_pull_request.md)
 
 ## Formality and Tone
 
@@ -20,9 +38,13 @@ If the tone varies from project to project, indicate what tone is best for which
 
 ## Natural expression
 
-Using natural expressions make your localization sound natural to a native speaker. If your translation does not follow the community defined language guidelines for translating content that contains local or natural expressions, this results in a mediocre and/or awkward translation. Teams should be careful to address those and keep them in mind while translating, which is why it is an important section to address in a Style Guide. An example of a natural expression in a translation would be translating the Spanish phrase, "En ocho días." In English, one might translate this as, "in eight days" or "in a week." The latter is the more natural translation, although both could be considered correct.
+**What kind of expression sounds natural in your locale?**
 
-In this section, form guidelines for how to perform a natural sounding localization. This might take some time and experience to find the right examples to include or create the right guidelines for your language.
+Describe the features of a natural sounding localization.
+
+**Does your locale allow for many borrowed words and phrases or few?**
+
+List any important specific cases or include a link to any relevant resources. For example, the Spanish phrase, `En ocho días` could be translated as `in eight days`. However, a natural expression in English would be `in seven days` or even `in a week`. All three are correct translations, but the last two are more natural in English.
 
 ## Handling cultural references, idioms, and slang
 
