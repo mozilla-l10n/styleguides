@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Bienvenido a la guía de estilo para la localización de es-CL. Aquí encontrarás las reglas y la terminología que utilizamos para tener una línea definida en el estilo de traducción, manteniendo así la coherencia y consistencia en el programa.:
+Bienvenido a la guía de estilo para la localización de es-CL. Aquí encontrarás las reglas y la terminología que utilizamos para tener una línea definida en el estilo de traducción, manteniendo así la coherencia y consistencia en el programa:
 
 Esta guía se divide en dos partes, la primera trata sobre el estilo y las reglas específicas del lenguaje que usamos para la localización. La segunda parte hace alusión a las reglas generales que Mozilla definió para todo traductor (incluyendo principios de precisión y fluidez), una ayuda para ayudarte a traducir mejor.
 
