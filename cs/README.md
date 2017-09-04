@@ -6,6 +6,7 @@
 * [Jak lokalizovat nápovědu k Firefoxu](https://support.mozilla.org/cs/kb/jak-lokalizovat-napovedu-k-firefoxu)
 * [Jak přeložit rozhraní SUMO](https://support.mozilla.org/cs/kb/jak-prelozit-rozhrani-sumo)
 * [Překladatelský slovník](https://www.mozilla.cz/zapojte-se/lokalizace/prekladovy-slovnik/)
+* [Překladatelský slovník - L10N.cz](http://wiki.l10n.cz/P%C5%99ekladatelsk%C3%BD_slovn%C3%ADk)
 
 ## Kontakt
 
