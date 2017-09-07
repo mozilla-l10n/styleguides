@@ -24,15 +24,17 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ## Handling cultural references, idioms, and slang
 
-<!---  --->
+<!--- How are cultural references, idioms, and slang handled in your locale? --->
+
+<!--- Are there resources for cultural references, idioms, and slang in your language? --->
 
 ## Units and Unit Conversion
 
-<!---  --->
+<!--- Does your locale use the metric system or the imperial system? --->
 
 ### Date Format
 
-<!--- How are the date formats for weeks and months expressed. Erase the comment markers around the example template or show the format with your own example. --->
+<!--- How are the date formats for weeks and months expressed? Erase the comment markers around the example template or show the format with your own example. --->
 
 <!---
 | Name | Format | Example |
@@ -50,7 +52,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ### Time Format
 
-<!--- How is time expressed in your language? Including 0-24 hr expression, hour, minute and second. --->
+<!--- How is time expressed in your language? --->
 
 ### Numerals
 
@@ -65,7 +67,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ### Currency
 
-<!--- What are other widely used currency and symbols used in your country/language for paid apps? --->
+<!--- What currency and symbols are used in your country/language for paid apps? --->
 
 ### Units
 
@@ -73,7 +75,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ### Address and Postal Code Format
 
-<!--- What is the format in your language? Erase the comment markers around one of the examples or show the format with your own example. --->
+<!--- What is the address format in your language? Erase the comment markers around one of the examples or show the format with your own example. --->
 
 <!--- Example: Most Asian countries start from big to small: --->
 
@@ -105,15 +107,11 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ### Spelling And Grammar Checks
 
-<!--- List and explain any spelling or grammar references for your language and/or locale --->
+<!--- Does your language have standard spelling or grammar checks? --->
 
 ### Punctuation
 
-<!--- Do you use different punctuation rules in your Firefox localization than what your language standard defines? --->
-
-### Hyphens and compounds
-
-<!--- What is the appropriate way of using hyphens and compounds in your language? --->
+<!--- Do you use different punctuation rules in your Mozilla localization than what your language standard defines? --->
 
 ### Whitespace
 

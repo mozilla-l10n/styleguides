@@ -47,10 +47,11 @@ Generally, a 12-hour clock is used in the United States. 24-hour clocks are used
 
 ### Numerals
 
-| Separator | Character Name | Symbol | Example |
+| Symbol Purpose | Character Name | Symbol | Example |
 | - | - | - | - |
 | Decimal | Period | `.` | 1.23 |
 | Thousands | Comma | `,` | 1,234 |
+| Percentage | Percent sign | `%` | 99.95% |
 
 ### Currency
 
@@ -58,7 +59,7 @@ The currency of the United States is the dollar (USD). The monetary symbols are 
 
 ### Units of measurement
 
-The Imperial system is used for measurement in the United States.
+The imperial system is used for measurement in the United States.
 
 ### Address and postal code format
 
