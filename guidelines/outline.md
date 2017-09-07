@@ -44,7 +44,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 | Long | Month Date, Year | December 31, 1999 |
 --->
 
-### Calendar view:
+### Calendar view
 
 <!--- Which date is considered the first day of the week, Sunday or Monday? --->
 
