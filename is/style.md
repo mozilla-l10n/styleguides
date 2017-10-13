@@ -9,7 +9,7 @@ When determining the formality or tone of a Mozilla l10n project in your languag
 * Who is the target user for this project and what is their background?
 * How would a target user for this project expect to interact with this project? For example, would they expect a friendly, casual interaction?
 * Is formal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?
-* Is informal language appropriate for all of your language's Mozilla l10n projets, or only some of them? Which ones?
+* Is informal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?
 
 In fact, localization should not use a level of formality higher or lower than required by this community-defined style guideline. An example of this would be using "click here" (not formal) vs. "please click here" (more formal). Also, the tone employed throughout a l10n project(s) should stay consistent within itself.
 
