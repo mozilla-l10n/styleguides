@@ -89,7 +89,7 @@ Product names are often trademarked or may be trademarked in the future  and are
 
 The same product may be marketed under different names in different countries. One solution is to add a note saying "Marketed as  -------- in the UK etc" the first time the product is mentioned, and then continue to use the name as given in the text.
 
-opyright protection is granted to any original work of authorship fixed in any tangible medium of expression from which it can be perceived, reproduced, or communicated. The original author should be credited.
+copyright protection is granted to any original work of authorship fixed in any tangible medium of expression from which it can be perceived, reproduced, or communicated. The original author should be credited.
 Example: Onke amalungelo agodliwe, noma amalungelo okushicilela ngawabakwa-Micro
 
 ## Translation of Version Strings
