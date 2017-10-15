@@ -166,7 +166,7 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Anglicky | Česky |
 | --- | --- |
 | Click | Klepnutí |
-| Double click | Dvojklepnutí |
+| Double click | Poklepání |
 | Right click | Klepnutí pravým tlačítkem |
 
 ### Obecné akce
