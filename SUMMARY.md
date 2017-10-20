@@ -19,6 +19,7 @@
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
 * [Czech (cs)](cs/README.md)
    * [General Style Guide](cs/general.md)
+   * [Glossary](cs/glossary.md)
 * [Dutch (nl)](nl/README.md)
 * [Esperanto (eo)](eo/README.md)
 * [Finnish (fi)](fi/README.md)
