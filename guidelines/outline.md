@@ -1,4 +1,4 @@
-# Style guide Langauge (ab-CD)
+# Style guide Language (ab-CD)
 
 <!--- Insert your locale name into the line below and leave it in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language --->
 
