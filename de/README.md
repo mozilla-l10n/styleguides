@@ -46,7 +46,7 @@ Sprichwörter und Floskeln, welche im Deutschen nicht geläufig sind, werden dur
 
 ## Marken- und Produktnamen
 
-Markennamen mit Markenrichtlinien von Mozilla wie "Firefox" oder jene anderer Unternehmen und Organisationen dürfen nicht übersetzt werden. Weitere Informationen dazu hier: [https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/0) (auf Englisch). Für Marken, welche eindeutig über keine Markenrichtlinien verfügen, muss die Community entscheiden, ob diese übersetzt werden sollen oder nicht. Falls die Marke ins Deutsche übersetzt wird, so muss sie folgender Liste hinzugefügt werden.
+Markennamen mit Markenrichtlinien von Mozilla wie "Firefox" oder jene anderer Unternehmen und Organisationen dürfen nicht übersetzt werden. Weitere Informationen dazu hier: [https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/) (auf Englisch). Für Marken, welche eindeutig über keine Markenrichtlinien verfügen, muss die Community entscheiden, ob diese übersetzt werden sollen oder nicht. Falls die Marke ins Deutsche übersetzt wird, so muss sie folgender Liste hinzugefügt werden.
 
 | Englisch | Deutsch |
 | -------- | ------- |
