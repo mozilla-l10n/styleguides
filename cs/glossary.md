@@ -183,7 +183,7 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Flush | Vyprázdnit |
 | Highlight | Zvýraznit (zvýraznění) |
 | Check | Zaškrtnout, Zkontrolovat (záleží na kontextu) |
-| Load | Načíst |
+| Load | Načíst (případně jinak konkrétněji podle kontextu) |
 | Search | Hledat |
 | Upload | Nahrát |
 | Uncheck | Odškrtnout |
