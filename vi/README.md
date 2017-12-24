@@ -10,10 +10,42 @@
 * Thận trọng khi sử dụng số nhiều. VD: "Settings" dịch là "Thiết lập" chứ không phải "Những thiết lập" hay "Các thiết lập".
 * Cố gắng chuyển câu bị động tiếng Anh thành câu chủ động tiếng Việt.
 * Các dấu câu (chấm, phẩy, hai chấm,...) đặt sát với từ đứng trước và đi kèm một dấu cách, trừ khi là dấu chấm hết đoạn.
-* Dấu ba chấm là một ký tự ([ellipsis](http://en.wikipedia.org/wiki/Ellipsis), mã Unicode U+2026), không phải 3 dấu chấm. Nếu dịch bằng Locamotion (chạy Pootle) thì dịch vụ sẽ tô hình chữ nhật quanh dấu ba chấm ở dòng tiếng Anh. Chỉ cần ấn vào hình chữ nhật đó thì nó sẽ được copy sang dòng tiếng Việt.
+* Dấu ba chấm là một ký tự ([ellipsis](http://en.wikipedia.org/wiki/Ellipsis), mã Unicode U+2026), không phải 3 dấu chấm. Nếu dịch bằng Locamotion (chạy Pootle hay Pontoon) thì dịch vụ sẽ tô hình chữ nhật quanh dấu ba chấm ở dòng tiếng Anh. Chỉ cần ấn vào hình chữ nhật đó thì nó sẽ được copy sang dòng tiếng Việt.
 * Tránh Viết Hoa Kiểu Title Tiếng Anh. Dịch "System Settings" là "Thiết lập hệ thống" chứ không phải "Thiết lập Hệ thống" hay "Thiết Lập Hệ Thống".
 * Những chuỗi chứa ký tự đặc biệt như {{name}} hay %B là chuỗi template. Các ký tự đặc biệt sẽ được thay thế bằng nội dung khác bởi code. Không dịch ký tự đặc biệt (VD: {{tên}} là sai). Với những chuỗi liên quan đến ngày tháng thì cần xem tài liệu của hàm [strftime](http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html) để dịch đúng cách dùng của người Việt.
-
+* Các trường hợp dịch số nhiều
+    * Với những trường hợp một câu có 2 vế giống hệt nhau chỉ khác nhau số ít với số nhiều thì chỉ cần dịch 1 vế và xóa vế còn lại đi. Chẳng hạn như ví dụ sau:
+        ```
+        #1 tab has arrived from #2;#1 tabs have arrived from #2
+        ```
+        Dịch:
+        ```
+        #1 thẻ đã tới từ #2
+        ```
+    * Với những chuỗi bắt đầu bằng dấu chấm phẩy (;) thì khi dịch bỏ dấu chấm phẩy đó đi. Ví dụ:
+        ```
+        ;List All #1 Tabs
+        ```
+        Dịch:
+        ```
+        Hiển thị tất cả #1 thẻ
+        ```
+    * Có những trường hợp chỉ dịch phần số nhiều (giữ lại vế thứ 2)
+        ```
+        and one more;and #1 more
+        ```
+        Dịch:
+        ```
+        và #1 cái nữa
+        ```
+    * Có những chuỗi dịch cũ phần số ít và số nhiều không giống nhau thì chỉ giữ lại vế thứ 2.
+        ```
+        #1 has been installed successfully.;#2 add-ons have been installed successfully.
+        ```
+        Dịch:
+        ```
+        #2 tiện ích đã cài đặt thành công.
+        ```
 ### Thuật ngữ
 
 * add-on: tiện ích
@@ -25,10 +57,11 @@
   * (ngắn hơn "hủy bỏ")
   * Trên desktop có đủ khoảng cách để viết "hủy bỏ" đầy đủ. Có lẽ chỉ cần viết tắt "hủy" trên di động phải không? – [Minh Nguyễn](https://wiki.mozilla.org/User:Minh_Nguyen) ([talk](https://wiki.mozilla.org/index.php?title=User_talk:Minh_Nguyen&action=edit&redlink=1), [contribs](https://wiki.mozilla.org/Special:Contributions/Minh_Nguyen)) 23:53, 18 February 2014 (PST)
 * clipboard: bảng tạm
-* console: bảng điều khiển
+* console: bảng điều khiển (hoặc cửa sổ dòng lệnh)
 * done: hoàn tất
   * (ngắn hơn "hoàn thành" và lịch sự hơn "xong")
 * extension: phần mở rộng
+* menu: bảng chọn
 * OK: OK
 * Please ...: Vui lòng ...
   * (không dùng "Làm ơn ..." hay "Xin hãy ...")
@@ -37,7 +70,8 @@
 * tag: nhãn
 * theme: diện mạo
 * Whoops: whoops
-* Cookie: không dịch
+* Cookie: (không dịch)
+* proxy: (không dịch)
 * Ad-free: không có quảng cáo
 
 ### Chú ý riêng với Firefox OS
