@@ -46,6 +46,7 @@
         ```
         #2 tiện ích đã cài đặt thành công.
         ```
+
 ### Thuật ngữ
 
 * add-on: tiện ích
