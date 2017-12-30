@@ -203,6 +203,8 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Master password | Hlavní heslo |
 | Restore | Obnovit |
 | Release notes | Poznámky k vydání |
+| Request | Požadavek, Požadovat (případně jinak konkrétněji podle kontextu) |
+| Require | Potřebovat, Vyžadovat (případně jinak konkrétněji podle kontextu) |
 | Security | Zabezpečení |
 | Session | Relace |
 | Upgrade | Aktualizace |
