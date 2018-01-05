@@ -175,7 +175,8 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | --- | --- |
 | Apply | Použít |
 | Block | Blokovat, Zakázat |
-| Browse | Procházet |
+| Browse (files) | Procházet (soubory) |
+| Browse (web) | Prohlížet (web) |
 | Execute | Provést, Vykonat |
 | Expires | Platnost do |
 | Find | Hledat |
