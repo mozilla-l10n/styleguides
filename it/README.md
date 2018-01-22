@@ -136,3 +136,6 @@ Molto spesso le finestre di dialogo conferma per una determinata azione contengo
 
 * OK: Eliminare il file?
 * NO: Si è sicuri di voler eliminare il file?
+
+---
+Per ulteriori approfondimenti sull’attività di localizzazione dei volontari italiani, fare riferimento alla [Guida di localizzazione di Mozilla Italia](https://mozillaitalia.gitbooks.io/l10n-guide/it/).
