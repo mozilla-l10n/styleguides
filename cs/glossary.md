@@ -236,6 +236,7 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 
 | Anglicky | Česky |
 | --- | --- |
+| Ad trackers, Analytic trackers, Social trackers, ... | Sledující reklamy, Sledující analytické prvky, Sledující sociální sítě, ... |
 | Bookmarks | Záložky |
 | Frame | Rám |
 | Homepage | Domovská stránka |
@@ -245,6 +246,10 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Location Aware Browsing | Prohlížení se znalostí polohy |
 | Private browsing | Anonymní prohlížení |
 | Tab | Panel |
+| Trackers | Sledovací prvky (v kontextu sledování na webových stránkách) |
+| Tracking ads, ... | Sledující reklamy, ... |
+| Tracking elements | Sledovací prvky |
+| Tracking protection | Ochrana proti sledování |
 | Website | Webový server (dle kontextu lze překládat i jako webová stránka) |
 
 ## E-mailový klient
