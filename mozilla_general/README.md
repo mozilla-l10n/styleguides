@@ -61,7 +61,7 @@ Adherence to [Mozilla and third-party branding and style guides](https://www.moz
 
 ### Shortcuts and accesskeys
 
-In Firefox and other software it’s possible to use keyboard shortcuts to invoke a specific command. For example, to open a file in Firefox you can press the combination of keys CTRL+O (Cmd+O on Mac). The accelerator key depends on the operative system, but the letter itself is normally localizable. This is what is called a shortcut, or commandkey. For example, the `Open File…`` menu item is stored as
+In Firefox and other software it’s possible to use keyboard shortcuts to invoke a specific command. For example, to open a file in Firefox you can press the combination of keys CTRL+O (Cmd+O on Mac). The accelerator key depends on the operative system, but the letter itself is normally localizable. This is what is called a shortcut, or commandkey. For example, the `Open File…` menu item is stored as
 
 ```
 <!ENTITY openFileCmd.label "Open File…">
