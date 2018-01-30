@@ -123,4 +123,4 @@ Read about copy rules styles in the [General Mozilla L10n Style Guide](mozilla_g
 
 	Is the capitalization standard appropriate for all user interface elements in your language or only some of them? Which ones?
 
-	Are there other typographical conventions regarding quotes, quotation marks, apostrophes, use of bold or italic text, all caps text, ecc.
+	Are there other typographical conventions regarding quotes, quotation marks, apostrophes, use of bold or italic text, all caps text, etc.
