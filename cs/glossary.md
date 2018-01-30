@@ -251,7 +251,7 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 
 | Anglicky | Česky |
 | --- | --- |
-| Address book | Část aplikace na správu kontaktů se jmenuje ''Adresář''. Kontakty jsou ve složkách, které se nazývají ''Složky kontaktů'' a nejnižším prvkem je samotný ''Kontakt''. |
+| Address book | Část aplikace na správu kontaktů se jmenuje ''Kontakty''. Kontakty jsou ve složkách, které se nazývají ''Složky kontaktů'' a nejnižším prvkem je samotný ''Kontakt''. |
 | Attach | Připojit |
 | Attachment | Příloha |
 | Card/vCard | Vizitka |
