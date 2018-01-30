@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](mozilla_general/README.md)
+This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md)
 
 ## Formality and tone
 
