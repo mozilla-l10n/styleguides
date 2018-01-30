@@ -93,7 +93,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ### Telephone Number format
 
-	How are telephone numbers expressed in your language? Erase the comment markers around the example template or show the format with your own example.
+	How are telephone numbers expressed in your language? Does the format change for mobile and landline numbers? Adapt the example template or show the format with your own examples.
 
 `(###) ###-####`
 
