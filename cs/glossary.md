@@ -46,7 +46,7 @@ V níže uvedených tabulkách naleznete základní výrazy, které se v aplikac
 | Bar | Lišta |
 | Sidebar | Postranní lišta |
 | Site navigation bar | Lišta navigace webu |
-| Search bar | Lišta hledání |
+| Search bar | Lišta hledání (na stránce) |
 | Component bar | Lišta komponent |
 | Status bar | Stavový řádek |
 | Quick Filter Bar | Lišta rychlého filtru |
@@ -63,7 +63,7 @@ V níže uvedených tabulkách naleznete základní výrazy, které se v aplikac
 | Location Bar | Adresní řádek |
 | Awesome Bar | Chytrý adresní řádek |
 | Go | Přejít |
-| Search bar | Pole hledání |
+| Search bar | Vyhledávací pole (s použitím vyhledávacích modulů) |
 
 ### Prvky lišty pošty
 
@@ -179,13 +179,13 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Browse (web) | Prohlížet (web) |
 | Execute | Provést, Vykonat |
 | Expires | Platnost do |
-| Find | Hledat |
+| Find | Hledat, Najít (na stránce) |
 | Find as you type | Hledat během psaní text |
 | Flush | Vyprázdnit |
 | Highlight | Zvýraznit (zvýraznění) |
 | Check | Zaškrtnout, Zkontrolovat (záleží na kontextu) |
 | Load | Načíst (případně jinak konkrétněji podle kontextu) |
-| Search | Hledat |
+| Search | Hledat (akce nebo v kontextu hledání na stránce), Vyhledávání (pomocí vyhledávacího modulu) |
 | Upload | Nahrát |
 | Uncheck | Odškrtnout |
 
