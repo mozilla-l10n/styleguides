@@ -1,10 +1,12 @@
 # Example Style Guide English, USA (en-US)
 
-This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](general_L10n_SG.md)
+<!-- toc -->
+
+This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md)
 
 ## Formality and tone
 
-In English, the tone of Mozilla's language should be adaptable to anyone. From new users to season Mozillians, the tone should be approachable, welcoming, and inclusive.
+In English, the tone of Mozilla’s language should be adaptable to anyone. From new users to seasoned Mozillians, the tone should be approachable, welcoming, and inclusive.
 
 Mozilla is fun and should delight the user in expected and unexpected ways. The level of formality should express a sense of familiarity and friendliness while maintaining a voice of authenticity.
 
@@ -18,7 +20,7 @@ In some projects (like Desktop, Android, IOS, Focus), the language will be direc
 
 Translations should sound as natural as possible. Borrowed words should never be used (with the exception of branded names).
 
-## Cultural references, idioms, and slang
+### Cultural references, idioms, and slang
 
 When dealing with cultural references, idioms, and slang in English, references to American pop culture (music, movies), sports (basketball, baseball, football), sayings, and some proverbs will be generally recognized. If a cultural reference is difficult to express in English, use the meaning to find a good equivalent. Refer to sources and databases of common expressions to help find an adequate equivalent.
 
@@ -47,10 +49,11 @@ Generally, a 12-hour clock is used in the United States. 24-hour clocks are used
 
 ### Numerals
 
-| Separator | Character Name | Symbol | Example |
+| Symbol Purpose | Character Name | Symbol | Example |
 | - | - | - | - |
 | Decimal | Period | `.` | 1.23 |
 | Thousands | Comma | `,` | 1,234 |
+| Percentage | Percent sign | `%` | 99.95% |
 
 ### Currency
 
@@ -58,7 +61,7 @@ The currency of the United States is the dollar (USD). The monetary symbols are 
 
 ### Units of measurement
 
-The Imperial system is used for measurement in the United States.
+The imperial system is used for measurement in the United States.
 
 ### Address and postal code format
 
@@ -78,15 +81,17 @@ Area codes are surrounded by parentheses and separated by a space. The Phone num
 
 `(###) ###-####`
 
-## Emphasis
+## Copy rules
 
-Read about emphasis styles in the [General Mozilla L10n Style Guide](general_L10n_SG.md#emphasis-guidelines).
+Read about copy rules styles in the [General Mozilla L10n Style Guide](mozilla_general/README.md#copy-rules).
 
 ### Firefox for desktop
 
 Use title case for labels for items in the menu, navigation and section headings, page titles, and buttons.
 
-Use sentence case for headlines, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages,  and text links without terminal punctuation unless the phrase is a question or exclamation or if the link is embedded in running text. (Note, include the terminal punctuation in hyperlink if the entire phrase is linked, and do not include the terminal punctuation in the hyperlink if the link is within running text)
+Use sentence case for headlines, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages, and text links without terminal punctuation unless the phrase is a question or exclamation or if the link is embedded in running text.
+
+Note, include the terminal punctuation in hyperlink if the entire phrase is linked, and do not include the terminal punctuation in the hyperlink if the link is within running text.
 
 ### Firefox for Android
 

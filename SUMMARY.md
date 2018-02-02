@@ -4,7 +4,7 @@
 
 ## Style Guides
 
-* [Mozilla General Style Guide](en-US/README.md)
+* [Mozilla general style guide](mozilla_general/README.md)
 * [Africaans (af)](af/README.md)
 * [Arabic (ar)](ar/README.md)
 * [Armenian (hy-AM)](hy-AM/README.md)
@@ -63,3 +63,4 @@
 * [Xhosa (xh)](xh/README.md)
 * [Yoruba (yo)](yo/README.md)
 * [Zulu (zu)](zu/README.md)
+* [Example Style Guide](guidelines/example_en-us.md)
