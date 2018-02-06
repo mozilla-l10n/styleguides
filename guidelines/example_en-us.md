@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md)
+This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md).
 
 ## Formality and tone
 
@@ -14,7 +14,7 @@ In general, use the second person (`you`) to address the user in Firefox product
 
 Avoid using the first person (`my`, `I`) as it can create confusion about who is being addressed.
 
-In some projects (like Desktop, Android, IOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful, and remain casual as with all other projects. Casual language should never be used at the expense of sounding disrespectful, regardless of the project.
+In some projects (like Desktop, Android, iOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful, and remain casual as with all other projects. Casual language should never be used at the expense of sounding disrespectful, regardless of the project.
 
 ## Natural expression
 
@@ -83,7 +83,7 @@ Area codes are surrounded by parentheses and separated by a space. The Phone num
 
 ## Copy rules
 
-Read about copy rules styles in the [General Mozilla L10n Style Guide](mozilla_general/README.md#copy-rules).
+Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/README.md#copy-rules).
 
 ### Firefox for desktop
 
