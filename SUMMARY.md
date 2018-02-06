@@ -18,7 +18,7 @@
 * [Bengali, Bangladesh (bn-BD)](bn-BD/README.md)
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
 * [Czech (cs)](cs/README.md)
-   * [General Style Guide](cs/general.md)
+   * [General Style Guide · Czech (cs)](cs/general.md)
    * [Glossary](cs/glossary.md)
 * [Dutch (nl)](nl/README.md)
 * [Esperanto (eo)](eo/README.md)

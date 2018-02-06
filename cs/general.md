@@ -1,49 +1,128 @@
-# Co dodržovat při lokalizaci
+# Style guide Czech (cs) / Překladatelská příručka
 
-Než se pustíte do překladu, je dobré si přečíst základní pravidla, kterých byste se měli držet. Ušetříte tím práci nejen sobě, ale i nám. Tento soubor pravidel vznikl na základě častých chyb, kterých se autoři při překladech dopouštěli. Některá pravidla platí obecně, jiná pouze pro překlad dokumentů či rozšíření.
+<!-- toc -->
 
-## Společná pravidla
+This style guide provides instruction for translating to the Czech locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md). Please read both before starting with any localization work on Mozilla product and project, help articles or extensions for Firefox. It will help you to avoid some common mistakes and make the translation consistent.
 
-### Dodržování terminologie
+In addition to this style guide, please also read our [glossary](glossary.md). Words like "kliknout" and "storno" may look trivial to you, but in fact those apply to the world of MS Windows only. In multiplatform Mozilla products we use "klepnout" and "zrušit". Some terminology may be specific directly to the product, in Firefox e.g. "záložky" ("bookmarks") or "panely" ("tabs"). Please read and use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) whenever you are in doubt.
 
-Každý článek či rozšíření, které překládáte, by mělo být návazné na terminologii používanou v programech, pro které je rozšíření určeno. Pokud jsou v české verzi používány výrazy jako "záložky", "panely", "zrušit" apod., měli byste tuto terminologii dodržovat a u rozšíření (resp. článku) volit stejný překlad. Pro vyhledání vhodných termínů můžete použít nástroj [Transvision](http://wiki.l10n.cz/Transvision).
+## Formality and Tone
 
-### Nepoužívat cizí výrazy
+The tone of Mozilla’s language should be adaptable to anyone. From new users to seasoned Mozillians, the tone should be approachable, welcoming, and inclusive. Mozilla is fun and should delight the user in expected and unexpected ways.
 
-Dost častým nešvarem bývají výskyty výrazů typu "menu", "level" apod. Tyto výrazy nemají s češtinou nic společného a je nutné, aby se používaly české ekvivalenty tj. "nabídka", "úroveň" apod. Pokud existuje český ekvivalent slova, použijte jej! Obzvláště se řiďte [naším překladovým slovníkem](http://wiki.l10n.cz/Mozilla:P%C5%99ekladatelsk%C3%BD_slovn%C3%ADk) a také můžete výrazy dohledávat pomocí nástroje [Transvision](http://wiki.l10n.cz/Transvision).
+Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.
 
-### Nepoužívat výrazy "kliknout" a "storno"
+In general, use the second person plural (vy - vykání) to address the user in Firefox products. Firefox is a user agent, "Firefox je tu pro vás".
 
-Nejčastější připomínky z naší strany se týkají výrazů "kliknout" a "storno". Tyto výrazy zevšedněly díky jejich používáním v MS Windows. V produktech Mozilla, které jsou multiplatformní, se ale místo nich používají výrazy "klepnout" a "zrušit".
+Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of "Stahuji...", use "Stahuje se..." or "Stahování...".
 
-### Dodržovat pravidla češtiny a stavbu vět
+In some projects (like Desktop, Android, iOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful. Avoid using imperative! In short actions and button labels use infinitive constructions ("Zobrazit", "Použít", instead of "Zobraz", "Použij"). If there is a need to ask the user to perform an action, be polite ("Vyberte (prosím)...").
 
-Překlad musí splňovat pravidla češtiny. Měl by tedy být bez gramatických chyb a věta či souvislý text by měla dávat smysl. Řada autorů překládá "strojově" a nad svým překladem nepřemýšlí. Překlad je pak nepřesný nebo věty zní divně. Vhodnější postup je nedržet se originálu za každou cenu a překládat vlastními slovy. Pozor také na čárky nebo středníky.
+## Natural expression
 
-### Množná čísla
+Any translation has to obey rules of the Czech grammar. Sentences have to be both grammatically correct an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Such translations are inaccurate and sound "like a robot". Instead use your own word to express the desired meaning. Be careful about commas and semicolons.
 
-Při překladu řetězců závislých na počtu položek (např. "máte %d nepřečtenou zprávu"/"máte %d nepřečtené zprávy"/"máte %d nepřečtených zpráv") jsou obvykle k dispozici tři oddělené řetězce, nebo jeden s tvary oddělenými středníky. Pokud si nejste jistí, pro jaké počty je který tvar použit, najdete tuto informaci na MDN v dokumentu o [pravidlech pro množná čísla](https://developer.mozilla.org/docs/Mozilla/Localization/Localization_and_Plurals#Plural_rule_.238_.283_forms.29). Pokud uvidíte více po sobě jdoucích samostatných řetězů lišící se pouze zakončením jejich identifikátoru v hranatých závorkách, jde konkrétně o použití [Unicode CLDR](https://cs.wikipedia.org/wiki/Common_Locale_Data_Repository). Vysvětlení takových řetězců najdete v [tomto dokumentu](https://developer.mozilla.org/Add-ons/SDK/Tutorials/l10n#Unicode_CLDR_plural_forms) na MDN.
+Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the [language manual](http://prirucka.ujc.cas.cz/?id=630) and don’t be afraid to use it. ;)
 
-### Přivlastňování
+Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use.
 
-Častá chyba vzniká při překladu "your" jako "váš". Např. věta "Set Firefox as your default browser" přeložená jako "Nastavte si Firefox jako váš výchozí prohlížeč" zní divně. Správně je "Nastavte si Firefox jako svůj výchozí prohlížeč.". Přivlastňovací zájmeno "svůj" přivlastňuje podmětu/původci děje, ale protože ho ale angličtina nemá, zvlášť při překladu to často svádí ho nepoužít. Podrobněji je to vysvětleno v [internetové jazykové příručce](http://prirucka.ujc.cas.cz/?id=630).
+## Handling cultural references, idioms, and slang
 
-## Pravidla pro překlad aplikací a rozšíření
+	How are cultural references, idioms, and slang handled in your locale?
 
-### Uživateli se nerozkazuje!
+	Are there resources for cultural references, idioms, and slang in your language?
 
-Často se v překladech setkáváme s výrazy "Zobraz", "Udělej", "Použij" apod. To je chybně, protože uživateli se nerozkazuje. Správně má být "Zobrazit", "Udělat", "Použít" apod.
+## Units and Unit Conversion
 
-### Nepersonifikujte software
+	Does your locale use the metric system or the imperial system?
 
-Software není živou osobou. Při překladech se proto vyhýbejte výrazům typu "Stahuji...", ale používejte správný tvar "Stahuje se..." nebo "Stahování...".
+### Date Format
 
-## Pravidla pro překlad textů a webů
+	How are the date formats for weeks and months expressed? Erase the comment markers around the example template or show the format with your own example.
 
-### Nepoužívat WYSIWYG editory typu FrontPage či Nvu
 
-Na překlady článku rozhodně nepoužívat výše zmíněné či ekvivalentní editory. Výsledkem je kód, který je silně neoptimalizovaný a dá nám moc práce upravit jej do té podoby, aby byl publikovatelný. Pokud web nemá vlastní editor pro překlad, raději se nejdříve zeptejte jaký použít.
+    | Name | Format | Example |
+    | ---- | ------ | ------- |
+    | Short | mm/dd/yy | 12/31/99 |
+    | Abbreviated | mmm dd | Dec 31 |
+    | Long | Month Date, Year | December 31, 1999 |
 
-### Používejte kontrolu pravopisu
+### Calendar view
 
-Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů.
+	Which date is considered the first day of the week, Sunday or Monday?
+
+	Is Lunar calendar observed?  Other regional calendar observed?
+
+### Time Format
+
+	How is time expressed in your language?
+
+### Numerals
+
+	How are numerals and percentages expressed in your language? Erase the comment markers around the example template or show the format with your own example.
+
+| Separator | Character Name | Symbol | Example |
+| --------- | -------------- | ------ | ------- |
+| Decimal | Period | `.` | 1.23 |
+| Thousands | Comma | `,` | 1,234 |
+| Percentage | Percent sign | `%` | 99.95% |
+
+### Currency
+
+	What currency and symbols are used in your country/language for paid apps?
+
+### Units
+
+	Do you use the imperial, metric or nautical system for measuring weight, distance, etc.?
+
+### Address and Postal Code Format
+
+	What is the address format in your language? Erase the comment markers around one of the examples or show the format with your own example.
+
+	Example: Most Asian countries start from big to small:
+
+    [Country]
+    [postal code][state/province][city][district]
+    [street number and name][building and suite numbers]
+    [addressee]
+
+	Countries of European languages start from small to big:
+
+    [addressee]
+    [street number and name][building and suite numbers]
+    [district][city][state/province][postal code]
+    [Country]
+
+### Telephone Number format
+
+	How are telephone numbers expressed in your language? Does the format change for mobile and landline numbers? Adapt the example template or show the format with your own examples.
+
+`(###) ###-####`
+
+## Grammar
+
+### Spelling And Grammar Checks
+
+	Does your language have standard spelling or grammar checks?
+
+### Punctuation
+
+	Do you use different punctuation rules in your Mozilla localization than what your language standard defines?
+
+### Whitespace
+
+	Does your language require the use of white space around words, sentences, paragraphs, etc.?
+
+## Copy rules
+
+	Please leave the following line in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language
+
+Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/README.md#copy-rules).
+
+	Is there an international/national standard for capitalization in your language?
+
+	Is the capitalization standard appropriate for all of your language’s Mozilla l10n projects or only some of them? Which ones?
+
+	Is the capitalization standard appropriate for all user interface elements in your language or only some of them? Which ones?
+
+	Are there other typographical conventions regarding quotes, quotation marks, apostrophes, use of bold or italic text, all caps text, etc.
