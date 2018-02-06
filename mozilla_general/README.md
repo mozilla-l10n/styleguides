@@ -89,7 +89,7 @@ Cross-references (or links) must be consistently used within a translation. If a
 
 ### Brands, copyright, and trademark
 
-Brand names, as well as copyright and trademarks should never be translated, nor transliterated into a non-Latin based script. See the [branding guidelines](general_L10n_SG.md#branding) for more details.
+Brand names, as well as copyright and trademarks should never be translated, nor transliterated into a non-Latin based script. See the [branding guidelines above](#branding) for more details.
 
 ## Copy rules
 
