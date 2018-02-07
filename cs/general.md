@@ -6,6 +6,15 @@ This style guide provides instruction for translating to the Czech locale. This 
 
 In addition to this style guide, please also read our [glossary](glossary.md). Words like "kliknout" and "storno" may look trivial to you, but in fact those apply to the world of MS Windows only. In multiplatform Mozilla products we use "klepnout" and "zrušit". Some terminology may be specific directly to the product, in Firefox e.g. "záložky" ("bookmarks") or "panely" ("tabs"). Please read and use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) whenever you are in doubt.
 
+## Czech language in a nutshell
+
+Czech is a West Slavic language. It’s close to Polish, Sorbian and very closely related to Slovak to the point of mutual intelligibility. Similar to other Slavic languages, nouns, verbs and adjectives are inflected. The inflection rules are complex, depending on grammatical case, gender, number, tense, person, and more.
+
+* [Czech language - Wikipedia](https://en.wikipedia.org/wiki/Czech_language)
+* [Unicode CLDR - Czech Plural Rules](http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#cs)
+* [Czech grammar - Wikipedia](https://en.wikipedia.org/wiki/Category:Czech_grammar)
+* [Localization and Plurals - MDN](https://developer.mozilla.org/docs/Mozilla/Localization/Localization_and_Plurals#Plural_rule_8_%283_forms%29)
+
 ## Formality and Tone
 
 The tone of Mozilla’s language should be adaptable to anyone. From new users to seasoned Mozillians, the tone should be approachable, welcoming, and inclusive. Mozilla is fun and should delight the user in expected and unexpected ways.
