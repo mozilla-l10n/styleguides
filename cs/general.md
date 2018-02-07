@@ -89,8 +89,8 @@ For time ranges, use a dash without space (10-13 h, 12.00-12.45).
 | Separator | Character Name | Symbol | Example |
 | --------- | -------------- | ------ | ------- |
 | Decimal | Comma | `,` | 1,23 |
-| Thousands | none or Space (on longer numbers) | ` ` | 1234 or 123 456 |
-| Percentage | Percent sign (with a leading space) | ` %` | 99 % |
+| Thousands | none or Space (in longer numbers) | | 1234 or 123 456 |
+| Percentage | Percent sign (with a leading space) | `%` | 99 % |
 | Percentage (adjective) | Percent sign (without any space) | `%` | 99% |
 
 * [Internetová jazyková příručka: Znaky, čísla a číslice](http://prirucka.ujc.cas.cz/?id=785)
@@ -118,7 +118,7 @@ In the Czech Republic [metric system](https://en.wikipedia.org/wiki/Metric_syste
     Pod Mlýnem 4
     463 41 Dlouhý Most
 
-* [Internetová jazyková příručka: Adresy](http://prirucka.ujc.cas.cz/?id=800)		
+* [Internetová jazyková příručka: Adresy](http://prirucka.ujc.cas.cz/?id=800)
 
 ### Telephone Number format
 
