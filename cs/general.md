@@ -29,11 +29,16 @@ In some projects (like Desktop, Android, iOS, Focus), the language will be direc
 
 ## Natural expression
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both grammatically correct an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Such translations are inaccurate and sound "like a robot". Instead use your own word to express the desired meaning. Be careful about commas and semicolons.
+Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Such translations are inaccurate and sound "like a robot". Instead use your own word to express the desired meaning. Be careful about commas and semicolons.
 
-Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check [this language manual page](http://prirucka.ujc.cas.cz/?id=630) and don’t be afraid to use it. ;)
+* [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
+* [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
 
-Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use.
+Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;)
+
+* [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
+
+Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
 
 ## Handling cultural references, idioms, and slang
 
@@ -58,7 +63,7 @@ In the Czech Republic, the 12-month [Gregorian calendar](https://en.wikipedia.or
 
 | Name | Format | Example |
 | ---- | ------ | ------- |
-| Short (rare since 2000) | dd. mm. yy | 1. 12. '99 |
+| Short (rare since 2000) | dd. mm. yy | 1. 12. ’99 |
 | Abbreviated | dd. mmm | 1. pro |
 | Long (numerical) | dd. mm. yyyy | 1. 12. 1999 |
 | Long | Date Month Year (month in genitive) | 1. prosince 1999 |
@@ -123,28 +128,35 @@ Phone numbers in the Czech Republic consist of 9 digits, usually separated by tr
 
 ## Grammar
 
-### Spelling And Grammar Checks
+Any translation has to obey rules of the Czech grammar. Sentences have to be both grammatically correct an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. When using any, make sure the punctuation is correct. [Punctuation saves lives](https://duckduckgo.com/?q=punctuation+saves+lives&ia=images).
 
-	Does your language have standard spelling or grammar checks?
-
-### Punctuation
-
-	Do you use different punctuation rules in your Mozilla localization than what your language standard defines?
-
-### Whitespace
-
-	Does your language require the use of white space around words, sentences, paragraphs, etc.?
+* [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
+* [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
 
 ## Copy rules
 
-	Please leave the following line in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language
+<!-- TODO: capitalization https://bugzilla.mozilla.org/show_bug.cgi?id=1430453 -->
 
-Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/README.md#copy-rules).
+In full sentences and texts on websites or support articles, always follow the grammatical rules for capitalization.
 
-	Is there an international/national standard for capitalization in your language?
+* [Internetová jazyková příručka: Psaní velkých písmen – obecné poučení](http://prirucka.ujc.cas.cz/?id=180)
+* [Internetová jazyková příručka: Pravopis – velká písmena](http://prirucka.ujc.cas.cz/)
 
-	Is the capitalization standard appropriate for all of your language’s Mozilla l10n projects or only some of them? Which ones?
+### Punctuation
 
-	Is the capitalization standard appropriate for all user interface elements in your language or only some of them? Which ones?
+Note, include the terminal punctuation in hyperlink if the entire text in the UI is linked. Do not include the terminal punctuation in the hyperlink if the link is within running text or only part of the sentence is linked.
 
-	Are there other typographical conventions regarding quotes, quotation marks, apostrophes, use of bold or italic text, all caps text, etc.
+For quotes use the Czech double quotation marks (`„` and `“`). On the Czech keyboard, you can write them as `Alt + 0132` and `Alt + 0147` respectively. The corresponding HTML entities are `&bdquo;` and `&ldquo;`. For code snippets or API or function name references use quotation marks or apostrophes (`"` or `'`). These you can usually copy from the original English text.
+
+* [Internetová jazyková příručka: Uvozovky](http://prirucka.ujc.cas.cz/?id=162)
+
+### User interface elements
+
+* **Titles** should be brief and precise. Unless necessary, it shouldn’t be a whole sentence. Capitalize the first letter of the first word only.
+* **Window titles** should be short and use infinitive form, e.g. "Uložit soubor".
+* In **buttons** capitalize the first letter of the first word in the label only. Limit the whole text to one or two words. Use verbs in infinitive form that precisely describe the button’s action. Most of them will be probably covered in our [glossary](glossary.md).
+* **Checkboxes** and **radio buttons** capitalize the first letter of the first word and use infinitive form. Make sure that the translations of elements in the same group or section are consistent and sound natural as a list of alternative or complementary choices.
+* In **select options list** capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.
+* **Tooltips** serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. "Zobrazí historii", "Uloží soubor", "Otevře nabídku".
+
+<!-- TODO: accesskeys and commandkeys -->
