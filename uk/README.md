@@ -123,7 +123,7 @@ List of all the rules of plural forms and examples, including Ukrainian, can be 
 * [Localization and Plurals](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) (Plural rule #7)
 * [Language Plural Rules](http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html)
 
-# How plurals work in .properties files
+### How plurals work in .properties files
 
 Plural forms in Firefox and Firefox for Android are obtained using a hack on top of .properties files. One plural form of the string separated from the other by a semicolon. For example:
 
