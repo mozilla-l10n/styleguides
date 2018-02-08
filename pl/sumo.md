@@ -22,7 +22,6 @@ Much of SUMO's content is prescriptive or instructional. Please try to maintain 
 |2. Close the panel to go back to the main window.|2. Zamknij panel, by wrócić do głównego okna.|
 |3. The open tab should now automatically refresh.|3. Otwarta karta powinna zostać automatycznie odświeżona.|
 
-
 ### Gender neutrality
 
 As much as possible, please try to keep the gender variant of instructions or suggestions as *neutral*, e.g.
