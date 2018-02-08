@@ -10,57 +10,33 @@ Esta guía se divide en dos partes, la primera trata sobre el estilo y las regla
 
 ### Estilo
 
-
-
 ### Formalidad y Tono
-
-
 
 ### Expresiones naturales
 
-
-
 ### Expresiones culturales y jergas
 
-
-
 ### Consistencia
-
-
 
 ### Unidades de conversión
 
 #### Formato de fecha
 
-
 #### Números
-
 
 #### Moneda
 
-
-
 #### Unidades
-
-
 
 #### Nombres
 
-
 ### Ortografía y gramática
-
-
 
 #### Abreviaciones
 
-
-
 #### Puntuación
 
-
-
 #### Mayúsculas
-
 
 ## Reglas generales L10n de Mozilla
 
@@ -68,23 +44,14 @@ Esta guía se divide en dos partes, la primera trata sobre el estilo y las regla
 
 #### Traducción basada en el significado
 
-
 ### No debe traducirse
 
 #### Teclas de acceso rápido
 
-
-
 #### Variables
-
-
 
 #### Marcas y copyright
 
-
-
 #### Contenido legal
 
-
 ### Fluidez
-
