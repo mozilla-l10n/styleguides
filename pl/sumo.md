@@ -16,13 +16,12 @@ The general style is rather informal, maintaining the relaxed manner of adressin
 
 Much of SUMO's content is prescriptive or instructional. Please try to maintain a direct way of addressing the reader, using the first person singular, e.g.
 
-'1. Click {button Save}.
-2. Close the panel to go back to the main window.
-3. The open tab should now automatically refresh.'
-=
-'1. Kliknij {button Save}.
-2. Zamknij panel by wrócić do głównego okna.
-3. Otwarta karta powinna zostać automatycznie odświeżona.'
+| English | Polish |
+| --- | --- |
+|1. Click {button Save}.|1. Kliknij {button Zapisz}.|
+|2. Close the panel to go back to the main window.|2. Zamknij panel, by wrócić do głównego okna.|
+|3. The open tab should now automatically refresh.|3. Otwarta karta powinna zostać automatycznie odświeżona.|
+
 
 ### Gender neutrality
 
@@ -43,7 +42,7 @@ or
 | English | Polish |
 | --- | --- |
 | Firefox | Firefox, program Firefox (+odmiany słowa "program") |
-| Firefox for Android | Firefox dla Androida, aplikacja Firefox dla Androida (+odmiany słowa "aplikacja" |
+| Firefox for Android | Firefox dla Androida, aplikacja Firefox dla Androida (+odmiany słowa "aplikacja") |
 | Firefox for iOS | Firefox dla (systemu) iOS, aplikacja Firefox dla (systemu) iOS (+odmiany słowa "aplikacja")|
 | Pocket for Firefox | (usługa) Pocket dla Firefox |
 | Sync | (usługa) Sync |
