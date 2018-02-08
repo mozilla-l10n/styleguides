@@ -113,15 +113,31 @@ You can refer to this [Online Dictionary](http://rodovyi-vidminok.wikidot.com/).
 
 There are three plural forms in Ukrainian language.
 
-    Example:
-    1. один елемент
-    2. три елемента
-    3. шість елементів
+     Example:
+     1. один елемент
+     2. три елемента
+     3. шість елементів
 
 List of all the rules of plural forms and examples, including Ukrainian, can be found by the following links:
 
 * [Localization and Plurals](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) (Plural rule #7)
 * [Language Plural Rules](http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html)
+
+# How plurals work in .properties files
+
+Plural forms in Firefox and Firefox for Android are obtained using a hack on top of .properties files. One plural form of the string separated from the other by a semicolon. For example:
+
+     #1 tab has arrived from #2;#1 tabs have arrived from #2
+
+English has 2 plural forms - one for singular and one for all other numbers.
+The Ukrainian translation of the above example will be as following:
+
+     #1 вкладка надіслана з #2;#1 вкладки надіслані з #2;#1 вкладок надіслано з #2
+
+You should evaluate and translate each sentence separately. Some locales start the second sentence lowercase because of the semicolon, or with a leading space. Both are errors.
+You shouldn’t replace the semicolon with a character from your script, or another punctuation sign (commas, periods).
+
+The strings using the wrong number of plural forms are now reported on the [l10n dashboard](https://l10n.mozilla.org/teams/uk) ([example](https://l10n.mozilla.org/dashboard/compare?run=898125#issue1)).
 
 ## User Interface Elements
 
