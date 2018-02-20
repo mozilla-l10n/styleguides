@@ -1,4 +1,4 @@
-# Style guide Czech (cs) / Překladatelská příručka
+# Style Guide Czech (cs) / Překladatelská stylistická příručka
 
 <!-- toc -->
 
@@ -39,6 +39,11 @@ Think twice when translating possessive pronouns, especially "your". You may tem
 * [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
 
 Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
+
+Usually it’s also better to avoid abbreviations and acronyms. In case you need to use it (e.g. because of the space limitation), please search in the existing translations first. If this is the first occurrence, lookup and use a standard one, or follow the rules from the language reference.
+
+* [Zkratky.cz - významy zkratek](https://www.zkratky.cz/)
+* [Internetová jazyková příručka: Zkratková slova](http://prirucka.ujc.cas.cz/?id=784)
 
 ## Handling cultural references, idioms, and slang
 
