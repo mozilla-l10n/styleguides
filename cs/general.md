@@ -29,7 +29,7 @@ In some projects (like Desktop, Android, iOS, Focus), the language will be direc
 
 ## Natural expression
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Such translations are inaccurate and sound "like a robot". Instead use your own word to express the desired meaning. Be careful about commas and semicolons.
+Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot". Instead use your own words to express the desired meaning. For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Be careful about commas and semicolons too.
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
