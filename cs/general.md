@@ -164,4 +164,7 @@ For quotes use the Czech double quotation marks (`„` and `“`). On the Czech 
 * In **select options list** capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.
 * **Tooltips** serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. "Zobrazí historii", "Uloží soubor", "Otevře nabídku".
 
-<!-- TODO: accesskeys and commandkeys -->
+<!-- TODO: accesskeys and commandkeys
+  - https://mozilla-l10n.github.io/styleguides/mozilla_general/#shortcuts-and-accesskeys
+  - http://wiki.l10n.cz/N%C3%A1vody_pro_p%C5%99ekladatele#Akceler.C3.A1tory
+-->
