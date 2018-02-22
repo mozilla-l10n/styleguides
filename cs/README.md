@@ -19,7 +19,7 @@ Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů. Ve Firefo
 
 ### Formáty souborů
 
-Mozilla používá nespočet formátů (např. [Fluent](https://mozilla-l10n.github.io/localizer-documentation/tools/fluent/), [DTD](http://wiki.l10n.cz/DTD), [Properties](http://wiki.l10n.cz/Properties), [Gettext](http://wiki.l10n.cz/Gettext) nebo [XLIFF](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localizing_XLIFF_files)). Pokud budete s některým pracovat přímo, nezapomeňte si o něm předem přečíst a zeptat se na vhodný editor. Rozhodně nepoužívejte MS Word a podobné. Výsledkem by byl špatně formátovaný soubor, který není snadné upravit do správné podoby.
+Mozilla používá nespočet formátů (např. [Fluent](https://mozilla-l10n.github.io/localizer-documentation/tools/fluent/), [DTD](http://wiki.l10n.cz/DTD), [Properties](http://wiki.l10n.cz/Properties), [Gettext](http://wiki.l10n.cz/Gettext) nebo [XLIFF](http://wiki.l10n.cz/XLIFF)). Pokud budete s některým pracovat přímo, nezapomeňte si o něm předem přečíst a zeptat se na vhodný editor. Rozhodně nepoužívejte MS Word a podobné. Výsledkem by byl špatně formátovaný soubor, který není snadné upravit do správné podoby.
 
 ## Kontakt
 
