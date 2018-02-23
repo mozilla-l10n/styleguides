@@ -1,4 +1,4 @@
-# Style Guide for Simplified Chinese（zh-cn）- 中文（简体）本地化翻译须知
+# Style Guide for Simplified Chinese（zh-CN）- 中文（简体）本地化翻译须知
 
 *本文由SUMO中文*
 *简体）本地化团队草拟，意在统一本地化文本的翻译格式。请SUMO志愿者认真学习。如果有疑问，请私信回复主笔者，或在本地化论坛跟帖。*
