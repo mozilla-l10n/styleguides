@@ -21,7 +21,7 @@ The tone of Mozilla’s language should be adaptable to anyone. From new users t
 
 Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.
 
-In general, use the second person plural (vy - vykání) to address the user in Firefox products. Firefox is a user agent, "Firefox je tu pro vás".
+In general, use the second person plural (vy - vykání) to address the user in Firefox products ("zadejte", but not "zadej"). It will not sound that strict and you will also workaround grammatical genders ("Pokud si nejste jistý/á, ..." -> "Pokud si nejste jisti, ...").
 
 Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of "Stahuji...", use "Stahuje se..." or "Stahování...".
 
@@ -29,12 +29,14 @@ In some projects (like Desktop, Android, iOS, Focus), the language will be direc
 
 ## Natural expression
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot". Use your own words to express the desired meaning instead. For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Be careful about commas and semicolons too.
+Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot". Use your own words to express the desired meaning instead. One of the typical examples is "Are you sure you want...?" being translated as "Jste si jisti, že chcete...?", instead of more natural "Opravdu chcete...?".
+
+For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Be careful about commas and semicolons too.
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
 
-Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;)
+Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating "you"/"your" as "vy"/"váš", start the word with lowercase "v" (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or [label](#user-interface-elements)).
 
 * [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
 
@@ -159,7 +161,7 @@ For quotes use the Czech double quotation marks (`„` and `“`). On the Czech 
 
 * **Titles** should be brief and precise. Unless necessary, it shouldn’t be a whole sentence. Capitalize the first letter of the first word only.
 * **Window titles** should be short and use infinitive form, e.g. "Uložit soubor".
-* In **buttons** capitalize the first letter of the first word in the label only. Limit the whole text to one or two words. Use verbs in infinitive form that precisely describe the button’s action. Most of them will be probably covered in our [glossary](glossary.md).
+* In **buttons** capitalize the first letter of the first word in the label only. Limit the whole text to one or two words. Use verbs in infinitive form that precisely describe the button’s action result. It’s way better to translate "Install" button label as "Nainstalovat" than "Instalovat". Most of them will be probably covered in our [glossary](glossary.md).
 * **Checkboxes** and **radio buttons** capitalize the first letter of the first word and use infinitive form. Make sure that the translations of elements in the same group or section are consistent and sound natural as a list of alternative or complementary choices.
 * In **select options list** capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.
 * **Tooltips** serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. "Zobrazí historii", "Uloží soubor", "Otevře nabídku".

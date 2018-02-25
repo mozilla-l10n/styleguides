@@ -15,7 +15,7 @@ Toto je úvodní stránka překladatelské příručky české komunity Mozilly.
 
 ### Kontrola pravopisu
 
-Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů. Ve Firefoxu můžete použít [doplněk pro kontrolu překlepů](https://support.mozilla.org/cs/kb/jak-pouzit-kontrolu-pravopisu) a pomůže vám i [služba Korektor](https://support.mozilla.org/cs/kb/jak-pouzit-kontrolu-pravopisu#w_online-sluaaba-a-doplnluk-korektor).
+Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů. Ve Firefoxu můžete použít [doplněk pro kontrolu překlepů](https://support.mozilla.org/cs/kb/jak-pouzit-kontrolu-pravopisu) a pomůže vám i [služba Korektor](https://support.mozilla.org/cs/kb/jak-pouzit-kontrolu-pravopisu#w_online-sluaaba-a-doplnluk-korektor). Hlavně u delších textu se nebojte poprosit někoho dalšího, aby po vás překlad přečetl, nebo si jej přečtěte znovu sami druhý ten.
 
 ### Formáty souborů
 
