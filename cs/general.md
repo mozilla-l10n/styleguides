@@ -1,4 +1,4 @@
-# Style guide Czech (cs) / Překladatelská příručka
+# Style Guide Czech (cs) / Překladatelská stylistická příručka
 
 <!-- toc -->
 
@@ -29,7 +29,7 @@ In some projects (like Desktop, Android, iOS, Focus), the language will be direc
 
 ## Natural expression
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Such translations are inaccurate and sound "like a robot". Instead use your own word to express the desired meaning. Be careful about commas and semicolons.
+Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot". Use your own words to express the desired meaning instead. For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Be careful about commas and semicolons too.
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
@@ -39,6 +39,11 @@ Think twice when translating possessive pronouns, especially "your". You may tem
 * [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
 
 Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
+
+Usually it’s also better to avoid abbreviations and acronyms. In case you need to use it (e.g. because of the space limitation), please search in the existing translations first. If this is the first occurrence, lookup and use a standard one, or follow the rules from the language reference.
+
+* [Zkratky.cz - významy zkratek](https://www.zkratky.cz/)
+* [Internetová jazyková příručka: Zkratková slova](http://prirucka.ujc.cas.cz/?id=784)
 
 ## Handling cultural references, idioms, and slang
 
@@ -128,7 +133,7 @@ Phone numbers in the Czech Republic consist of 9 digits, usually separated by tr
 
 ## Grammar
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both grammatically correct an also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. When using any, make sure the punctuation is correct. [Punctuation saves lives](https://duckduckgo.com/?q=punctuation+saves+lives&ia=images).
+Any translation has to obey rules of the Czech grammar. Sentences have to be both grammatically correct and also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. When using any, make sure the punctuation is correct. [Punctuation saves lives](https://duckduckgo.com/?q=punctuation+saves+lives&ia=images).
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
@@ -159,4 +164,7 @@ For quotes use the Czech double quotation marks (`„` and `“`). On the Czech 
 * In **select options list** capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.
 * **Tooltips** serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. "Zobrazí historii", "Uloží soubor", "Otevře nabídku".
 
-<!-- TODO: accesskeys and commandkeys -->
+<!-- TODO: accesskeys and commandkeys
+  - https://mozilla-l10n.github.io/styleguides/mozilla_general/#shortcuts-and-accesskeys
+  - http://wiki.l10n.cz/N%C3%A1vody_pro_p%C5%99ekladatele#Akceler.C3.A1tory
+-->
