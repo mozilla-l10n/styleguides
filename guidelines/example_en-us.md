@@ -16,6 +16,8 @@ Avoid using the first person (`my`, `I`) as it can create confusion about who is
 
 In some projects (like Desktop, Android, iOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful, and remain casual as with all other projects. Casual language should never be used at the expense of sounding disrespectful, regardless of the project.
 
+When localizing support pages for [Mozilla Support](support.mozilla.org), use language suitable for a general, non-technical audience. Assume the person you are writing for does not know how to change preferences or add a toolbar button without step-by-step instructions. You can also assume that they have not changed any of the default application or operating system settings.
+
 ## Natural expression
 
 Translations should sound as natural as possible. Borrowed words should never be used (with the exception of branded names).
@@ -104,3 +106,38 @@ Use all caps for all buttons that contain text.
 Use title case for screen titles, navigation and section headings, labels, and buttons.
 
 Use sentence case for headlines, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages.
+
+### Mozilla Support
+
+Use title case for article titles, navigation and section headings, labels, and buttons.
+
+Always use terms the way they appear in the described software's interface.
+
+For general computing terms:
+
+* *The Internet* is uppercase.
+* *Website* is one word. *Web page* is two words.
+* *Log in* and *log out* are verbs. Example: "Log in to the website."
+* *Login* and *logout* are nouns (usually used as adjectives). Example: "Click the login button."
+* Use *email* instead of *e-mail*.
+* The plural of *CD-ROM* is *CD-ROMs*. 
+
+Links to mozilla.org should **not** contain the locale: use https://www.mozilla.org/ instead of https://www.mozilla.org/en-US/ 
+
+Capitalize the following items:
+
+* Proper nouns and names, including brand names, product names and feature names
+* The first word of a complete sentence
+* The letters of abbreviations and acronyms unless they are normally lowercase
+* The first word in numbered or bulleted lists
+* The name of a key on the keyboard
+* The first word of a complete sentence following a colon
+* The first word in a heading or title 
+
+Do not use "i.e." and "e.g.". Instead, use "in other words" or "to put it differently" for explanations and "for instance", "for example" or "such as" for introducing examples.
+
+Don't use serial commas in a list of items. For example, use "Extensions, themes and plugins" (without the serial comma), not "Extensions, themes, and plugins".
+
+The syntax of support articles uses custom visual styles for a number of items. See the [Markup cheat sheet](https://support.mozilla.org/en-US/kb/markup-cheat-sheet) for the most common styles.
+
+Custom markup is also used to display content for specific versions of Firefox or specific operating systems. See [How to use For](https://support.mozilla.org/en-US/kb/how-to-use-for) for details.
