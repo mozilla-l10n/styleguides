@@ -35,10 +35,12 @@ For complex sentences, read them multiple times before translating to Czech. To 
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
+* [Interpunkce na webu](https://www.jakpsatweb.cz/interpunkce.html)
 
 Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating "you"/"your" as "vy"/"váš", start the word with lowercase "v" (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or [label](#user-interface-elements)).
 
 * [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
+* [Česká zájmena – Wikipedie](https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_z%C3%A1jmena)
 
 Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
 
@@ -139,6 +141,7 @@ Any translation has to obey rules of the Czech grammar. Sentences have to be bot
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
+* [Interpunkce na webu](https://www.jakpsatweb.cz/interpunkce.html)
 
 ## Copy rules
 
