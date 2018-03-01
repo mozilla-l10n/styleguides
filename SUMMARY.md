@@ -42,7 +42,7 @@
 * [Malagasy (mg)](mg/README.md)
 * [Marathi (mr)](mr/README.md)
 * [Portuguese (pt-BR)](pt-BR/README.md)
-    * [General Style Guide](pt-BR/general.md)    
+    * [General Style Guide](pt-BR/general.md)
     * [Glossary](pt-BR/glossary.md)
 * [Romanian (ro)](ro/README.md)
 * [Scottish Gaelic (gd)](gd/README.md)

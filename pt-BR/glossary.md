@@ -1,8 +1,8 @@
 # Glossário
 
-Este glossário contém os termos mais comuns presentes nos sites da Mozilla e suas localizações/traduções utilizadas no idioma Português do Brasil. 
+Este glossário contém os termos mais comuns presentes nos sites da Mozilla e suas localizações/traduções utilizadas no idioma Português do Brasil.
 
-Para termos presentes nos produtos Mozilla, como a família Firefox e o Thunderbird, consulte também o [Transvision](https://transvision.mozfr.org/). 
+Para termos presentes nos produtos Mozilla, como a família Firefox e o Thunderbird, consulte também o [Transvision](https://transvision.mozfr.org/).
 
 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
 
@@ -100,7 +100,7 @@ Para termos presentes nos produtos Mozilla, como a família Firefox e o Thunderb
 | Hint                      	| Sugestão/dica                       	| ---       	| Uma nova geração do mecanismo de CSS (dica: é rápido)                                                            	|
 | Homepage                  	| Página Inicial                      	| ---       	| Definir como página inicial                                                                                      	|
 
-## I 
+## I
 
 | Inglês                    	| Tradução                            	| Gênero    	| Exemplo                                                                                                          	|
 |---------------------------	|-------------------------------------	|-----------	|------------------------------------------------------------------------------------------------------------------	|
@@ -191,7 +191,7 @@ Para termos presentes nos produtos Mozilla, como a família Firefox e o Thunderb
 | Turn off                  	| Desativar                           	|           	| Desativar a sincronização de abas com os seus outros dispositivos.                                               	|
 | Turn on                   	| Ativar                              	|           	| Ativar a sincronização de abas para ver uma lista dos seus outros dispositivos.                                  	|
 
-## U 
+## U
 
 | Inglês                    	| Tradução                            	| Gênero    	| Exemplo                                                                                                          	|
 |---------------------------	|-------------------------------------	|-----------	|------------------------------------------------------------------------------------------------------------------	|
@@ -205,7 +205,7 @@ Para termos presentes nos produtos Mozilla, como a família Firefox e o Thunderb
 |---------------------------	|-------------------------------------	|-----------	|------------------------------------------------------------------------------------------------------------------	|
 | View                      	|                                     	|           	|                                                                                                                  	|
 
-## W 
+## W
 
 | Inglês                    	| Tradução                            	| Gênero    	| Exemplo                                                                                                          	|
 |---------------------------	|-------------------------------------	|-----------	|------------------------------------------------------------------------------------------------------------------	|
