@@ -19,11 +19,11 @@ Czech is a West Slavic language. It’s close to Polish, Sorbian and very closel
 
 The tone of Mozilla’s language should be adaptable to anyone. From new users to seasoned Mozillians, the tone should be approachable, welcoming, and inclusive. Mozilla is fun and should delight the user in expected and unexpected ways.
 
-Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.
+Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Prefer active voice over passive voice, but please note some common exceptions below. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.
 
 In general, use the second person plural (vy - vykání) to address the user in Firefox products ("zadejte", but not "zadej"). It will not sound that strict and you will also workaround grammatical genders ("Pokud si nejste jistý/á, ..." -> "Pokud si nejste jisti, ...").
 
-Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of "Stahuji...", use "Stahuje se..." or "Stahování...".
+Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of "Stahuji...", use passive "Stahuje se..." or "Stahování...".
 
 In some projects (like Desktop, Android, iOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful. Avoid using imperative! In short actions and button labels use infinitive constructions ("Zobrazit", "Použít", instead of "Zobraz", "Použij"). If there is a need to ask the user to perform an action, be polite ("Vyberte (prosím)...").
 
@@ -37,9 +37,12 @@ For complex sentences, read them multiple times before translating to Czech. To 
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
 * [Interpunkce na webu](https://www.jakpsatweb.cz/interpunkce.html)
 
-Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating "you"/"your" as "vy"/"váš", start the word with lowercase "v" (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or [label](#user-interface-elements)).
+Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating "you"/"your" as "vy"/"váš", start the word with lowercase "v" (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or [label](#user-interface-elements)). Also keep in mind that English uses "you"/"your" more frequently than Czech does. Sometimes it sounds better if you omit the pronoun completely.
 
 * [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
+
+A common mistake, both in translations and spoken language, is the overuse of some pronouns and conjunctions, especially "který", "pokud" and "ale". If you cannot find any better formulations, try to alternate some of the occurrences with "jenž", "avšak" or verb conditionals ("-li").
+
 * [Česká zájmena – Wikipedie](https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_z%C3%A1jmena)
 
 Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
@@ -102,8 +105,11 @@ For time ranges, use a dash without space (10-13 h, 12.00-12.45).
 | Percentage | Percent sign (with a leading space) | `%` | 99 % |
 | Percentage (adjective) | Percent sign (without any space) | `%` | 99% |
 
+Numerals can become a pretty hard nut to crack, especially in case of words composed from digits and words. As a localizer, you should get familiar with the correct grammar for numerals below (what’s the difference between "12m" and "12 m", or how to correctly write "dvaačtyřicetiletý" with digits).
+
 * [Internetová jazyková příručka: Znaky, čísla a číslice](http://prirucka.ujc.cas.cz/?id=785)
 * [Internetová jazyková příručka: Tvoření a psaní výrazů složených z číslic a slov](http://prirucka.ujc.cas.cz/?id=790)
+* [České číslovky – Wikipedie](https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A9_%C4%8D%C3%ADslovky)
 
 ### Currency
 
@@ -155,6 +161,11 @@ In full sentences and texts on websites or support articles, always follow the g
 ### Punctuation
 
 Note, include the terminal punctuation in hyperlink if the entire text in the UI is linked. Do not include the terminal punctuation in the hyperlink if the link is within running text or only part of the sentence is linked.
+
+In texts, do not forget on a space after a period at the end of a sentence. Spaces need to be also written after (but not before) colons or semicolons. Text inside brackets is not separated by spaces from them, but the correct placement of spaces is right before the opening and after the closing bracket only.
+
+* [Internetová jazyková příručka: Tečka](http://prirucka.ujc.cas.cz/?id=160)
+* [Internetová jazyková příručka: Závorky](http://prirucka.ujc.cas.cz/?id=163)
 
 For quotes use the Czech double quotation marks (`„` and `“`). On the Czech keyboard, you can write them as `Alt + 0132` and `Alt + 0147` respectively. The corresponding HTML entities are `&bdquo;` and `&ldquo;`. For code snippets or API or function name references use quotation marks or apostrophes (`"` or `'`). These you can usually copy from the original English text.
 
