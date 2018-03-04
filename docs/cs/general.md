@@ -36,7 +36,7 @@ Avoid any archaisms or long and complicated sentences and constructions. Especia
 For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Keep the translations simple and easy to understand. Be careful about commas and semicolons too.
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
-* [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
+* [Internetová jazyková příručka](http://prirucka.ujc.cas.cz/) v části "Pravopis – interpunkce"
 * [Interpunkce na webu](https://www.jakpsatweb.cz/interpunkce.html)
 
 Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating "you"/"your" as "vy"/"váš", start the word with lowercase "v" (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or [label](#user-interface-elements)). Also keep in mind that English uses "you"/"your" more frequently than Czech does. Sometimes it sounds better if you omit the pronoun completely.
@@ -169,10 +169,17 @@ In texts, do not forget on a space after a period at the end of a sentence. Spac
 * [Internetová jazyková příručka: Tečka](http://prirucka.ujc.cas.cz/?id=160)
 * [Internetová jazyková příručka: Dvojtečka](http://prirucka.ujc.cas.cz/?id=161)
 * [Internetová jazyková příručka: Závorky](http://prirucka.ujc.cas.cz/?id=163)
+* [Internetová jazyková příručka: Lomítko](http://prirucka.ujc.cas.cz/?id=167)
 
 For quotes use the Czech double quotation marks (`„` and `“`). On the Czech keyboard, you can write them as `Alt + 0132` and `Alt + 0147` respectively. The corresponding HTML entities are `&bdquo;` and `&ldquo;`. For code snippets or API or function name references use quotation marks or apostrophes (`"` or `'`). These you can usually copy from the original English text.
 
 * [Internetová jazyková příručka: Uvozovky](http://prirucka.ujc.cas.cz/?id=162)
+
+### Lists
+
+Lists in Czech do not have a strict rules to obey. However there are good practices to follow, all mentioned in the language reference page.
+
+* [Internetová jazyková příručka: Psaní výčtů](http://prirucka.ujc.cas.cz/?id=870)
 
 ### User interface elements
 
