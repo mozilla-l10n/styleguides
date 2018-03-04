@@ -29,7 +29,7 @@ In some projects (like Desktop, Android, iOS, Focus), the language will be direc
 
 ## Natural expression
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Meaning and readability is the first you should care of. Do not feel ashamed to read the sentence aloud or ask someone to read it for you to make sure it sounds good.
+Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Meaning and readability is the first thing you should care about. Do not feel ashamed to read the sentence aloud or ask someone to read it for you to make sure it sounds good.
 
 Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot" instead of a human. Use your own words and everyday terms to express the desired meaning instead. One of the typical examples is "Are you sure you want...?" being translated as "Jste si jisti, že chcete...?", instead of more natural "Opravdu chcete...?".
 
@@ -164,7 +164,7 @@ In full sentences and texts on websites or support articles, always follow the g
 
 Note, include the terminal punctuation in hyperlink if the entire text in the UI is linked. Do not include the terminal punctuation in the hyperlink if the link is within running text or only part of the sentence is linked.
 
-In texts, do not forget on a space after a period at the end of a sentence. Spaces need to be also written after (but not before) colons or semicolons. Text inside brackets is not separated by spaces from them, but the correct placement of spaces is right before the opening and after the closing bracket only.
+In texts, do not forget a space after a period at the end of a sentence. Spaces need to be also written after (but not before) colons or semicolons. Text inside brackets is not separated by spaces from them, but the correct placement of spaces is right before the opening and after the closing bracket only.
 
 * [Internetová jazyková příručka: Tečka](http://prirucka.ujc.cas.cz/?id=160)
 * [Internetová jazyková příručka: Dvojtečka](http://prirucka.ujc.cas.cz/?id=161)
