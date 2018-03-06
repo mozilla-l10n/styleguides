@@ -65,4 +65,7 @@
 * [Xhosa (xh)](xh/README.md)
 * [Yoruba (yo)](yo/README.md)
 * [Zulu (zu)](zu/README.md)
-* [Example Style Guide](guidelines/example_en-us.md)
+* Guidelines
+   * [Guidelines for creating community style guides](guidelines/styleguide_guidelines.md)
+   * [Example Style Guide](guidelines/example_en-us.md)
+   * [Style guide outline](guidelines/outline.md)
