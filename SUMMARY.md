@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 
 ## Style Guides
+
 * Guidelines
    * [Guidelines for creating community style guides](guidelines/styleguide_guidelines.md)
    * [Example Style Guide](guidelines/example_en-us.md)
