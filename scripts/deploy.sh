@@ -10,6 +10,7 @@ TARGET_BRANCH="gh-pages"
 script_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Get normalized path to root directory
 root_directory=$(cd $script_directory/../; pwd)
+output_directory="$root_directory/_book"
 
 # Pull requests and commits to other branches shouldn't do anything
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
@@ -29,19 +30,19 @@ gitbook install
 
 # Compile Gitbook
 echo "Compiling Gitbook..."
-gitbook build . gitbook
+gitbook build . $output_directory
 
-echo "Initialize Git repository in $root_directory/gitbook"
-cd $root_directory/gitbook
+# Initialize the output repository
+echo "Initialize Git repository in $output_directory"
+cd $output_directory
 git init
-git config --global push.default simple
-git config --global user.name "Travis CI"
-git config --global user.email "travis@travis-ci.com"
-git checkout -b gh-pages
+git config --local push.default simple
+git config --local user.name "Travis CI"
+git config --local user.email "travis@travis-ci.com"
+git checkout -b $TARGET_BRANCH
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-cd $root_directory/gitbook
 git add .
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
@@ -57,7 +58,7 @@ eval `ssh-agent -s`
 ssh-add deploy_key
 
 # Now that we're all set up, we can push.
-cd $root_directory/gitbook
+cd $output_directory
 echo "Pushing to $TARGET_BRANCH..."
 git push -f $SSH_REPO $TARGET_BRANCH > /dev/null 2>&1
 
