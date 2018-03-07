@@ -50,6 +50,8 @@
 * [Polish (pl)](pl/README.md)
     * [SUMO Style Guide](pl/sumo.md)
 * [Portuguese (pt-BR)](pt-BR/README.md)
+    * [General Style Guide](pt-BR/general.md)
+    * [Glossary](pt-BR/glossary.md)
 * [Romanian (ro)](ro/README.md)
 * [Scottish Gaelic (gd)](gd/README.md)
 * [Serbian (sr)](sr/README.md)
