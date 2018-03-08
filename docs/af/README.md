@@ -1,4 +1,4 @@
-# Styleguide Africaans (af)
+# Style Guide Africaans (af)
 
 ## Introduction
 

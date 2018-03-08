@@ -1,4 +1,4 @@
-# Styleguide Japanese (ja)
+# Style Guide Japanese (ja)
 
 ## Content
 

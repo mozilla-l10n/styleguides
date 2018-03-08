@@ -1,4 +1,4 @@
-# Styleguide Bambara (bm)
+# Style Guide Bambara (bm)
 
 ## Introduction
 
