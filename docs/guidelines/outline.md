@@ -8,7 +8,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 	Include other relevant introductory information here, such as a community webpage or contact information.
 
-## Formality and Tone
+## Formality and tone
 
 	Who is the target user for this project and what is their background?
 
@@ -24,17 +24,17 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 	Does your locale allow for many borrowed words and phrases or few?
 
-## Handling cultural references, idioms, and slang
+### Cultural references, idioms, and slang
 
 	How are cultural references, idioms, and slang handled in your locale?
 
 	Are there resources for cultural references, idioms, and slang in your language?
 
-## Units and Unit Conversion
+## Units and unit conversion
 
 	Does your locale use the metric system or the imperial system?
 
-### Date Format
+### Date format
 
 	How are the date formats for weeks and months expressed? Erase the comment markers around the example template or show the format with your own example.
 
@@ -51,7 +51,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 	Is Lunar calendar observed?  Other regional calendar observed?
 
-### Time Format
+### Time format
 
 	How is time expressed in your language?
 
@@ -69,11 +69,11 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 	What currency and symbols are used in your country/language for paid apps?
 
-### Units
+### Units of measurement
 
 	Do you use the imperial, metric or nautical system for measuring weight, distance, etc.?
 
-### Address and Postal Code Format
+### Address and postal code format
 
 	What is the address format in your language? Erase the comment markers around one of the examples or show the format with your own example.
 
@@ -91,7 +91,7 @@ This style guide provides instruction for translating to the [Your locale name] 
     [district][city][state/province][postal code]
     [Country]
 
-### Telephone Number format
+### Telephone number format
 
 	How are telephone numbers expressed in your language? Does the format change for mobile and landline numbers? Adapt the example template or show the format with your own examples.
 
@@ -99,7 +99,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ## Grammar
 
-### Spelling And Grammar Checks
+### Spelling and grammar checks
 
 	Does your language have standard spelling or grammar checks?
 
