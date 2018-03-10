@@ -1,0 +1,32 @@
+{
+  "name": "mozilla-l10n-styleguides",
+  "version": "1.0.0",
+  "description": "Localization style guides for Mozilla communities.",
+  "main": "README.md",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {
+    "mozilla-l10n-docs-linter": "github:flodolo/l10ndocs-linter"
+  },
+  "scripts": {
+    "postinstall": "gitbook install",
+    "test": "node node_modules/mozilla-l10n-docs-linter/linter/markdownlint.js",
+    "build": "gitbook build",
+    "start": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:mozilla-l10n/styleguides"
+  },
+  "keywords": [
+    "localization",
+    "l10n",
+    "style guide",
+    "mozilla"
+  ],
+  "bugs": {
+    "url": "https://github.com/mozilla-l10n/styleguides/issues"
+  },
+  "homepage": "https://mozilla-l10n.github.io/styleguides/"
+}

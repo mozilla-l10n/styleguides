@@ -14,9 +14,9 @@ If you want content to appear on GitBook, it needs to be listed in [docs/SUMMARY
 
 A version with improved readibility and search is built automatically via Travis using GitBook. Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
 
-If you want to build the GitBook locally, [install GitBook](https://toolchain.gitbook.com/setup.html) and in the root of this repository run the following commands.
+If you want to build the GitBook locally, [install Npm](https://www.npmjs.com/get-npm) and in the root of this repository run the following commands.
 
 ```
-$ gitbook install
-$ gitbook serve
+$ npm install
+$ npm serve
 ```

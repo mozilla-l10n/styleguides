@@ -23,15 +23,6 @@ REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
 
-# Install Gitbook plugins
-cd $root_directory
-echo "Installing Gitbook plugins..."
-gitbook install
-
-# Compile Gitbook
-echo "Compiling Gitbook..."
-gitbook build . $output_directory
-
 # Initialize the output repository
 echo "Initialize Git repository in $output_directory"
 cd $output_directory
