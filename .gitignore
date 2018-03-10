@@ -2,3 +2,6 @@
 _book
 l10ndocs-linter
 node_modules
+deploy_key
+deploy_key.base64
+deploy_key.pub
