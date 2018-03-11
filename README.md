@@ -6,7 +6,12 @@ If you’re reading these pages on GitHub, a version with improved readability a
 
 ## Updating the documentation
 
-Simply open a pull request adding the new file or updating an existing document. Make sure to follow [these style guidelines](https://github.com/mozilla-l10n/documentation/blob/master/misc/documentation_styleguide.md), and note that all pull requests need to be reviewed before merging. The instructions for creating new community style guides are part of the [guidelines for community style guides](docs/guidelines/styleguide_guidelines.md).
+Simply open a pull request adding the new file or updating an existing document. Make sure to follow [these style guidelines](https://github.com/mozilla-l10n/documentation/blob/master/misc/documentation_styleguide.md), and note that all pull requests need to be reviewed before merging. The instructions for creating new community style guides are part of the [guidelines for community style guides](docs/guidelines/styleguide_guidelines.md). Please also run the following commands to ensure the files are correctly formatted.
+
+```
+$ npm install
+$ npm test
+```
 
 If you want content to appear on GitBook, it needs to be listed in [docs/SUMMARY.md](docs/SUMMARY.md).
 
@@ -14,9 +19,9 @@ If you want content to appear on GitBook, it needs to be listed in [docs/SUMMARY
 
 A version with improved readibility and search is built automatically via Travis using GitBook. Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
 
-If you want to build the GitBook locally, [install GitBook](https://toolchain.gitbook.com/setup.html) and in the root of this repository run the following commands.
+If you want to build and preview the GitBook locally, [install npm](https://www.npmjs.com/get-npm) and and run the following commands from the root of the repository:
 
 ```
-$ gitbook install
-$ gitbook serve
+$ npm install
+$ npm start
 ```
