@@ -6,7 +6,7 @@ If you’re reading these pages on GitHub, a version with improved readability a
 
 ## Updating the documentation
 
-Simply open a pull request adding the new file or updating an existing document. Make sure to follow [these style guidelines](https://github.com/mozilla-l10n/documentation/blob/master/misc/documentation_styleguide.md), and note that all pull requests need to be reviewed before merging. The instructions for creating new community style guides are part of the [guidelines for community style guides](docs/guidelines/styleguide_guidelines.md). Please also run the following commands to ensure the files are well-formated.
+Simply open a pull request adding the new file or updating an existing document. Make sure to follow [these style guidelines](https://github.com/mozilla-l10n/documentation/blob/master/misc/documentation_styleguide.md), and note that all pull requests need to be reviewed before merging. The instructions for creating new community style guides are part of the [guidelines for community style guides](docs/guidelines/styleguide_guidelines.md). Please also run the following commands to ensure the files are correctly formatted.
 
 ```
 $ npm install
