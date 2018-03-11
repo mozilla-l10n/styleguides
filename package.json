@@ -4,7 +4,9 @@
   "description": "Localization style guides for Mozilla communities.",
   "main": "README.md",
   "dependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-toc": "0.0.2"
   },
   "devDependencies": {
     "mozilla-l10n-docs-linter": "github:flodolo/l10ndocs-linter"
