@@ -19,24 +19,33 @@ Czech is a West Slavic language. It’s close to Polish, Sorbian and very closel
 
 The tone of Mozilla’s language should be adaptable to anyone. From new users to seasoned Mozillians, the tone should be approachable, welcoming, and inclusive. Mozilla is fun and should delight the user in expected and unexpected ways.
 
-Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.
+Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Prefer active voice over passive voice, but please note some common exceptions below. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.
 
-In general, use the second person plural (vy - vykání) to address the user in Firefox products. Firefox is a user agent, "Firefox je tu pro vás".
+In general, use the second person plural (vy - vykání) to address the user in Firefox products ("zadejte", but not "zadej"). It will not sound that strict and you will also workaround grammatical genders ("Pokud si nejste jistý/á, ..." -> "Pokud si nejste jisti, ...").
 
-Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of "Stahuji...", use "Stahuje se..." or "Stahování...".
+Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of "Stahuji...", use passive "Stahuje se..." or "Stahování...".
 
 In some projects (like Desktop, Android, iOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful. Avoid using imperative! In short actions and button labels use infinitive constructions ("Zobrazit", "Použít", instead of "Zobraz", "Použij"). If there is a need to ask the user to perform an action, be polite ("Vyberte (prosím)...").
 
 ## Natural expression
 
-Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot". Use your own words to express the desired meaning instead. For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Be careful about commas and semicolons too.
+Any translation has to obey rules of the Czech grammar. Sentences have to be both [grammatically correct](#grammar) and also have a clear meaning. Meaning and readability is the first thing you should care about. Do not feel ashamed to read the sentence aloud or ask someone to read it for you to make sure it sounds good.
+
+Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound "like a robot" instead of a human. Use your own words and everyday terms to express the desired meaning instead. One of the typical examples is "Are you sure you want...?" being translated as "Jste si jisti, že chcete...?", instead of more natural "Opravdu chcete...?".
+
+For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Keep the translations simple and easy to understand. Be careful about commas and semicolons too.
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
-* [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
+* [Internetová jazyková příručka](http://prirucka.ujc.cas.cz/) v části "Pravopis – interpunkce"
+* [Interpunkce na webu](https://www.jakpsatweb.cz/interpunkce.html)
 
-Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;)
+Think twice when translating possessive pronouns, especially "your". You may tempt to translate "Set Firefox as your default browser" as "Nastavte si Firefox jako váš výchozí prohlížeč", however the right translation "Nastavte si Firefox jako svůj výchozí prohlížeč". Despite English does not have it, the possessive pronoun "svůj" refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating "you"/"your" as "vy"/"váš", start the word with lowercase "v" (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or [label](#user-interface-elements)). Also keep in mind that English uses "you"/"your" more frequently than Czech does. Sometimes it sounds better if you omit the pronoun completely.
 
 * [Internetová jazyková příručka: Konkurence přivlastňovacích zájmen](http://prirucka.ujc.cas.cz/?id=630)
+
+A common mistake, both in translations and spoken language, is the overuse of some pronouns and conjunctions, especially "který", "pokud" and "ale". If you cannot find any better formulations, try to alternate some of the occurrences with "jenž", "avšak" or verb conditionals ("-li").
+
+* [Česká zájmena – Wikipedie](https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_z%C3%A1jmena)
 
 Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
 
@@ -98,8 +107,11 @@ For time ranges, use a dash without space (10-13 h, 12.00-12.45).
 | Percentage | Percent sign (with a leading space) | `%` | 99 % |
 | Percentage (adjective) | Percent sign (without any space) | `%` | 99% |
 
+Numerals can become a pretty hard nut to crack, especially in case of words composed from digits and words. As a localizer, you should get familiar with the correct grammar for numerals below (what’s the difference between "12m" and "12 m", or how to correctly write "dvaačtyřicetiletý" with digits).
+
 * [Internetová jazyková příručka: Znaky, čísla a číslice](http://prirucka.ujc.cas.cz/?id=785)
 * [Internetová jazyková příručka: Tvoření a psaní výrazů složených z číslic a slov](http://prirucka.ujc.cas.cz/?id=790)
+* [České číslovky – Wikipedie](https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A9_%C4%8D%C3%ADslovky)
 
 ### Currency
 
@@ -137,6 +149,7 @@ Any translation has to obey rules of the Czech grammar. Sentences have to be bot
 
 * [Internetová jazyková příručka: Psaní čárky v souvětí](http://prirucka.ujc.cas.cz/?id=150)
 * [Internetová jazyková příručka: Pravopis – interpunkce](http://prirucka.ujc.cas.cz/)
+* [Interpunkce na webu](https://www.jakpsatweb.cz/interpunkce.html)
 
 ## Copy rules
 
@@ -151,20 +164,30 @@ In full sentences and texts on websites or support articles, always follow the g
 
 Note, include the terminal punctuation in hyperlink if the entire text in the UI is linked. Do not include the terminal punctuation in the hyperlink if the link is within running text or only part of the sentence is linked.
 
+In texts, do not forget a space after a period at the end of a sentence. Spaces need to be also written after (but not before) colons or semicolons. Text inside brackets is not separated by spaces from them, but the correct placement of spaces is right before the opening and after the closing bracket only.
+
+* [Internetová jazyková příručka: Tečka](http://prirucka.ujc.cas.cz/?id=160)
+* [Internetová jazyková příručka: Dvojtečka](http://prirucka.ujc.cas.cz/?id=161)
+* [Internetová jazyková příručka: Závorky](http://prirucka.ujc.cas.cz/?id=163)
+* [Internetová jazyková příručka: Lomítko](http://prirucka.ujc.cas.cz/?id=167)
+
 For quotes use the Czech double quotation marks (`„` and `“`). On the Czech keyboard, you can write them as `Alt + 0132` and `Alt + 0147` respectively. The corresponding HTML entities are `&bdquo;` and `&ldquo;`. For code snippets or API or function name references use quotation marks or apostrophes (`"` or `'`). These you can usually copy from the original English text.
 
 * [Internetová jazyková příručka: Uvozovky](http://prirucka.ujc.cas.cz/?id=162)
+
+### Lists
+
+Lists in Czech do not have a strict rules to obey. However there are good practices to follow, all mentioned in the language reference page.
+
+* [Internetová jazyková příručka: Psaní výčtů](http://prirucka.ujc.cas.cz/?id=870)
 
 ### User interface elements
 
 * **Titles** should be brief and precise. Unless necessary, it shouldn’t be a whole sentence. Capitalize the first letter of the first word only.
 * **Window titles** should be short and use infinitive form, e.g. "Uložit soubor".
-* In **buttons** capitalize the first letter of the first word in the label only. Limit the whole text to one or two words. Use verbs in infinitive form that precisely describe the button’s action. Most of them will be probably covered in our [glossary](glossary.md).
+* In **buttons** capitalize the first letter of the first word in the label only. Limit the whole text to one or two words. Use verbs in infinitive form that precisely describe the button’s action result. It’s way better to translate "Install" button label as "Nainstalovat" than "Instalovat". Most of them will be probably covered in our [glossary](glossary.md).
 * **Checkboxes** and **radio buttons** capitalize the first letter of the first word and use infinitive form. Make sure that the translations of elements in the same group or section are consistent and sound natural as a list of alternative or complementary choices.
 * In **select options list** capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.
 * **Tooltips** serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. "Zobrazí historii", "Uloží soubor", "Otevře nabídku".
-
-<!-- TODO: accesskeys and commandkeys
-  - https://mozilla-l10n.github.io/styleguides/mozilla_general/#shortcuts-and-accesskeys
-  - http://wiki.l10n.cz/N%C3%A1vody_pro_p%C5%99ekladatele#Akceler.C3.A1tory
--->
+* **Accesskeys**, sometime also called accelerators, are keys to access specific UI elements using your keyboard only. Combined with screen readers, accesskeys improve the accessibility for visually impaired users, or used standalone they speedup the UI navigation. In the UI you can often determine them as underscored letters. When localizing accesskeys you have to make sure the letter is on the Czech keyboard and users can press it with the `Alt` key at the same time. The rule of thumb is to only use letters without diacritics. To make the accesskeys look and work the best, use letters contained in the corresponding label and if possible unique in the application menu or dialog. If it fulfills the mentioned rules, using the same accesskey as in English is a small plus.
+* **Commandkeys** are similar to accesskeys, but they work as regular keyboard shortcuts (e.g. `Ctrl+S` for save or `Ctrl+Q` to quit the application). Always keep the same commandkey as in English, unless the key is not available on the standard Czech keyboard. See the [General Mozilla L10n Style Guide](../mozilla_general/README.md#shortcuts-and-accesskeys) for more information about both accesskeys and commandkeys.
