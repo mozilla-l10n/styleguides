@@ -4,10 +4,9 @@
 
 ## Style Guides
 
-* Guidelines
-   * [Guidelines for creating community style guides](guidelines/styleguide_guidelines.md)
-   * [Example Style Guide](guidelines/example_en-us.md)
-   * [Style guide outline](guidelines/outline.md)
+* [Guidelines](guidelines/README.md)
+    * [Style guide outline](guidelines/outline.md)
+    * [Example style guide](guidelines/example_en-us.md)
 * [Mozilla general style guide](mozilla_general/README.md)
 * [Africaans (af)](af/README.md)
 * [Arabic (ar)](ar/README.md)
@@ -24,8 +23,8 @@
     * [SUMO Style Guide](zh-CN/sumo.md)
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
 * [Czech (cs)](cs/README.md)
-   * [General Style Guide · Czech (cs)](cs/general.md)
-   * [Glossary](cs/glossary.md)
+    * [General Style Guide · Czech (cs)](cs/general.md)
+    * [Glossary](cs/glossary.md)
 * [Dutch (nl)](nl/README.md)
 * [Esperanto (eo)](eo/README.md)
 * [Finnish (fi)](fi/README.md)
