@@ -10,7 +10,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 ## Formality and tone
 
-	Who is the target user for this project and what is their background? Describe briefly the users from your locale. If the type of user from one project to another will vary, indicate so here.
+	Who is the target user for this project and what is their background?
 
 		Describe briefly the users from your locale. If the type of user from one project to another will vary, indicate so here.
 
