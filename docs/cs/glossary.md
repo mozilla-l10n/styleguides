@@ -177,6 +177,7 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Block | Blokovat, Zakázat |
 | Browse (files) | Procházet (soubory) |
 | Browse (web) | Prohlížet (web) |
+| Copy | Zkopírovat (v textu nebo jako proběhlá akce, př. Zkopírováno, Zkopíruje adresu odkazu), Kopírovat (jako popisek v nabídkách) |
 | Execute | Provést, Vykonat |
 | Expires | Platnost do |
 | Find | Hledat, Najít (na stránce) |
