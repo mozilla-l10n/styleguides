@@ -24,7 +24,7 @@ V níže uvedených tabulkách naleznete základní výrazy, které se v aplikac
 | Extension | Rozšíření |
 | Plug-in, Plugin | Zásuvný modul |
 | Search module | Vyhledávací modul |
-| Theme | Motiv vzhledu |
+| Theme | Motiv vzhledu (zkráceně Vzhled) |
 
 ## Prvky uživatelského rozhraní
 
