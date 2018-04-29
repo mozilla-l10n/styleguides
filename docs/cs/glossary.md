@@ -100,7 +100,7 @@ V níže uvedených tabulkách naleznete základní výrazy, které se v aplikac
 | Scrollbar | Posuvník |
 | Toggle button | Přepínací tlačítko |
 
-Další prvky viz [[Slovník vizuálních prvků]]. |
+Další prvky viz [Slovník vizuálních prvků](http://wiki.l10n.cz/Slovn%C3%ADk_vizu%C3%A1ln%C3%ADch_prvk%C5%AF).
 
 ## Nabídky
 
@@ -203,6 +203,7 @@ Další prvky viz [[Slovník vizuálních prvků]]. |
 | Key modifier | Modifikátor klávesové zkratky |
 | Login | Přihlašovací údaje |
 | Master password | Hlavní heslo |
+| Privacy notice, Privacy policy | Zásady ochrany osobních údajů, Zásady společnosti XXX o ochraně osobních údajů |
 | Restore | Obnovit |
 | Release notes | Poznámky k vydání |
 | Request | Požadavek, Požadovat (případně jinak konkrétněji podle kontextu) |
