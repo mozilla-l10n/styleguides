@@ -1,6 +1,6 @@
 # Style Guide Slovenian (sl)
 
-![sl Logo](/Slovenian_sl/logo_SL.png)
+![sl Logo](/docs/sl/logo_SL.png)
 
 ## Slogovni priročnik za slovensko L10n ekipo
 
@@ -10,7 +10,7 @@ Nočemo se zadovoljiti s površnimi in dobesednimi prevodi, ki jih lahko skropuc
 
 Seveda od tebe, sploh, če si začetnik pri prevajanju, ne zahtevamo že od samega začetka popolnih prevodov - drugi smo tu, da ti pomagamo. Tvoje prevode bomo spočetka pregledovali in po potrebi popravili, ti pa preleti popravke, poišči ponavljajoče se napake in jih vzemi na znanje za prihodnje prevode. Iz izkušenj se naučimo več kot iz vsakega priročnika!
 
-![ml10n Logo](/Slovenian_sl/logo_Ml10n.png)
+![ml10n Logo](/docs/sl/logo_Ml10n.png)
 
 ## Kakšen jezik naj uporabljam?
 
@@ -78,7 +78,7 @@ Bolje bi bilo na primer: `»Naučite se teh preprostih trikov in si olajšajte b
 
 Vrstni red besed v povedi v slovenščini ni strogo določen, a ima stavek glede na vrstni red besed različne prizvoke. Običajno velja, da na konec povedi postavimo besedo, ki jo želimo poudariti.
 
-Primer - okno s seznamom piškotkov: `»The following cookies are stored on your computer:«`
+Primer – okno s seznamom piškotkov: `»The following cookies are stored on your computer:«`
 
 Možen prevod: `»Naslednji piškotki so shranjeni na vašem računalniku:«`
 
@@ -90,9 +90,9 @@ Prilastki so v slovenščini postavljeni drugače kot v angleščini.
 
 `»HTML tags«` ali `»JPG file«` nikoli ne prevedemo kot `»HTML oznake«` ali `»JPG datoteka«`, temveč prilastek postavimo na desno: `»oznake HTML«`, `»datoteka JPG«`
 
-V primerih, ko je angleška oblika že povsem prevladala, pa prilastek pustimo, kjer je, in besedi ločimo z vezajem - tako na primer `»PIN code«` ne moremo prevesti `»koda PIN«`, lahko pa napišemo `»PIN-koda«`.
+V primerih, ko je angleška oblika že povsem prevladala, pa prilastek pustimo, kjer je, in besedi ločimo z vezajem – tako na primer prevod `»PIN code«` kot `»koda PIN«` zveni nekoliko čudno, lahko pa napišemo `»PIN-koda«`.
 
-### Pogoste napake pri prevajanju - neupoštevanje kompleksnosti slovenščine
+### Pogoste napake pri prevajanju – neupoštevanje kompleksnosti slovenščine
 
 Pri hitrem in površnem prevajanju pogosto pride do naslednjih nevšečnosti:
 
@@ -102,7 +102,7 @@ Predlog `»from«` lahko prevedemo kot `»iz«` ali `»z/s«`, glede na to, ali 
 * `»from the menu«` -> `»iz menija«`
 * `»from the webpage«` -> `»s spletne strani«`
 
-Podobno velja za druge - `»to«` -> `»v«`/`»na«` ...
+Podobno velja za druge – `»to«` -> `»v«`/`»na«` ...
 
 #### Zaimki
 
@@ -136,7 +136,7 @@ Pravilno: `»Zaščitite svojo zasebnost.«`.
 
 *(Vir: večinoma [https://wiki.lugos.si/slovenjenje:pravila](https://wiki.lugos.si/slovenjenje:pravila))*
 
-### Računalnik je stroj - izogibanje prvi osebi ednine
+### Računalnik je stroj – izogibanje prvi osebi ednine
 
 Računalnik je stroj in ne oseba, torej se, če se le da, uporablja brezosebno obliko.
 
@@ -155,12 +155,6 @@ Primer: `»Please select your timezone.«` → `»Izberite svoj časovni pas.«`
 Imena funkcij pišemo z malo začetnico, čeprav so v angleščini pisana z veliko.
 
 `»Click the button to open Private Browsing«` prevedemo v `»Kliknite gumb, da odprete zasebno brskanje«` in ne `»...da odprete Zasebno brskanje«`.
-
-### Opomba:
-
-Opombe, opozorila in nasvete za dvopičjem pišemo z malo začetnico.
-
-Primer: `»Pozor: uporabljate starejšo različico Firefoxa.«` in ne `»Pozor: Uporabljate starejšo različico Firefoxa.«`
 
 ### Datumi, zneski ipd.
 
