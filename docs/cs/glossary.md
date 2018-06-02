@@ -110,6 +110,7 @@ Další prvky viz [Slovník vizuálních prvků](http://wiki.l10n.cz/Slovn%C3%AD
 | Main menu, Menu Bar | Hlavní nabídka |
 | Menu | Nabídka |
 | Sub-menu | Podnabídka |
+| Title bar | Záhlaví okna |
 
 ### Položky hlavní nabídky
 
@@ -210,6 +211,7 @@ Další prvky viz [Slovník vizuálních prvků](http://wiki.l10n.cz/Slovn%C3%AD
 | Require | Potřebovat, Vyžadovat (případně jinak konkrétněji podle kontextu) |
 | Security | Zabezpečení |
 | Session | Relace |
+| Title | Název (stránky), Titul (akademický) |
 | Upgrade | Aktualizace |
 | User profile | Uživatelský profil |
 | Profile manager | Správce profilů |
