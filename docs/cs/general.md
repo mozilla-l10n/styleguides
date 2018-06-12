@@ -181,6 +181,12 @@ Lists in Czech do not have a strict rules to obey. However there are good practi
 
 * [Internetová jazyková příručka: Psaní výčtů](http://prirucka.ujc.cas.cz/?id=870)
 
+### Feature names
+
+Title case does not look natural for the Czech language. Even for product features, use lowercase, but obey the general grammatical rules. E.g. "With Tracking protection..." would be translated as "S ochranou proti sledování...".
+
+If you want to really emphasize the importance of the feature, you can use title case for the first word of its name in nominative and introduce it by a general word "funkce". The previous sentence would now look like "S funkcí Ochrana proti sledování...". But even here more natural wording "S funkcí ochrany proti sledování..." is preferred, with the feature name all in lowercase.
+
 ### User interface elements
 
 * **Titles** should be brief and precise. Unless necessary, it shouldn’t be a whole sentence. Capitalize the first letter of the first word only.
