@@ -9,7 +9,7 @@ Toto je úvodní stránka překladatelské příručky české komunity Mozilly.
 * [Jak lokalizovat nápovědu k Firefoxu](https://support.mozilla.org/cs/kb/jak-lokalizovat-napovedu-k-firefoxu)
 * [Jak přeložit rozhraní SUMO](https://support.mozilla.org/cs/kb/jak-prelozit-rozhrani-sumo)
 * [Internetová jazyková příručka](http://prirucka.ujc.cas.cz/)
-* [Další pomůcky](http://wiki.l10n.cz/Pom%C5%AFcky_pro_p%C5%99ekladatele)
+* [Další pomůcky](https://wiki.l10n.cz/Pom%C5%AFcky_pro_p%C5%99ekladatele)
 
 ## Další rady a tipy
 
@@ -19,7 +19,7 @@ Kontrola pravopisu není zbytečný luxus. Odstraní řadu překlepů. Ve Firefo
 
 ### Formáty souborů
 
-Mozilla používá nespočet formátů (např. [Fluent](https://mozilla-l10n.github.io/localizer-documentation/tools/fluent/), [DTD](http://wiki.l10n.cz/DTD), [Properties](http://wiki.l10n.cz/Properties), [Gettext](http://wiki.l10n.cz/Gettext) nebo [XLIFF](http://wiki.l10n.cz/XLIFF)). Pokud budete s některým pracovat přímo, nezapomeňte si o něm předem přečíst a zeptat se na vhodný editor. Rozhodně nepoužívejte MS Word a podobné. Výsledkem by byl špatně formátovaný soubor, který není snadné upravit do správné podoby.
+Mozilla používá nespočet formátů (např. [Fluent](https://mozilla-l10n.github.io/localizer-documentation/tools/fluent/), [DTD](https://wiki.l10n.cz/DTD), [Properties](https://wiki.l10n.cz/Properties), [Gettext](https://wiki.l10n.cz/Gettext) nebo [XLIFF](https://wiki.l10n.cz/XLIFF)). Pokud budete s některým pracovat přímo, nezapomeňte si o něm předem přečíst a zeptat se na [vhodný editor](https://wiki.l10n.cz/Kategorie:P%C5%99ekladatelsk%C3%BD_software). Rozhodně nepoužívejte MS Word a podobné. Výsledkem by byl špatně formátovaný soubor, který není snadné upravit do správné podoby.
 
 ## Kontakt
 
