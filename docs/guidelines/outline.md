@@ -153,7 +153,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 > Please leave the following line in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language
 
-Read about copy rules styles in the [General Mozilla L10n Style Guide](mozilla_general/README.md#copy-rules).
+Read about copy rules styles in the [General Mozilla L10n Style Guide](../styleguides/README.md#copy-rules).
 
 > Is there an international/national standard for capitalization in your language?
 >
