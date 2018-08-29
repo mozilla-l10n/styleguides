@@ -184,7 +184,7 @@ Finally, there are times that a translation simply doesn't make sense. It's hard
 ## Tips to Remember
 
 1. Do limit the word count of the localized string same as source string. Use FUEL guides for consistency.
-2. Don ‘t change dot `.` to pipe `|`.
+2. Do change dot `.` to wisarg '।' not pipe `|`.
 3. Always use not translate product names. Like `Mozilla`, `Firefox`, `Facebook`.
 4. Don't translate HTML tags. Like `<HTML>`, `&ndash`
 5. Try to use localised developer edition browser.
