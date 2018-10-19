@@ -2,39 +2,30 @@
 
 ## Dagsetningar
 
-How are the date formats for weeks and months expressed in the following forms:
+Dagsetningar í íslensku er skrifaðar í dd/mm/áááá forminu, rétt eins og í Evrópu. Mánuðir eru skrifaðir með litlum staf nema í byrjun setningar. Punktur er skrifaður á eftir deginum, dæmi: 16. september 2018.
 
-1. Fully spelled out
-2. 2 or 3 letters
-3. Single letter
-4. What is the order of Year, Month and Day?
+### Dagatal
 
-Reference material can be find here: [https://en.wikipedia.org/wiki/Date_format_by_country](https://en.wikipedia.org/wiki/Date_format_by_country)
+Gregoríska dagatalið er í notkun á Íslandi. Dagatöl á Íslandi hefjast ýmist á sunnudegi eða mánudegi. Þetta er ekki á föstu. 
 
-### Calendar view
+### Tímasetningar
 
-* Which date is considered the first day of the week, Sunday or Monday?
-* Is Lunar calendar observed? Other regional calendar observed?
+Sólarhringnum er skipt upp í 24 stundir. Klukkan 3 eftir hádegið er því skrifað 15:00.
 
-### Time Format
+## Tölustafir
 
-How is time expressed in your language? Including 0-24 hr expression, hour, minute and second.
+Tugastafur (tugabrot) er merkt með kommu (,)
+Í þúsundabroti er punktur (.) hins vegar notaður.
 
-## Numerals
+### Gjaldmiðill
 
-How are numerals and percentages expressed in your language?
+Íslenska krónan er skammstöfuð kr. á Íslandi. Í alþjóðatali er það ISK.
 
-* Example: 1.23 (decimal separator) or 1,000 (thousand separator) using comma or period.
+### Mælieiningar
 
-### Currency
+Metrakerfið er notað á Íslandi. Birta ætti tölur í metrakerfinu. 
 
-What are other widely used currency and symbols used in your country/language for paid apps.
-
-### Units
-
-Do you use the imperial, metric or nautical system for measuring weight, distance, etc.? Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system.
-
-### Names
+### Nöfn
 
 What are the order of family name and given name in your language? Here is the guideline on the naming convention from w3c.org:
 
