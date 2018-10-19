@@ -2,12 +2,12 @@
 
 ## Intro
 
-Style guides define the standard against which we determine a translation's quality. They contain rules that are both defined by Mozilla and by Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation's quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture. Some examples of international style guides created by other organizations are:
+Þýðingavísar skilgreina staðalinn sem við notum sem mælikvarða á gæði þýðinga. Þeir innihalda reglur sem eru bæði settar af Mozilla og þýðingateymum Mozilla, um hvernig er best að þýða texta í vörum Mozilla, vefjum og öðrum verkefnum. Þýðingavísar eru notaðir bæði til að þýða og meta gæði þýðingar. Með því að fylgja þessum reglum fær þýðandi betra tækifæri til að framleiða hágæðaþýðingu sem endurspeglar gildi og menningu Mozilla. Sem dæmi um alþjóðlega þýðingavísa sem aðrar stofnanir hafa sett sér má nefna:
 
 * [https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
 * [https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
 
-This style guide is broken up into two main parts: the first contains rules that are language-specific and must be defined by each Mozilla l10n community (covering language-specific style, terminology, and units); the second contains general rules that Mozilla has defined for translators of all languages that can help you translate well (covering principles of accuracy and fluency). Please adapt part one of this style guide to your l10n community's rules for style, terminology, and units. Wherever possible, refer to existing national standards for units, spelling, and grammar in your community's adaptation of the first part of this style guide.
+Þessi þýðingavísir skiptist í tvo meginþætti: sá fyrri inniheldur reglur sem einskorðast við hvert tungumál og eru settar af hverju l10n þýðingarteymi (þetta spannar stílbrögð sem einskorðast við tungumál, í orðaforða og mælieiningar); sá seinni inniheldur almennar reglur sem Mozilla hefur skilgreint fyrir þýðendur allra tungumála sem geta gagnast við að þýða vel (þetta spannar meginreglur um nákvæmni og málkunnáttu). Vinsamlega lagið fyrri partinn af þessum þýðingavísi að reglum ykkar l10n þýðingarteymis um stíl, íðorðaforða og einingar. Hvar sem mögulegt er skal vísa í gildandi staðla þess málsvæðis um mælieiningar, stafsetningu og málfræði í fyrri parti þessa þýðingavísis.
 
 ## Gagnlegir hlekkir
 
