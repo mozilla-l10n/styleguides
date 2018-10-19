@@ -1,6 +1,6 @@
-# Units and Unit Conversion
+# Einingar og umbreytingar
 
-## Date Format
+## Dagsetningar
 
 How are the date formats for weeks and months expressed in the following forms:
 
@@ -63,51 +63,35 @@ Do you have standards for verb forms that indicate or express the time, such as 
 
 What is the appropriate form of expressing pluralization in your language? List all forms of plural forms and examples if there is more than one. Additional discussions can be found Here. <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals">https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals</a> and here: <a href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html">http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html</a>
 
-### Abbreviations
+### Skammstafanir
 
-How are abbreviations expressed in your language?
+Punktar eru jafnan notaðir í skammstöfun og merkir að um styttingu sé að ræða. Sjá kafla 22.6  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf 
 
-* Example, in English, abbreviations are made by removing most vowels and only using the first 3-5 consonants followed by a period (e.g., abbreviation = abbr.). (see: <a href="https://en.wikipedia.org/wiki/Abbreviation%29">https://en.wikipedia.org/wiki/Abbreviation)</a>
 
-If your language does not have a standard way of expressing abbreviations, do you simply leave them in English?
+## Greinarmerki
 
-### Acronyms
+Sjá hér  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf
 
-Are there standard translations of widely accepted acronyms such as CD, DVD, MB in your language? If not, do they remain in English? (see: <a href="https://en.wikipedia.org/wiki/Acronym">https://en.wikipedia.org/wiki/Acronym</a> )
+### Áhersla
 
-## Punctuation
+"Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Á eftir upphrópunarmerki, spurningarmerki og tvípunkti er stundum stór stafur, en aldrei á eftir kommu eða semíkommu." (Sjá http://islenskan.is/images/ritreglur-IM-2016.pdf) Einnig er stór stafur í sérnöfnum.
 
-Do you use different punctuation rules in your Firefox localization than what your language standard defines?
+### Bandstrik og samsett orð
 
-* Example: do you use a period at the end of every user interface element translation or only some? What is the international/national standard for punctuation in your language?
+Íslenska er uppfull af samsettum orðum. Bandstrik er ekki notað við samsett orð. Bandstrik eru notuð þegar orði er skipt upp á milli lína sem og í öðrum tilvikum. Sjá nánar kafla 26  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf
 
-### Emphasis
+## Forsetningar
 
-Is there an international/national standard for capitalization in your language?
+Sjá kafla 2.6  -> http://islenskan.is/images/ritreglur-IM-2016.pdf 
 
-* If so, do those standard rules apply in all product translations?
-* If this doesn't apply, how do you indicate importance or name of a movie, book title, product UIs (Save, File...) in your language?
-* How does your language handle the use of bold, italic, or underline types to express emphasis? ( See: <a href="https://en.wikipedia.org/wiki/Italic_type">https://en.wikipedia.org/wiki/Italic_type</a> )
+## Sérstakir stafir
 
-### Hyphens and compounds
+Passa þarf uppá að sérhljóðar séu í réttri stafrófsröð: a, á, e, i, í, o, ó, u, ú, y, ý.
 
-What is the appropriate way of using hyphens and compounds in your language? ( <a href="https://en.wikipedia.org/wiki/Compound_%28linguistics%29">https://en.wikipedia.org/wiki/Compound_%28linguistics%29</a> )
+## Tilvitnanir
 
-## Prepositions and articles
+Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út. Dæmi: „Hér er tilvitnun.“
 
-What is the appropriate form of expressing prepositions and articles in your language?
-
-## Diacritics and Special characters
-
-Does your language use any special or accented characters and will they be applied and preserved in sort orders, and other aspects of the translation? (see: <a href="https://en.wikipedia.org/wiki/Diacritic">https://en.wikipedia.org/wiki/Diacritic</a> )
-
-## Quotes
-
-Does your language have a standard use for quotation marks, parenthesis, or brackets?
-
-## Whitespace
-
-Does your language require the use of white space around words, sentences, paragraphs, etc.? If so, in what ways? (see: <a href="https://en.wikipedia.org/wiki/Sentence_spacing_in_language_and_style_guides">https://en.wikipedia.org/wiki/Sentence_spacing_in_language_and_style_guides</a> )
 
 ## User Interface Elements
 
