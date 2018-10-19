@@ -56,8 +56,7 @@ What is the appropriate form of expressing pluralization in your language? List 
 
 ### Skammstafanir
 
-Punktar eru jafnan notaðir í skammstöfun og merkir að um styttingu sé að ræða. Sjá kafla 22.6  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf 
-
+Punktar eru jafnan notaðir í skammstöfun og merkir að um styttingu sé að ræða. Sjá kafla 22.6  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf
 
 ## Greinarmerki
 
@@ -73,7 +72,7 @@ Sjá hér  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf
 
 ## Forsetningar
 
-Sjá kafla 2.6  -> http://islenskan.is/images/ritreglur-IM-2016.pdf 
+Sjá kafla 2.6  -> http://islenskan.is/images/ritreglur-IM-2016.pdf
 
 ## Sérstakir stafir
 
@@ -82,7 +81,6 @@ Passa þarf uppá að sérhljóðar séu í réttri stafrófsröð: a, á, e, i,
 ## Tilvitnanir
 
 Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út. Dæmi: „Hér er tilvitnun.“
-
 
 ## User Interface Elements
 
