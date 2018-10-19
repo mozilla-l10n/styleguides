@@ -1,32 +1,32 @@
-# Style
+# Stíll
 
-Your localization community's style is largely up to you to define. It is a part of your community's instructions and standards for translating strings within each project type. Style encompasses various elements, such as formality, tone, natural expression, handling cultural references, idioms, or slang, and maintaining consistency with Mozilla and 3rd party branding and style guides. Your localization community should define these style elements for localizing Mozilla projects into your language. Let's go through these main aspects of Style.
+Stíll þýðingarteymisins er að miklu leyti í þess eigin höndum að skilgreina. Hann er hluti af leiðbeiningum og stöðlum samfélagsins til að þýða strengi innan hverrar tegundar verka. Stíll nær til ýmissa þátta, svo sem formlegheita, blæbrigða, eðlilegra orðatiltækja, meðhöndlunar menningarviðmiðanna, orðalags, slangurs og að viðhalda samræmi milli Mozilla og þriðja aðila. Þýðingateyminu er gert að skilgreina þessi stílbrigði fyrir staðfærslu á Mozilla-verkefnum yfir á markmálið. Skoðum þessi meginhugtök stíls.
 
-## Formality and Tone
+## Formlegheit og blæbrigði
 
-When determining the formality or tone of a Mozilla l10n project in your language, ask yourself these questions:
+Þegar formlegheit eða blæbrigði eru skilgreind fyrir Mozilla l10n verkefni skulu eftirfarandi spurningar hafðar í huga:
 
-* Who is the target user for this project and what is their background?
-* How would a target user for this project expect to interact with this project? For example, would they expect a friendly, casual interaction?
-* Is formal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?
-* Is informal language appropriate for all of your language's Mozilla l10n projects, or only some of them? Which ones?
+* Hverjir eru tilvonandi notendur verkefnisins og hver er bakgrunnur þeirra?
+* Hvernig mun tilvonandi notandi búast við að eiga samskipti við verkefnið? Til dæmis, myndi hann búast við vingjarnlegum, hversdagslegum samskiptum?
+* Er formlegt tungutak viðeigandi fyrir öll Mozilla l10n verkefni tungumálsins, eða bara sum þeirra? Hver þeirra?
+* Er óformlegt tungutak viðeigandi fyrir öll Mozilla l10n verkefni tungumálsins, eða bara sum þeirra? Hver þeirra?
 
-In fact, localization should not use a level of formality higher or lower than required by this community-defined style guideline. An example of this would be using "click here" (not formal) vs. "please click here" (more formal). Also, the tone employed throughout a l10n project(s) should stay consistent within itself.
+Raunar ætti staðfærslan ekki að byggjast á meiri né minni formlegheitum en krafist er skv. þessum stílreglum, ákveðnum af samfélaginu. Dæmi um þetta væri að nota „ýta hér“ (án málfræðitölu) frekar en „ýtið hér“ (í 2. persónu). Ennfremur ættu blæbrigðin sem beitt er í l10n verkefnum að halda innra samræmi.
 
-## Natural expression
+## Eðlileg orðatiltæki
 
-Using natural expressions make your localization sound natural to a native speaker. If your translation does not follow the community defined language guidelines for translating content that contains local or natural expressions, this results in a mediocre and/or awkward translation. Teams should be careful to address those and keep them in mind while translating, which is why it is an important section to address in a Style Guide. An example of a natural expression in a translation would be translating the Spanish phrase, "En ocho días." In English, one might translate this as, "in eight days" or "in a week." The latter is the more natural translation, although both could be considered correct.
+Notkun eðlilegra orðatiltækja lætur þýðinguna hljóma eðlilega fyrir þá sem tala málið að móðurmáli. Ef þýðingin er ekki í samræmi við þýðingavísinn um staðbundin eða eðlileg orðatiltæki, þá er útkoman meðalgóð og/eða vandræðaleg þýðing. Teymin skulu gæta sín að taka þau fyrir og hafa í huga meðan þýtt er, sem er ástæða þess að þetta er mikilvægur hluti þýðingavísisins. Dæmi um eðlilegt orðatiltæki í þýðingu er spænski frasinn "En ocho días". Á íslensku væri það þýtt „eftir átta daga“ eða „eftir viku“. Hið síðara er dæmi um náttúrulega þýðingu, þótt hvort tveggja myndi teljast rétt.
 
-In this section, form guidelines for how to perform a natural sounding localization. This might take some time and experience to find the right examples to include or create the right guidelines for your language.
+Í þessum hluta eru leiðbeiningar um hvernig skal leggja til eðlilega hljómandi staðfærslu. Það gæti tekið smá stund og reynslu að finna réttu dæmin til að taka fram og búa til réttu leiðbeiningarnar á þínu tungumáli.
 
-## Handling cultural references, idioms, and slang
+## Meðhöndlun menningarviðmiðanna, málshátta og slangurs
 
-Cultural references, idioms, and slang require a full understanding of these references between the cultures of your source and target languages. An example of a cultural reference in English would be the phrase, "kick-off meeting." This is a reference that uses an American football term. It means a meeting to begin a project. To translate it, you can follow one of two approaches:
+Menningarviðmiðanir, málshættir og slangur krefjast fulls skilnings á tilvísunum milli menninga upprunamáls og markmáls. Dæmi um menningarlega tilvísun á ensku væri frasinn „kick-off meeting“. Þetta er tilvísun sem notar hugtak úr amerískum fótbolta. Það merkir fundur til þess að hefja verkefni. Til að þýða það er hægt að fylgja annarri af eftirfarandi leiðum:
 
-1. Find an equivalent reference phrase in your language.
-2. Remove the cultural reference and translate the core meaning (e.g., "a commencement meeting")
+1. Finna hliðstæðan frasa á markmálinu.
+2. Fjarlægja tilvísun í menningu og þýða kjarna málsins (t.d., „byrjunarfundur“)
 
-Define a policy for handling these cultural references, idioms, and slang that you can make standard across all projects. Consider resources you can refer back to in order to find cultural equivalents and list them in this section of your style guide (e.g., a slang dictionary in your language).
+Skilgreinið stefnu til að meðhöndla þessar menningarlegu tilvísanir, málshætti og slangur sem staðal fyrir öll verkefnin. Íhugið leiðir til að vísa í aftur til að finna menningarlegar hliðstæður og listið þau í þessum hluta þýðingavísisins (t.d. slangurorðabók á tungumálinu).
 
 ## Style consistency
 
