@@ -1,36 +1,34 @@
-# General Mozilla l10n style (common to all languages)
+# Almennur þýðingarvísir Mozilla (sem á við öll tungumál)
 
-## Accuracy
+## Nákvæmni
 
 ## Meaning-based translation
 
-When it comes to translation, meaning is everything. A translator needs to understand the source text's meaning exactly. You then find its most closely linked equivalent in your own language, without adding or subtracting meaning in your translation. Finding meaning-based equivalents between languages can be difficult. To help concentrate your thoughts, ask yourself questions like:
+Að varðveita merkingu textans skiptir þýðingarvinnu mestu máli. Þýðandi ætti að skilja upprunatextann fullkomnlega og velja þau orð í þeirra máli sem komast næst því að fanga sömu merkingu, án þess að bæta við meiningu óþarflega, eða þá að glata henni. Það getur reynst erfitt að finna orð með nákvæmlega sömu merkingu í íslensku og einhverju öðrum máli. Til að auðvelda leitina er sniðugt að velta fyrir sér:
 
-* What does this word/sentence/string mean in English?
-* What is the message the author is trying to send?
-* How would I express that meaning in my own language?
+* Hvað þýðir þetta í ensku?
+* Hvaða skilaboðum er höfundurinn að reyna að koma til skila?
+* Hvernig myndi ég koma þeim skilaboðum frá mér á íslensku?
 
-Sometimes translation memory and machine translation tools can offer bad suggestions for a translation. If you use either as part of your translation workflow, make sure to correct the suggestions before submitting them. Avoid literal translation at all costs. Watch out for words that might sound or look the same between English and your language, but have a different meaning.
+Vélaþýðingar eru ekki enn komnar á það stig að geta þýtt þannig að samhengi varðveitist, svo ef þær eru notaðar í þýðingarferlinu er nauðsynlegt að staðfesta útkomuna áður en hún er send inn. Forðast er að þýða nokkuð beint. Fylgst er með því að orð séu ekki óvart notuð þegar þau þýða annað í ensku en í íslensku, þó þau líti svipuð út eða hljómi eins.
 
-## Should not be translated
+## Það sem ekki ætti að þýða
 
-### Access Keys
+### Flýtilyklar
 
-Access keys allow a computer to immediately jump to a particular part in a web page by combining keystrokes. They can be adapted to suit your language by selecting a single character to be used in the combined keystroke. Access keys have their own lines within .dtd and .properties files and are identified by being named ".accesskey" in the line.
+Flýtilyklar er þegar ákveðnir lyklaborðstakkar eru notaðir í sameiningu sem færa mann beint að ákveðnum hluta heimasíðu. Þá er hægt að aðlaga að íslensku með því að velja einn bókstaf til að nota. Flýtilyklar hafa sérlínur í .dtd og .properties skránum sem eru merktar með ".accesskey". 
 
-### Variables
+### Breytur
 
-Variables should never be translated. You can recognize a variable within a string by its beginning with a specific character (e.g., `$`, `#`, `%`, etc.) followed by a combination of words without spacing. For example, `$BrandShortName` and `%S` are variables.  You can move a variable around within a string, if the translation of the string requires it.
+Ekki ætti að þýða breytur. Breytur eru orð sem hefjast á sérmerki eins og t.d. `$`, `#` eða `%`. Sem dæmi má nefna `$BrandShortName` og `%S`, sem eru hvort tveggja breytur. Það er í lagi að færa breytuna til innan setningar, krefjist þýðingin þess.
 
-### Brands, copyright, and trademark
+### Höfundarréttur og skrásett vörumerki
 
-Brand names, as well as copyright and trademarks should never be translated, nor transliterated into a non-Latin based script. See the <a href="https://www.mozilla.org/en-US/styleguide/communications/translation/">Mozilla branding guide</a> for more details.
+Vörumerki og höfundarréttarvernduð heiti ætti ekki að þýða né yfirfæra í órómanskar leturgerðir. Sjá <a href="https://www.mozilla.org/en-US/styleguide/communications/translation/">vörumerkjavísi Mozilla</a>.
 
-### Translating culture-specific references
+### Þýðingar á tilvísunum í staðbundna menningarþætti
 
-At times there will be English content included in Mozilla products or web projects (e.g., marketing campaigns) that makes references to American culture and concepts. When translating these, it is best to find an equivalent cultural reference within your own culture that accurately conveys the meaning of the English reference. For example, an American might say, "Good job, home run!" A home run is a baseball reference for a successful outcome. An appropriate translation would be an equivalent metaphor within your culture. Using soccer as an example, you might translate "Good job, home run!" into "Good job, nice goal!" in your language.
-
-*Add a note about Mozilla culture.*
+Það kemur fyrir að efni á ensku í vörum og vefsíðum Mozilla gera tilvísanir í amerísk menningarhugtök. Þegar þýða á slíkan texta er best að reyna að finna sambærilegt menningarlegt fyrirbæri í íslensku sem færir sömu merkingu og sú enska. Sem dæmi gæti Ameríkani sagt, "Good job, home run!" en það er vísar í velgengi í hafnarbolta. Eðlileg þýðing myndi gera sambærilega myndlíkingu í íslenskri menningu. Ef við tökum yfirfærslu í fótboltamál sem dæmi, þá myndi þýðingin "Good job, home run!" verða  á við merkinguna í "Good job, nice goal!".
 
 ## Legal content
 
