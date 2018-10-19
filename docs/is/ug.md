@@ -6,7 +6,7 @@ Dagsetningar í íslensku er skrifaðar í dd/mm/áááá forminu, rétt eins og
 
 ### Dagatal
 
-Gregoríska dagatalið er í notkun á Íslandi. Dagatöl á Íslandi hefjast ýmist á sunnudegi eða mánudegi. Þetta er ekki á föstu. 
+Gregoríska dagatalið er í notkun á Íslandi. Dagatöl á Íslandi hefjast ýmist á sunnudegi eða mánudegi. Þetta er ekki á föstu.
 
 ### Tímasetningar
 
@@ -23,7 +23,7 @@ Tugastafur (tugabrot) er merkt með kommu (,)
 
 ### Mælieiningar
 
-Metrakerfið er notað á Íslandi. Birta ætti tölur í metrakerfinu. 
+Metrakerfið er notað á Íslandi. Birta ætti tölur í metrakerfinu.
 
 ### Nöfn
 
