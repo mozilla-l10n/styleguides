@@ -1,8 +1,8 @@
-# Almennur þýðingarvísir Mozilla (sem á við öll tungumál)
+# Almennur þýðingavísir Mozilla (sem á við öll tungumál)
 
 ## Nákvæmni
 
-## Meaning-based translation
+## Þýðingar sem varðveita merkingu
 
 Að varðveita merkingu textans skiptir þýðingarvinnu mestu máli. Þýðandi ætti að skilja upprunatextann fullkomnlega og velja þau orð í þeirra máli sem komast næst því að fanga sömu merkingu, án þess að bæta við meiningu óþarflega, eða þá að glata henni. Það getur reynst erfitt að finna orð með nákvæmlega sömu merkingu í íslensku og einhverju öðrum máli. Til að auðvelda leitina er sniðugt að velta fyrir sér:
 
