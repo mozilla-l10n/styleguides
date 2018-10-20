@@ -16,7 +16,7 @@ Vélaþýðingar eru ekki enn komnar á það stig að geta þýtt þannig að s
 
 ### Flýtilyklar
 
-Flýtilyklar er þegar ákveðnir lyklaborðstakkar eru notaðir í sameiningu sem færa mann beint að ákveðnum hluta heimasíðu. Þá er hægt að aðlaga að íslensku með því að velja einn bókstaf til að nota. Flýtilyklar hafa sérlínur í .dtd og .properties skránum sem eru merktar með ".accesskey". 
+Flýtilyklar er þegar ákveðnir lyklaborðstakkar eru notaðir í sameiningu sem færa mann beint að ákveðnum hluta heimasíðu. Þá er hægt að aðlaga að íslensku með því að velja einn bókstaf til að nota. Flýtilyklar hafa sérlínur í .dtd og .properties skránum sem eru merktar með ".accesskey".
 
 ### Breytur
 
