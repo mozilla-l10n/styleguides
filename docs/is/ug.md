@@ -14,9 +14,11 @@ Sólarhringnum er skipt upp í 24 stundir. Klukkan 3 eftir hádegið er því sk
 
 ## Tölustafir
 
-Tugastafur (tugabrot) er merkt með kommu (,). Í þúsundabroti er punktur (.) hins vegar notaður. Dæmi:
+Tugastafur (tugabrot) er merkt með kommu (,). Í þúsundabroti er punktur (.) hins vegar notaður.
 
-1,5
+Dæmi:
+
+1,5<br>
 12.350
 
 ### Gjaldmiðlar
@@ -33,16 +35,20 @@ Raðað er eftir skírnarnafni fyrst í símaskrá og öðrum skrám á Íslandi
 
 ## Heimilisföng og póstnúmer
 
-Götuheiti og númer húss kemur fyrst þegar heimilisfang er skrifað á íslensku. Í næstu línu kemur póstnúmer (þriggja stafa tala) og þar á eftir er bil og síðan bæjarheiti. Dæmi:
+Götuheiti og númer húss kemur fyrst þegar heimilisfang er skrifað á íslensku. Í næstu línu kemur póstnúmer (þriggja stafa tala) og þar á eftir er bil og síðan bæjarheiti.
 
-Borgartúni 37
+Dæmi:
+
+Borgartúni 37<br>
 105 Reykjavík
 
 ### Snið símanúmera
 
-Oftast er símanúmer skrifað með þremur tölustöfum, síðan bil og þar á eftir koma síðustu fjórir tölustafirnir. Einnig sjást símanúmer skrifuð með þremur tölustöfum fyrst, síðan bandstrik og loks síðustu fjórir tölustafirnir. Dæmi:
+Oftast er símanúmer skrifað með þremur tölustöfum, síðan bil og þar á eftir koma síðustu fjórir tölustafirnir. Einnig sjást símanúmer skrifuð með þremur tölustöfum fyrst, síðan bandstrik og loks síðustu fjórir tölustafirnir.
 
-516 1000
+Dæmi:
+
+516 1000<br>
 565-1000
 
 Sjá einnig https://en.wikipedia.org/wiki/Telephone_numbers_in_Iceland
@@ -88,7 +94,9 @@ Passa þarf uppá að sérhljóðar séu í réttri stafrófsröð: a, á, e, é
 
 ## Tilvitnanir
 
-Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út. Dæmi: „Hér er tilvitnun.“
+Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út.
+
+Dæmi: „Hér er tilvitnun.“
 
 ## Notendaviðmót
 
