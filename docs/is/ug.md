@@ -14,10 +14,9 @@ Sólarhringnum er skipt upp í 24 stundir. Klukkan 3 eftir hádegið er því sk
 
 ## Tölustafir
 
-Tugastafur (tugabrot) er merkt með kommu (,)
-Í þúsundabroti er punktur (.) hins vegar notaður.
+Tugastafur (tugabrot) er merkt með kommu (,)  Í þúsundabroti er punktur (.) hins vegar notaður.
 
-### Gjaldmiðill
+### Gjaldmiðlar
 
 Íslenska krónan er skammstöfuð kr. á Íslandi. Í alþjóðatali er það ISK.
 
@@ -27,32 +26,38 @@ Metrakerfið er notað á Íslandi. Birta ætti tölur í metrakerfinu.
 
 ### Nöfn
 
-What are the order of family name and given name in your language? Here is the guideline on the naming convention from w3c.org:
+Raðað er eftir skírnafni fyrst í símaskrá og öðrum skrám á Íslandi.
 
-## Address and Postal Code Format
+## Heimilisföng og póstnúmer
 
-What is the format in your language?
+Götuheiti og númer húss kemur fyrst þegar heimilisfang er skrifað á íslensku. Í næstu línu kemur póstnúmer (þriggja stafa tala) og þar á eftir er bil og síðan bæjarheiti. Dæmi:
 
-* Example: most Asian countries start from big to small: [Country] [postal code][state/province][city][district][street number and name][building and suite numbers][addressee]
-* Countries of European languages start from small to big: [addressee][street number and name][building and suite numbers][district][city][state/province][postal code][Country]
+Guðrúnargata 143
+101 Reykjavík
 
-### Telephone Number format
+### Form símanúmera
 
-Space separators between digits can be different for area codes such as State (Province) and City,
+Oftast er símanúmer skrifað með þremur stöfum, síðan bil og þar á eftir koma síðustu fjórir tölustafirnir. Einnig sjást símanúmer skrifuð með þremur tölustöfum fyrst, síðan bandstrik og loks síðustu fjórir tölustafirnir. Dæmi:
 
-## Spelling And Grammar Checks
+510 1000
+565-1000
 
-Many languages have national or international standards that define spelling and grammar rules. When defining these rules for your community, make reference to those standards wherever possible. Do you have automated tests for spell checking and grammar? List those tools and dictionaries here and how regularly they should be used.
+Sjá einnig https://en.wikipedia.org/wiki/Telephone_numbers_in_Iceland
 
-### Tense
+## Beygingar og réttritun
 
-Do you have standards for verb forms that indicate or express the time, such as past, present, or future, of the action or state? What is your policy on tense consistency for certain use cases? For example, for phrases that ask a user to make an action (like "Download Firefox"), do you use a future tense, a command tense, or a neutral tense? (See: <a href="https://en.wikipedia.org/wiki/Grammatical_tense">https://en.wikipedia.org/wiki/Grammatical_tense</a> )
+Beygingarlýsing íslensks nútímamáls er mjög hjálplegt tól http://bin.arnastofnun.is/forsida/
+Einnig hægt að nota Orðabók.is https://www.ordabok.is/beygingar.asp
 
-## Word Forms
+### Tíð
 
-### Pluralization
+Best er að skoða Ritreglur http://islenskan.is/images/ritreglur-IM-2016.pdf
 
-What is the appropriate form of expressing pluralization in your language? List all forms of plural forms and examples if there is more than one. Additional discussions can be found Here. <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals">https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals</a> and here: <a href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html">http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html</a>
+## Orðaskipan EYÐA:(Word Forms)
+
+### Ritreglur
+
+Skjalið http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf hefur að geyma hafsjó af almennar ritreglur.
 
 ### Skammstafanir
 
@@ -64,7 +69,7 @@ Sjá hér  -> http://islenskan.is/images/endurskodun-ritreglna-heimasida-IM.pdf
 
 ### Áhersla
 
-"Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Á eftir upphrópunarmerki, spurningarmerki og tvípunkti er stundum stór stafur, en aldrei á eftir kommu eða semíkommu." (Sjá http://islenskan.is/images/ritreglur-IM-2016.pdf) Einnig er stór stafur í sérnöfnum.
+Íslenskan er almennt séð spéhrædd við stóra stafi og er miklu til sparað á þeim bæ. "Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Á eftir upphrópunarmerki, spurningarmerki og tvípunkti er stundum stór stafur, en aldrei á eftir kommu eða semíkommu." (Sjá http://islenskan.is/images/ritreglur-IM-2016.pdf) Einnig er stór stafur í sérnöfnum.
 
 ### Bandstrik og samsett orð
 
@@ -82,10 +87,10 @@ Passa þarf uppá að sérhljóðar séu í réttri stafrófsröð: a, á, e, i,
 
 Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út. Dæmi: „Hér er tilvitnun.“
 
-## User Interface Elements
+## Notendaviðmót
 
-* Titles : Should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.
-* Buttons: Capitalize the first letter of each word. Limit to one or two words. Use verbs that precisely describe the button's action. For example, "Cancel", "Clear History", "Add Email", "Select All", etc.
-* Value Selector Lists: Capitalize the first letter of the first word and the first letter of any proper nouns. Limit to one or two words.
-* Articles: Avoid them where possible. Articles (such as the word "the" in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.
-* Ellipsis: Ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue. Focus on making the UI short and precise. The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.
+* Titlar : Ættu að vera stuttir og kjarnyrtir. Gera má ráð fyrir að upprunatextinn taki upp um 2/3 af leyfilegu plássi. Með þessu móti er svigrúmi fyrir aðeins lengri texta í þýðingu án þess að stytta þurfi textann eða nota úrfellingarmerki. Titill á lokasíðu (þ.e.a.s. ekki er hægt að smella lengra/dýpra) ætti að vera þannig að allur textinn sjáist.
+* Hnappar: Fyrsta orðið er með stórum staf. Takmarka við eitt eða tvö orð. Nota ætti sagnorð sem lýsir nákvæmlega virkni hnappsins. Til dæmis: "Hætta við", "Ferli" og "Velja allt".
+* Fellilistar með gildum: Fyrsta orðið er með stórum staf. Takmarka við eitt eða tvö orð.
+* Greinar: Forðast eins og hægt er. Notendaviðmót hefur takmarkað pláss fyrir texta og með því að fella út greininn, þá er mun líklegra að nægilegt pláss sé fyrir textann.
+* Úrfellingarmerki: Úrfellingarmerki eru oft á tíðum notuð í notendaviðmóti við að tilgreina styttingu. Úrfellingarmerki ætti eingöngu að nota á "efri" síðum í notendaviðmóti en ekki á lokasíðu (þ.e.a.s. ekki er hægt að smella lengra/dýpra) þar sem nákvæmari upplýsingar er að finna. Úrfellingarmerki ætti ekki að nota til styttinga. Einblína ætti á að gera notendaviðmótið kjarnyrt og stutt. Orðskipan á öðru tungumáli þarf stundum að endurraða þegar verið er að þýða yfir á annað tungumál.
