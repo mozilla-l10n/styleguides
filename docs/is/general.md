@@ -28,7 +28,7 @@ Vörumerki og höfundarréttarvernduð heiti ætti ekki að þýða né yfirfær
 
 ### Þýðingar á tilvísunum í staðbundna menningarþætti
 
-Það kemur fyrir að efni á ensku í vörum og vefsíðum Mozilla gera tilvísanir í amerísk menningarhugtök. Þegar þýða á slíkan texta er best að reyna að finna sambærilegt menningarlegt fyrirbæri í íslensku sem færir sömu merkingu og sú enska. Sem dæmi gæti Ameríkani sagt, "Good job, home run!" en það er vísar í velgengi í hafnarbolta. Eðlileg þýðing myndi gera sambærilega myndlíkingu í íslenskri menningu. Ef við tökum yfirfærslu í fótboltamál sem dæmi, þá myndi þýðingin "Good job, home run!" verða  á við merkinguna í "Good job, nice goal!".
+Það kemur fyrir að efni á ensku í vörum og vefsíðum Mozilla gera tilvísanir í amerísk menningarhugtök. Þegar þýða á slíkan texta er best að reyna að finna sambærilegt menningarlegt fyrirbæri í íslensku sem færir sömu merkingu og sú enska. Sem dæmi gæti Ameríkani sagt, "Good job, home run!" en það er vísar í velgengi í hafnarbolta. Eðlileg þýðing myndi gera sambærilega myndlíkingu í íslenskri menningu. Ef við tökum yfirfærslu í golf sem dæmi, þá myndi þýðingin "Good job, home run!" verða á við "vel gert, hola í höggi!"
 
 ## Lagalegur text
 
