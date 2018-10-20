@@ -4,7 +4,7 @@
 
 Vörumerki sem ekki á að þýða hafa einfaldlega x í þýðingardálkinum.
 
-| Vörumerki        | Þýðing     | Athugasemd |
+| Vörumerki        | Þýðing     | Athugasemdir |
 | ------------- |-------------|-------------|
 | Firefox| x ||
 | Thunderbird| x ||
