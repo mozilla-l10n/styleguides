@@ -1,4 +1,4 @@
-# Einingar og umbreytingar
+# Einingar og málfræði
 
 ## Dagsetningar
 
