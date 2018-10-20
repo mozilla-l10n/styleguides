@@ -29,7 +29,7 @@ Metrakerfið er notað á Íslandi. Birta ætti tölur í metrakerfinu.
 
 ### Nöfn
 
-Raðað er eftir skírnarnafni fyrst í símaskrá og öðrum skrám á Íslandi. 
+Raðað er eftir skírnarnafni fyrst í símaskrá og öðrum skrám á Íslandi.
 
 ## Heimilisföng og póstnúmer
 
