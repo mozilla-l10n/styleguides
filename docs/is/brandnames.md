@@ -8,7 +8,7 @@ Vörumerki sem ekki á að þýða hafa einfaldlega x í þýðingardálkinum.
 | ------------- |-------------|-------------|
 | Firefox| x ||
 | Thunderbird| x ||
-| Sync| x |Þegar það er notað til að vísa í verkfærið _Firefox Sync_.|
+| Sync| x |Eingöngu þegar það er notað til að vísa í verkfærið _Firefox Sync_. Sync er þýtt sem samstilling í setningum.|
 | AMO| x ||
 | Common Voice| Samrómur ||
 | Firefox Accounts| Firefox reikningar ||
