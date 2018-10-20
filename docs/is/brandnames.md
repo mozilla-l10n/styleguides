@@ -18,4 +18,3 @@ Vörumerki sem ekki á að þýða hafa einfaldlega x í þýðingardálkinum.
 | Pocket| x ||
 | SUMO| x ||
 | Thunderbird.net| x ||
-
