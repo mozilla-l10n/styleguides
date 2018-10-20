@@ -7,7 +7,7 @@
 * [https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
 * [https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
 
-Þessi þýðingavísir skiptist í tvo meginþætti: sá fyrri inniheldur reglur sem einskorðast við hvert tungumál og eru settar af hverju l10n þýðingarteymi (þetta spannar stílbrögð sem einskorðast við tungumál, í orðaforða og mælieiningar); sá seinni inniheldur almennar reglur sem Mozilla hefur skilgreint fyrir þýðendur allra tungumála sem geta gagnast við þýðingar (þetta spannar meginreglur um nákvæmni og málkunnáttu).
+Þessi þýðingavísir skiptist í tvo meginþætti: sá fyrri inniheldur reglur sem einskorðast við hvert tungumál og eru settar af hverju l10n þýðingarteymi (þetta spannar stílbrögð sem einskorðast við tungumál, notkun hugtaka og mælieiningar); sá seinni inniheldur almennar reglur sem Mozilla hefur skilgreint fyrir þýðendur allra tungumála sem geta gagnast við þýðingar (þetta spannar meginreglur um nákvæmni og málkunnáttu).
 
 ## Gagnlegir tenglar
 
