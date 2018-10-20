@@ -22,3 +22,4 @@
 * [Hugtök](term.md)
 * [Einingar og málfræði](ug.md)
 * [Almennur þýðingavísir Mozilla](general.md)
+* [Þýðingar á vörumerkjum](brandnames.md)
