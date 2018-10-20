@@ -1,47 +1,45 @@
-# General Mozilla l10n style (common to all languages)
+# Almennur þýðingavísir Mozilla (sem á við öll tungumál)
 
-## Accuracy
+## Nákvæmni
 
-## Meaning-based translation
+## Þýðingar sem varðveita merkingu
 
-When it comes to translation, meaning is everything. A translator needs to understand the source text's meaning exactly. You then find its most closely linked equivalent in your own language, without adding or subtracting meaning in your translation. Finding meaning-based equivalents between languages can be difficult. To help concentrate your thoughts, ask yourself questions like:
+Að varðveita merkingu textans skiptir þýðingarvinnu mestu máli. Þýðandi ætti að skilja upprunatextann fullkomnlega og velja þau orð í þeirra máli sem komast næst því að fanga sömu merkingu, án þess að bæta við meiningu óþarflega, eða þá að glata henni. Það getur reynst erfitt að finna orð með nákvæmlega sömu merkingu í íslensku og einhverju öðrum máli. Til að auðvelda leitina er sniðugt að velta fyrir sér:
 
-* What does this word/sentence/string mean in English?
-* What is the message the author is trying to send?
-* How would I express that meaning in my own language?
+* Hvað þýðir þetta í ensku?
+* Hvaða skilaboðum er höfundurinn að reyna að koma til skila?
+* Hvernig myndi ég koma þeim skilaboðum frá mér á íslensku?
 
-Sometimes translation memory and machine translation tools can offer bad suggestions for a translation. If you use either as part of your translation workflow, make sure to correct the suggestions before submitting them. Avoid literal translation at all costs. Watch out for words that might sound or look the same between English and your language, but have a different meaning.
+Vélaþýðingar eru ekki enn komnar á það stig að geta þýtt þannig að samhengi varðveitist, svo ef þær eru notaðar í þýðingarferlinu er nauðsynlegt að staðfesta útkomuna áður en hún er send inn. Forðast er að þýða nokkuð beint. Fylgst er með því að orð séu ekki óvart notuð þegar þau þýða annað í ensku en í íslensku, þó þau líti svipuð út eða hljómi eins.
 
-## Should not be translated
+## Það sem ekki ætti að þýða
 
-### Access Keys
+### Flýtilyklar
 
-Access keys allow a computer to immediately jump to a particular part in a web page by combining keystrokes. They can be adapted to suit your language by selecting a single character to be used in the combined keystroke. Access keys have their own lines within .dtd and .properties files and are identified by being named ".accesskey" in the line.
+Flýtilyklar er þegar ákveðnir lyklaborðstakkar eru notaðir í sameiningu sem færa mann beint að ákveðnum hluta heimasíðu. Þá er hægt að aðlaga að íslensku með því að velja einn bókstaf til að nota. Flýtilyklar hafa sérlínur í .dtd og .properties skránum sem eru merktar með ".accesskey".
 
-### Variables
+### Breytur
 
-Variables should never be translated. You can recognize a variable within a string by its beginning with a specific character (e.g., `$`, `#`, `%`, etc.) followed by a combination of words without spacing. For example, `$BrandShortName` and `%S` are variables.  You can move a variable around within a string, if the translation of the string requires it.
+Ekki ætti að þýða breytur. Breytur eru orð sem hefjast á sérmerki eins og t.d. `$`, `#` eða `%`. Sem dæmi má nefna `$BrandShortName` og `%S`, sem eru hvort tveggja breytur. Það er í lagi að færa breytuna til innan setningar, krefjist þýðingin þess.
 
-### Brands, copyright, and trademark
+### Höfundarréttur og skrásett vörumerki
 
-Brand names, as well as copyright and trademarks should never be translated, nor transliterated into a non-Latin based script. See the <a href="https://www.mozilla.org/en-US/styleguide/communications/translation/">Mozilla branding guide</a> for more details.
+Vörumerki og höfundarréttarvernduð heiti ætti ekki að þýða né yfirfæra í órómanskar leturgerðir. Sjá <a href="https://www.mozilla.org/en-US/styleguide/communications/translation/">vörumerkjavísi Mozilla</a>.
 
-### Translating culture-specific references
+### Þýðingar á tilvísunum í staðbundna menningarþætti
 
-At times there will be English content included in Mozilla products or web projects (e.g., marketing campaigns) that makes references to American culture and concepts. When translating these, it is best to find an equivalent cultural reference within your own culture that accurately conveys the meaning of the English reference. For example, an American might say, "Good job, home run!" A home run is a baseball reference for a successful outcome. An appropriate translation would be an equivalent metaphor within your culture. Using soccer as an example, you might translate "Good job, home run!" into "Good job, nice goal!" in your language.
+Það kemur fyrir að efni á ensku í vörum og vefsíðum Mozilla gera tilvísanir í amerísk menningarhugtök. Þegar þýða á slíkan texta er best að reyna að finna sambærilegt menningarlegt fyrirbæri í íslensku sem færir sömu merkingu og sú enska. Sem dæmi gæti Ameríkani sagt, "Good job, home run!" en það er vísar í velgengi í hafnarbolta. Eðlileg þýðing myndi gera sambærilega myndlíkingu í íslenskri menningu. Ef við tökum yfirfærslu í golf sem dæmi, þá myndi þýðingin "Good job, home run!" verða á við "vel gert, hola í höggi!"
 
-*Add a note about Mozilla culture.*
+## Lagalegur text
 
-## Legal content
+Verkefni Mozilla hafa yfirleitt eitthvað lagalegan texta, t.d. í formi notandaskilmála, friðhelgisyfirlýsinga og þess háttar. Þýða ætti slíkan texta í samhengi við þá nákvæmni, færni, stíl og orðanotkun sem fjallað er um í þessum þýðingavísi og í samhengi við menningu og gildi Mozilla.
 
-Mozilla projects will often contain legal content in the form of user agreements, privacy statements, etc. When reviewing the translation of legal content, Mozilla localizers should do so according to the criteria concerning accuracy, fluency, style, and terminology found within this style guide and according to Mozilla culture and values.
+## Færni
 
-## Fluency
+Til að enda með náttúrulega þýðingu ætti ekki að fylgja í blindni reglum um málfræði, stafsetningu og greinarmerki, heldur þarf að forðast að textinn verði óljós, skorti samræmi eða samhengi, eða verði einfaldlega óskiljanlegur.
 
-To produce a fluent translation, not only should the translation follow the language's standard grammar, punctuation, and spelling rules, but it should avoid being ambiguous, incoherent, or inconsistent, and unintelligible.
+Til að koma í veg fyrir að texti verði óljós þarf þýðandinn að skilja vel þá merkingu sem býr í upprunatextanum, þ.m.t. tilvísanir sem gætu leynst í honum. Til dæmis ef enski upprunatextinn notar orðið "it" til að vísa í eitthvað, þarf þýðandinn að vita nákvæmlega hvað það er til að geta framreitt skýra þýðingu. Það að skilja upprunatextann gefur líka þýðandanum færi á að nota rökfræðilegan framgang upprunatextans í þýðingunni, sem hjálpar henni að halda samhengi.
 
-To avoid ambiguity, the translator must thoroughly understand the meaning behind the source text, including any references that text might include. For example, if the English source text uses the word, "it", the translator must know what "it" is to avoid an ambiguous translation. Clearly understanding the source text will also allow a translator to make the source text's logical connections in their own translation. This helps to keep the translation coherent.
+Ósamræmi getur birst í mörgum myndum. Þýðandi þarf að gæta samræmis þegar notaðar eru styttingar, vísanir og tenglar innan hvers verkefnis sem stendur til að þýða. Þessir hlutir verða einnig að vera í samræmi við hvernig Mozilla notar þá og hvernig samþykkt hefur verið að nota þá í þýðingarvísum annarra þýðingarsamfélaga. Eins og á við um hvaða hugtök skal nota, ættu skammstafanir að koma frá viðurkenndri heimild (t.d. skammstafanaorðabók) eða fylgja algildum reglum tungumálsins um hvernig á að skammstafa. Þegar skammstöfun hefur einu sinni verið notuð þarf að gæta þess að hún sé gerð eins alls staðar þar sem hún kemur fyrir síðar meir. Millivísanir (og tenglar) ættu að vera gerðar eins í gegnum alla þýðinguna. Komi fyrir tengill (URL) í viðaukagrein sem er á ensku ætti þýðingin að innihalda tengil á þýdda útgáfu af þessari viðaukagrein, sé hún til, eða þá viðaukagreinina á upprunamálinu. Tenglar ættu ekki að áframsendast milli síða, né þá vera ónýtir.
 
-Inconsistency can pop up in many forms. A translator must be consistent in their use of abbreviations, references, and links within each localization project. They must also be consistent with Mozilla and the localization communities' style guides and approved terminology. Abbreviations, like terminology, should come from either a standard reference (like a dictionary of abbreviations) or should follow your language's rules for creating abbreviations. Once used, the abbreviation must remain consistent every place that it is used in the translation. Cross-references (or links) must also be consistently used within a translation. If a text contains a hyperlink URL to a support article in English, the translation should also contain a hyperlink to a translation of that support article (if available) or the English version. Links should not redirect to other pages nor should they be broken and unusable.
-
-Finally, there are times that a translation simply doesn't make sense. It's hard to put your finger on what exactly is wrong with it, but you know it is unintelligible and not fluent. While this is uncommon, it's important to report these unintelligible translations and offer suggestions to correct them.
+Svo getur komið fyrir að þýðing sé erfitt að skilja fullkomnlega. Það getur jafnvel verið erfitt að segja hvað sé nákvæmlega að, en tilfinningin fyrir því að hún sé ruglingsleg og óþjál sé samt til staðar. Þó slíkt sé óalgengt, þá er mikilvægt að benda á þær þýðingar sem virka svona á mann og koma með uppástungur um lagfæringar.
