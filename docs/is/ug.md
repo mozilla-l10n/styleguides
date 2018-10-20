@@ -94,7 +94,7 @@ Passa þarf uppá að sérhljóðar séu í réttri stafrófsröð: a, á, e, é
 
 ## Tilvitnanir
 
-Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út. 
+Nota skal gæsalöpp sem er niðri og bendir út í byrjun tilvitna. Loka skal tilvitnuninni með því að nota gæsalöpp sem er uppi og bendir út.
 
 Dæmi: „Hér er tilvitnun.“
 
