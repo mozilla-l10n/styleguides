@@ -14,6 +14,7 @@
 * [Ritreglur Árnastofnunar](http://www.arnastofnun.is/page/ritreglur)
 * [Orðabók.is](http://www.ordabok.is/)
 * [Tölvuorðabók Skýrslutæknifélags Íslands](http://tos.sky.is/)
+* [Beygingarlýsing íslensks nútímamáls] (http://bin.arnastofnun.is/forsida/)
 
 ## Innihald
 
