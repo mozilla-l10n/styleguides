@@ -34,6 +34,7 @@
 * [Hindi (hi-IN)](hi-IN/README.md)
 * [Icelandic (is)](is/README.md)
     * [Style](is/style.md)
+    * [Brand Names](is/brandnames.md)
     * [Terminology](is/term.md)
     * [Units and Grammar](is/ug.md)
     * [General Mozilla L10n Style](is/general.md)
