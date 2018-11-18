@@ -19,6 +19,7 @@
     * [Sentence-level Guidelines](bm/sl.md)
     * [Appendix](bm/appendix.md)
 * [Bengali, Bangladesh (bn-BD)](bn-BD/README.md)
+* [Burmese (my)](my/README.md)
 * [Chinese, Simplified (zh-CN)](zh-CN/README.md)
     * [SUMO Style Guide](zh-CN/sumo.md)
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
