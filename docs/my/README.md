@@ -1,20 +1,12 @@
-# Style Guide Burmese (my)
+# ​ဘာသာပြန်စတိုင်လမ်းညွှန် (my)
 
 ## မိတ်ဆက်
+Mozilla ထုတ်ကုန်များ ဘာသာပြန်ရာတွင် အောက်ပါ အချက်အလက်များကို ကြိုတင်သိရှိ ထားခြင်းသည် ဘာသာပြန်ခြင်း ကို ပိုမို တိကျစေပြီး လျှင်မြန်လွယ်ကူစေပြီး ​ထုတ်ကုန်များ၏ သုံးဆွဲခြင်းအား ပိုမိုကောင်းမွန်စေပါသည်။
 
-Style guides define the standard against which we determine a translation's quality. They contain rules that are both defined by Mozilla and by Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation's quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture. Some examples of international style guides created by other organizations are:
-
-[https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
-[https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
-[https://www.facebook.com/translations/style_guides](https://www.facebook.com/translations/style_guides)
-
-This style guide is broken up into two main parts: the first contains rules that are language-specific and must be defined by each Mozilla l10n community (covering language-specific style, terminology, and units); the second contains general rules that Mozilla has defined for translators of all languages that can help you translate well (covering principles of accuracy and fluency). Please adapt part one of this style guide to your l10n community's rules for style, terminology, and units. Wherever possible, refer to existing national standards for units, spelling, and grammar in your community's adaptation of the first part of this style guide.
-
-## Language-specific Mozilla style
-
-### ပုံစံ
-
-Your localization community's style is largely up to you to define. It is a part of your community's instructions and standards for translating strings within each project type. Style encompasses various elements, such as formality, tone, natural expression, handling cultural references, idioms, or slang, and maintaining consistency with Mozilla and 3rd party branding and style guides. Your localization community should define these style elements for localizing Mozilla projects into your language. Let's go through these main aspects of Style.
+## ​Pontoon ​ဆိုင်ရာ
+*   [ _ , -’;`!] Punctuation ပုဒ်ဖြတ်ပုဒ်ရပ်။    ။စာတစ်ကြာင်းတွင် ပုဒ်ဖြတ်ပုဒ်ရပ်များ ပါနေပါက သင့်လျော်သော ဗမာစာ ပုဒ်ဖြတ်ရှိပါက အသုံးပြုနိုင်ပြီး မရှိပါက ၎င်းမူရင်း ပုဒ်ဖြတ် ပုဒ်ရပ်ကို ပြန်လည်ကူးယူနိုင်ပါသည်
+*   [ <a href="%(link)s"></a> ] XML Tags။    ။ စာကြောင်းအား ဘာသာပြန်ဆိုပြီးပါ က ၎င်းတို့အား သင့်လျော်သော အချက်အလက်အား ဝန်းရံ ကူးယူပေးပါ၊ XML tags အများစုသည် ဝက်ဘ် ပေါ်သို့ အခြား တစ်နေရာသို့ ခေါ်ဆောင်သွားလေ့ရှိပြီး ဝန်းရံခံရသော စာစုသည် ၎င်းသယ်ဆောင်သွားမည့်နေရာ အကြောင်းသို့ ဆီလျော်သော စာစု ဖြစ်ရမည်။
+*   [ FQA ] စာလုံးအကြီး စကားစုများ။    ။ ၎င်းတို့သည် အများအားဖြင့် အရေးကြီးသော ဘုံအသုံးအနှုန်းများ ဖြစ်သည့် အပြင် အတိုကောက်များ လည်း ဖြစ်သည့် အတွက် ဘာသာမပြန်ဆိုပဲ ပြန်လည် ကူးယူပေးသင့်ပါတယ်။
 
 #### Formality and Tone
 
