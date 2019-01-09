@@ -6,6 +6,8 @@ This style guide provides instruction for translating to the Czech locale. This 
 
 In addition to this style guide, please also read our [glossary](glossary.md). Words like "kliknout" and "storno" may look trivial to you, but in fact those apply to the world of MS Windows only. In multiplatform Mozilla products we use "klepnout" and "zrušit". Some terminology may be specific directly to the product, in Firefox e.g. "záložky" ("bookmarks") or "panely" ("tabs"). Please read and use our [glossary](glossary.md) or [Transvision](https://wiki.l10n.cz/Transvision) whenever you are in doubt.
 
+If you prefer to read the style guide in Czech, there is the [L10N.cz style guide](https://wiki.l10n.cz/Stylistick%C3%A1_p%C5%99%C3%ADru%C4%8Dka), which was created base on this one, but in may differ in less or more important parts.
+
 ## Czech language in a nutshell
 
 Czech is a West Slavic language. It’s close to Polish, Sorbian and very closely related to Slovak to the point of mutual intelligibility. Similar to other Slavic languages, nouns, verbs and adjectives are inflected. The inflection rules are complex, depending on grammatical case, gender, number, tense, person, and more.
