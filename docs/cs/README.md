@@ -23,4 +23,4 @@ Mozilla používá nespočet formátů (např. [Fluent](https://mozilla-l10n.git
 
 ## Kontakt
 
-Pokud v těchto materiálech narazíte na jakoukoliv nejasnost nebo nesrovnalost, neváhejte kontaktovat [český lokalizační tým](https://l10n.mozilla.org/teams/cs).
+Pokud v těchto materiálech narazíte na jakoukoliv nejasnost nebo nesrovnalost, neváhejte kontaktovat [český lokalizační tým](https://www.mozilla.cz/o-nas/#kontakt).
