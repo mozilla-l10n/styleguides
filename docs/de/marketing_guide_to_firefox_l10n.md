@@ -23,7 +23,6 @@ Firefox als Marke vereint den Firefox Ethos und die sich erweiternde Bandbreite 
 
 (Mozilla ist dabei die Non-Profit-Organisation, die hinter Firefox steht.)
 
-
 **Brand promise:**
 * Firefox fights for you
 
@@ -87,8 +86,8 @@ Ganz im Sinne des Community-Gedankens verwenden wir “du”. Das ist unkomplizi
 
 “Du” wird dabei – außer natürlich am Satzanfang –  **klein** geschrieben.
 
-
 ## Glossar
+
 ### Immer wiederkehrende Schreibweisen bei Firefox Englisch-Deutsch
 
 Die hier aufgeführten Begriffe werden häufig in unserer Kommunikation verwendet. Und sollten aus Konsistenzgründen bevorzugt eingesetzt werden.
@@ -190,8 +189,8 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Anglizismen //English Words in German|Es können Anglizismen verwendet werden. Als Grundregel gilt hier: Die Ausdrücke sollten geläufig und allgemeinverständlich sein. Ansonsten sollten sie weiter ausgeführt werden. Oder durch einen gleichbedeutenden deutschen Ausdruck ersetzt werden.<br><br>Englisch-Deutsche Wortkombinationen werden mit Bindestrichen angebunden. Beispiel: Open-Source-Initiative|
 |Metaphern und Sprichwörter //Metaphors and sayings|1:1 Übersetzung nur wenn möglich. Ansonsten durch eine in die gleiche Richtung gehende Umschreibung.|
 
-
 ### Allgemeine Schreibweisen
+
 |Format||
 |----|----|
 |Datum //Dates| Numerisch: TT.MM.JJJJ – 06.03.2017 Im Fließtext: 6. März 2017, eine vorangestellte Null kann eingefügt werden. <br>Beispiel: 06.03.|
