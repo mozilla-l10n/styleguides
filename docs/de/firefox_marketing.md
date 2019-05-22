@@ -2,16 +2,16 @@
 
 Dieses Dokument soll die Erstellung und Lokalisierung von Texten erleichtern – für optimal aufbereitete und konsistente Inhalte. Wichtig hierfür sind:
 
-* [eine zielgruppengerechte und markenspezifische Ansprache](Persönlichkeit & Tonalität)
-* [durchgängig geregelte Schreibweisen](Glossar)
+* [Persönlichkeit & Tonalität](#pers%C3%B6nlichkeit--tonalit%C3%A4t)
+* [Glossar](#glossar)
 
 Das Dokument spiegelt den aktuellen Stand wieder. Unsere Marke entwickelt sich aber immer weiter, sodass Aktualisierungen weiterhin vorgenommen werden.
 
-**Warum ist dieser Guide wichtig für die Lokalisierung unserer Texte?**
+## Warum ist dieser Guide wichtig für die Lokalisierung unserer Texte?
 
 Unsere Texte sollen nicht nur eins zu eins übersetzt werden, sondern unsere Markenpersönlichkeit und Tonalität widerspiegeln und für den kulturellen und linguistischen Hintergrund optimiert werden. Die emotionale Intention des Ausgangstextes soll adaptiert werden.
 
-Unsere [Markeneigenschaften](Unsere Markeneigenschaften/Firefox Brand Personality) bestimmen dabei die Tonalität der englischen als auch deutschen Fassung. Dieser Guide soll dabei helfen, Firefox als Marke besser zu verstehen, um ein besseres Gefühl dafür zu bekommen, wie die Texte in der deutschen Sprache klingen sollen. Außerdem teilen wir hier festgelegte, unternehmensspezifische Schreibweisen, die den Lokalisierungsprozess erleichtern sollen.
+Unsere [Markeneigenschaften](#unsere-markeneigenschaftenfirefox-brand-personality) bestimmen dabei die Tonalität der englischen als auch deutschen Fassung. Dieser Guide soll dabei helfen, Firefox als Marke besser zu verstehen, um ein besseres Gefühl dafür zu bekommen, wie die Texte in der deutschen Sprache klingen sollen. Außerdem teilen wir hier festgelegte, unternehmensspezifische Schreibweisen, die den Lokalisierungsprozess erleichtern sollen.
 
 ## About Firefox – wer wir sind
 
@@ -24,12 +24,14 @@ Firefox als Marke vereint den Firefox Ethos und die sich erweiternde Bandbreite 
 (Mozilla ist dabei die Non-Profit-Organisation, die hinter Firefox steht.)
 
 **Brand promise:**
-* Firefox fights for you
+
+Firefox fights for you
 
   (Wichtig: Dieser Claim wird nie ins Deutsche übersetzt. Wir benutzen ihn in der deutschen Kommunikation ebenfalls auf englisch)
 
 **Wofür kämpfen wir:**
-* Firefox kämpft für seine Nutzer – mit Produkten die ihnen auch online die Kontrolle über Leben geben.
+
+Firefox kämpft für seine Nutzer – mit Produkten die ihnen auch online die Kontrolle über Leben geben.
 
 **Firefox Produkte:**
 * Firefox Quantum (Desktop-Browser)
@@ -62,6 +64,8 @@ Conscious Choosers:
 
 Unsere Marken- Persönlichkeit wird von dem Zusammenspiel dieser Eigenschaften definiert. Je nach Kontext kann eine Eigenschaft deutlicher oder weniger deutlich hervorstechen.
 
+![Firefox Personality Matrix](/images/firefox_marketing/firefox_personality-de.png)
+
 ### Ansprache/Tonalität
 
 Unsere Sprache ist:
@@ -72,8 +76,8 @@ Unsere Sprache ist:
 |**prägnant**|Wir mögen kurze Headlines, Sätze und eindeutige Call-to-Actions. Wichtige Keyword holen wir nach vorn. <br>Komplizierte Satzkonstruktionen oder Sätze ohne Mehrwert versuchen wir zu vermeiden.</br>|
 |**authentisch**|Unsere Texte sind – wie unsere Produkte – von Menschen für Menschen gemacht. Wir sprechen mit Unseren Usern auf Augenhöhe und benutzen eine natürliche Sprache. Wir wissen wovon wir reden, aber wir tun auch nicht so als wüssten wir immer alles.|
 |**natürlich**|Passivsätze nur sparsam verwenden und lieber in Aktivform schreiben. Nominalstil vermeiden. Lieber zwei kurze Sätze als einen langen.|
-|**respektvoll**|ohne zu formal zu klingen|
-|**humorvoll**|ohne zu flapsig oder cheesy  zu werden|
+|**respektvoll**|Ohne zu formal zu klingen|
+|**humorvoll**|Ohne zu flapsig oder cheesy  zu werden|
 |**relevant**|User sollen auf den ersten Blick erkennen können, was sie von dem Text/Inhalt erwarten können und in der Lage sein einen persönlichen Bezug zu sehen. Wir holen den User dort ab, wo er gerade ist. Kulturelle Anspielungen müssen Sinn machen und zum Markt passen.
 |**Optimistisch und motivierend**|Wir glauben an eine gute Zukunft für das Internet. Wir sprechen zwar über das, was nicht so gut läuft, aber wir enden immer mit einem positiven Ausblick.|
 |**Kreativ**|Auch wenn Information und Klarheit an erster Stelle steht, zeigen wir uns gern auch sprachlich innovativ. Wir wollen niemals langweilig klingen und versuchen Marketing-Klischées zu vermeiden.|
@@ -94,9 +98,9 @@ Die hier aufgeführten Begriffe werden häufig in unserer Kommunikation verwende
 
 Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.org/?recherche=search+choice&repo=mozilla_org&sourcelocale=en-US&locale=de&search_type=strings) konsultiert werden. Da in der Suche aber häufig auch ältere Übersetzungs-Versionen in der Ergebnisliste (oft noch mit der formalen Ansprache) angezeigt werden, dient dieses Tools eher als Orientierungshilfe.
 
-**Folgende Begriffe und Schreibweisen gelten jedoch immer:**
+### Folgende Begriffe und Schreibweisen gelten jedoch immer:
 
-|Term||
+|English Term|Translation|
 |-----|-----|
 |Activity Stream|Activity Stream|
 |Add-ons Extensions|Add-ons Erweiterungen<br>[Mehr darüber](https://wiki.mozilla.org/Add-ons/Terminology)|
@@ -179,22 +183,22 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 
 ### Unternehmensspezifische Schreibweisen:
 
-|Content type||
+|Content type|Spelling|
 |----|----|
 |Unternehmensname // Company name|Der Markenname wird aus Alleinstellungsgründen nie per Bindestrich angebunden.<br><br>Beispiel:<br>Firefox Team statt ~~Firefox-Team~~<br><br>Einzige Ausnahmen:<br>Firefox-Konto<br>und<br>Firefox-Produkte<br><br>Gleiches gilt für Mozilla:<br>Mozilla Team statt ~~Mozilla-Team~~<br><br>Außerdem wird Mozilla Im Fließtext stets so ausgeschrieben. Nicht erlaubt ~~moz://a~~|
-|Claims //Taglines für Firefox|[Firefox fights for you](https://www.mozilla.org/de/firefox/fights-for-you/) (Achtung: wird nicht übersetzt, sondern bleibt Englisch)<br><br>Weniger Big-Tech, mehr Good-Tech<br><br> Wir kämpfen für ein besseres Internet – mit Produkten, die Dir auch online die Kontrolle über Dein Leben geben.<br><br>Firefox respektiert Deine Privatsphäre und macht es Dir leicht, Deine Daten zu schützen. <br><br>Du entscheidest, was Du teilst und wann.<br><br>Deine Daten gehören Dir. Wir verkaufen sie niemals.<br><br>Für Menschen, statt für Profit.|
-|Website und Blog-URL’s|Für einen verbesserten Lesefluss entfällt im Fließtext entfällt das www.<br><br>Beispiel: mozilla.org<br><br>Entsprechend entfällt bei Blogs oder beispielsweise dem MDN das https:// im Fließtext.<br><br>Beispiel: blog.mozilla.org/ und developer.mozilla.org/de/|
+|Claims // Taglines für Firefox|[Firefox fights for you](https://www.mozilla.org/de/firefox/fights-for-you/) (Achtung: wird nicht übersetzt, sondern bleibt Englisch)<br><br>Weniger Big-Tech, mehr Good-Tech<br><br> Wir kämpfen für ein besseres Internet – mit Produkten, die Dir auch online die Kontrolle über Dein Leben geben.<br><br>Firefox respektiert Deine Privatsphäre und macht es Dir leicht, Deine Daten zu schützen. <br><br>Du entscheidest, was Du teilst und wann.<br><br>Deine Daten gehören Dir. Wir verkaufen sie niemals.<br><br>Für Menschen, statt für Profit.|
+|Website und Blog-URL’s|Für einen verbesserten Lesefluss entfällt im Fließtext entfällt das www<br><br>Beispiel: mozilla.org<br><br>Entsprechend entfällt bei Blogs oder beispielsweise dem MDN das https:// im Fließtext.<br><br>Beispiel: blog.mozilla.org/ und developer.mozilla.org/de/|
 |Social Media URL’s|**Firefox**<br>https://twitter.com/firefox.de<br>https://www.facebook.com/Firefox<br>https://www.youtube.com/user/firefoxchannel<br><br>**Mozilla**<br>https://twitter.com/mozilla<br>https://www.facebook.com/mozilla<br>https://www.instagram.com/mozillagram/de<br><br>In der Kommunikation werden hier idealerweise jeweils das entsprechende Icon für den jeweiligen Kanal samt Handle kommuniziert.|
-|Fremdmarken //Third party brands|Die Schreibweise von Fremdmarken wird jeweils 1:1 von der jeweiligen Marke übernommen.<br><br>Beispiel: Vidyo|
-|Anglizismen //English Words in German|Es können Anglizismen verwendet werden. Als Grundregel gilt hier: Die Ausdrücke sollten geläufig und allgemeinverständlich sein. Ansonsten sollten sie weiter ausgeführt werden. Oder durch einen gleichbedeutenden deutschen Ausdruck ersetzt werden.<br><br>Englisch-Deutsche Wortkombinationen werden mit Bindestrichen angebunden. Beispiel: Open-Source-Initiative|
+|Fremdmarken // Third party brands|Die Schreibweise von Fremdmarken wird jeweils 1:1 von der jeweiligen Marke übernommen.<br><br>Beispiel: Vidyo|
+|Anglizismen // English Words in German|Es können Anglizismen verwendet werden. Als Grundregel gilt hier: Die Ausdrücke sollten geläufig und allgemeinverständlich sein. Ansonsten sollten sie weiter ausgeführt werden. Oder durch einen gleichbedeutenden deutschen Ausdruck ersetzt werden.<br><br>Englisch-Deutsche Wortkombinationen werden mit Bindestrichen angebunden. Beispiel: Open-Source-Initiative|
 |Metaphern und Sprichwörter //Metaphors and sayings|1:1 Übersetzung nur wenn möglich. Ansonsten durch eine in die gleiche Richtung gehende Umschreibung.|
 
 ### Allgemeine Schreibweisen
 
-|Format||
+|&nbsp;| &nbsp;|
 |----|----|
-|Datum //Dates| Numerisch: TT.MM.JJJJ – 06.03.2017 Im Fließtext: 6. März 2017, eine vorangestellte Null kann eingefügt werden. <br>Beispiel: 06.03.|
-|Uhrzeiten //Time|Uhrzeiten werden mit einer ein- oder zweistelligen Ziffer geschrieben, durch einen Punkt getrennt und mit “Uhr” beendet. <br>Beispiel: 16.00 Uhr|
+|Datum // Dates| Numerisch: TT.MM.JJJJ – 06.03.2017 Im Fließtext: 6. März 2017, eine vorangestellte Null kann eingefügt werden. <br>Beispiel: 06.03.|
+|Uhrzeiten // Time|Uhrzeiten werden mit einer ein- oder zweistelligen Ziffer geschrieben, durch einen Punkt getrennt und mit “Uhr” beendet. <br>Beispiel: 16.00 Uhr|
 |Zahlen  // Numbers|Zahlen bis zwölf werden im Fließtext immer ausgeschrieben.<br><br>Zahlen-Wortkombinationen richten sich nach dem Duden.<br><br>Tausenderstellen werden mit Punkten getrennt, das Komma ist das Dezimaltrennzeichen|
 |Bindestriche // Hyphens|Bei Zahl-Wort-Kombinationen: 80-prozentig<br><br>Deutsch-Englisch-Kombinationen: Non-Profit-Organisation<br><br>Für bessere Lesbarkeit: Desktop-Browser|
 |Gedankenstriche|Option + Bindestrich = Gedankenstrich (- vs. –)|
@@ -209,7 +213,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 
 ### Überschriften, Aufzählungen und Formatierungen
 
-| Format  |   |
+|&nbsp;| &nbsp;|
 |----|----|
 |H1 / H2 / H3|In der Regel beginnen alle Headlines mit einem Großbuchstaben und werden ohne Punkt beendet. Idealerweise sollten sie eine Zeilenlänge nicht überschreiten.|
 |Headlines in Videos // Headlines in Videos|Auch diese beginnen mit einem Großbuchstaben und werden ohne Punkt beendet. Beispiel [hier](https://www.youtube.com/watch?v=C2_BQ0PhEM8).|

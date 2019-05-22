@@ -53,12 +53,14 @@ Conscious Choosers:
 
 | **Attribute** | **Firefox Brand Personality** |
 | --- | --- |
-| Opinionated | **Firefox acts out of conviction and takes clear positions with confidence.**  <br><br>Our products show that our motivation derives from our brand vision. Our brand ethos is at the root of everything we do. And that’s what we want to communicate to our users and partners.|
-| Open | **Firefox thinks that the internet should be open, accessible and safe for everyone.**  <br><br>We strive for open conversation and collaboration. We are: Open minded. Open-hearted. Open source. A global perspective is an integral part of our brand. We speak many languages and try to take different perspectives.|
-| Kind | **Firefox anticipates needs, offering solutions and alternatives where users’ freedom and rights are threatened or abused.**  <br><br>We want the best for our users and the world, so we lead by example. We develop better products, we start dialogues, we work openly and with others, we educate ourselves and others, and we inform our users. In doing so, we act empathically toward all people.|
-| Radical | **Firefox questions the status quo and common practices of tech giants and struggles with confidence for a better internet.**  <br><br>Looking optimistically into the future of the internet is a radical act. Bringing users’ needs before our own is just as radical. We challenge the status quo because we think it’s the right thing to do.|
+| Opinionated | **Firefox acts out of conviction and takes clear positions with confidence.**<br><br>Our products show that our motivation derives from our brand vision. Our brand ethos is at the root of everything we do. And that’s what we want to communicate to our users and partners.|
+| Open | **Firefox thinks that the internet should be open, accessible and safe for everyone.**<br><br>We strive for open conversation and collaboration. We are: Open minded. Open-hearted. Open source. A global perspective is an integral part of our brand. We speak many languages and try to take different perspectives.|
+| Kind | **Firefox anticipates needs, offering solutions and alternatives where users’ freedom and rights are threatened or abused.**<br><br>We want the best for our users and the world, so we lead by example. We develop better products, we start dialogues, we work openly and with others, we educate ourselves and others, and we inform our users. In doing so, we act empathically toward all people.|
+| Radical | **Firefox questions the status quo and common practices of tech giants and struggles with confidence for a better internet.**<br><br>Looking optimistically into the future of the internet is a radical act. Bringing users’ needs before our own is just as radical. We challenge the status quo because we think it’s the right thing to do.|
 
 The Firefox Brand Personality is defined by the interaction of these attributes. Depending on the context, an attribute may be more forward or less forward.
+
+![Firefox Personality Matrix](/images/firefox_marketing/firefox_personality-en.png)
 
 ## Tone
 
@@ -79,86 +81,3 @@ Our tone of voice and language choices are:
 ## Glossary of term / Recurring terms (WORK IN PROGRESS)
 
 In case of uncertainties, the [transvision search](https://transvision.mozfr.org/) can also be consulted. However, as the search often shows older versions of translations in the result list (often with the formal address), this tool serves as a guide.
-
-However, the following terms and spellings apply:
-
-| English | Locale equivalent |
-| --- | --- |
-| Activity Stream |  |
-| Extensions  |  |
-| Adblocker |  |
-| Auto-fillForm |   |
-| Browser Engine |   |
-| Browser history |  |
-| Clickbait |   |
-| to champion |   |
-| Console |   |
-| Context Graph |   |
-| Control Tab |  |
-| Corporate control |   |
-| Corporate Powers |   |
-| Customizable search defaults   |   |
-| data breach |   |
-| Debugger |   |
-| Decentralized Internet |   |
-| Decentralization |  |
-| Deep Learning |   |
-| Digital Citizenship |  |
-| Digital Inclusion |  |
-| Desktop Browser |  |
-| Dev Tools |  |
-| Download Firefox |  |
-| Dropdown menu |   |
-| Feature |  |
-| Firefox Privacy Policy |   |
-| Icon |   |
-| Inspector |   |
-| intelligent search suggestions |   |
-| Internet health |  |
-| Internet experience |   |
-| JavaScript-Debugger |  |
-| lean browser |   |
-| Lean Data Toolkit |  |
-| Library |   |
-| limited data |   |
-| local community |   |
-| Memory |   |
-| Mozillian |  |
-| Mozilla Developer Network |  |
-| Multi-process |  |
-| Network |  |
-| Network requests |   |
-| New tab |  |
-| Night mode |   |
-| Non-ProfitNot-for-profitMeet the technology company that puts people before profit. |  |
-| Open Source | |
-| Padding |   |
-| Performance |  |
-| performance panel |   |
-| Privacy |   |
-| Privacy Browsing | |
-| Privacy Policy |   |
-| rebuilt from the ground |   |
-| Responsive Design Mode |   |
-| Scratchpad |   |
-| seamlessly |   |
-| Search Choice |   |
-| Search Engine |   |
-| Search engine options |   |
-| Smarter Sharing |   |
-| Storage Panel |   |
-| Style Editor |   |
-| Tabs |  |
-| Third-party advertisers |   |
-| Technology |   |
-| technology devices |   |
-| Top Sites (new tab) |   |
-| Toolbar |   |
-| Trackers |  |
-| trust and privacy |   |
-| User |  |
-| Volunteer |  |
-| Web Audio |   |
-| Webcam-Cover |   |
-| Web-Innovations |   |
-| Web Literacy |   |
