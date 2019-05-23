@@ -64,7 +64,7 @@ Conscious Choosers:
 
 Unsere Marken- Persönlichkeit wird von dem Zusammenspiel dieser Eigenschaften definiert. Je nach Kontext kann eine Eigenschaft deutlicher oder weniger deutlich hervorstechen.
 
-![Firefox Personality Matrix](/images/firefox_marketing/firefox_personality-de.png)
+![Firefox Personality Matrix](/images/firefox_marketing/firefox_personality_de.png)
 
 ### Ansprache/Tonalität
 
