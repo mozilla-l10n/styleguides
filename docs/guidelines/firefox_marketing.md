@@ -60,7 +60,7 @@ Conscious Choosers:
 
 The Firefox Brand Personality is defined by the interaction of these attributes. Depending on the context, an attribute may be more forward or less forward.
 
-![Firefox Personality Matrix](/images/firefox_marketing/firefox_personality_en.png)
+![Firefox Personality Matrix](../images/firefox_marketing/firefox_personality_en.png)
 
 ## Tone
 
