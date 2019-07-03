@@ -15,7 +15,7 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
 3. 可適度使用成語，但請力求淺顯易懂。
 4. 看不懂的字 / 詞請上 mailing list 問人或上網搜尋，或暫時擱著 / 標記為 fuzzy。
 5. 可適度參考其他廠商的翻譯樣式/內容，但不一定要照著翻（為求一致除外）。
-  * Microsoft: [http://www.microsoft.com/Language/en-US/StyleGuides.aspx](http://www.microsoft.com/Language/en-US/StyleGuides.aspx)
+  * Microsoft: [https://www.microsoft.com/en-us/language/StyleGuides?rtc=1](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1)
 6. 不必句對句、字對字翻譯，可適度依照文化或通順程度或前後語境調整句子順序或作刪減，但這種情況不得與第 1 點牴觸。
   * 例如：英文句法與中文句法常是前後顛倒，請適度調整。
 7. 遇到 "you" 時，一般情形下使用敬語「您」。若原文沒有那麼嚴肅可視情況使用「你」，但產品內仍應使用「您」。
@@ -77,7 +77,7 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
 
 ## MozLinks
 
-1. 開始翻譯時請在標題時間前面加上「[翻譯中]」，文章翻譯完成後改成「[已翻譯]」。翻譯完成後 Mail 至 [mozlinks-zh-editor@googlegroups.com](mozlinks-zh-editor@googlegroups.com) 通知編輯已完成某篇文章翻譯。
+1. 開始翻譯時請在標題時間前面加上「[翻譯中]」，文章翻譯完成後改成「[已翻譯]」。翻譯完成後 Mail 至 [mozlinks-zh-editor@googlegroups.com](https://groups.google.com/forum/#!forum/mozlinks-zh-editor) 通知編輯已完成某篇文章翻譯。
 2. 將翻譯內容寫在轉貼原文下方的 ”中譯：（請在下方翻譯）” 區塊；翻譯區塊下的原文、授權等內容應放在翻譯內容的最後，翻譯者不應做任何更改。
 3. 編輯內容如遇連結或其他語法請參考 Markdown 語法編輯。
   * ”MozLinks” 需要 “[http://mozlinks.moztw.org/](http://mozlinks.moztw.org/)” 連結，則翻譯內容描述為”[MozLinks](http://mozlinks.moztw.org/)”
