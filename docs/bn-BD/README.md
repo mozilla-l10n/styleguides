@@ -45,8 +45,7 @@ Finally, adherence to Mozilla and third-party branding and style guides should b
 
 Here are a few existing term bases we approve of for software/internet terminology and definitions (though not limited to):
 
-    [Microsoft key terms and target languages](https://www.microsoft.com/Language/en-US/Default.aspx)
-    [Pootle's own term list](https://mozilla.locamotion.org/xx/terminology/essential.po)
+    [Microsoft key terms and target languages](https://www.microsoft.com/Language/)
 
     Tips on translating difficult concepts
     Developing new term bases

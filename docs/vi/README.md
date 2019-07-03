@@ -40,14 +40,6 @@
 * Cookie: không dịch
 * Ad-free: không có quảng cáo
 
-### Chú ý riêng với Firefox OS
-
-* Hướng dẫn Flash thiết bị với các ngôn ngữ: [https://l10n.etherpad.mozilla.org/gaia-multilocale](https://l10n.etherpad.mozilla.org/gaia-multilocale)?
-* Gaia là tên mã của giao diện FxOS, những app có tên kiểu dạng "Gaia SMS" thì giữ nguyên tên như app bình thường và thêm Gaia đằng sau. VD: "Tin nhắn Gaia".
-* Firefox OS hỗ trợ nhiều SIM, những string kiểu "SIM {{n}} PIN" dịch thành "Mã PIN của SIM {{n}}".
-* Không dịch các phần trong Developer Menu vì vừa khó dịch chính xác vừa gây cản trở cho lập trình viên khi tham khảo các tài liệu trên Wiki của Mozilla.
-* Có thể dùng chuỗi "ứng dụng này" thay thế cho tên thật của ứng dụng trong chuỗi dịch. VD: "Insert SIM card to use Usage" dịch thành "Cắm SIM để sử dụng ứng dụng này" (tên ứng dụng là Usage).
-
 ### Tên các ứng dụng đi kèm mặc định
 
 * Bluetooth (bluetooth): Bluetooth

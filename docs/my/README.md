@@ -101,8 +101,7 @@ Finally, adherence to Mozilla and third-party branding and style guides should b
 
 Here are a few existing term bases we approve of for software/internet terminology and definitions (though not limited to):
 
-    Microsoft key terms and target languages  https://www.microsoft.com/Language/en-US/Default.aspx
-    Pootle's own term list: https://mozilla.locamotion.org/xx/terminology/essential.po (replace *xx* with a locale code)
+    Microsoft key terms and target languages  https://www.microsoft.com/Language/
 
 You should be consistent in the use of existing reliable appropriate term bases in your language.  These term bases could be developed and approved by the community, or leveraged from another party that adhere to national, international or local standards for software and internet terminology.  Avoid the following:
 

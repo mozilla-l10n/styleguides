@@ -55,7 +55,7 @@ Whenever possible or necessary, please refer to the following resources for exis
 
 * [Transvision](https://transvision.mozfr.org) - Mozilla's software user interface and messages
 * [Wikipedia](https://pl.wikipedia.org) - numerous technological terms
-* [Microsoft key terms and target languages](https://www.microsoft.com/Language/en-US/Default.aspx)
+* [Microsoft key terms and target languages](https://www.microsoft.com/Language)
 
 | English | Polish |
 | --- | --- |

@@ -185,7 +185,7 @@
 
 * [สำนักงานราชบัณฑิตยสภา](http://www.royin.go.th/)
 * [Mozilla L10n Style Guide](https://developer.mozilla.org/en-US/docs/L10n_Style_Guide)
-* [Microsoft Language Portal](https://www.microsoft.com/Language/en-US/Default.aspx)
+* [Microsoft Language Portal](https://www.microsoft.com/Language)
 * [Apple Style Guide](https://help.apple.com/applestyleguide/)
 * [Facebook Language Style Guides](https://www.facebook.com/translations/style_guides)
 
