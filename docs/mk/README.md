@@ -39,7 +39,6 @@
 
 * [Mozilla L10n Style Guide](https://developer.mozilla.org/en-US/docs/L10n_Style_Guide)
 * [Machinery - Metasearch engine for translations](https://pontoon.mozilla.org/machinery/)
-* [Web Localization Dashboard](https://l10n.mozilla-community.org/webdashboard/?locale=mk)
 
 ## Корисни страници
 

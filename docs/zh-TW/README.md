@@ -2,9 +2,9 @@
 
 *若需分享此文件，可使用 [http://bit.ly/MozTW-L10nStyles](http://bit.ly/MozTW-L10nStyles)*
 
-這是由 MozTW 維護的 Mozilla 正體中文（台灣）在地化樣式與翻譯規範文件。除非另有定義，否則這份文件所定義的格式會使用在所有由 MozTW 維護的 Mozilla 產品與網頁內容，在您開始進行貢獻前請先詳讀。若對以下格式有所疑問或意見，請寄信到 [moztw-general@googlegroups.com](moztw-general@googlegroups.com) 並[副本通知 l10n owner](https://moztw.org/about/)，或於 [MozTW 討論區](https://forum.moztw.org/viewforum.php?f=4)提出意見，謝謝。
+這是由 MozTW 維護的 Mozilla 正體中文（台灣）在地化樣式與翻譯規範文件。除非另有定義，否則這份文件所定義的格式會使用在所有由 MozTW 維護的 Mozilla 產品與網頁內容，在您開始進行貢獻前請先詳讀。若對以下格式有所疑問或意見，請寄信到 [moztw-general@googlegroups.com](https://groups.google.com/forum/#!forum/moztw-general) 並[副本通知 l10n owner](https://moztw.org/about/)，或於 [MozTW 討論區](https://forum.moztw.org/viewforum.php?f=4)提出意見，謝謝。
 
-This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] locale. Except noted elsewhere, this style would apply to all MozTW Projects and Mozilla projects/contents maintained by MozTW. Please read carefully before starting contributing. Should you have any question or concern, or if you want to revise, please raise discussion in [moztw-general@googlegroups.com](moztw-general@googlegroups.com) and [CC l10n owner](https://moztw.org/about/), thanks.
+This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] locale. Except noted elsewhere, this style would apply to all MozTW Projects and Mozilla projects/contents maintained by MozTW. Please read carefully before starting contributing. Should you have any question or concern, or if you want to revise, please raise discussion in [moztw-general@googlegroups.com](https://groups.google.com/forum/#!forum/moztw-general) and [CC l10n owner](https://moztw.org/about/), thanks.
 
 -----
 

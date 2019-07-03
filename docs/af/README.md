@@ -32,7 +32,7 @@ The following terminology sources should be used as reference in the translation
 * **Product-specific glossary**, to ensure consistency across all product components.
 * **Previous version product-specific glossary**, to ensure consistency between versions.
 * **Glossaries of other Mozilla products**, to ensure cross-product consistency.
-* **Microsoft glossaries**, to ensure adherence to some of the industry standards. The glossaries can be found at: [http://www.microsoft.com/language/en/us/search.mspx](http://www.microsoft.com/language/en/us/search.mspx).
+* **Microsoft glossaries**, to ensure adherence to some of the industry standards. The glossaries can be found at: [http://www.microsoft.com/Language](http://www.microsoft.com/Language).
 
 ### Terminology not found in the glossary or style guide
 
