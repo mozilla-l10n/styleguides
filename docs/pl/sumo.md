@@ -6,8 +6,6 @@ You can also refer to the [documentation on the SUMO site](https://support.mozil
 
 If you want to introduce changes to this document, [please consult the SUMO localizers first](https://support.mozilla.org/kb/locales/pl)
 
-<!-- toc -->
-
 ## General style
 
 The general style is rather informal, maintaining the relaxed manner of adressing the users of the English original.

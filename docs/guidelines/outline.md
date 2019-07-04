@@ -1,7 +1,5 @@
 # Style guide Language (ab-CD)
 
-<!-- toc -->
-
 > Insert your locale name into the line below and leave it in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language
 
 This style guide provides instruction for translating to the [Your locale name] locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/).
