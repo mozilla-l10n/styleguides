@@ -4,7 +4,7 @@
 
 > Insert your locale name into the line below and leave it in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language
 
-This style guide provides instruction for translating to the [Your locale name] locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md).
+This style guide provides instruction for translating to the [Your locale name] locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/).
 
 > Include other relevant introductory information here, such as a community webpage or contact information.
 
@@ -153,7 +153,7 @@ This style guide provides instruction for translating to the [Your locale name] 
 
 > Please leave the following line in your style guide unless it does not apply to your locale. You may translate it if your style guide is in your language
 
-Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/README.md#copy-rules).
+Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/).
 
 > Is there an international/national standard for capitalization in your language?
 >

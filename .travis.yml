@@ -1,15 +1,33 @@
-language: node_js
-node_js:
+language: rust
+sudo: false
+
+cache:
+  - cargo
+  - directories:
+    - node_modules
+    - $HOME/.nvm/
+
+rust:
   - stable
-after_success:
-  - npm run build
+
+before_install:
+  - nvm install --lts=dubnium # install Node.js 10.x
+  - npm install
+  - npm test # run mozilla-l10n-docs-linter
+
+before_script:
+  - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
+  - (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.3" mdbook)
+  - cargo install-update -a
+
+script:
+  - mdbook build
+
 deploy:
   provider: pages
   skip-cleanup: true
-  local-dir: _book
   github-token: $GITHUB_TOKEN
+  local-dir: book
+  keep-history: false
   on:
     branch: master
-cache:
-  directories:
-    - node_modules

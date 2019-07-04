@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md).
+This style guide provides instruction for translating to the American English locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/).
 
 ## Formality and tone
 
@@ -83,7 +83,7 @@ Area codes are surrounded by parentheses and separated by a space. The Phone num
 
 ## Copy rules
 
-Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/README.md#copy-rules).
+Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/).
 
 ### Firefox for desktop
 
