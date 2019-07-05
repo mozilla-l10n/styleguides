@@ -1,6 +1,6 @@
 # Guidelines for creating community style guides
 
-This document provides step-by-step instructions for creating a community style guide. Community style guides are to be used in coordination with the [Mozilla general localization style guide](../mozilla_general/README.md) but provide additional information that is vital to producing a high-quality translation in the community locale.
+This document provides step-by-step instructions for creating a community style guide. Community style guides are to be used in coordination with the [Mozilla general localization style guide](../mozilla_general/) but provide additional information that is vital to producing a high-quality translation in the community locale.
 
 For creating new style guides, we have prepared a [template](outline.md) you can use. Each heading in the template represents a common style topic in localization. Each topic features one or more questions that pertain to the information of the topic. Below each question is a description of how to answer the question and some examples of relevant information.
 

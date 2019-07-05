@@ -2,8 +2,6 @@
 
 This style guide provides the basic guidelines for translating Mozilla products. This guide should be used in coordination with a locale-specific style guide for your language.
 
-<!-- toc -->
-
 ## Fluency
 
 To produce a fluent translation, not only should the translation follow the language’s standard grammar, punctuation, and spelling rules, but it should avoid being ambiguous, incoherent, inconsistent or unintelligible.
