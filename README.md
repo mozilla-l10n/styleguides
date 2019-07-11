@@ -15,13 +15,13 @@ $ npm test
 
 If you want content to appear on mdBook, it needs to be listed in [doc/SUMMARY.md](doc/SUMMARY.md).
 
-## mdBook
+## GitHub Pages
 
-A version with improved readibility and search is built automatically via Travis using GitBook. Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
+A version with improved readibility and search is built automatically via Travis. Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
 
 If you want to build and preview these pages locally,  [install Rust and cargo](https://www.rust-lang.org/learn/get-started) and then run the following commands from the root of the repository:
 
 ```
-$ cargo install --vers "^0.3" mdbook
+$ cargo install --vers "^0.2" mdbook-toc
 $ mdbook serve
 ```
