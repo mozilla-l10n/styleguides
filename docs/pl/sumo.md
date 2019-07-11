@@ -1,5 +1,7 @@
 # SUMO (support.mozilla.org) Localization Style Guide - Polish
 
+ <!-- toc -->
+
 This guide described common and suggested practices to be used while localizing the support content available on the SUMO (support.mozilla.org) site.
 
 You can also refer to the [documentation on the SUMO site](https://support.mozilla.org/en-US/kb/translating-an-article).
