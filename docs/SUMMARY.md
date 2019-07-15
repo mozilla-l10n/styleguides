@@ -45,6 +45,8 @@
 * [Irish (ga-IE)](ga-IE/README.md)
 * [Italian (it)](it/README.md)
 * [Japanese (ja)](ja/README.md)
+    * [L10n Guideline](ja/l10nguideline.md)
+    * [Editorial Guideline](ja/editorialguideline.md)
 * [Korean (ko)](ko/README.md)
 * [Lao (lo)](lo/README.md)
 * [Macedonian (mk)](mk/README.md)
