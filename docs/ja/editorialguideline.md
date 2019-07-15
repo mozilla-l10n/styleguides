@@ -151,5 +151,5 @@ Mozilla 全体の [ブランディング翻訳のスタイルガイド](http://w
 
 ## 参考
 
-* [Microsoft 日本語スタイルガイド](https://www.microsoft.com/Language/ja-jp/StyleGuides.aspx)
+* [Microsoft 日本語スタイルガイド](https://www.microsoft.com/ja-jp/language/StyleGuides?rtc=1)
 * [JTF 日本語標準スタイルガイド（翻訳用） 第 2.2 版](http://www.jtf.jp/jp/style_guide/styleguide_top.html)
