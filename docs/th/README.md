@@ -165,7 +165,7 @@
 
 ## อภิธานศัพท์ (Glossary)
 
-อภิธานศัพท์สำหรับผลิตภัณฑ์ของ Mozilla ใช้เพื่ออ้างอิงในการแปลผลิตภัณฑ์และคุณลักษณะต่าง ๆ ของ Mozilla ซึ่งจะเป็นเครื่องหมายทางการค้า โดยมีจุดประสงค์เพื่อให้การแปลใช้ชื่อผลิตภัณฑ์ของ Mozilla ตรงกัน
+อภิธานศัพท์สำหรับผลิตภัณฑ์ของ Mozilla ใช้เพื่ออ้างอิงในการแปลผลิตภัณฑ์และคุณลักษณะต่าง ๆ ของ Mozilla โดยมากจะเป็นเครื่องหมายทางการค้า อภิธานศัพท์นี้มีจุดประสงค์เพื่อให้การแปลใช้ชื่อผลิตภัณฑ์ของ Mozilla ตรงกัน
 
 | ต้นฉบับ | คำแปล |
 | --------- | ---- |
@@ -173,14 +173,20 @@
 | Mozilla Foundation | มูลนิธิ Mozilla |
 | Mozilla WebThings | Mozilla WebThings |
 | Firefox | Firefox |
+| Firefox Browser | เบราว์เซอร์ Firefox |
 | Firefox for iOS | Firefox สำหรับ iOS |
+| Firefox for Android | Firefox สำหรับ Android |
 | Firefox Account | บัญชี Firefox |
 | Firefox Developer Edition | Firefox รุ่นนักพัฒนา |
 | Firefox Nightly | Firefox Nightly |
 | Firefox Sync | Firefox Sync |
 | Firefox Focus | Firefox Focus |
-| Facebook Container | Facebook Container |
 | Firefox Monitor | Firefox Monitor |
+| Firefox Premium | Firefox Premium |
+| Tracking Protection | ป้องกันการตามรอย |
+| Firefox Lockbox | Firefox Lockbox |
+| Firefox Send | Firefox Send |
+| Facebook Container | Facebook Container |
 
 ## อ้างอิง
 
