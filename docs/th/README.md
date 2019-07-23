@@ -180,6 +180,7 @@
 | Firefox Sync | Firefox Sync |
 | Firefox Focus | Firefox Focus |
 | Facebook Container | Facebook Container |
+| Firefox Monitor | Firefox Monitor |
 
 ## อ้างอิง
 
