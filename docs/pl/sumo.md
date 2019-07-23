@@ -1,12 +1,12 @@
 # SUMO (support.mozilla.org) Localization Style Guide - Polish
 
+ <!-- toc -->
+
 This guide described common and suggested practices to be used while localizing the support content available on the SUMO (support.mozilla.org) site.
 
 You can also refer to the [documentation on the SUMO site](https://support.mozilla.org/en-US/kb/translating-an-article).
 
 If you want to introduce changes to this document, [please consult the SUMO localizers first](https://support.mozilla.org/kb/locales/pl)
-
-<!-- toc -->
 
 ## General style
 
@@ -55,7 +55,7 @@ Whenever possible or necessary, please refer to the following resources for exis
 
 * [Transvision](https://transvision.mozfr.org) - Mozilla's software user interface and messages
 * [Wikipedia](https://pl.wikipedia.org) - numerous technological terms
-* [Microsoft key terms and target languages](https://www.microsoft.com/Language/en-US/Default.aspx)
+* [Microsoft key terms and target languages](https://www.microsoft.com/Language)
 
 | English | Polish |
 | --- | --- |

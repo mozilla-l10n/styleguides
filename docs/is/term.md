@@ -2,8 +2,7 @@
 
 Hér eru nokkur grunnhugtök sem þegar eru samþykkt fyrir skilgreiningar, hugbúnaðar- og vefhugtök (takmarkast þó ekki við):
 
-* Microsoft lykilhugtök og markmál  <a href="https://www.microsoft.com/Language/en-US/Default.aspx">https://www.microsoft.com/Language/en-US/Default.aspx</a>
-* Hugtakaskrá Pootle: <a href="https://mozilla.locamotion.org/xx/terminology/essential.po">https://mozilla.locamotion.org/xx/terminology/essential.po</a> (skiptið *xx* út fyrir staðarkóða)
+* Microsoft lykilhugtök og markmál  [https://www.microsoft.com/Language/](https://www.microsoft.com/Language/)
 
 Gætið að samræmi í notkun áreiðanlegra hugtakagrunna sem þegar eru til í tungumálinu. Þessi grunnhugtök gætu verið þróuð og samþykkt af samfélaginu eða skipt út úr öðrum hluta sem fylgir þjóðlegum, alþjóðlegum eða staðbundnum venjum fyrir hugbúnaðar- og vefhugtök. Eftirfarandi skal forðast:
 
@@ -16,7 +15,7 @@ Gætið að samræmi í notkun áreiðanlegra hugtakagrunna sem þegar eru til �
 
 Að þýða hugtök sem endurspegla flókin fyrirbæri er vandasamt verkefni. Hér eru nokkrar tillögur til að auðvelda þýðingar á hugtökum sem eiga sér ekki hliðstæður á markmálinu:
 
-* Skilningur á merkingu hugtaksins á ensku. Skilgreiningar á nokkrum lykilatriðum: <a href="http://techterms.com/category/internet">http://techterms.com/category/internet</a>
+* Skilningur á merkingu hugtaksins á ensku. Skilgreiningar á nokkrum lykilatriðum: [http://techterms.com/category/internet](http://techterms.com/category/internet)
 * Þekking á vörunni og skilningur á virkni eiginleikans.
 * Íhugun um svipaðar hugmyndir um þennan eiginleika fyrir viðeigandi málsvæði.
 * Tenging menningarbundinna ímynda við merkingu og eiginleika hugtaks.

@@ -1,8 +1,8 @@
 # Mozilla general localization style guide
 
-This style guide provides the basic guidelines for translating Mozilla products. This guide should be used in coordination with a locale-specific style guide for your language.
+ <!-- toc -->
 
-<!-- toc -->
+This style guide provides the basic guidelines for translating Mozilla products. This guide should be used in coordination with a locale-specific style guide for your language.
 
 ## Fluency
 

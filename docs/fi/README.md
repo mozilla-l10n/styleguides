@@ -8,8 +8,8 @@ Tyyliopas vastaa muutamiin yleisiin tyylikysymyksiin Mozilla-tuotteiden ja Mozil
 
 Esimerkkejä kansainvälisistä tyylioppaista:
 
-* [https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
-* [https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
+* [https://help.apple.com/applestyleguide/](https://help.apple.com/applestyleguide/)
+* [https://www.microsoft.com/en-us/language/StyleGuides?rtc=1](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1)
 
 ## Tyyli
 

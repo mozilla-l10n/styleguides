@@ -2,9 +2,9 @@
 
 Intro Style guides define the standard against which we determine a translation's quality. They contain rules that are both defined by Mozilla and by Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation's quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture. Some examples of international style guides created by other organizations are:
 
-[https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
+[https://help.apple.com/applestyleguide/](https://help.apple.com/applestyleguide/)
 
-[https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
+[https://www.microsoft.com/en-us/language/StyleGuides?rtc=1](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1)
 
 [https://www.facebook.com/translations/style_guides](https://www.facebook.com/translations/style_guides)
 

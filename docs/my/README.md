@@ -55,8 +55,8 @@
 
 Style guides define the standard against which we determine a translation's quality. They contain rules that are both defined by Mozilla and by Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation's quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture. Some examples of international style guides created by other organizations are:
 
-* [https://help.apple.com/asg/mac/2013/ASG_2013.pdf](https://help.apple.com/asg/mac/2013/ASG_2013.pdf)
-* [https://www.microsoft.com/Language/en-US/StyleGuides.aspx](https://www.microsoft.com/Language/en-US/StyleGuides.aspx)
+* [https://help.apple.com/applestyleguide/](https://help.apple.com/applestyleguide/)
+* [https://www.microsoft.com/en-us/language/StyleGuides?rtc=1](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1)
 * [https://www.facebook.com/translations/style_guides](https://www.facebook.com/translations/style_guides)
 
 This style guide is broken up into two main parts: the first contains rules that are language-specific and must be defined by each Mozilla l10n community (covering language-specific style, terminology, and units); the second contains general rules that Mozilla has defined for translators of all languages that can help you translate well (covering principles of accuracy and fluency). Please adapt part one of this style guide to your l10n community's rules for style, terminology, and units. Wherever possible, refer to existing national standards for units, spelling, and grammar in your community's adaptation of the first part of this style guide.
@@ -101,8 +101,7 @@ Finally, adherence to Mozilla and third-party branding and style guides should b
 
 Here are a few existing term bases we approve of for software/internet terminology and definitions (though not limited to):
 
-    Microsoft key terms and target languages  https://www.microsoft.com/Language/en-US/Default.aspx
-    Pootle's own term list: https://mozilla.locamotion.org/xx/terminology/essential.po (replace *xx* with a locale code)
+    Microsoft key terms and target languages  https://www.microsoft.com/Language/
 
 You should be consistent in the use of existing reliable appropriate term bases in your language.  These term bases could be developed and approved by the community, or leveraged from another party that adhere to national, international or local standards for software and internet terminology.  Avoid the following:
 

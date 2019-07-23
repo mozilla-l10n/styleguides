@@ -1,10 +1,10 @@
 # Překladatelský slovník
 
-Pokud překládáte aplikace Mozilly, či některá jejich rozšíření, je nutné, aby se základní termíny překládaly stejně. Uživatelé pak nejsou mateni různými výrazy, které ve skutečnosti znamenají totéž, a překlad je celkově konzistentní.
+ <!-- toc -->
+
+ Pokud překládáte aplikace Mozilly, či některá jejich rozšíření, je nutné, aby se základní termíny překládaly stejně. Uživatelé pak nejsou mateni různými výrazy, které ve skutečnosti znamenají totéž, a překlad je celkově konzistentní.
 
 V níže uvedených tabulkách naleznete základní výrazy, které se v aplikacích často používají, a jejich české ekvivalenty. Další výrazy obsahují [slovníky L10N.cz](https://wiki.l10n.cz/P%C5%99ekladatelsk%C3%BD_slovn%C3%ADk) nebo online [nástroj Transvision](https://transvision.mozfr.org/?locale=cs&t2t=t2t). Pokud máte pocit, že některý běžně používaný výraz ve slovníku chybí, [napište nám prosím](https://www.mozilla.cz/o-nas/#kontakt).
-
-<!-- toc -->
 
 ## Části aplikací
 
