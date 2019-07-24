@@ -52,7 +52,7 @@ Conscious Choosers:
 * entwickeln Vorlieben und Konsumentscheidungen sorgsam und bewusst
 * streben danach, Handlungen mit ihren Werten und Idealen in Einklang zu bringen
 * sind anspruchsvolle Kunden
-* Recherchieren oft selbst, um alle Optionen zu kennen und zu verstehen
+* recherchieren oft selbst, um alle Optionen zu kennen und zu verstehen
 
 ### Unsere Markeneigenschaften/Firefox Brand Personality
 
@@ -79,18 +79,42 @@ Unsere Sprache ist:
 |**natürlich**|Passivsätze nur sparsam verwenden und lieber in Aktivform schreiben. Nominalstil vermeiden. Lieber zwei kurze Sätze als einen langen.|
 |**respektvoll**|Ohne zu formal zu klingen|
 |**humorvoll**|Ohne zu flapsig oder cheesy  zu werden|
-|**inklusiv**|Wir achten auch beim Schreiben darauf, niemanden auszuschließen und wir versuchen Annahmen über die Personen, die unsere Texte lesen, zu vermeiden. <br>Das heißt, wir vermeiden das generische Maskulinum und Formen, die lediglich 2 Geschlechter einbeziehen ( Doppelform, Schrägstrich usw.).</br> <br>[Gendersternchen](https://de.wikipedia.org/wiki/Gendersternchen) und [Gendergap](https://de.wikipedia.org/wiki/Gendergap_(Linguistik)) sind zwar inklusiver, aber eben dennoch auch länger. Durch Neutralisierungen und direkte Ansprachen lässt es sich oft leichter vermeiden, Geschlechtergruppen auszuschließen und gleichzeitig nicht die vorgegebene Zeichenanzahl zu überschreiten.</br> <br>Auch wenn die meisten Leute, die Firefox anspricht, recht Tech-affin sind, erklären wir Begriffe, die unter Umständen nicht eindeutig sind etwas genauer.</br> <br>Wir schreiben mit dem Verständnis dafür, dass wir mit Menschen auf der ganzen Welt – mit unterschiedlichen Lebensumständen, Backgrounds und Erfahrungen – sprechen.</br>|
+|**inklusiv**|Wir achten auch beim Schreiben darauf, niemanden auszuschließen und wir versuchen Annahmen über die Personen, die unsere Texte lesen, zu vermeiden. <br>Das heißt, wir vermeiden das generische Maskulinum und Formen, die lediglich 2 Geschlechter einbeziehen ( Doppelform, Schrägstrich usw.).</br> <br>[Gendersternchen](https://de.wikipedia.org/wiki/Gendersternchen) und [Gendergap](https://de.wikipedia.org/wiki/Gendergap_(Linguistik)) sind zwar inklusiver, aber eben auch länger. Durch Neutralisierungen und direkte Ansprachen lässt es sich oft leichter vermeiden, Geschlechtergruppen auszuschließen. Gleichzeitig ist es leichter die vorgegebene Zeichenanzahl nicht zu überschreiten.</br> <br>Auch wenn die meisten Leute, die Firefox anspricht, recht Tech-affin sind, erklären wir Begriffe, die unter Umständen nicht eindeutig sind etwas genauer.</br> <br>Wir schreiben mit dem Verständnis dafür, dass wir mit Menschen auf der ganzen Welt – mit unterschiedlichen Lebensumständen, Backgrounds und Erfahrungen – sprechen.</br>|
 |**relevant**|Lesende sollen auf den ersten Blick erkennen können, was sie von dem Text/Inhalt erwarten können und in der Lage sein einen persönlichen Bezug zu sehen. Wir holen die Menschen dort ab, wo er gerade ist. Kulturelle Anspielungen müssen Sinn machen und zum Markt passen.|
 |**Optimistisch und motivierend**|Wir glauben an eine gute Zukunft für das Internet. Wir sprechen zwar über das, was nicht so gut läuft, aber wir enden immer mit einem positiven Ausblick.|
 |**Kreativ**|Auch wenn Information und Klarheit an erster Stelle stehen, zeigen wir uns gern auch sprachlich innovativ. Wir wollen niemals langweilig klingen und versuchen Marketing-Klischées zu vermeiden.|
 
-## DU vs. SIE
+### DU vs. SIE
 
 **Firefox**
 
 Ganz im Sinne des Community-Gedankens verwenden wir “du”. Das ist unkomplizierter, emotionaler und aktivierender.
 
 “Du” wird dabei – außer natürlich am Satzanfang –  **klein** geschrieben.
+
+### Tipps für SEO-Texte
+
+* Auch SEO-Texte sollen nicht eins zu eins übersetzt, sondern so lokalisiert werden, dass sie einen Mehrwert für den Leser schaffen und kulturell relevant sind.
+* Titel sollten so spezifisch wie möglich formuliert werden und nicht das Übergeordnete Thema, sondern immer das konkrete Thema beschreiben (Bsp.: geht es um digitale Privatsphäre, sollte im Titel nicht stehen: Alles, was du über Privatsphäre wissen musst.
+
+### Tipps für Blog-Artikel
+
+* Auch hier sollte der Titel so eindeutig wie möglich sein
+* Die ersten 1-2 Sätze werden beim Einbau als Teaser übernommen. Hier sollte der Leser bestenfalls schon erkennen, was im Text etwa abgedeckt wird bzw. Lust bekommen weiterzulesen. (Teaser werden so angezeigt: https://blog.mozilla.org/firefox/de/)
+* Zwischenüberschriften
+
+Beispiel-Posts:
+* https://blog.mozilla.org/firefox/de/firefox-versprechen-fuer-deine-persoenlichen-daten/
+* https://blog.mozilla.org/firefox/de/so-schuetzt-du-deine-daten-auf-reisen/
+* https://blog.mozilla.org/firefox/de/join-firefox/
+* https://blog.mozilla.org/firefox/de/loesche-deinen-digitalen-fingerabdruck-in-firefox/
+* https://blog.mozilla.org/firefox/de/so-blockierst-du-krypto-mining-auf-deinem-computer-mit-firefox/
+* https://blog.mozilla.org/firefox/de/add-ons-fuer-digitalen-fruehjahrsputz/
+* https://blog.mozilla.org/firefox/de/online-tracking-hol-dir-die-kontrolle-zurueck/
+* https://blog.mozilla.org/firefox/de/firefox-fights-for-you/
+* https://blog.mozilla.org/internetcitizen/de/2018/10/29/sichere-zuallererst-deine-passwoerter/
+* https://blog.mozilla.org/firefox/de/das-original-unter-den-alternativen-firefox/
+* https://blog.mozilla.org/firefox/de/firefox-monitor-dein-schutz-vor-hackern/
 
 ## Glossar
 
@@ -140,7 +164,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Internet health|Zustand des Internets|
 |Internet experience|Surf-Erlebnis|
 |JavaScript-Debugger|JavaScript-Debugger|
-|Join Firefox|Join Firefox<br>Komm zu Firefox(nicht auf CTA buttons nutzen, dort wird zwischen Sign in (einloggen) und Sign up (Anmelden oder Konto erstellen) differenziert.</br>|
+|Join Firefox|Join Firefox<br>Komm zu Firefox (nicht auf CTA buttons nutzen, dort wird zwischen Sign in (einloggen) und Sign up (Anmelden oder Konto erstellen) differenziert.</br>|
 |lean browser|schlanker Browser, auf das Wesentliche reduzierter Browser|
 |Lean Data Toolkit|Lean Data Toolkit|
 |Library|Bibliothek|
