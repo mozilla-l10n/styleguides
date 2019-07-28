@@ -28,4 +28,4 @@ Als je geen qwerty-internationaal gebruikt, zijn deze tekens eenvoudig in de ‘
 Voor Linux is er het programma ‘gucharmap’, dat net zo werkt.
 
 Waarschuwing:
-gebruik nooit en te nimmer de accenttekens `(U+0060)` en `(U+00B4)`. Dit zijn geen aanhalingstekens; ze hebben een ander doel en ze zien er anders uit. Het gebruik van deze tekens veroorzaakt bijvoorbeeld ongewenste extra spaties.
+gebruik nooit en te nimmer de accenttekens `(U+0060)` en `(U+00B4)`. Dit zijn geen aanhalingstekens; ze hebben een ander doel en ze zien er anders uit. Het gebruik van deze tekens veroorzaakt bijvoorbeeld ongewenste extra spatiëring.
