@@ -187,6 +187,7 @@
 | Firefox Lockbox | Firefox Lockbox |
 | Firefox Send | Firefox Send |
 | Facebook Container | Facebook Container |
+| Pocket | Pocket |
 
 ## อ้างอิง
 
