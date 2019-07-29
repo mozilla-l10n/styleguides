@@ -15,13 +15,13 @@ Unsere [Markeneigenschaften](#unsere-markeneigenschaftenfirefox-brand-personalit
 
 ## About Firefox – wer wir sind
 
-Firefox ist mehr als nur der Browser. Firefox ist eine Challenger-Brand, die als Herausforderer den Status quo infrage stellt und sich für die Online-Rechte der Nutzer stark macht.
+Firefox ist mehr als nur der Browser. Firefox ist bietet ein ganze Reihe an Produkten, die Menschen dabei helfen sollen, online sicherer zu sein.
 
-Bei allem was wir tun, stellen wir die Rechte und Bedürfnisse der User an die erste Stelle. Und als Tech-Unternehmen stellen wir Menschen immer über Profit.
+Firefox ist eine Challenger-Brand, die als Herausforderer den Status quo infrage stellt und sich für die Online-Rechte der Nutzer stark macht.
 
-Firefox als Marke vereint den Firefox Ethos und die sich erweiternde Bandbreite der Produkte.
+Bei allem was wir tun, stellen wir die Rechte und Bedürfnisse der Menschen, die unsere Produkte nutzen, an die erste Stelle. Und als Tech-Unternehmen stellen wir Menschen immer über Profit.
 
-(Mozilla ist dabei die Non-Profit-Organisation, die hinter Firefox steht.)
+Firefox als Marke vereint den Firefox Ethos und die sich erweiternde Bandbreite der Produkte. (Mozilla ist dabei die Non-Profit-Organisation, die hinter Firefox steht.)
 
 **Brand promise:**
 
@@ -31,14 +31,15 @@ Firefox fights for you
 
 **Wofür kämpfen wir:**
 
-Firefox kämpft für seine Nutzer – mit Produkten die ihnen auch online die Kontrolle über Leben geben.
+Firefox kämpft für seine Nutzer/innen – mit Produkten, die Menschen auch online die Kontrolle über Leben geben.
 
 **Firefox Produkte:**
-* Firefox Quantum (Desktop-Browser)
+* Firefox Browser (Desktop-Browser)
 * Firefox Mobile (für iOS und Android)
-* [Firefox Klar](https://play.google.com/store/apps/details?id=org.mozilla.klar&referrer=adjust_reftag%3DcysPvmkarFCOT%26utm_source%3DProduct%2BMarketing%2B%2528not%2Bads%2529%26utm_campaign%3Dffy_klar)
-* [Firefox Monitor](https://monitor.firefox.com/)
-* [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro&hl=de)
+* [Firefox Send](https://send.firefox.com/) (versendet Dateien bis zu 2.5 GB per verschlüsseltem Link, der automatisch abläuft)
+* [Firefox Monitor](https://monitor.firefox.com/) (überprüft E-Mail-Adressen auf Datenleaks)
+* [Firefox Lockwise](https://lockwise.firefox.com/) (Passwort-Manager)
+* [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro&hl=de) (Qualitätsinhalte aus dem Web)
 * [Firefox Reality](https://mixedreality.mozilla.org/firefox-reality/) (VR Browser)
 
 ## Persönlichkeit & Tonalität
@@ -51,7 +52,7 @@ Conscious Choosers:
 * entwickeln Vorlieben und Konsumentscheidungen sorgsam und bewusst
 * streben danach, Handlungen mit ihren Werten und Idealen in Einklang zu bringen
 * sind anspruchsvolle Kunden
-* Recherchieren oft selbst, um alle Optionen zu kennen und zu verstehen
+* recherchieren oft selbst, um alle Optionen zu kennen und zu verstehen
 
 ### Unsere Markeneigenschaften/Firefox Brand Personality
 
@@ -59,7 +60,7 @@ Conscious Choosers:
 | -------| ---------|
 |opinionated/meinungsstark | **Firefox handelt aus Überzeugung und nimmt selbstbewusst klare Positionen ein.** <br>Unsere Produkte zeigen, dass sich unsere Motivation aus unserer Brand-Vision ableitet. Unser Brand-Ethos liegt allem, was wir tun, zugrunde. Und das wollen wir auch an unsere Nutzern und Partner kommunizieren.</br> |
 |open/offen |**Firefox findet, dass das Internet für alle zugänglich und sicher sein sollte und strebt immer ein offenes Gespräch oder eine Zusammenarbeit an.** <br>Open-minded. Open-hearted. Open source. Eine globale Perspektive ist fester Bestandteil unserer Marke. Wir sprechen viele Sprachen und bemühen uns darum verschiedene Blickwinkel einzunehmen.</br>|
-|kind/einfühlsam|**Firefox antizipiert Bedürfnisse und bietet dort Lösungen und Alternativen an, wo Freiheit und Rechte der User bedroht sind oder missbraucht werden können.** <br>Wir wollen das Beste für unsere Nutzer und die Welt. Also gehen wir mit gutem Beispiel voraus: wir entwickeln bessere Produkte, wir starten Dialoge, wir arbeiten offen und mit anderen zusammen, wir bilden uns und andere weiter und wir informieren unsere Nutzer. Dabei handeln wir allen Menschen gegenüber empathisch.</br>|
+|kind/einfühlsam|**Firefox antizipiert Bedürfnisse und bietet dort Lösungen und Alternativen an, wo Freiheit und Rechte der Menschen, die das Web nutzen, bedroht sind oder missbraucht werden können.** <br>Wir wollen das Beste für unsere Nutzer und die Welt. Also gehen wir mit gutem Beispiel voraus: wir entwickeln bessere Produkte, wir starten Dialoge, wir arbeiten offen und mit anderen zusammen, wir bilden uns und andere weiter und wir informieren unsere Nutzer. Dabei handeln wir allen Menschen gegenüber empathisch.</br>|
 |radical/radikal|**Firefox stellt den Status quo und gängige Praktiken der Tech-Giganten infrage und kämpft mit Zuversicht für ein besseres Internet.** <br>Optimistisch in die Zukunft des Internets zu schauen, ist ein radikaler Akt. Die Bedürfnisse der Nutzer vor unsere eigenen zu stellen ist ebenso radikal. Wir rütteln am Status quo, weil wir finden, dass es richtig ist.</br>|
 
 Unsere Marken- Persönlichkeit wird von dem Zusammenspiel dieser Eigenschaften definiert. Je nach Kontext kann eine Eigenschaft deutlicher oder weniger deutlich hervorstechen.
@@ -72,23 +73,48 @@ Unsere Sprache ist:
 
 |Ansprache|Tonalität|
 |-----|----|
-|**Direkt, deutlich, einfach verständlich**|Wir wollen, dass sich die User willkommen fühlen und benutzen Wörter und Konzepte, die jeder versteht.|
+|**Direkt, deutlich, einfach verständlich**|Wir wollen, dass sich die Menschen, mit den wir sprechen, willkommen fühlen und benutzen Wörter und Konzepte, die jeder versteht.|
 |**prägnant**|Wir mögen kurze Headlines, Sätze und eindeutige Call-to-Actions. Wichtige Keyword holen wir nach vorn. <br>Komplizierte Satzkonstruktionen oder Sätze ohne Mehrwert versuchen wir zu vermeiden.</br>|
-|**authentisch**|Unsere Texte sind – wie unsere Produkte – von Menschen für Menschen gemacht. Wir sprechen mit Unseren Usern auf Augenhöhe und benutzen eine natürliche Sprache. Wir wissen wovon wir reden, aber wir tun auch nicht so als wüssten wir immer alles.|
+|**authentisch**|Unsere Texte sind – wie unsere Produkte – von Menschen für Menschen gemacht. Wir sprechen mit den Leuten, die Firefox nutzen, auf Augenhöhe und benutzen eine natürliche Sprache. Wir wissen wovon wir reden, aber wir tun auch nicht so als wüssten wir immer alles.|
 |**natürlich**|Passivsätze nur sparsam verwenden und lieber in Aktivform schreiben. Nominalstil vermeiden. Lieber zwei kurze Sätze als einen langen.|
 |**respektvoll**|Ohne zu formal zu klingen|
 |**humorvoll**|Ohne zu flapsig oder cheesy  zu werden|
-|**relevant**|User sollen auf den ersten Blick erkennen können, was sie von dem Text/Inhalt erwarten können und in der Lage sein einen persönlichen Bezug zu sehen. Wir holen den User dort ab, wo er gerade ist. Kulturelle Anspielungen müssen Sinn machen und zum Markt passen.
+|**inklusiv**|Wir achten auch beim Schreiben darauf, niemanden auszuschließen und wir versuchen Annahmen über die Personen, die unsere Texte lesen, zu vermeiden. <br>Das heißt, wir vermeiden das generische Maskulinum und Formen, die lediglich 2 Geschlechter einbeziehen ( Doppelform, Schrägstrich usw.).</br> <br>[Gendersternchen](https://de.wikipedia.org/wiki/Gendersternchen) und [Gendergap](https://de.wikipedia.org/wiki/Gendergap_(Linguistik)) sind zwar inklusiver, aber eben auch länger. Durch Neutralisierungen und direkte Ansprachen lässt es sich oft leichter vermeiden, Geschlechtergruppen auszuschließen. Gleichzeitig ist es leichter die vorgegebene Zeichenanzahl nicht zu überschreiten.</br> <br>Auch wenn die meisten Leute, die Firefox anspricht, recht Tech-affin sind, erklären wir Begriffe, die unter Umständen nicht eindeutig sind etwas genauer.</br> <br>Wir schreiben mit dem Verständnis dafür, dass wir mit Menschen auf der ganzen Welt – mit unterschiedlichen Lebensumständen, Backgrounds und Erfahrungen – sprechen.</br>|
+|**relevant**|Lesende sollen auf den ersten Blick erkennen können, was sie von dem Text/Inhalt erwarten können und in der Lage sein einen persönlichen Bezug zu sehen. Wir holen die Menschen dort ab, wo er gerade ist. Kulturelle Anspielungen müssen Sinn machen und zum Markt passen.|
 |**Optimistisch und motivierend**|Wir glauben an eine gute Zukunft für das Internet. Wir sprechen zwar über das, was nicht so gut läuft, aber wir enden immer mit einem positiven Ausblick.|
-|**Kreativ**|Auch wenn Information und Klarheit an erster Stelle steht, zeigen wir uns gern auch sprachlich innovativ. Wir wollen niemals langweilig klingen und versuchen Marketing-Klischées zu vermeiden.|
+|**Kreativ**|Auch wenn Information und Klarheit an erster Stelle stehen, zeigen wir uns gern auch sprachlich innovativ. Wir wollen niemals langweilig klingen und versuchen Marketing-Klischées zu vermeiden.|
 
-## DU vs. SIE
+### DU vs. SIE
 
 **Firefox**
 
 Ganz im Sinne des Community-Gedankens verwenden wir “du”. Das ist unkomplizierter, emotionaler und aktivierender.
 
 “Du” wird dabei – außer natürlich am Satzanfang –  **klein** geschrieben.
+
+### Tipps für SEO-Texte
+
+* Auch SEO-Texte sollen nicht eins zu eins übersetzt, sondern so lokalisiert werden, dass sie einen Mehrwert für den Leser schaffen und kulturell relevant sind.
+* Titel sollten so spezifisch wie möglich formuliert werden und nicht das Übergeordnete Thema, sondern immer das konkrete Thema beschreiben (Bsp.: geht es um digitale Privatsphäre, sollte im Titel nicht stehen: Alles, was du über Privatsphäre wissen musst.
+
+### Tipps für Blog-Artikel
+
+* Auch hier sollte der Titel so eindeutig wie möglich sein
+* Die ersten 1-2 Sätze werden beim Einbau als Teaser übernommen. Hier sollte der Leser bestenfalls schon erkennen, was im Text etwa abgedeckt wird bzw. Lust bekommen weiterzulesen. (Teaser werden so angezeigt: https://blog.mozilla.org/firefox/de/)
+* Zwischenüberschriften
+
+Beispiel-Posts:
+* https://blog.mozilla.org/firefox/de/firefox-versprechen-fuer-deine-persoenlichen-daten/
+* https://blog.mozilla.org/firefox/de/so-schuetzt-du-deine-daten-auf-reisen/
+* https://blog.mozilla.org/firefox/de/join-firefox/
+* https://blog.mozilla.org/firefox/de/loesche-deinen-digitalen-fingerabdruck-in-firefox/
+* https://blog.mozilla.org/firefox/de/so-blockierst-du-krypto-mining-auf-deinem-computer-mit-firefox/
+* https://blog.mozilla.org/firefox/de/add-ons-fuer-digitalen-fruehjahrsputz/
+* https://blog.mozilla.org/firefox/de/online-tracking-hol-dir-die-kontrolle-zurueck/
+* https://blog.mozilla.org/firefox/de/firefox-fights-for-you/
+* https://blog.mozilla.org/internetcitizen/de/2018/10/29/sichere-zuallererst-deine-passwoerter/
+* https://blog.mozilla.org/firefox/de/das-original-unter-den-alternativen-firefox/
+* https://blog.mozilla.org/firefox/de/firefox-monitor-dein-schutz-vor-hackern/
 
 ## Glossar
 
@@ -107,6 +133,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Ad tracker|Werbe-Tracker|
 |Adblocker|Adblocker|
 |Auto-fill Form|Autovervollständigung|
+|Block fingerprinting|Fingerprinter (Identifizierer) blockieren|
 |Browser Engine|die Browser Engine, CSS Engine …|
 |Browser history|Chronik|
 |Clickbait|Clickbait, Klickköder, Clickbaiting|
@@ -117,6 +144,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Corporate control|Kontrolle durch Unternehmen|
 |Corporate Powers|Technologie-Giganten / Tech-Konzerne / Tech-Riesen|
 |Customizable search defaults|Sucheinstellungen anpassen|
+|Cryptominer<br> Cryptomining|Krypto-Miner<br>Krypto-Mining|
 |data breach|Datenleck|
 |Debugger|Debugger|
 |Decentralized Internet|dezentralisiertes Internet|
@@ -126,7 +154,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Digital Inclusion|Digitale Teilhabe|
 |Desktop Browser|Desktop-Browser, für den Desktop|
 |Dev Tools|Dev Tools|
-|Download Firefox|Firefox downloaden|
+|Download Firefox|Firefox downloaden, für CTA-Buttons auch: Download Firefox|
 |Dropdown menu|Menüschaltfläche|
 |Feature|Funktion, Features|
 |Firefox Privacy|Datenschutz bei Firefox|
@@ -136,6 +164,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Internet health|Zustand des Internets|
 |Internet experience|Surf-Erlebnis|
 |JavaScript-Debugger|JavaScript-Debugger|
+|Join Firefox|Join Firefox<br>Komm zu Firefox (nicht auf CTA buttons nutzen, dort wird zwischen Sign in (einloggen) und Sign up (Anmelden oder Konto erstellen) differenziert.</br>|
 |lean browser|schlanker Browser, auf das Wesentliche reduzierter Browser|
 |Lean Data Toolkit|Lean Data Toolkit|
 |Library|Bibliothek|
@@ -154,6 +183,7 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Padding|Innenabstand|
 |Performance|Performance, Leistung|
 |performance panel|Ansicht für die Laufzeitanalyse|
+|Personal Data Promise:<br>Take less.</br>Keep it safe.</br>No secrets.</br>|Unser Versprechen für deine (persönlichen) Daten</br>Oder auch</br>(Das) Firefox Versprechen für deine (persönlichen) Daten:</br><br>Wenig sammeln.</br>Sicher aufbewahren.</br>Ehrlich sein.</br>|
 |Privacy|Datenschutz – die Mittel zum Schutz<br>Privatsphäre – das Ergebnis<br><br>Der Unterschied: Datenschutz schützt unsere Privatsphäre.|
 |Privacy Mode|Privater Modus|
 |Policy|Richtlinie<br>Politik-Gestaltungsprozesse|
@@ -181,12 +211,12 @@ Bei Unsicherheiten kann auch die [Transvision Suche](https://transvision.mozfr.o
 |Web-Innovations|Web-Innovationen|
 |Web Literacy|Web-Kenntnisse|
 
-### Unternehmensspezifische Schreibweisen:
+### Unternehmensspezifische Schreibweisen/Firefox Claims:
 
 |Content type|Spelling|
 |----|----|
 |Unternehmensname // Company name|Der Markenname wird aus Alleinstellungsgründen nie per Bindestrich angebunden.<br><br>Beispiel:<br>Firefox Team statt ~~Firefox-Team~~<br><br>Einzige Ausnahmen:<br>Firefox-Konto<br>und<br>Firefox-Produkte<br><br>Gleiches gilt für Mozilla:<br>Mozilla Team statt ~~Mozilla-Team~~<br><br>Außerdem wird Mozilla Im Fließtext stets so ausgeschrieben. Nicht erlaubt ~~moz://a~~|
-|Claims // Taglines für Firefox|[Firefox fights for you](https://www.mozilla.org/de/firefox/fights-for-you/) (Achtung: wird nicht übersetzt, sondern bleibt Englisch)<br><br>Weniger Big-Tech, mehr Good-Tech<br><br> Wir kämpfen für ein besseres Internet – mit Produkten, die Dir auch online die Kontrolle über Dein Leben geben.<br><br>Firefox respektiert Deine Privatsphäre und macht es Dir leicht, Deine Daten zu schützen. <br><br>Du entscheidest, was Du teilst und wann.<br><br>Deine Daten gehören Dir. Wir verkaufen sie niemals.<br><br>Für Menschen, statt für Profit.|
+|Claims // Taglines für Firefox|[Firefox fights for you](https://www.mozilla.org/de/firefox/fights-for-you/) (Achtung: wird nicht übersetzt, sondern bleibt Englisch)<br><br>Weniger Big-Tech, mehr Good-Tech<br><br> Wir kämpfen für ein besseres Internet – mit Produkten, die Dir auch online die Kontrolle über Dein Leben geben.<br><br>Firefox respektiert Deine Privatsphäre und macht es Dir leicht, Deine Daten zu schützen. <br><br>Du entscheidest, was Du teilst und wann.<br><br>Deine Daten gehören Dir. Wir verkaufen sie niemals.<br><br>Für Menschen, statt für Profit. <br><br>Tech mit Respekt<br><br>Komm zu Firefox<br><br>Alle reden über Privatsphäre. Firefox macht Privatsphäre. Mit jedem einzelnen Produkt.<br><br>Firefox kann mehr als nur einen richtig guten Bowser.<br><br>Zeige Big-Tech, dass du dich nicht zum Produkt machen lässt.<br><br>Nutze Technologien, die sich für dich einsetzen.<br><br>Privatsphäre in jedem Produkt. Nicht nur in der Tagline.<br><br>Das Firefox Versprechen für deine persönlichen Daten: Wenig sammeln. Sicher aufbewahren. Ehrlich sein.|
 |Website und Blog-URL’s|Für einen verbesserten Lesefluss entfällt im Fließtext entfällt das www<br><br>Beispiel: mozilla.org<br><br>Entsprechend entfällt bei Blogs oder beispielsweise dem MDN das https:// im Fließtext.<br><br>Beispiel: blog.mozilla.org/ und developer.mozilla.org/de/|
 |Social Media URL’s|**Firefox**<br>https://twitter.com/firefox_de<br>https://www.facebook.com/Firefox<br>https://www.youtube.com/user/firefoxchannel<br><br>**Mozilla**<br>https://twitter.com/mozilla<br>https://www.facebook.com/mozilla<br>https://www.instagram.com/mozillagram<br><br>In der Kommunikation werden hier idealerweise jeweils das entsprechende Icon für den jeweiligen Kanal samt Handle kommuniziert.|
 |Fremdmarken // Third party brands|Die Schreibweise von Fremdmarken wird jeweils 1:1 von der jeweiligen Marke übernommen.<br><br>Beispiel: Vidyo|
