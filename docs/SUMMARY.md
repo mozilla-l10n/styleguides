@@ -31,6 +31,7 @@
 * [Esperanto (eo)](eo/README.md)
 * [Finnish (fi)](fi/README.md)
 * [French (fr)](fr/README.md)
+    * [Marketing guide to Firefox localization](fr/firefox_marketing.md)
 * [German (de)](de/README.md)
     * [Marketing guide to Firefox localization](de/firefox_marketing.md)
 * [Hausa (ha)](ha/README.md)
