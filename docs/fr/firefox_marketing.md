@@ -180,8 +180,8 @@ L’outil de recherche [Transvision](https://transvision.mozfr.org/?recherche=se
 
 Afin d’éviter la confusion, les termes suivants doivent être traduits comme indiqué ci-dessous.
 
-| English                        |French|
-|--------------------------------|-------------|
+|English|French|
+|----|----|
 | Activity Stream                | Activity Stream                                                |
 | Ad tracker                     | Traqueur publicitaire                                          |
 | Browser Engine                 | Moteur de rendu                                                |
@@ -264,18 +264,18 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 ### Company specific wording/phrasing/spelling:
 
 |Category|Examples|
-|------| --------|
-|Brand|Mozilla et Firefox sont toujours écrits avec une majuscule, sauf dans une URL.<br>Le logotype moz://a ne doit pas être utilisé.|
+|----|----|
+|Brand|Mozilla et Firefox sont toujours écrits avec une majuscule, sauf dans une URL.<br><br>Le logotype moz://a ne doit pas être utilisé.|
 |Quelques slogans|Ensemble, créons un Internet ouvert et indépendant Votre vie, vos données.<br><br>Le compte qui vous protège sans profiter de vous<br><br>Rejoignez Firefox<br>Tenez tête à une industrie qui vous considère comme un produit.<br><br> Adoptez une technologie qui lutte pour vos droits.<br><br>Obtenez le respect que vous méritez.<br><br>Moins d’informations. Plus de protection.<br><br>Pas de secrets. (à retravailler ?)<br>Nous luttons pour un Internet plus sain|
 |URL|Pour plus de lisibilité, ne pas inclure www à une URL.<br>Exemple : mozilla.org|
 
 ### Quelques règles générales
 
 |Category|Examples|
-|---------------|-------------|
-|Date        | Le format de date est MM/JJ/AAA  <br> Le 7 avril 1998 s’écrit donc 07/04 1998  |
-|Heure     | L’heure est au format hh:mm sur 24 heures. <br> Exemple: 18:30  |
-|Nombres    |En français, le séparateur décimal est la virgule.  <br> Exemple : ½ = 0,5 <br> Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br> Exemples : 1983 ; 25 700 ; 100 000  |
-| Point d’exclamation et points de suspension | À utiliser avec parcimonie.|                                                     |Mesures  |Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces. |
+|----|----|
+|Date      |Le format de date est MM/JJ/AAA  <br> Le 7 avril 1998 s’écrit donc 07/04 1998  |
+|Heure     |L’heure est au format hh:mm sur 24 heures. <br> Exemple: 18:30  |
+|Nombres    |En français, le séparateur décimal est la virgule.  <br> Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000  |
+|Point d’exclamation et points de suspension |À utiliser avec parcimonie.|                                                     |Mesures  |Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces. |
 |Astérisques |À éviter. Si la précision est importante, l’inclure dans le texte. Si elle ne l’est pas, ne pas l’inclure (cf. le paragraphe sur la concision).|
-|Liens| S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>Vérifier s’il existe une|                                                                        
+|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français.|                                                                        
