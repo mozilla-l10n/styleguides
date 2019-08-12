@@ -69,7 +69,7 @@ Nous sommes dogmatiques, mais ouverts. Nous sommes radicalement bienveillants. L
 
 ### Ton de la marque
 
-|Speech|Tonality|
+|Caractéritique|Explication|
 |-----|----|
 |Direct et facile à comprendre|Nous voulons que tous les internautes se sentent les bienvenus. Ainsi, nous n'utilisons que des mots et des concepts clairs que tout le monde peut comprendre.|
 |Concis|On aime les titres et les phrases courtes. Il en va de même pour les calls to action (boutons d’appel à l’action).<br><br>Les mots et phrases clés doivent figurer en début de paragraphe On évite les structures de phrase complexes ainsi que les informations superflues.|
@@ -135,11 +135,11 @@ N'utiliser le point-milieu qu'en dernier recours, de préférence uniquement au 
 
 ### Règles typographiques
 
-Se référer à l’excellent [guide stylistique pour la traduction](https://github.com/mozfr/besogne/wiki/Guide-stylistique-pour-la-traduction#Rgles_typographiques) pour les règles concernant la typographie en français.
+Se référer au [guide stylistique pour la traduction](https://github.com/mozfr/besogne/wiki/Guide-stylistique-pour-la-traduction#Rgles_typographiques) pour les règles concernant la typographie en français.
 
 ### Titres d’œuvres
 
-Les titres d’œuvres, de publications, d’émissions de télé ou de radio, etc. doivent être placés en italique, sans guillemets. On parlera ainsi d’un article du Monde, ou de 1984, l’œuvre prophétique d’Orwell.
+Les titres d’œuvres, de publications, d’émissions de télé ou de radio, etc. doivent être placés en italique, sans guillemets. On parlera ainsi d'un article du Monde, ou de 1984, l'œuvre prophétique d'Orwell.
 
 ### Anglicismes
 
@@ -149,7 +149,7 @@ Les mots empruntés à l’anglais (ainsi qu'à d’autres langues) et non adopt
 
 **Exemples :**
 * Les entreprises sont appelées à mettre en place les bonnes pratiques de lean data.
-* la NSA a publié un document informant ses employés des dangers du juice jacking.
+* la NSA a publié un document informant ses employés des dangers du _juice jacking_.
 
 ### Calls to action (CTA)
 
@@ -176,11 +176,11 @@ Expressions et métaphores Dans la traduction, toujours s’assurer que les expr
 
 Les expressions suivantes reviennent fréquemment dans nos articles et il est important de toujours utiliser la même traduction pour des raisons de cohérence.
 
-L’outil de recherche [Transvision](https://transvision.mozfr.org/?recherche=search+choice&repo=mozilla_org&sourcelocale=en-US&locale=de&search_type=strings) est une excellent ressource qui permet de voir certaines expressions et tournures de phrase dans différents contextes et leur traduction en français.
+L’outil de recherche [Transvision](https://transvision.mozfr.org/?recherche=search+choice&repo=mozilla_org&sourcelocale=en-US&locale=de&search_type=strings) est une excellente ressource qui permet de voir certaines expressions et tournures de phrase dans différents contextes et leur traduction en français.
 
 Afin d’éviter la confusion, les termes suivants doivent être traduits comme indiqué ci-dessous.
 
-|English|French|
+|Anglais|Français|
 |----|----|
 | Activity Stream                | Activity Stream                                                |
 | Ad tracker                     | Traqueur publicitaire                                          |
@@ -261,21 +261,21 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 | Web-Innovations                | Innovations du Web                                             |
 | Webcam-Cover                   | Cache webcam                           |
 
-### Company specific wording/phrasing/spelling:
+### Expressions spécifiques à la marque:
 
-|Category|Examples|
+|Catégorie|Exemple|
 |----|----|
-|Brand|Mozilla et Firefox sont toujours écrits avec une majuscule, sauf dans une URL.<br><br>Le logotype moz://a ne doit pas être utilisé.|
+|Marques|Mozilla et Firefox sont toujours écrits avec une majuscule, sauf dans une URL.<br><br>Le logotype moz://a ne doit pas être utilisé.|
 |Quelques slogans|Ensemble, créons un Internet ouvert et indépendant Votre vie, vos données.<br><br>Le compte qui vous protège sans profiter de vous<br><br>Rejoignez Firefox<br>Tenez tête à une industrie qui vous considère comme un produit.<br><br> Adoptez une technologie qui lutte pour vos droits.<br><br>Obtenez le respect que vous méritez.<br><br>Moins d’informations. Plus de protection.<br><br>Pas de secrets. (à retravailler ?)<br>Nous luttons pour un Internet plus sain|
 |URL|Pour plus de lisibilité, ne pas inclure www à une URL.<br>Exemple : mozilla.org|
 
 ### Quelques règles générales
 
-|Category|Examples|
+|Catégorie|Exemple|
 |----|----|
 |Date      |Le format de date est MM/JJ/AAA  <br> Le 7 avril 1998 s’écrit donc 07/04 1998  |
 |Heure     |L’heure est au format hh:mm sur 24 heures. <br> Exemple: 18:30  |
 |Nombres    |En français, le séparateur décimal est la virgule.  <br> Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000  |
 |Point d’exclamation et points de suspension |À utiliser avec parcimonie.|                                                     |Mesures  |Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces. |
 |Astérisques |À éviter. Si la précision est importante, l’inclure dans le texte. Si elle ne l’est pas, ne pas l’inclure (cf. le paragraphe sur la concision).|
-|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français.|                                                                        
+|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français. |                                                                        
