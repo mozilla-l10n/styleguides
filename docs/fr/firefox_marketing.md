@@ -1,4 +1,5 @@
 # French Localization Guide
+
 Ce document est à l’usage de toutes les personnes amenées à écrire pour Firefox en français. Il a pour objectif d’uniformiser le ton et la voix de la marque sur toutes les plateformes et à travers le monde.
 
 ## Pourquoi a-t-on besoin d’un tel guide pour localiser le contenu ?
@@ -161,6 +162,7 @@ Le verbe dans les CTA (boutons d’appel à l’action en bon français) doit pr
 Expressions et métaphores Dans la traduction, toujours s’assurer que les expressions employées en français sont idiomatiques. Si ce n'est pas le cas, chercher une expression équivalente. Les noms de marques tierces doivent être laissés tels quels. Dans le cas d’une référence culturelle inadaptée à un public francophone, ne pas hésiter à trouver une marque française équivalente.
 
 ### Textes optimisés pour le référencement (SEO)
+
 * Comme tout ce que nous écrivons, les textes SEO doivent être localisés de manière à ce qu'ils offre de la valeur aux lecteurs. Il faut s’assurer que les textes SEO sont aussi intéressants et pertinents que les articles de nos blogs.
 * Les titres doivent être aussi précis que possible et doivent adresser le sujet de l’article en question, pas seulement le thème général (par exemple, un article sur le respect de la vie privée ne doit pas s’intituler : Tout ce qu’il faut savoir sur le respect de la vie privée).
 
@@ -259,7 +261,7 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 | Web browser                    | Navigateur web                                                 |
 | Web Literacy                   | Éducation à Internet                                           |
 | Web-Innovations                | Innovations du Web                                             |
-| Webcam-Cover                   | Cache webcam                           |
+| Webcam-Cover                   | Cache webcam                                                   |
 
 ### Expressions spécifiques à la marque:
 
@@ -278,4 +280,4 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 |Nombres    |En français, le séparateur décimal est la virgule.  <br> Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000  |
 |Point d’exclamation et points de suspension |À utiliser avec parcimonie.|                                                     |Mesures  |Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces. |
 |Astérisques |À éviter. Si la précision est importante, l’inclure dans le texte. Si elle ne l’est pas, ne pas l’inclure (cf. le paragraphe sur la concision).|
-|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français. |                                                                        
+|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français. |
