@@ -60,7 +60,7 @@ Choisir consciencieusement signifie :
 La marque repose sur quatre piliers, véritables fondations de tout ce que nous faisons et de tout ce que nous écrivons, aussi bien en anglais qu'en français.
 
 |Caractéristiques	|Personnalité|
-| -------| ---------|
+|----|----|
 |Dogmatisme |Nos produits prouvent que nous sommes portés par des convictions profondes. Nous exprimons fièrement nos points de vue. Quand d’autres ne s’intéressent qu'aux aspects techniques, nous fondons tout sur notre éthique.|
 |Ouverture|Ouverture d’esprit. Sincérité. Open Source. La transparence et notre vision globale font partie intégrante de notre marque. En effet, nous parlons plusieurs langues et nous nous efforçons de refléter tous les points de vue.|
 |Bienveillance|Nous voulons ce qu'il y a de mieux pour l’Internet et pour le monde. Nous voulons montrer l’exemple.Nous voulons ce qu'il y a de mieux pour Internet et pour les internautes. Nous montrons l’exemple. En concevant de meilleurs produits. En engageant la conversation, En établissant des partenariats en collaborant, éduquant et informant. Notre empathie s’étend à tout le monde.|
@@ -71,7 +71,7 @@ Nous sommes dogmatiques, mais ouverts. Nous sommes radicalement bienveillants. L
 ### Ton de la marque
 
 |Caractéritique|Explication|
-|-----|----|
+|----|----|
 |Direct et facile à comprendre|Nous voulons que tous les internautes se sentent les bienvenus. Ainsi, nous n'utilisons que des mots et des concepts clairs que tout le monde peut comprendre.|
 |Concis|On aime les titres et les phrases courtes. Il en va de même pour les calls to action (boutons d’appel à l’action).<br><br>Les mots et phrases clés doivent figurer en début de paragraphe On évite les structures de phrase complexes ainsi que les informations superflues.|
 |Authentique|Tout comme nos produits, nos textes sont créés par par la communauté et pour la communauté. Nous nous adressons à notre public sur un pied d’égalité et écrivons de façon naturelle.On sait de quoi on parle, mais on ne s’exprime pas avec condescendance.|
@@ -99,37 +99,37 @@ Privilégier les **formules épicènes** (invariables en genre) ou les **formule
 
 Dans la mesure du possible éviter la voix passive afin de ne pas avoir à accorder un participe passé.
 
-* __Exemples :__<br>
+* **Exemples :**<br>
 👎 Vous êtes suivi(e) par des traqueurs partout sur le Web.<br>
 👍 Des traqueurs vous suivent partout sur le Web.
 
 Lorsqu'il n'y a pas de contraintes de limite du nombre de caractères, la double flexion peut être utilisée, avec l’accord au masculin pluriel.
 
-* __Exemples :__<br>
+* **Exemples :**<br>
 👎 Les étudiants et les étudiantes sont fatigué·es<br>
 👍 Les étudiants et les étudiantes sont fatigués.
 
 Dans les phrases courtes et percutantes (slogans, balises h1), utiliser le masculin pluriel en guise de neutre.
 
-* __Exemples :__<br>
+* **Exemples :**<br>
 👎 Êtes-vous prêt à franchir le pas ?<br>
 👎 Êtes-vous prêt·e à franchir le pas ?<br>
 👍 Êtes-vous prêts à franchir le pas ?
 
 Quand on parle de nous-mêmes, on utilise le masculin pluriel
 
-* __Exemples :__<br>
+* **Exemples :**<br>
 👍 Chez Firefox, nous sommes convaincus que vos données vous appartiennent.
 
 Donner plus de visibilité au féminin, notamment en l’utilisant dans des exemples et démonstrations de cas particuliers, ainsi qu'en féminisant les fonctions.
 
-* __Exemples :__<br>
+* **Exemples :**<br>
 👍 Une utilisatrice lambda doit s’inquiéter de la manière dont ses données sont traitées.<br>
 👍 La présidente de l’Estonie a rencontré la première ministre de l’Islande.
 
 N'utiliser le point-milieu qu'en dernier recours, de préférence uniquement au singulier et lorsque la terminaison du féminin peut s’apposer au masculin sans fléchir le radical.
 
-* __Exemples :__<br>
+* **Exemples :**<br>
 👎 Les instituteur·trice·s se sont mis·e·s d’accord :<br>
 👍 C’est un·e élève discipliné·e.<br>
 👍 Nous recherchons un·e excellent·e informaticien·ne.
@@ -150,14 +150,14 @@ Les mots empruntés à l’anglais (ainsi qu'à d’autres langues) et non adopt
 
 **Exemples :**
 * Les entreprises sont appelées à mettre en place les bonnes pratiques de lean data.
-* la NSA a publié un document informant ses employés des dangers du _juice jacking_.
+* la NSA a publié un document informant ses employés des dangers du *juice jacking*.
 
 ### Calls to action (CTA)
 
 Le verbe dans les CTA (boutons d’appel à l’action en bon français) doit préférablement être à l’infinitif.
 
 **Exemples :**
-* _Télécharger Firefox_ plutôt que _Téléchargez Firefox_, ou encore _Lire l’article_ plutôt que _Lisez l’article_.
+* *Télécharger Firefox* plutôt que *Téléchargez Firefox*, ou encore *Lire l’article* plutôt que *Lisez l’article*.
 
 Expressions et métaphores Dans la traduction, toujours s’assurer que les expressions employées en français sont idiomatiques. Si ce n'est pas le cas, chercher une expression équivalente. Les noms de marques tierces doivent être laissés tels quels. Dans le cas d’une référence culturelle inadaptée à un public francophone, ne pas hésiter à trouver une marque française équivalente.
 
@@ -275,9 +275,10 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 
 |Catégorie|Exemple|
 |----|----|
-|Date      |Le format de date est MM/JJ/AAA  <br> Le 7 avril 1998 s’écrit donc 07/04 1998  |
-|Heure     |L’heure est au format hh:mm sur 24 heures. <br> Exemple: 18:30  |
-|Nombres    |En français, le séparateur décimal est la virgule.  <br> Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000  |
-|Point d’exclamation et points de suspension |À utiliser avec parcimonie.|                                                     |Mesures  |Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces. |
+|Date|Le format de date est MM/JJ/AAA<br>Le 7 avril 1998 s’écrit donc 07/04 1998|
+|Heure|L’heure est au format hh:mm sur 24 heures. <br>Exemple: 18:30|
+|Nombres|En français, le séparateur décimal est la virgule.  <br>Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000|
+|Point d’exclamation et points de suspension |À utiliser avec parcimonie.|
+|Mesures|Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces.|
 |Astérisques |À éviter. Si la précision est importante, l’inclure dans le texte. Si elle ne l’est pas, ne pas l’inclure (cf. le paragraphe sur la concision).|
-|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français. |
+|Liens|S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français.|
