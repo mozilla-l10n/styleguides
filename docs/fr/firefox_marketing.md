@@ -14,7 +14,7 @@ Le lexique en fin de document permet d’assurer une certaine cohérence dans la
 
 Les consignes de ce document ne sont pas gravées dans la roche. Notre marque évolue, nous actualisons donc le document lorsque c’est nécessaire.
 
-## À propos de Firefox – Qui sommes nous ?
+## À propos de Firefox – Qui sommes-nous ?
 
 Firefox, c’est bien plus qu'un navigateur. C’est une marque reconnue à travers le monde, qui remet en question le statu quo et qui lutte pour les droits des internautes.
 
@@ -63,24 +63,24 @@ La marque repose sur quatre piliers, véritables fondations de tout ce que nous 
 |----|----|
 |Dogmatisme |Nos produits prouvent que nous sommes portés par des convictions profondes. Nous exprimons fièrement nos points de vue. Quand d’autres ne s’intéressent qu'aux aspects techniques, nous fondons tout sur notre éthique.|
 |Ouverture|Ouverture d’esprit. Sincérité. Open Source. La transparence et notre vision globale font partie intégrante de notre marque. En effet, nous parlons plusieurs langues et nous nous efforçons de refléter tous les points de vue.|
-|Bienveillance|Nous voulons ce qu'il y a de mieux pour l’Internet et pour le monde. Nous voulons montrer l’exemple.Nous voulons ce qu'il y a de mieux pour Internet et pour les internautes. Nous montrons l’exemple. En concevant de meilleurs produits. En engageant la conversation, En établissant des partenariats en collaborant, éduquant et informant. Notre empathie s’étend à tout le monde.|
+|Bienveillance|Nous voulons ce qu'il y a de mieux pour l’Internet et pour le monde. Nous voulons montrer l’exemple.Nous voulons ce qu'il y a de mieux pour Internet et pour les internautes. Nous montrons l’exemple. En concevant de meilleurs produits. En engageant la conversation, en établissant des partenariats en collaborant, éduquant et informant. Notre empathie s’étend à tout le monde.|
 |Radicalité	|C’est un acte radical que d’être optimiste quant à l’avenir d’Internet. C’est un acte radical de servir les autres avant soi-même. Nous bouleversons le statu quo car c’est la bonne chose à faire.|
 
-Nous sommes dogmatiques, mais ouverts. Nous sommes radicalement bienveillants. La personnalité de la marque tient sa richesse de ces traits de caractères opposés en apparence, mais essentiellement complémentaires chez Firefox.
+Nous sommes dogmatiques, mais ouverts. Nous sommes radicalement bienveillants. La personnalité de la marque tient sa richesse de ses traits de caractère opposés en apparence, mais essentiellement complémentaires chez Firefox.
 
 ### Ton de la marque
 
-|Caractéritique|Explication|
+|Caractéristique|Explication|
 |----|----|
 |Direct et facile à comprendre|Nous voulons que tous les internautes se sentent les bienvenus. Ainsi, nous n'utilisons que des mots et des concepts clairs que tout le monde peut comprendre.|
 |Concis|On aime les titres et les phrases courtes. Il en va de même pour les calls to action (boutons d’appel à l’action).<br><br>Les mots et phrases clés doivent figurer en début de paragraphe On évite les structures de phrase complexes ainsi que les informations superflues.|
-|Authentique|Tout comme nos produits, nos textes sont créés par par la communauté et pour la communauté. Nous nous adressons à notre public sur un pied d’égalité et écrivons de façon naturelle.On sait de quoi on parle, mais on ne s’exprime pas avec condescendance.|
+|Authentique|Tout comme nos produits, nos textes sont créés par la communauté et pour la communauté. Nous nous adressons à notre public sur un pied d’égalité et écrivons de façon naturelle.On sait de quoi on parle, mais on ne s’exprime pas avec condescendance.|
 |Naturel|Nous évitons les structures à la voix passive et préférons la voix active. Deux phrases courtes valent mieux qu'une longue phrase.|
 |Respectueux|S’exprimer avec respect ne signifie pas s’exprimer de façon guindée.|
 |Plein d’humour|Nous n'hésitons pas à faire preuve d’humour, sans être grossiers ni mièvres.|
 |Pertinent|Pour les textes plus longs, les lecteurs doivent pouvoir savoir à quoi s’attendre dès le début de l’article, et si celui-ci les concerne. <br><br>Il est important de placer l’utilisateur dans un contexte (où, quand, pourquoi lit-il/elle ceci).<br><br>Les références culturelles doivent parler au lecteur et être adaptées au marché concerné. Si quelque chose est intraduisible, il ne faut pas le traduire, mais plutôt chercher à exprimer la même intention différemment.|
-|Optimiste et motivant|Nous sommes confiants que le futur d’Internet est positif. Bien sûr, nous sommes aussi conscients des problèms qui existent, mais nous essayons toujours de conclure sur une note positive, orientée sur des solutions.
-|Créatif|Notre contenu doit avant tout être clair, facile à comprendre et informatif. Mais nous aimons aussi être innovants et creátifs. On évite les discours ennuyeux et les lieux communs du marketing.|
+|Optimiste et motivant|Nous sommes confiants que le futur d’Internet est positif. Bien sûr, nous sommes aussi conscients des problèmes qui existent, mais nous essayons toujours de conclure sur une note positive, orientée sur des solutions.
+|Créatif|Notre contenu doit avant tout être clair, facile à comprendre et informatif. Mais nous aimons aussi être innovants et créatifs. On évite les discours ennuyeux et les lieux communs du marketing.|
 
 ### 2ᵉ personne du pluriel et forme impersonnelle
 
@@ -144,7 +144,7 @@ Les titres d’œuvres, de publications, d’émissions de télé ou de radio, e
 
 ### Anglicismes
 
-Nous parlons et écrivons comme notre public parle et écrit. Nous défendons un usage libre de la langue française et ne forçons personne franciser les mots empruntés à l’anglais. Nous recommandons l’utilisation du terme le plus couramment employé dans la langue de tous les jours. On préférera donc les termes e-mail (avec le trait d’union), bug, chat ou newsletter à la place de courriel, bogue, clavardage et liste de diffusion.
+Nous parlons et écrivons comme notre public parle et écrit. Nous défendons un usage libre de la langue française et ne forçons personne à franciser les mots empruntés à l’anglais. Nous recommandons l’utilisation du terme le plus couramment employé dans la langue de tous les jours. On préférera donc les termes e-mail (avec le trait d’union), bug, chat ou newsletter à la place de courriel, bogue, clavardage et liste de diffusion.
 
 Les mots empruntés à l’anglais (ainsi qu'à d’autres langues) et non adoptés par l’usage sont mis en italique.
 
@@ -163,7 +163,7 @@ Expressions et métaphores Dans la traduction, toujours s’assurer que les expr
 
 ### Textes optimisés pour le référencement (SEO)
 
-* Comme tout ce que nous écrivons, les textes SEO doivent être localisés de manière à ce qu'ils offre de la valeur aux lecteurs. Il faut s’assurer que les textes SEO sont aussi intéressants et pertinents que les articles de nos blogs.
+* Comme tout ce que nous écrivons, les textes SEO doivent être localisés de manière à ce qu'ils offrent de la valeur aux lecteurs. Il faut s’assurer que les textes SEO sont aussi intéressants et pertinents que les articles de nos blogs.
 * Les titres doivent être aussi précis que possible et doivent adresser le sujet de l’article en question, pas seulement le thème général (par exemple, un article sur le respect de la vie privée ne doit pas s’intituler : Tout ce qu’il faut savoir sur le respect de la vie privée).
 
 ### Articles sur le blog
@@ -275,7 +275,7 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 
 |Catégorie|Exemple|
 |----|----|
-|Date|Le format de date est MM/JJ/AAA<br>Le 7 avril 1998 s’écrit donc 07/04 1998|
+|Date|Le format de date est JJ/MM/AAAA<br>Le 7 avril 1998 s’écrit donc 07/04/1998|
 |Heure|L’heure est au format hh:mm sur 24 heures. <br>Exemple: 18:30|
 |Nombres|En français, le séparateur décimal est la virgule.  <br>Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000|
 |Point d’exclamation et points de suspension |À utiliser avec parcimonie.|
