@@ -1,5 +1,8 @@
 language: rust
-sudo: false
+addons:
+  apt:
+    packages:
+      - parallel
 
 cache:
   - cargo
@@ -16,11 +19,12 @@ before_install:
   - npm test # run mozilla-l10n-docs-linter
 
 before_script:
-  - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
-  - (test -x $HOME/.cargo/bin/mdbook-toc || cargo install --vers "^0.2" mdbook-toc)
-  - cargo install-update -a
+  - curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang-nursery/mdBook
+  - curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git badboy/mdbook-toc
 
 script:
+  - mdbook --version
+  - mdbook-toc --version
   - mdbook build
 
 deploy:
