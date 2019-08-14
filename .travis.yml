@@ -5,7 +5,6 @@ addons:
       - parallel
 
 cache:
-  - cargo
   - directories:
     - node_modules
     - $HOME/.nvm/
