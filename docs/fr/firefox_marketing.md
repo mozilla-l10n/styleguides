@@ -63,7 +63,7 @@ La marque repose sur quatre piliers, véritables fondations de tout ce que nous 
 |----|----|
 |Dogmatisme |Nos produits prouvent que nous sommes portés par des convictions profondes. Nous exprimons fièrement nos points de vue. Quand d’autres ne s’intéressent qu'aux aspects techniques, nous fondons tout sur notre éthique.|
 |Ouverture|Ouverture d’esprit. Sincérité. Open Source. La transparence et notre vision globale font partie intégrante de notre marque. En effet, nous parlons plusieurs langues et nous nous efforçons de refléter tous les points de vue.|
-|Bienveillance|Nous voulons ce qu'il y a de mieux pour l’Internet et pour le monde. Nous voulons montrer l’exemple.Nous voulons ce qu'il y a de mieux pour Internet et pour les internautes. Nous montrons l’exemple. En concevant de meilleurs produits. En engageant la conversation, en établissant des partenariats en collaborant, éduquant et informant. Notre empathie s’étend à tout le monde.|
+|Bienveillance|Nous voulons ce qu’il y a de mieux pour Internet et pour les internautes. Nous montrons l’exemple. En concevant de meilleurs produits. En engageant la conversation, en établissant des partenariats en collaborant, éduquant et informant. Notre empathie s’étend à tout le monde.|
 |Radicalité	|C’est un acte radical que d’être optimiste quant à l’avenir d’Internet. C’est un acte radical de servir les autres avant soi-même. Nous bouleversons le statu quo car c’est la bonne chose à faire.|
 
 Nous sommes dogmatiques, mais ouverts. Nous sommes radicalement bienveillants. La personnalité de la marque tient sa richesse de ses traits de caractère opposés en apparence, mais essentiellement complémentaires chez Firefox.
@@ -170,7 +170,7 @@ Expressions et métaphores Dans la traduction, toujours s’assurer que les expr
 
 * Le titre de l’article doit être aussi précis que possible et doit préférablement tenir sur une seule ligne.
 * Dans la mesure du possible, la première phrase doit apparaître intégralement dans l’aperçu de l’article afin que les lecteurs sachent à quoi s’attendre avant de cliquer.
-* Ne pas hésiter à diviser l’article en paragraphes et d’utiliser des sous-titres afin de le rendre plus facile à lire.
+* Ne pas hésiter à diviser l'article en paragraphes et à utiliser des sous-titres afin de le rendre plus facile à lire.
 
 ## Lexique
 
@@ -201,7 +201,7 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 | Deep Learning                  | Apprentissage profond                                          |
 | Desktop Browser                | Navigateur pour ordinateur                                     |
 | Dev Tools                      | Outils de développement                                        |
-| Digital Citizenship            | Citoyenneté digitale                                           |
+| Digital Citizenship            | Citoyenneté numérique                                           |
 | Digital footprint              | Empreinte numérique                                            |
 | Digital Inclusion              | Inclusion numérique                                            |
 | Download Firefox               | Télécharger Firefox                                            |
