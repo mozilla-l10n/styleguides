@@ -93,7 +93,7 @@ This page has a [list of Mozilla trademarks](https://www.mozilla.org/en-US/found
 
 When your local language is not written in the Latin alphabet and you use a Mozilla trademark in a headline, a prominent position, or for the first time on a site, you should always use it in its original form in Latin script (e.g. Mozilla, Firefox, Thunderbird). Mozilla trademarks should therefore not be altered in prominent UI elements. For example, do not alter “Firefox” in the first-run menus, or for the first use of the term in landing pages and legal notices.
 
-If you use the trademarks in a referential context after that, within continuous text, you may use a transcribed local language version. If a transcribed local version is used, each community must take care to select a single version and use it consistently. This should be in the form that is the most used and accepted expression in digital/print media. 
+If you use the trademarks in a referential context after that, within continuous text, you may use a transcribed local language version. If a transcribed local version is used, each community must take care to select a single version and use it consistently. This should be in the form that is the most used and accepted expression in digital/print media.
 
 Correct example:
 
@@ -149,13 +149,13 @@ Adherence to [Mozilla and third-party branding and style guides](https://www.moz
 
 #### Declensions
 
-As noted above, when you use a Mozilla trademark in a headline, a prominent page position or UI element (such as first-run application menus or the first use of the term in landing pages and legal notices), or for the first time on a site, you should always use it in its original, unaltered form. 
+As noted above, when you use a Mozilla trademark in a headline, a prominent page position or UI element (such as first-run application menus or the first use of the term in landing pages and legal notices), or for the first time on a site, you should always use it in its original, unaltered form.
 
 If your language requires declension of proper nouns and adjectives, try to limit their use to the following cases:
 * Grammatical unintelligibility requirements
 * The contextual meaning of the proper noun requires the declension
 * The UI cannot accommodate a large enough translation to avoid it
-In other cases, avoid using declension on trademarks. 
+In other cases, avoid using declension on trademarks.
 Never use Mozilla trademarks as verbs and do not coin verbs out of Mozilla trademarks.
 
 ## Copy rules
