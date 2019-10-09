@@ -134,6 +134,7 @@ W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowani
 ```
 
 Incorrect example:
+
 ```
 In November 2017, Mozilla has released the latest version of its Firefox software […].
 ```
