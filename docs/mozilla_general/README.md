@@ -99,7 +99,7 @@ Correct example:
 
 ```
 Finally released: the Firefox Quantum Update!
-In November 2017, Mozilla has released the latest version of its Firefox software. […]
+In November 2017, Mozilla has released the latest version of its Firefox software. [...]
 ```
 
 ```
@@ -111,7 +111,7 @@ Incorrect example:
 
 ```
 Finally released: the Firefox Quantum Update!
-In November 2017, Mozilla has released the latest version of its Firefox software. […]
+In November 2017, Mozilla has released the latest version of its Firefox software. [...]
 ```
 
 ```
@@ -121,48 +121,48 @@ In November 2017, Mozilla has released the latest version of its Firefox softwar
 
 #### Use in local languages with Latin script
 
-When your local language is written in the Latin alphabet, you should always use Mozilla's trademarks in their original Latin script form. This also applies if the respective terms should be pronounced differently in your local language. You should therefore not modify the original Mozilla trademarks in order to reflect or facilitate local pronunciation.
+When your local language is written in the Latin alphabet, you should always use Mozilla’s trademarks in their original Latin script form. This also applies if the respective terms should be pronounced differently in your local language. You should therefore not modify the original Mozilla trademarks in order to reflect or facilitate local pronunciation.
 
 Correct example:
 
 ```
-In November 2017, Mozilla has released the latest version of its Firefox software […].
+In November 2017, Mozilla has released the latest version of its Firefox software [...].
 ```
 
 ```
-W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. […]
+W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. [...]
 ```
 
 Incorrect example:
 
 ```
-In November 2017, Mozilla has released the latest version of its Firefox software […].
+In November 2017, Mozilla has released the latest version of its Firefox software [...].
 ```
 
 ```
-W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks. […]
+W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks. [...]
 ```
 
 #### Translations of trademarks
 
-Always use Mozilla's trademarks in their original wording, even if you are transcribing them into your local non-Latin alphabet (per the guidance under point 1 above). For example, do not translate Firefox into another language by using words that have the meaning of "fire" and "fox" in that language.*
+Always use Mozilla’s trademarks in their original wording, even if you are transcribing them into your local non-Latin alphabet (per the guidance under point 1 above). For example, do not translate Firefox into another language by using words that have the meaning of “fire” and “fox” in that language.*
 
 If you want to explain how a Mozilla trademark is pronounced in your local language or what it means if translated literally, you may do so in a referential context only. When doing so, you should also state expressly that you want to explain the meaning or pronunciation of the term.
 
 Correct example:
 
 ```
-The newest version of the Mozilla Firefox software – which literally means "fire fox" – outpaces its opponents and lives up to its name. […]
+The newest version of the Mozilla Firefox software – which literally means “fire fox” – outpaces its opponents and lives up to its name. [...]
 ```
 
 ```
-Die neueste Version der Firefox Software – was wörtlich übersetzt "Feuerfuchs" bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. […]
+Die neueste Version der Firefox Software – was wörtlich übersetzt “Feuerfuchs” bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. [...]
 ```
 
 Incorrect example:
 
 ```
-The newest version of Mozilla's Firefox software outpaces its opponents and lives up to its name.
+The newest version of Mozilla’s Firefox software outpaces its opponents and lives up to its name.
 ```
 
 ```
