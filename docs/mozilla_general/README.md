@@ -95,56 +95,62 @@ When your local language is not written in the Latin alphabet and you use a Mozi
 
 If you use the trademarks in a referential context after that, within continuous text, you may use a transcribed local language version. If a transcribed local version is used, each community must take care to select a single version and use it consistently. This should be in the form that is the most used and accepted expression in digital/print media.
 
-**Correct example:**
-
-*Finally released: the Firefox Quantum Update!*
-*In November 2017, Mozilla has released the latest version of its Firefox software. […]*
-
-*Наконец выпущен: обновление квантового Firefox Quantum!*
-*В ноябре 2017 года Mozilla выпустила последнюю версию своего программного обеспечения для Файрфокс. [...]*
-
-**Incorrect example:**
-
-*Finally released: the Firefox Quantum Update!*
-*In November 2017, Mozilla has released the latest version of its Firefox software. […]*
-
-*Наконец выпущен: обновление квантового Файрфокс квантум!*
-*В ноябре 2017 года Моцилла выпустила последнюю версию своего программного обеспечения для Файрфокс. [...]*
-
+Correct example:
+```
+Finally released: the Firefox Quantum Update!
+In November 2017, Mozilla has released the latest version of its Firefox software. […]
+```
+```
+Наконец выпущен: обновление квантового Firefox Quantum!
+В ноябре 2017 года Mozilla выпустила последнюю версию своего программного обеспечения для Файрфокс. [...]
+```
+Incorrect example:
+```
+Finally released: the Firefox Quantum Update!
+In November 2017, Mozilla has released the latest version of its Firefox software. […]
+```
+```
+Наконец выпущен: обновление квантового Файрфокс квантум!
+В ноябре 2017 года Моцилла выпустила последнюю версию своего программного обеспечения для Файрфокс. [...]
+```
 #### Use in local languages with Latin script
 
 When your local language is written in the Latin alphabet, you should always use Mozilla's trademarks in their original Latin script form. This also applies if the respective terms should be pronounced differently in your local language. You should therefore not modify the original Mozilla trademarks in order to reflect or facilitate local pronunciation.
 
-**Correct example:**
-
-*In November 2017, Mozilla has released the latest version of its Firefox software […].*
-
-*W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. […]*
-
-**Incorrect example:**
-
-*In November 2017, Mozilla has released the latest version of its Firefox software […].*
-
-*W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks. […]*
-
+Correct example:
+```
+In November 2017, Mozilla has released the latest version of its Firefox software […].
+```
+```
+W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. […]
+```
+Incorrect example:
+```
+In November 2017, Mozilla has released the latest version of its Firefox software […].
+```
+```
+W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks. […]
+```
 #### Translations of trademarks
 
 Always use Mozilla's trademarks in their original wording, even if you are transcribing them into your local non-Latin alphabet (per the guidance under point 1 above). For example, do not translate Firefox into another language by using words that have the meaning of "fire" and "fox" in that language.*
 
 If you want to explain how a Mozilla trademark is pronounced in your local language or what it means if translated literally, you may do so in a referential context only. When doing so, you should also state expressly that you want to explain the meaning or pronunciation of the term.
 
-**Correct example:**
-
-*The newest version of the Mozilla Firefox software – which literally means "fire fox" – outpaces its opponents and lives up to its name. […]*
-
-*Die neueste Version der Firefox Software – was wörtlich übersetzt "Feuerfuchs" bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. […]*
-
-**Incorrect example:**
-
-*The newest version of Mozilla's Firefox software outpaces its opponents and lives up to its name.*
-
-*Die neueste Version von Mozillas Feuerfuchs Software überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre.*
-
+Correct example:
+```
+The newest version of the Mozilla Firefox software – which literally means "fire fox" – outpaces its opponents and lives up to its name. […]
+```
+```
+Die neueste Version der Firefox Software – was wörtlich übersetzt "Feuerfuchs" bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. […]
+```
+Incorrect example:
+```
+The newest version of Mozilla's Firefox software outpaces its opponents and lives up to its name.
+```
+```
+Die neueste Version von Mozillas Feuerfuchs Software überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre.
+```
 * The only exception to this rule is the Chinese characters for “Fire” and “Fox” together. Mozilla has a registered trademark on these characters (China Reg. No. 16199671A).
 
 Adherence to [Mozilla and third-party branding and style guides](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/) should be respected throughout a localization project. For example, some brand names should never be translated, such as `Firefox`. For other brands that do not have any branding guidelines, your localization community must define whether to translate them. Be extra careful to check on branding rules before deciding to translate a name or not (whether for Mozilla or for a third-party) and to list them here in your community’s l10n style guide.
@@ -154,9 +160,9 @@ Adherence to [Mozilla and third-party branding and style guides](https://www.moz
 As noted above, when you use a Mozilla trademark in a headline, a prominent page position or UI element (such as first-run application menus or the first use of the term in landing pages and legal notices), or for the first time on a site, you should always use it in its original, unaltered form.
 
 If your language requires declension of proper nouns and adjectives, try to limit their use to the following cases:
-* Grammatical unintelligibility requirements
-* The contextual meaning of the proper noun requires the declension
-* The UI cannot accommodate a large enough translation to avoid it
+* Grammatical unintelligibility requirements.
+* The contextual meaning of the proper noun requires the declension.
+* The UI cannot accommodate a large enough translation to avoid it.
 
 In other cases, avoid using declension on trademarks.
 
