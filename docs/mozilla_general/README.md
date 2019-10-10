@@ -97,27 +97,19 @@ If you use the trademarks in a referential context after that, within continuous
 
 Correct example:
 
-```
-Finally released: the Firefox Quantum Update!
-In November 2017, Mozilla has released the latest version of its Firefox software. […]
-```
+> Finally released: the Firefox Quantum Update!
+> In November 2017, Mozilla has released the latest version of its Firefox software. […]
 
-```
-Наконец выпущен: обновление квантового Firefox Quantum!
-В ноябре 2017 года Mozilla выпустила последнюю версию своего программного обеспечения для Файрфокс. […]
-```
+> Наконец выпущен: обновление квантового Firefox Quantum!
+> В ноябре 2017 года Mozilla выпустила последнюю версию своего программного обеспечения для Файрфокс. […]
 
 Incorrect example:
 
-```
-Finally released: the Firefox Quantum Update!
-In November 2017, Mozilla has released the latest version of its Firefox software. […]
-```
+> Finally released: the Firefox Quantum Update!
+> In November 2017, Mozilla has released the latest version of its Firefox software. […]
 
-```
-Наконец выпущен: обновление квантового Файрфокс квантум!
-В ноябре 2017 года Моцилла выпустила последнюю версию своего программного обеспечения для Файрфокс. […]
-```
+> Наконец выпущен: обновление квантового Файрфокс квантум!
+> В ноябре 2017 года Моцилла выпустила последнюю версию своего программного обеспечения для Файрфокс. […]
 
 #### Use in local languages with Latin script
 
@@ -125,23 +117,15 @@ When your local language is written in the Latin alphabet, you should always use
 
 Correct example:
 
-```
-In November 2017, Mozilla has released the latest version of its Firefox software. […]
-```
+> In November 2017, Mozilla has released the latest version of its Firefox software. […]
 
-```
-W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. […]
-```
+> W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. […]
 
 Incorrect example:
 
-```
-In November 2017, Mozilla has released the latest version of its Firefox software. […]
-```
+> In November 2017, Mozilla has released the latest version of its Firefox software. […]
 
-```
-W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks, […]
-```
+> W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks, […]
 
 #### Translations of trademarks
 
@@ -151,23 +135,15 @@ If you want to explain how a Mozilla trademark is pronounced in your local langu
 
 Correct example:
 
-```
-The newest version of the Mozilla Firefox software – which literally means “fire fox” – outpaces its opponents and lives up to its name. […]
-```
+> The newest version of the Mozilla Firefox software – which literally means “fire fox” – outpaces its opponents and lives up to its name. […]
 
-```
-Die neueste Version der Firefox Software – was wörtlich übersetzt “Feuerfuchs” bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. […]
-```
+> Die neueste Version der Firefox Software – was wörtlich übersetzt “Feuerfuchs” bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. […]
 
 Incorrect example:
 
-```
-The newest version of Mozilla’s Firefox software outpaces its opponents and lives up to its name.
-```
+> The newest version of Mozilla’s Firefox software outpaces its opponents and lives up to its name.
 
-```
-Die neueste Version von Mozillas Feuerfuchs Software überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre.
-```
+> Die neueste Version von Mozillas Feuerfuchs Software überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre.
 
 [1] The only exception to this rule is the Chinese characters for “Fire” and “Fox” together. Mozilla has a registered trademark on these characters (China Reg. No. 16199671A).
 
