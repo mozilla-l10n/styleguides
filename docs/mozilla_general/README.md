@@ -145,7 +145,7 @@ W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowani
 
 #### Translations of trademarks
 
-Always use Mozilla’s trademarks in their original wording, even if you are transcribing them into your local non-Latin alphabet (per the guidance under point 1 above). For example, do not translate Firefox into another language by using words that have the meaning of “fire” and “fox” in that language.*
+Always use Mozilla’s trademarks in their original wording, even if you are transcribing them into your local non-Latin alphabet (per the guidance under point 1 above). For example, do not translate Firefox into another language by using words that have the meaning of “fire” and “fox” in that language.[1]
 
 If you want to explain how a Mozilla trademark is pronounced in your local language or what it means if translated literally, you may do so in a referential context only. When doing so, you should also state expressly that you want to explain the meaning or pronunciation of the term.
 
@@ -169,9 +169,7 @@ The newest version of Mozilla’s Firefox software outpaces its opponents and li
 Die neueste Version von Mozillas Feuerfuchs Software überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre.
 ```
 
-* The only exception to this rule is the Chinese characters for “Fire” and “Fox” together. Mozilla has a registered trademark on these characters (China Reg. No. 16199671A).
-
-Adherence to [Mozilla and third-party branding and style guides](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/) should be respected throughout a localization project. For example, some brand names should never be translated, such as `Firefox`. For other brands that do not have any branding guidelines, your localization community must define whether to translate them. Be extra careful to check on branding rules before deciding to translate a name or not (whether for Mozilla or for a third-party) and to list them here in your community’s l10n style guide.
+[1] The only exception to this rule is the Chinese characters for “Fire” and “Fox” together. Mozilla has a registered trademark on these characters (China Reg. No. 16199671A).
 
 #### Declensions
 
