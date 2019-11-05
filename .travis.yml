@@ -18,7 +18,7 @@ before_install:
   - npm test # run mozilla-l10n-docs-linter
 
 before_script:
-  - curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang-nursery/mdBook
+  - curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang/mdBook
   - curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git badboy/mdbook-toc
 
 script:
