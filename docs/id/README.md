@@ -101,7 +101,6 @@ Seluruh aturan pengunaan satuan numerik dan ejaan bahasa sepenuhnya mengacu kepa
 
 Dalam hal huruf kapital, pengguna perlu memerhatikan [Pedoman Penulisan Huruf Kapital](http://id.wikipedia.org/wiki/Wikipedia:Pedoman_penulisan_huruf_kapital).
 
-
 ## Gaya Pelokalan Mozilla Yang Lazim
 
 ### Akurasi
