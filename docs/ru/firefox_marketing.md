@@ -28,7 +28,7 @@ Firefox борется за права своих пользователей, р
 
 **Продукты Firefox**:
 
-* Firefox Quantum (интернет-браузер для настольных компьютеров)
+* Firefox Quantum (браузер для компьютеров)
 * Firefox Mobile (для мобильных устройств на базе iOS и Android)
 * [Firefox Send](https://send.firefox.com/)
 * [Firefox Monitor](https://monitor.firefox.com/)
