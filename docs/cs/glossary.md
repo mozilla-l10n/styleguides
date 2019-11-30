@@ -57,7 +57,7 @@ V níže uvedených tabulkách naleznete základní výrazy, které se v aplikac
 | --- | --- |
 | Back | Zpět |
 | Forward | Vpřed |
-| Reload | Obnovit |
+| Reload | Znovu načít / Opětovně načíst |
 | Stop | Zastavit |
 | Home | Domů |
 | Location Bar | Adresní řádek |
