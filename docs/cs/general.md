@@ -79,10 +79,10 @@ In the Czech Republic, the 12-month [Gregorian calendar](https://en.wikipedia.or
 
 | Name | Format | Example |
 | ---- | ------ | ------- |
-| Short (rare since 2000) | dd. mm. yy | 1. 12. ’99 |
-| Abbreviated | dd. mmm | 1. pro |
-| Long (numerical) | dd. mm. yyyy | 1. 12. 1999 |
-| Long | Date Month Year (month in genitive) | 1. prosince 1999 |
+| Short (rare since 2000) | d. m. yy | 1. 12. ’99 |
+| Abbreviated | d. mmm | 1. pro |
+| Long (numerical) | d. m. yyyy | 1. 12. 1999 |
+| Long | d. Month yyyy (month in genitive) | 1. prosince 1999 |
 
 Date and month, if written numerical, are single digit ordinal numbers (followed by a period with a space). In business and official correspondence double digit ordinal numbers may be used. In localization, always use the single digit form.
 
