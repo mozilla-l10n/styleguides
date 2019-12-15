@@ -74,7 +74,7 @@ Translating terms representing difficult concepts is a tricky task. Here are som
 
 The translation should strive to achieve proper unit conversions for currency, measurements, etc.
 
-To get an extended information about standard units, measurements, time and date for Ukraine, you can refer to the [Microsoft Style Guide](https://www.microsoft.com/Language/en-US/StyleGuides.aspx).
+To get an extended information about standard units, measurements, time and date for Ukraine, you can refer to the [Microsoft Style Guide](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1).
 
 ## Date Format
 

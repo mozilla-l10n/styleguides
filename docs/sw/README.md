@@ -32,7 +32,7 @@ The following terminology sources should be used as reference in the translation
 * Product-specific glossary, to ensure consistency across all product components.
 * Previous version product-specific glossary, if any, to ensure consistency between versions.
 * Glossaries of other Mozilla products, to ensure cross-product consistency.
-* Microsoft / Apple glossaries, to ensure adherence to the industry standards. It is your responsibility to make sure that you always have the latest Microsoft and Apple glossaries at your disposal. The glossaries can be found at: [http://www.microsoft.com/language/en/us/search.mspx](http://www.microsoft.com/language/en/us/search.mspx) and [http://developer.apple.com/internationalization/download/](http://developer.apple.com/internationalization/download/)
+* Microsoft / Apple glossaries, to ensure adherence to the industry standards. It is your responsibility to make sure that you always have the latest Microsoft and Apple glossaries at your disposal. The glossaries can be found at: [http://www.microsoft.com/Language](http://www.microsoft.com/Language) and [https://developer.apple.com/download/more/?=Glossaries](https://developer.apple.com/download/more/?=Glossaries)
 
 ### Terminology not found in the glossary or style guide
 

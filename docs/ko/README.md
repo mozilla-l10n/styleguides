@@ -38,11 +38,11 @@ Mozilla 제품의 리소스 파일 위치는 각 모듈에 따라 위치가 정�
 
 번역할 파일 및 내용은 아래 위치에서 각 제품의 aurora 부분의 H/C 에서 C를 눌러 영문 및 한국어 비교 파일을 얻습니다.
 
-[https://l10n-stage-sj.mozilla.org/shipp ... ?locale=ko](https://l10n-stage-sj.mozilla.org/shipping/dashboard?locale=ko)
+[https://l10n.mozilla.org/shipp ... ?locale=ko](https://l10n.mozilla.org/shipping/dashboard?locale=ko)
 
 예를 들어, calendar 번역 작업을 하기 위해서는 cal-aurora의 작업 해야될 내역을 살펴봅니다. 테이블에서 H/C 필드가 있고 여기서 C를 누르면 아래와 같은 링크가 나옵니다.
 
-[https://l10n-stage-sj.mozilla.org/dashb ... run=236897](https://l10n-stage-sj.mozilla.org/dashboard/compare?run=236897)
+[https://l10n.mozilla.org/dashb ... run=236897](https://l10n.mozilla.org/dashboard/compare?run=236897)
 
 각 영문 repo는 한국어 repo와 구조가 같습니다.
 
@@ -81,7 +81,7 @@ accesskey 같은 경우는 번역 안하고 추가만 하면 됩니다.
 
 위와 같이 patch 파일을 만든 후, 앞에서 만들었던 버그에 파일 첨부(attach)를 하시면 됩니다. 업로드시 patch라는 마크에 표시하시면 자동으로 패치로 인식합니다.
 
-예를 들어, [https://bugzilla.mozilla.org/show_bug.cgi?id=773786](https://bugzilla.mozilla.org/show_bug.cgi?id=773786) 에 첨부된 patch를 참고하세요. 그리고 review flag를 ? 로 하시고, [channy@mozilla.or.kr](channy@mozilla.or.kr) 을 지정해 주세요. 그러면 제가 patch를 리뷰하고 반영을 해드리게 됩니다.
+예를 들어, [https://bugzilla.mozilla.org/show_bug.cgi?id=773786](https://bugzilla.mozilla.org/show_bug.cgi?id=773786) 에 첨부된 patch를 참고하세요. 그리고 review flag를 ? 로 하시고, [channy@mozilla.or.kr](mailto:channy@mozilla.or.kr) 을 지정해 주세요. 그러면 제가 patch를 리뷰하고 반영을 해드리게 됩니다.
 
 더 궁금한 점이 있으시면 댓글 달아 주십시오.
 

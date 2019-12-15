@@ -57,7 +57,7 @@ Oni povas klarigi dubon inter adjektivo aŭ aparteno per la jena ekzemplo:
 
 ### uskleco (majuskloj kaj minuskloj)
 
-Majuskle oni nur skribas la komencon de la frazo kaj proprajn nomojn. Ĉiuj aliajn vortojn oni skribas minuskle, krom kiam ili estas mencio al butono aŭ menuero, kiujn ni konsideras propran nomon en tiu kunteksto.
+Majuskle oni nur skribas la komencon de la frazo kaj proprajn nomojn. Ĉiujn aliajn vortojn oni skribas minuskle, krom kiam ili estas mencio al butono aŭ menuero, kiujn ni konsideras propran nomon en tiu kunteksto.
 
 |angla|esperanta|
 | --- | --- |
