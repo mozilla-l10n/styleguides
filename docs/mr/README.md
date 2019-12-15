@@ -20,7 +20,7 @@ This style guide is broken up into two main parts: the first contains rules that
 
 3. Handling cultural references, idioms, and slang
 
-4. For style consistency we use FUEL
+4. For style consistency we use [Transvision](https://transvision.mozfr.org/)
 
 ### Terminology
 
@@ -71,3 +71,22 @@ Ellipsis are often inserted automatically in the UI where strings are truncated.
 7. Legal content
 
 8. Fluency
+
+### Precautions
+
+* use machinery (refer below) to keep the string consistent and do not loose the meaning of the source string
+* try and keep the string length as close to the number provided below the input textbox
+* do not use double spaces.
+* These strings are later programmatically formatted so current source strings contain variables
+e.g. ```printf("my name is %s", name);``` here %s is format specifier. look for such parts of strings and DO NOT TRANSLATE THEM.
+* do not translate numbers, version names, build numbers
+* do not translate trade names of organizations or products e.g. Mozilla, Google, Facebook, Firefox, Chrome, Android ..etc
+
+### Using [Machinery](https://pontoon.mozilla.org/machinery/)
+
+* It is very important to maintain consistency while localizing any product. e.g. website can be called साईट or संकेतस्थळ. both are right.
+* But we try and stick to one translation as far as possible.
+* Always keep the machinery opened as a reference point in a new tab while localizing.
+* Enter the word you want to translate and select the language Marathi(mr) and check for most used translation and then use this in your string.
+* This is based on past data which can be cloudy. So, when in doubt, use your own reasoning to choose the correct translation.
+* IMP : There are suggestions pulled from Google and Microsoft database. Please review such suggestions for aobve rules before using them directly.
