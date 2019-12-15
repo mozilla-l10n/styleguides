@@ -74,13 +74,13 @@ Ellipsis are often inserted automatically in the UI where strings are truncated.
 
 ### Precautions
 
-* use machinery (refer below) to keep the string consistent and do not loose the meaning of the source string
-* try and keep the string length as close to the number provided below the input textbox
-* do not use double spaces.
+* Use machinery (refer below) to keep the string consistent and do not loose the meaning of the source string.
+* Try and keep the string length as close to the number provided below the input textbox.
+* Do not use double spaces.
 * These strings are later programmatically formatted so current source strings contain variables
 e.g. ```printf("my name is %s", name);``` here %s is format specifier. look for such parts of strings and DO NOT TRANSLATE THEM.
-* do not translate numbers, version names, build numbers
-* do not translate trade names of organizations or products e.g. Mozilla, Google, Facebook, Firefox, Chrome, Android ..etc
+* Do not translate numbers, version names, build numbers.
+* Do not translate trade names of organizations or products e.g. Mozilla, Google, Facebook, Firefox, Chrome, Android ..etc.
 
 ### Using [Machinery](https://pontoon.mozilla.org/machinery/)
 
