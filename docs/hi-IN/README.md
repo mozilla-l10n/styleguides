@@ -121,6 +121,12 @@ see: ([https://en.wikipedia.org/wiki/Abbreviation](https://en.wikipedia.org/wiki
 ## How would I express that meaning in my own language?
 
 ## Terminology
+1. Brand name should not be localized/transliterated.
+2. We should follow pontoon localization history.
+3. Use transvision tools https://transvision.mozfr.org/ 
+4. Difficult concepts/ terminologies should be made easy to comprehend otherwise should be transliterated.
+5. New term bases should also be given a thought as it gives a new perspective to a difficult word.
+6. For reference we can take the help of sabdkosh https://www.shabdkosh.com/
 
 ## Should Not Translate
 
