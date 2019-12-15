@@ -124,7 +124,7 @@ see: ([https://en.wikipedia.org/wiki/Abbreviation](https://en.wikipedia.org/wiki
 
 * Brand name should not be localized/transliterated.
 * We should follow pontoon localization history.
-* Use transvision tools [Transvision] (https://transvision.mozfr.org/) 
+* Use transvision tools [Transvision] (https://transvision.mozfr.org/)
 * Difficult concepts/ terminologies should be made easy to comprehend otherwise should be transliterated.
 * New term bases should also be given a thought as it gives a new perspective to a difficult word.
 * For reference we can take the help of [sabdkosh] (https://www.shabdkosh.com/)
@@ -191,7 +191,7 @@ Finally, there are times that a translation simply doesn't make sense. It's hard
 ## Tips to Remember
 
 1. Do limit the word count of the localized string same as source string. Use FUEL guides for consistency.
-2. Don ‘t change dot `.` to pipe `|`.
+2. Do change dot . to purnwiram '।' not pipe |.
 3. Always use not translate product names. Like `Mozilla`, `Firefox`, `Facebook`.
 4. Don't translate HTML tags. Like `<HTML>`, `&ndash`
 5. Try to use localised developer edition browser.
