@@ -60,6 +60,8 @@
     * [General Style Guide](pt-BR/general.md)
     * [Glossary](pt-BR/glossary.md)
 * [Romanian (ro)](ro/README.md)
+* [Russian (ru)](ru/README.md)
+    * [Marketing guide to Firefox localization](ru/firefox_marketing.md)
 * [Scottish Gaelic (gd)](gd/README.md)
 * [Serbian (sr)](sr/README.md)
 * [Sinhala (si)](si/README.md)
