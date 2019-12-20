@@ -91,13 +91,13 @@ Dalam melakukan penerjemahan istilah-istilah tertentu, penerjemah disarankan unt
 1. [Transvision](https://transvision.mozfr.org)
 1. [Daftar istilah internet Indonesia](https://id.m.wikipedia.org/wiki/Daftar_istilah_Internet_Indonesia)
 1. [Pembakuan istilah aplikasi komputer berbahasa Indonesia](https://id.wikisource.org/wiki/Panduan_Pembakuan_Istilah,_Pelaksanaan_Instruksi_Presiden_Nomor_2_Tahun_2001_Tentang_Penggunaan_Komputer_Dengan_Aplikasi_Komputer_Berbahasa_Indonesia)
-1. [Microsoft terminology]((https://www.microsoft.com/en-us/language)
+1. [Microsoft terminology](https://www.microsoft.com/en-us/language)
 
-Daftar di atas disusun berdasarkan tingkat rekomendasi penggunaan situs web sebagai acuan pelokalan. Untuk memeriksa makna dari kata yang digunakan, penerjemah menggunakan [Kamus Besar Bahasa Indonesia 4](http://kbbi4.portalbahasa.com/)
+Daftar di atas disusun berdasarkan tingkat rekomendasi penggunaan situs web sebagai acuan pelokalan. Untuk memeriksa makna dari kata yang digunakan, penerjemah menggunakan [Kamus Besar Bahasa Indonesia daring](https://kbbi.kemdikbud.go.id/)
 
 ### Satuan dan Ejaan Bahasa
 
-Seluruh aturan pengunaan satuan numerik dan ejaan bahasa sepenuhnya mengacu kepada [Microsoft Style Guide Bahasa Indonesia (halaman 8–29)](http://d.pr/f/1fhvq) dan [Panduan Umum Ejaan Bahasa Indonesia 2015](http://d.pr/f/1kARW) yang diterbitkan oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia.
+Seluruh aturan pengunaan satuan numerik dan ejaan bahasa sepenuhnya mengacu kepada [Microsoft Style Guide Bahasa Indonesia (halaman 8–29)](http://download.microsoft.com/download/6/9/9/6996c354-d462-4638-abfd-5610915c909b/ind-idn-StyleGuide.pdf) dan [Panduan Umum Ejaan Bahasa Indonesia 2015](https://puebi.readthedocs.io/en/latest/) yang diterbitkan oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia.
 
 Dalam hal huruf kapital, pengguna perlu memerhatikan [Pedoman Penulisan Huruf Kapital](http://id.wikipedia.org/wiki/Wikipedia:Pedoman_penulisan_huruf_kapital).
 
