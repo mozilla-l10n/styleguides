@@ -93,6 +93,7 @@ eg ( name ) =>>... ( نام )
 
 ## Brand & Product Names
 Brand and Product names should be as it is.
+
 | English	| Urdu |
 | -------   | ---- |
 | Android	| Android |
