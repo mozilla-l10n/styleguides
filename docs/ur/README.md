@@ -24,6 +24,8 @@ Correct: سیکورٹی
 
 ```
 * **Localization**: Localization means that the translated text needs to be adapted to the to the local language, customs and localization standards. For example, in many cases you would need to use Urdu names rather than English
+* **Translation**: Translation is taking the meaning of a word from the source text and providing an equivalent text in the target language.
+* **Transliteration (Transliterate)**: Transliteration is converting the text from one script to another. It does not render meaning. This means changing only the source letters or characters into corresponding those of the target language.
 
 ``` 
 Example:- New York
@@ -55,6 +57,12 @@ Correct: تیز، بہتری کے لئے۔
 * Produce a translation that sounds as it if was originally written in your language, i.e. avoid following the original source sentence structure too closely.
 * Always bear in mind who your target audience is (i.e. an experienced computer user, a beginner, or a combination of both groups).
 * Use a consistent style throughout all product components and across a product range, to ensure that all Mozilla products can be linguistically identified as part of a group of products.
+* Use Formal expressions.
+```
+Example: Your account is safe
+Wrong: تمہارا اکاؤنٹ محفوظ ہے
+Correct: آپ کا اکاؤنٹ محفوظ ہے
+```
 
 ## Reference Terminology
 
@@ -93,7 +101,6 @@ eg ( name ) =>>... ( نام )
 
 ## Brand & Product Names
 Brand and Product names should be as it is.
-
 | English	| Urdu |
 | -------   | ---- |
 | Android	| Android |
@@ -116,14 +123,16 @@ Brand and Product names should be as it is.
 * Videos - [Playlist](https://www.youtube.com/playlist?list=PLRv87LmcGEYgPknvuH2RoI3CrYXRlr7D9)
 
 ### Date format
-> Month should not be abbreviated, if date is wriiten in source as 11 March 2019, or 11 Mar 2019, you should write as below
-ء2019 مارچ 11
+> Month should not be abbreviated, if date is written in source as 11 March 2019, or 11 Mar 2019, you should write as below
+```
+۔2019 مارچ 11
+```
+**Note**: Don't include urdu full stop as displayed above, it's just for demonstration.
 
 | Name | Format | Example |
 | ---- | ------ | ------- |
 | Short | mm/dd/yy | 12/31/19 |
 | Abbreviated | month dd | مارچ 31 |
-| Long | Date Month Year | ء2019 مارچ 11 |
 
 ### Days
 
@@ -139,14 +148,19 @@ Brand and Product names should be as it is.
 
 ### Time format
 Time should be written as Standard format.
->  i.e. hh:mm:ss AM/PM or HH:MM
+```
+i.e. hh:mm:ss AM/PM or HH:MM
 03:24:12 PM
+14:32
+```  
 
 ### Numerals
 Numbers should be same as english numbers. 
-> * eg. 2 will be 2 and not ٢ 
-> * Not these numbers : ١٢٣٤٥٦٧٨٩١٠ 
-> * Use : 12345678910
+ ```
+ * Example: 2 will be 2 and not ٢ 
+ * Wrong: ١٢٣٤٥٦٧٨٩١٠ 
+ * Correct : 12345678910
+ ```
 
  | Separator | Character Name | Symbol | Example |
  | --------- | -------------- | ------ | ------- |
@@ -157,37 +171,38 @@ Numbers should be same as english numbers.
 ### Currency
 
 > Currency in Urdu is Rupee - روپیہ
-
+```
 * Rupee - روپیہ
 * روپیہ 100
-
+```
 ### Address and postal code format
-
->
->     [addressee]
->     [street number and name][building and suite numbers]
->     [district][city][state/province][postal code]
->     [Country]
-
+```
+[addressee]
+[street number and name][building and suite numbers]
+[district][city][state/province][postal code]
+[Country]
+```
 ### Telephone number format
 
-> * +1/+91/+92/ XXXXXXXXXX
-> * e.g +1 1234567890
+ ```
+ * +1/+91/+92/ XXXXXXXXXX
+ * e.g +1 1234567890
+ ```
 
 ### Units of measurement
 
 | English | Translation | Abbreviation |
 | ------- | ----------- | ------------ | 
-| Kilometre |      کلو میٹ         |Not Applicable|
+| Kilometer |      کلو میٹر         |Not Applicable|
 | Meter|         میٹر              |Not Applicable|
 |Decimeter|    ڈیسی  میٹر          |Not Applicable|
-|Centimetre|     سینٹی میٹر        |Not Applicable|
+|Centimeter|     سینٹی میٹر        |Not Applicable|
 |Millimeter|     ملی میٹر          |Not Applicable|
 |Hectoliter|     ہیکٹو لیٹر        |Not Applicable|
 |Liter    |     لیٹر               |Not Applicable|
 |Deciliter|      ڈیسی لیٹر         |Not Applicable|
 |Centiliter|      سینٹی لیٹر       |Not Applicable|
-|Millilitre|      ملی لیٹر         |Not Applicable|
+|Milliliter|      ملی لیٹر         |Not Applicable|
 |Ton    |     ٹن                    |Not Applicable|
 |Kilogram|       کلو گرام          |Not Applicable|
 |Pound    |     پاؤنڈ              |Not Applicable|
@@ -207,17 +222,9 @@ Numbers should be same as english numbers.
 ### Adjective
 In Urdu, adjectives should be handled in the following manner.
 
-General wording rules. Adjectives are also considered nouns.
+Adjectives are also considered as nouns.
 
-### Articles
-This section does not apply to Urdu.
-
-### Capitalization
-This section does not apply to Urdu.
-
-### Gender
-"ی" for feminine is used after a masculine name. But there are also some different styles.
-Example:میں اخبار نہیں پڑھتا ہوں 
+**Nouns should not be translated but transliterated, except for Brand Names.**
 
 ### Prepositions
 Pay attention to the correct use of the preposition in translations. Influenced by the English language, many translators omit them or change the word order.
@@ -250,16 +257,19 @@ Use colons to show the following list or names in order.
 This section does not apply to Urdu.
 
 #### Quotation Marks
-In US source strings, you may find software references surrounded by English quotation marks. As same as English is followed in Urdu.
-
-> Example: مہتاب بھائی کہتے ہیں "آپ ایسا نہ کرو"۔ 
-
+In English strings, you may find software references surrounded by quotation marks. 
+```
+Example: Instead, you might press “Enter”.
+Correct: اس کے بجائے، آپ “اینٹر” دبا سکتے ہیں۔
+```
 ### Singular & Plural
 Singular may be used as plural in Urdu.
-> Example: ہم نے اخبار پڑھے ۔
-
+```
+Example: ہم نے اخبار پڑھ لیا۔
+```
 ### Whitespace
 There should not be extra whitespace in between, before and after the sentence.
+See [this](https://pontoon.mozilla.org/ur/all-projects/all-resources/?search=%25S&status=translated&string=99192)
 
 ## Copy rules
 * XML tags and External Arguments should remain same. 
