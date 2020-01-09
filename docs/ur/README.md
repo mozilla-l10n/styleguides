@@ -1,6 +1,7 @@
 # Style guide Urdu (ur)
 
  <!-- toc -->
+
 ## Introduction
 
 This style guide provides instruction for localizing to the Urdu locale. It contains rules that are both defined by Mozilla and Mozilla's localization communities on how to best translate text in Mozilla products, websites, and other projects. By following these rules, the translator has a better chance of producing a high quality translation that represents Mozilla values and culture. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/). We welcome your feedback, questions and concerns regarding the Style Guide.
@@ -35,11 +36,11 @@ Correct: سیکورٹی
 ```
 
 Example:- New York
-Wrong: نیا یارک 
-Correct: نیو یارک 
+Wrong: نیا یارک
+Correct: نیو یارک
 
 Example: Damascus
-Wrong: دماسکس 
+Wrong: دماسکس
 Correct: دمشق
 
 ```
@@ -93,7 +94,9 @@ Microsoft glossary, to ensure adherence to the industry standards. It is your re
 
 * Access Key / Shortcuts should be in english, old ones need to be refactored eg. T =>> T
 
-``` [Screenshot] ```
+```
+[Screenshot]
+```
 
 * XML tags and External Arguments should remain same. XML tag =>
 
@@ -236,8 +239,10 @@ Numbers should be same as english numbers.
 ### Telephone number format
 
 ```
+
 * +1/+91/+92/ XXXXXXXXXX
 * e.g +1 1234567890
+
 ```
 
 ### Units of measurement
@@ -326,14 +331,13 @@ Example: Instead, you might press “Enter”.
 Correct: اس کے بجائے، آپ “اینٹر” دبا سکتے ہیں۔
 
 ```
+
 ### Singular & Plural
 
 Singular may be used as plural in Urdu.
 
 ```
-
 Example: ہم نے اخبار پڑھ لیا۔
-
 ```
 
 ### Whitespace
