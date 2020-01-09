@@ -7,8 +7,8 @@ This style guide provides instruction for localizing to the Urdu locale. It cont
 
 * Wiki: [https://wiki.mozilla.org/L10n:Teams:ur](https://wiki.mozilla.org/L10n:Teams:ur)
 * Pontoon: [https://pontoon.mozilla.org/ur/](https://pontoon.mozilla.org/ur/)
-* Discourse: [link]()
-* Telegram: [link]()
+* Discourse: [coming soon...]()
+* Telegram: [join](https://t.me/joinchat/Ci1LBhM7ccHcG3tFYQG6bQ)
 
 ## General Considerations
 The localized text should be as if it was originally written in Urdu. It has to be accurate, correct and clear. To achieve that try to avoid wordiness and word-by-word translation.
@@ -41,7 +41,7 @@ Do not translate every word, but use the style that is natural for Urdu.
 
 * **Consistency**: Please ensure that all terminology is used consistently both within one component and across different components (software, help, documentation). In most cases terminology needs to be consistent also across different products. Moreover please use consistent style and register and translate similar phrases consistently.
 
-Refer [Glossary]()
+Refer [Glossary](glossary.md)
 
 ## Formality and tone
 
@@ -101,6 +101,7 @@ eg ( name ) =>>... ( نام )
 
 ## Brand & Product Names
 Brand and Product names should be as it is.
+
 | English	| Urdu |
 | -------   | ---- |
 | Android	| Android |
