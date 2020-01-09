@@ -21,7 +21,7 @@ The localized text should be as if it was originally written in Urdu. It has to 
 
 Example:- Sync
 Wrong: ہم وقت ساز
-Correct: سنک
+Correct: sync
 
 Example: Security
 Wrong: سلامتی
@@ -129,25 +129,13 @@ eg ( name ) =>>... ( نام )
 
 ```
 
-## Brand & Product Names
+## Brands, copyright and trademark
 
-Brand and Product names should be as it is.
+Trademarks present a special case for localization as they have legal as well as semantic significance. To ensure that localization does not undermine Mozilla’s trademarks rights, please follow these rules when translating content that includes trademarks.
 
-| English	| Urdu |
-| -------   | ---- |
-| Android	| Android |
-| Firefox	| Firefox |
-| Flash	    | Flash |
-| Focus	    | Focus |
-| iOS	    | iOS |
-| Mozilla	| Mozilla |
-| Pocket	| Pocket |
-| Rocket	| Rocket |
-| Windows	| Windows|
-| ScreenshotGo | ScreenshotGo |
-| Firefox Send | Firefox Send |
-| Firefox Account | Firefox Account |
-| SuMo | SuMo |
+This page has a [list of Mozilla trademarks](https://www.mozilla.org/en-US/foundation/trademarks/list/).
+
+Also, refer to [Mozilla's General Brands, copyright and trademark guidelines](https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark).
 
 ## Getting Started with Pontoon
 
