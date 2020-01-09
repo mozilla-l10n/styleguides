@@ -1,4 +1,5 @@
-| English         | Urdu         |Context/Comments
+# Glossary
+| English         | Urdu         |Context/Comments |
 | ------------- |:-------------:|:-------------:|
 | Active/Enable |**فعال**|
 | Addons  |**ایڈ اون**|
@@ -73,10 +74,9 @@
 |URL|**URL**|
 |Window |**ونڈوں**|Relevant to browser window not OS|
 
+**Brand names to be used as it is:**
 
-
-#### Brand names to be used as it is:
-| English         | Urdu         
+| English         | Urdu      |
 | ------------- |-------------|
 |Android |**Android**|
 |Firefox |**Firefox**|
@@ -91,5 +91,3 @@
 |SuMo|**SuMo**|
 |Firefox Lite|**Firefox Lite**|
 |Common Voice|**Common Voice**|
-
-
