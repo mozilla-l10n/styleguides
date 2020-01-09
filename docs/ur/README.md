@@ -67,7 +67,7 @@ Correct: آپ کا اکاؤنٹ محفوظ ہے
 ## Reference Terminology
 
 The following terminology sources should be used as reference in the translation:
-* Urdu Glossary, [link]()
+* Urdu [Glossary](glossary.md)
 * Product-specific glossary, to ensure consistency across all product components visit [Transvision](https://transvision.mozfr.org/?recherche=Mozilla&repo=gecko_strings&sourcelocale=en-US&locale=ur&search_type=strings).
 * Previous version product-specific glossary, visit [Transvision](https://transvision.mozfr.org/?recherche=Mozilla&repo=gecko_strings&sourcelocale=en-US&locale=ur&search_type=strings), to ensure consistency between versions.
 * Glossaries of other Mozilla products, to ensure cross-product consistency.
