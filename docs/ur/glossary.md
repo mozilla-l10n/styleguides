@@ -64,7 +64,7 @@
 |Setting |**سیٹنگ**|
 |Settings |**سیٹنگز**|
 |System |**سسٹم**|
-|Sync |**سنک**|
+|Sync |**sync**|
 |Synchronize |**سنکرونیس**|
 |Synchronizing|**سنکرونیزیشن**|
 |Theme|**تھیم**|
@@ -77,18 +77,8 @@
 
 **Brand names to be used as it is:**
 
-| English         | Urdu      |
-| ------------- |-------------|
-|Android |**Android**|
-|Firefox |**Firefox**|
-|Firefox Account |**Firefox Account**|
-|Flash |**Flash**|
-|Focus |**Focus**|
-|iOS |**iOS**|
-|Mozilla |**Mozilla**|
-|Pocket |**Pocket**|
-|Rocket |**Rocket**|
-|Windows|**Windows**|
-|SuMo|**SuMo**|
-|Firefox Lite|**Firefox Lite**|
-|Common Voice|**Common Voice**|
+Trademarks present a special case for localization as they have legal as well as semantic significance. To ensure that localization does not undermine Mozilla’s trademarks rights, please follow these rules when translating content that includes trademarks.
+
+This page has a [list of Mozilla trademarks](https://www.mozilla.org/en-US/foundation/trademarks/list/).
+
+Also, refer to [Mozilla's General Brands, copyright and trademark guidelines](https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark).
