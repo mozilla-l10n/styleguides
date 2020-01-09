@@ -77,6 +77,7 @@
 * [Thai (th)](th/README.md)
 * [Turkish (tr)](tr/README.md)
 * [Ukrainian (uk)](uk/README.md)
+* [Urdu (ur)](ur/README.md)
 * [Vietnamese (vi)](vi/README.md)
 * [Wolof (wo)](wo/README.md)
 * [Xhosa (xh)](xh/README.md)
