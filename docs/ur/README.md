@@ -7,7 +7,6 @@ This style guide provides instruction for localizing to the Urdu locale. It cont
 
 * Wiki: [https://wiki.mozilla.org/L10n:Teams:ur](https://wiki.mozilla.org/L10n:Teams:ur)
 * Pontoon: [https://pontoon.mozilla.org/ur/](https://pontoon.mozilla.org/ur/)
-* Discourse: [coming soon...]()
 * Telegram: [join](https://t.me/joinchat/Ci1LBhM7ccHcG3tFYQG6bQ)
 
 ## General Considerations
