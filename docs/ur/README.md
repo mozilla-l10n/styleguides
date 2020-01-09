@@ -149,7 +149,6 @@ Brand and Product names should be as it is.
 | Firefox Account | Firefox Account |
 | SuMo | SuMo |
 
-
 ## Getting Started with Pontoon
 
 > Here, you will be able to setup your keyboard and get started on Pontoon. Watch the videos.
@@ -271,7 +270,6 @@ Numbers should be same as english numbers.
 |Mile     |    میل                 |Not Applicable|
 |Gallon |    گیلن                  |Not Applicable|
 
-
 ## Grammar, Syntax & Orthographic Conventions
 
 > This section includes information on how to apply the general rules of the Urdu language to Mozilla Products.
@@ -348,6 +346,6 @@ See [this](https://pontoon.mozilla.org/ur/all-projects/all-resources/?search=%25
 ## Copy rules
 
 * XML tags and External Arguments should remain same.
-* XML tag => ``` <img data=>l10n=>name="icon"/> External Argument => {$name} ```
+* XML tag => ```<img data=>l10n=>name="icon"/> External Argument => {$name}```
 
 Read about copy rules styles in the [General Mozilla L10n Style Guide](../mozilla_general/).
