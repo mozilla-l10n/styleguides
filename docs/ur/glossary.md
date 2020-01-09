@@ -1,4 +1,5 @@
 # Glossary
+
 | English         | Urdu         |Context/Comments |
 | ------------- |:-------------:|:-------------:|
 | Active/Enable |**فعال**|
