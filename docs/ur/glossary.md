@@ -75,7 +75,7 @@
 |URL|**URL**|
 |Window |**ونڈوں**|Relevant to browser window not OS|
 
-**Brand names to be used as it is:**
+**Brands, copyright and trademark**
 
 Trademarks present a special case for localization as they have legal as well as semantic significance. To ensure that localization does not undermine Mozilla’s trademarks rights, please follow these rules when translating content that includes trademarks.
 
