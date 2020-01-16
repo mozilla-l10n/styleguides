@@ -268,8 +268,6 @@ In Urdu, adjectives should be handled in the following manner.
 
 Adjectives are also considered as nouns.
 
-**Nouns should not be translated but transliterated, except for Brand Names.**
-
 ### Prepositions
 
 Pay attention to the correct use of the preposition in translations. Influenced by the English language, many translators omit them or change the word order.
