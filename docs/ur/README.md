@@ -14,7 +14,7 @@ This style guide provides instruction for localizing to the Urdu locale. It cont
 
 ## General Considerations
 
-The localized text should be as if it was originally written in Urdu. It has to be accurate, correct and clear. To achieve that try to avoid wordiness and word-by-word translation.
+The localized text should be as if it was originally written in Urdu. It has to be accurate, correct and clear. To achieve that, try to avoid wordiness and word-by-word translation.
 * **Accuracy**: As a rule all English text needs to be translated. In some cases though, text can be omitted or transliterated; there should be a specific reason for that. The translated text will correctly reflect product functionality.
 
 ```
@@ -120,12 +120,12 @@ Correct : 12345678910
 
 ```
 
-.(full stop) => ( ۔ ) - urdu full stop
+.(full stop) => ( ۔ ) urdu full stop
 
-,(comma) => ( ، ) urdu comma
+,(comma)     => ( ، ) urdu comma
 
 brackets should be opposite,
-eg ( name ) =>>... ( نام )
+eg ( name )  =>... ( نام )
 
 ```
 
@@ -287,7 +287,7 @@ Please use the following pronouns in Urdu text.
 #### Small Dash (۔)
 
 Small Dash (۔) is used after the end of sentence, it should be noted, Urdu does not use full stop.
-> Example: مسل کھولنے کے لیے پاس ورڈ داخل کریں۔
+> Example: فائل کھولنے کے لیے پاس ورڈ داخل کریں۔
 
 #### Comma ، (Urdu comma)
 
