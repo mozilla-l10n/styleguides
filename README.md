@@ -26,4 +26,4 @@ $ mdbook serve
 
 [mdbook-toc](https://github.com/badboy/mdbook-toc/) is used as a preprocessor, and will install the correct version of mdBook as a dependency.
 
-If you want content to appear on mdBook, it needs to be listed in [doc/SUMMARY.md](doc/SUMMARY.md).
+If you want content to appear on mdBook, it needs to be listed in [docs/SUMMARY.md](docs/SUMMARY.md).
