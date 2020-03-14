@@ -69,7 +69,7 @@
 |Synchronizing|**سنکرونیزیشن**|
 |Theme|**تھیم**|
 |Toolbar |**ٹولبار**|
-|Toggle |**ٹوگل **|
+|Toggle |**ٹوگل**|
 |Tracker/Trackers |**ٹریکر**|
 |URI|**URI**|
 |URL|**URL**|

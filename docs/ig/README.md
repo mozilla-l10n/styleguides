@@ -1,5 +1,7 @@
 # Style Guide Igbo (ig)
 
+<!-- markdownlint-disable MD037 -->
+
 ## Introduction
 
 This style guide is intended for translators working on Mozilla projects. It provides in-depth information about the quality standards expected by Mozilla for the translation of all product components. All translators should read this guide before commencing any translation work.
