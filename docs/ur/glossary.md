@@ -41,6 +41,7 @@
 |Feature|**خصوصیات**|
 |File |**فائل**|
 |Flash plugin|**پلگ ان Flash**|
+|Flagged |**نشان زد**|
 |Folder |**فولڈر**|
 |HTTP/HTTPS|**HTTP/HTTPS**|
 |Inactive/Disable |**غیر فعال**|
