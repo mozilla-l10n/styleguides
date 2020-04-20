@@ -40,11 +40,13 @@
 |Extension |**ایکسٹینشن**|
 |Feature|**خصوصیات**|
 |File |**فائل**|
+|Fiter|**فلٹر**|
 |Flash plugin|**پلگ ان Flash**|
 |Folder |**فولڈر**|
 |HTTP/HTTPS|**HTTP/HTTPS**|
 |Inactive/Disable |**غیر فعال**|
 |Install |**انسٹال**|
+|Interactive |**متعامل**|
 |Key |**کلید**|
 |Keyboard |**کی بورڈ**|
 |Layout |**لےآؤٹ**|
@@ -59,19 +61,24 @@
 |Rating |**شرح کاری**|
 |Recommended |**تجویز کردہ/سفارش کردہ**|
 |Remove|**ہٹائیں**|
+|Reviewers|**مبصرین**|
 |Save |**محفوظ**|
 |Search |**تلاش کریں**|
 |Section |**صیغہ**|
 |Setting |**سیٹنگ**|
 |Settings |**سیٹنگز**|
+|Slug|**سلگ**|
 |System |**سسٹم**|
 |Sync |**sync**|
 |Synchronize |**سنکرونیس**|
 |Synchronizing|**سنکرونیزیشن**|
+|Syntax|**نحو**| 
+|Table of contents|**جدول مشمولات**|
 |Theme|**تھیم**|
 |Toolbar |**ٹولبار**|
 |Toggle |**ٹوگل**|
 |Tracker/Trackers |**ٹریکر**|
+|Troubleshooting|**ازالہ نقص کارى**|
 |URI|**URI**|
 |URL|**URL**|
 |Window |**ونڈوں**|Relevant to browser window not OS|
