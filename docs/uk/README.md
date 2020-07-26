@@ -114,9 +114,9 @@ You can refer to this [Online Dictionary](http://rodovyi-vidminok.wikidot.com/).
 There are three plural forms in the Ukrainian language.
 
      Example:
-     1. один елемент
-     2. три елемента
-     3. шість елементів
+     1. Одна вкладка
+     2. Три вкладки
+     3. Шість вкладок
 
 List of all the rules of plural forms and examples, including Ukrainian, can be found at the following links:
 
