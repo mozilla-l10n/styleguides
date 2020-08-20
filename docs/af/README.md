@@ -1,5 +1,7 @@
 # Style Guide Africaans (af)
 
+<!-- markdownlint-disable MD037 -->
+
 ## Introduction
 
 This style guide is intended for translators working on Mozilla projects. It provides in-depth information about the quality standards expected by Mozilla for the translation of all product components. All translators should read this guide before commencing any translation work.
@@ -32,7 +34,7 @@ The following terminology sources should be used as reference in the translation
 * **Product-specific glossary**, to ensure consistency across all product components.
 * **Previous version product-specific glossary**, to ensure consistency between versions.
 * **Glossaries of other Mozilla products**, to ensure cross-product consistency.
-* **Microsoft glossaries**, to ensure adherence to some of the industry standards. The glossaries can be found at: [http://www.microsoft.com/language/en/us/search.mspx](http://www.microsoft.com/language/en/us/search.mspx).
+* **Microsoft glossaries**, to ensure adherence to some of the industry standards. The glossaries can be found at: [http://www.microsoft.com/Language](http://www.microsoft.com/Language).
 
 ### Terminology not found in the glossary or style guide
 

@@ -10,7 +10,7 @@ Başlarken [e-posta grubumuza](https://lists.mozilla.org/listinfo/community-turk
 
 * Çevirilerimizde [Dil Derneği](http://www.dildernegi.org.tr/)‘nin sözlüğü ve yazım kılavuzu esas alınır.
 * Türkçe Mozilla ürünlerinde kullandığımız tutarlı bir terminoloji vardır. Bir terimin Türkçe karşılığından emin değilseniz, o terimi içeren [diğer çevirileri bulabileceğiniz Transvision aracımıza göz atmanızı](https://transvision.mozfr.org/) öneririz.
-* Microsoft tarafından hazırlanan [Türkçe Biçem Rehberi](http://www.microsoft.com/Language/en-US/StyleGuides.aspx) teknik çeviri konusunda önemli bilgi ve öneriler içermektedir.
+* Microsoft tarafından hazırlanan [Türkçe Biçem Rehberi](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1) teknik çeviri konusunda önemli bilgi ve öneriler içermektedir.
 * Terminolojide bir değişiklik öneriyorsanız, o terimin geçtiği tüm çevirileri düzeltip göndermeden önce önerinizi e-posta grubumuzda paylaşmanızı rica ederiz.
 * Sizin için kolay görünen çevirileri yapıp, doğru çevireceğinizden emin olmadıklarınızı başka gönüllülere bırakmanızı öneririz. Bu şekilde hepimiz daha verimli çalışabiliriz.
 * Tüm çeviriler deneyimli çevirmenlerimiz tarafından gözden geçirildikten sonra Mozilla’ya gönderilmektedir. Bu nedenle hata yapmaktan korkmamanızı, ama onaylanmayan veya düzeltilen çevirileriniz için de bize küsmemenizi rica ederiz.

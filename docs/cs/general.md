@@ -1,10 +1,12 @@
 # Style Guide Czech (cs) / Překladatelská stylistická příručka
 
-<!-- toc -->
+ <!-- toc -->
 
-This style guide provides instruction for translating to the Czech locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/README.md). Please read both before starting with any localization work on Mozilla product and project, help articles or extensions for Firefox. It will help you to avoid some common mistakes and make the translation consistent.
+This style guide provides instruction for translating to the Czech locale. This style guide is to be used in coordination with the [General Mozilla L10n Style Guide](../mozilla_general/). Please read both before starting with any localization work on Mozilla product and project, help articles or extensions for Firefox. It will help you to avoid some common mistakes and make the translation consistent.
 
-In addition to this style guide, please also read our [glossary](glossary.md). Words like "kliknout" and "storno" may look trivial to you, but in fact those apply to the world of MS Windows only. In multiplatform Mozilla products we use "klepnout" and "zrušit". Some terminology may be specific directly to the product, in Firefox e.g. "záložky" ("bookmarks") or "panely" ("tabs"). Please read and use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) whenever you are in doubt.
+In addition to this style guide, please also read our [glossary](glossary.md). Words like "kliknout" and "storno" may look trivial to you, but in fact those apply to the world of MS Windows only. In multiplatform Mozilla products we use "klepnout" and "zrušit". Some terminology may be specific directly to the product, in Firefox e.g. "záložky" ("bookmarks") or "panely" ("tabs"). Please read and use our [glossary](glossary.md) or [Transvision](https://wiki.l10n.cz/Transvision) whenever you are in doubt.
+
+If you prefer to read the style guide in Czech, there is the [L10N.cz style guide](https://wiki.l10n.cz/Stylistick%C3%A1_p%C5%99%C3%ADru%C4%8Dka), which was created base on this one, but in may differ in less or more important parts.
 
 ## Czech language in a nutshell
 
@@ -47,7 +49,7 @@ A common mistake, both in translations and spoken language, is the overuse of so
 
 * [Česká zájmena – Wikipedie](https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_z%C3%A1jmena)
 
-Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](http://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
+Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While "menu" and "level" might work for many people using computers every day, your parents will prefer Czech equivalents "nabídka" and "úroveň". Please use our [glossary](glossary.md) or [Transvision](https://wiki.l10n.cz/Transvision) to lookup Czech equivalents already in use. The only exception are branded names.
 
 Usually it’s also better to avoid abbreviations and acronyms. In case you need to use it (e.g. because of the space limitation), please search in the existing translations first. If this is the first occurrence, lookup and use a standard one, or follow the rules from the language reference.
 
@@ -77,10 +79,10 @@ In the Czech Republic, the 12-month [Gregorian calendar](https://en.wikipedia.or
 
 | Name | Format | Example |
 | ---- | ------ | ------- |
-| Short (rare since 2000) | dd. mm. yy | 1. 12. ’99 |
-| Abbreviated | dd. mmm | 1. pro |
-| Long (numerical) | dd. mm. yyyy | 1. 12. 1999 |
-| Long | Date Month Year (month in genitive) | 1. prosince 1999 |
+| Short (rare since 2000) | d. m. yy | 1. 12. ’99 |
+| Abbreviated | d. mmm | 1. pro |
+| Long (numerical) | d. m. yyyy | 1. 12. 1999 |
+| Long | d. Month yyyy (month in genitive) | 1. prosince 1999 |
 
 Date and month, if written numerical, are single digit ordinal numbers (followed by a period with a space). In business and official correspondence double digit ordinal numbers may be used. In localization, always use the single digit form.
 
@@ -196,4 +198,4 @@ If you want to really emphasize the importance of the feature, you can use title
 * In **select options list** capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.
 * **Tooltips** serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. "Zobrazí historii", "Uloží soubor", "Otevře nabídku".
 * **Accesskeys**, sometime also called accelerators, are keys to access specific UI elements using your keyboard only. Combined with screen readers, accesskeys improve the accessibility for visually impaired users, or used standalone they speedup the UI navigation. In the UI you can often determine them as underscored letters. When localizing accesskeys you have to make sure the letter is on the Czech keyboard and users can press it with the `Alt` key at the same time. The rule of thumb is to only use letters without diacritics. To make the accesskeys look and work the best, use letters contained in the corresponding label and if possible unique in the application menu or dialog. If it fulfills the mentioned rules, using the same accesskey as in English is a small plus.
-* **Commandkeys** are similar to accesskeys, but they work as regular keyboard shortcuts (e.g. `Ctrl+S` for save or `Ctrl+Q` to quit the application). Always keep the same commandkey as in English, unless the key is not available on the standard Czech keyboard. See the [General Mozilla L10n Style Guide](../mozilla_general/README.md#shortcuts-and-accesskeys) for more information about both accesskeys and commandkeys.
+* **Commandkeys** are similar to accesskeys, but they work as regular keyboard shortcuts (e.g. `Ctrl+S` for save or `Ctrl+Q` to quit the application). Always keep the same commandkey as in English, unless the key is not available on the standard Czech keyboard. See the *Shortcuts and Accesskeys* section in the [General Mozilla L10n Style Guide](../mozilla_general/) for more information about both accesskeys and commandkeys.

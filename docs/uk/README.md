@@ -74,7 +74,7 @@ Translating terms representing difficult concepts is a tricky task. Here are som
 
 The translation should strive to achieve proper unit conversions for currency, measurements, etc.
 
-To get an extended information about standard units, measurements, time and date for Ukraine, you can refer to the [Microsoft Style Guide](https://www.microsoft.com/Language/en-US/StyleGuides.aspx).
+To get an extended information about standard units, measurements, time and date for Ukraine, you can refer to the [Microsoft Style Guide](https://www.microsoft.com/en-us/language/StyleGuides?rtc=1).
 
 ## Date Format
 
@@ -114,9 +114,9 @@ You can refer to this [Online Dictionary](http://rodovyi-vidminok.wikidot.com/).
 There are three plural forms in the Ukrainian language.
 
      Example:
-     1. один елемент
-     2. три елемента
-     3. шість елементів
+     1. Одна вкладка
+     2. Три вкладки
+     3. Шість вкладок
 
 List of all the rules of plural forms and examples, including Ukrainian, can be found at the following links:
 

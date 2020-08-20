@@ -49,11 +49,10 @@ Firefox, Thunderbird, Mozilla와 같은 [Mozilla 등록 상표](https://www.mozi
 
 브랜드 이름의 경우 Firefox로 가정하고 ‘가’, ‘는’을 사용합니다.
 
-## 프로젝트별 참고 사항
-
 ### MDN
 
 A 태그를 사용하여 하이퍼텍스트링크가 포함된 경우 en-US가 아닌 ko로 수정합니다.
+
 
 ### Pontoon
 
@@ -90,3 +89,4 @@ A 태그를 사용하여 하이퍼텍스트링크가 포함된 경우 en-US가 �
 #### 지역화 토론 방법
 * Mozila Korea Slack https://mozkr.herokuapp.com/ 가입 초대 링크 받은 후 가입하기 
 * https://mozkr.slack.com 으로 로그인하고 #l10n 채널 들어오기 
+

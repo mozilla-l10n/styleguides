@@ -52,9 +52,11 @@ The Mozilla Philippines Community localization style encompasses various element
 
 Using natural expressions make our localization sound natural to a native speaker.
 
-* Use the "I-[verb]" format during translation:
-  * [EN] Bookmark this page. | [TL] I-bookmark ang pahinang ito.
-  * [EN] Apply changes. | [TL] I-apply ang mga pagbabago.
+* Use the "i-[verb]" format during translation:
+  * [EN] Bookmark this page. | [TL] i-Bookmark ang pahinang ito.
+  * [EN] Cut | [TL] i-Cut
+  * [EN] Paste | [TL] i-Paste
+  * EXCEPTION: [EN] Copy | [TL] Kopyahin
 
 ### Handling cultural references, idioms, and slang
 
@@ -182,7 +184,8 @@ Grammar checking tools and guides:
 
 In Tagalog/Filipino, we use the term "mga" before a noun to denote the common pluralization form:
 
-* Example: [EN] Letters | [TL] Mga letra
+* Example: [EN] Letters | [TL] Mga titik
+* Example: [EN] Bookmarks | [TL] Mga Bookmark
 
 ### Abbreviations
 
