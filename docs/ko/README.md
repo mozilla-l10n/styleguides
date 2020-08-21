@@ -1,102 +1,93 @@
-# Style Guides Korean (ko)
+# 한국어 문서 번역 스타일 가이드
 
-## Mozilla 제품 번역 가이드
+본 문서는 로 다른 사람이 다양한 Mozilla 프로젝트 한국어 지역화를 하더라도 일관성이 있도록 공유되어야 하는 내용을 담고 있습니다. 번역을 포함하여 지역화 작업에 대한 일반적인 내용은 [General Mozilla L10n Style Guide](../mozilla_general/README.md)를 참고하세요.
 
-전체글글쓴이: [Channy](http://forums.mozilla.or.kr/memberlist.php?mode=viewprofile&u=5580&sid=490bc144a9490048549e0dbce0c055cd) » 2012 08 05 15:14 47
+## 목적
 
-Mozilla 제품 번역을 위한 인터페이스 및 메시지 등의 언어 리소스는 Firefox 나 Thunderbird 및 확장 기능 모두 동일합니다. dtd 파일과 properties 파일에 정의되어 있습니다 확장 기능 소스 코드 중. xul 파일에 사용되는 언어 리소스는 dtd 파일, js 파일에서 사용되는 언어 리소스는 properties라는 파일이라고 기억해두면 좋을 것입니다. 또한 확장 기능은. html 파일이 포함되어있는 경우도 있습니다.
+지역화의 목적은 해당 언어 사용자가 가장 이해하기 쉽고 친근하게 느껴지도록 합니다.
 
-## 1. 리소스 파일의 형식
+## 기본 문체
 
-리소스 파일은 각각 다음과 같은 형식입니다.
+명령체가 아닌 경어를 기반으로 합쇼체를 사용합니다.
+* 번역을 하세요. (O) 번역을 하십시오. (X)
+* 번역 해주시기 바랍니다. (O) 번역을 해야 합니다. (X)
 
-*dtd 파일 :* XML 형식으로 만들어져 있으므로 well-formed 되어야 합니다.
+## 용어
 
-코드: [모두 선택](http://forums.mozilla.or.kr/viewtopic.php?f=15&t=15050#)<! - 주석 ->
+먼저 Pontoon에서 추천된 구글 번역을 그대로 복사하시는 경우가 있는데, 진짜 의미가 통하는지 다시 살펴보셔야 합니다. 지금 번역하는 단어가 다른 분들은 어떻게 사용하는 지 꼭 검색해 보시기 바랍니다. (물론 리뷰를 통해 어느 정도 제안을 드릴 것입니다.)
 
-<! ENTITY entity.name "표시할 문자열"> <! - 주석 ->
+Firefox, Thunderbird, Mozilla와 같은 [Mozilla 등록 상표](https://www.mozilla.org/foundation/trademarks/list/)는 번역하지 않습니다.
+* Firefox: Firefox(O), 파이어폭스(X), 파폭(X)
+* JavaScript: JavaScript(O), Javascript(X), 자바스크립트(X)
 
-*properties 파일:* 코드: [모두 선택](http://forums.mozilla.or.kr/viewtopic.php?f=15&t=15050#)# 주석 entity.name = 표시할 문자열
+문장 내에 변수로 사용하는 것이므로 번역하시면 안됩니다.
+* {-brand-name-firefox}
+* %{name}s
+* $name
 
-위의 "표시할 문자열"부분을 번역 문자열입니다. 두 파일 모두 문자 코드는 UTF-8 (BOM 없음)에 저장합니다.
+개발 관련 용어는 개발자들이 일반적으로 쓰는 용어를 사용합니다. 특수키 입력의 경우 영어 그대로 작성합니다.
+* bug -> 버그(O), 벌레(X)
+* Ctrl -> Ctrl(O), 컨트롤(X)
 
-응용 프로그램에서 읽혀지는 언어 리소스는 확장 패키지에 포함된 chrome.manifest 파일에 정의되어 있으며, 각 로케일 이름 폴더로 저장되고 있습니다.
+문장 중간에서 대문자로 시작하는 단어는 번역하지 않고 원문 단어를 그대로 사용합니다.
 
-Mozilla 제품의 리소스 파일 위치는 각 모듈에 따라 위치가 정의됩니다.
+## 서술어
 
-1. Firefox: browser 폴더
-2. Thunderbird: mail, editor 폴더
-3. Firefox Mobile: mobile 폴더
-4. Sunbird: calendar 폴더
-5. 공통 : toolkit, dom 폴더 등
+마침표로 끝나는 문장의 경우 완전한 문장으로 작성합니다. 마침표로 끝나지 않는 문장은 명사구로 번역합니다. 다만, 완전한 문장으로 작성해야 하는 경우도 있습니다.
 
-## 2. 메시지 번역 방법
+* Update failed. -> 업데이트에 실패했습니다.(O), 업데이트 실패(X)
+* Update failed -> 업데이트 실패 (O), 업데이트에 실패했습니다 (X)
+* Please rate %s -> %s를 평가해주세요
 
-각 제품별로 메시지 번역 작업은 모두 aurora 단계에서 이루어집니다. 따라서, aurora 폴더가 기본적인 작업 폴더가 됩니다. Mercurial을 통해 자신의 작업 레포지터리를 만듭니다.
+명사형으로 쓰일 수 있는 동사는 명사형으로 번역을 권장합니다. 다만 문맥상 동사형(~하기)가 더 적합할 경우 동사형으로 번역해도 무관합니다. 원문의 길이에 따라 조절하도록 합니다.
 
-코드: [모두 선택](http://forums.mozilla.or.kr/viewtopic.php?f=15&t=15050#)$ hg clone http://hg.mozilla.org/releases/l10n/mozilla-aurora/ko/
+* Login -> 로그인(O), 로그인하기(X)
+* Share -> 공유하기(O), 공유(X)
 
-번역할 파일 및 내용은 아래 위치에서 각 제품의 aurora 부분의 H/C 에서 C를 눌러 영문 및 한국어 비교 파일을 얻습니다.
+## 조사
 
-[https://l10n.mozilla.org/shipp ... ?locale=ko](https://l10n.mozilla.org/shipping/dashboard?locale=ko)
+여러 단어로 치환되는 주어 뒤에 붙는 조사는 주어에 따라 조사가 달라지는데 ‘은(는)’과 같이 가능한 조사를 모두 써주는 것이 일반적이나 Mozilla에서는 되도록 하나만 쓰도록 합니다. 주어가 어느 범주 안에 들어가는지 명확할 경우 범주를 추가하여 조사를 지정할 수 있습니다.
 
-예를 들어, calendar 번역 작업을 하기 위해서는 cal-aurora의 작업 해야될 내역을 살펴봅니다. 테이블에서 H/C 필드가 있고 여기서 C를 누르면 아래와 같은 링크가 나옵니다.
+* %s is ... -> %s은(는) (X), %s 부가기능은 (O)
 
-[https://l10n.mozilla.org/dashb ... run=236897](https://l10n.mozilla.org/dashboard/compare?run=236897)
+브랜드 이름의 경우 Firefox로 가정하고 ‘가’, ‘는’을 사용합니다.
 
-각 영문 repo는 한국어 repo와 구조가 같습니다.
+### MDN
 
-1. Firefox, Mobile, Toolkit : [http://hg.mozilla.org/releases/mozilla- ... ales/en-US](http://hg.mozilla.org/releases/mozilla-aurora/file/xxx/browser/locales/en-US)
-2. Thunderbird, Sunbird, Editor:[http://hg.mozilla.org/releases/comm-aur ... ales/en-US](http://hg.mozilla.org/releases/comm-aurora/file/xxx/calendar/locales/en-US)
+A 태그를 사용하여 하이퍼텍스트링크가 포함된 경우 en-US가 아닌 ko로 수정합니다.
 
-## 3. 번역 작업 선정하기
+### Pontoon
 
-먼저 자신이 어떤 제품의 번역 작업을 할지 서로 결정을 합니다. 만일 cal-aurora 작업을 한다는 점을 다른 분들에게 알리는 버그를 만듭니다.
+번역할 문장에 대한 추가 설명이 있을 경우 오른쪽 패널 대상 문장 아래에 설명이 나옵니다. Machinery에서 translation memory로 나오는 항목은 과거에 번역했던 이력이 있는 문장입니다.
 
-각 버전 별 작업은 [viewtopic.php?f=15&t=15040](http://forums.mozilla.or.kr/viewtopic.php?f=15&t=15040) 에 공지됩니다.
+### 용어 선택
 
-1. 버그 생성: [https://bugzilla.mozilla.org/enter_bug. ... /%20Korean](https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Localizations&component=ko%20/%20Korean)
-2. 버그 제목에 "Translation of calendar module for Aurora XX" 이런식으로 넣습니다.
-3. 버그 생성 후 Depend On: 에 Tracking bug의 번호를 입력해서 버그 연결을 합니다.
+번역할 용어 선택은 매우 신중해야 합니다. 특히,기존에 사용 중인 용어를 바꿀 때는 각 제품 뿐만 아니라 이와 연관된 다수의 문서를 고려해야 합니다. 예를 들어, Mozilla 웹 사이트, Mozilla Support 문서, MDN 프로젝트 등 다양한 곳에서 기존 용어를 사용 중입니다. 따라서, 새로운 용어를 바꿀 때는 그 여파를 고려해서 기존 멤버들과 토론 후 수정을 하시기 바랍니다.
 
-## 4. 번역 하기
+#### 주요 용어 사전
 
-만약 여러분이 calendar 제품을 번역하겠다고 한다면, 첫번째 번역할 스트링은 ko/calendar/chrome/calendar/calendar-event-dialog.dtd에 있는
-event.attachments.menubutton.label이며, 첫번째 작업할 파일은 아래 파일이 될 것입니다.
-[http://hg.mozilla.org/releases/comm-aur ... dialog.dtd](http://hg.mozilla.org/releases/comm-aurora/file/3a5ec8e368d2/calendar/locales/en-US/chrome/calendar/calendar-event-dialog.dtd)
+|English   |후보1 |후보2 |후보3 |
+|----------|----|----|----|
+|Add-ons   |부가기능|추가기능|애드온|
+|Extensions|확장기능|확장|추가기능|
+|Capture   |캡처  |캡춰||
+|Parameter |파라미터|인자|매개변수|
+|Password  |비밀번호|암호||
+|Review    |리뷰  |평가||
+|Fingerprinter|디지털 지문|핑거프린터||
+|CryptoMiner|암호화폐 채굴기|크립토마이너||
 
-작업할 위치의 파일은 ko/calendar/chrome/calendar/calendar-event-dialog.dtd가 됩니다.
+## 기타
 
-작업 파일에는 아래 코드가 없을 것입니다. 따라서 번역 후, 추가를 하면 됩니다.
-accesskey 같은 경우는 번역 안하고 추가만 하면 됩니다.
+### 맞춤법
 
-코드: [모두 선택](http://forums.mozilla.or.kr/viewtopic.php?f=15&t=15050#)<!ENTITY event.attachments.menubutton.label               "첨부파일">
+맞춤법이나 단어의 뜻이 헷갈리는 경우 온라인 맞춤법 검사기나 영어 사전 등으로 확인한 뒤 정확한 뜻으로 번역합니다. 영어의 수동태나 (주로 일본의 영향을 받은) 번역체를 쓰지 않도록 조심합니다.
 
-번역할 용어들은 애매한 경우, 이전에 번역된 메시지에서 검색해서 찾으면 도움이 됩니다. 아래 사이트에서 영문과 한글 용어를 검색해 보실 수 있습니다.
-[http://transvision.mozfr.org/](http://transvision.mozfr.org/)
+### 자유롭게 질문하기!
 
-작업해야 할 각 파일의 번역 작업이 끝나면, 리뷰를 받기위한 diff 파일을 만듭니다.
+프로젝트 마다 참여하는 방법이 다르기 때문에 잘 모르는 경우 언제든지 자유롭게 커뮤니티의 도움을 청하세요. 어디에 표출되는 단어인지, 어떤 의도인지 알 수 없는 문장이 있으면 바로 작업을 진행하는 대신 커뮤니티의 도움을 받도록 합니다.
 
-코드: [모두 선택](http://forums.mozilla.or.kr/viewtopic.php?f=15&t=15050#)$ hg diff > cal-aurora-16.patch
+#### 지역화 토론 방법
 
-위와 같이 patch 파일을 만든 후, 앞에서 만들었던 버그에 파일 첨부(attach)를 하시면 됩니다. 업로드시 patch라는 마크에 표시하시면 자동으로 패치로 인식합니다.
-
-예를 들어, [https://bugzilla.mozilla.org/show_bug.cgi?id=773786](https://bugzilla.mozilla.org/show_bug.cgi?id=773786) 에 첨부된 patch를 참고하세요. 그리고 review flag를 ? 로 하시고, [channy@mozilla.or.kr](mailto:channy@mozilla.or.kr) 을 지정해 주세요. 그러면 제가 patch를 리뷰하고 반영을 해드리게 됩니다.
-
-더 궁금한 점이 있으시면 댓글 달아 주십시오.
-
-----
-**Channy**
-해커
-
-**전체글:** 1005
-
-**가입일:** 2002 03 26 17:41 59
-
-**사는 곳:** 아름다운 제주
-
-[쪽지 보내기](http://forums.mozilla.or.kr/ucp.php?i=pm&mode=compose&action=quotepost&p=46145&sid=490bc144a9490048549e0dbce0c055cd)
-
-[웹사이트](http://channy.creation.net/)
-
-*Are you creative? [http://www.creation.net](http://www.creation.net/)*
+* Mozila Korea Slack https://mozkr.herokuapp.com/ 가입 초대 링크 받은 후 가입하기
+* https://mozkr.slack.com 으로 로그인하고 #l10n 채널 들어오기
