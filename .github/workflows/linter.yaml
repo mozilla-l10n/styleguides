@@ -1,0 +1,31 @@
+name: Run linter
+
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.2
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Run markdown linter
+        run: |
+          npm install
+          npm test
+      - name: Set up Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Check SUMMARY.md
+        run: |
+          python .github/scripts/check_summary.py docs
