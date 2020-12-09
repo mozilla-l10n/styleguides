@@ -159,7 +159,7 @@ Example:
 
 Kiswahili Plurals are grammatical numbers that refer to more than one of the referent in day to day life.
 
-In Kiswahili, to form the plural of nouns and adjectives depends on the noun class. Kiswahili nouns are divided into 11 classes that generally follow the syntax rules. For most nouns, the prefix before the root tells whether it’s in singular or plural. However, there are some nouns that don’t change in their structure* the change is realized in the syntax. For example we have the noun class of all the nouns that have life* mostly human beings. E.g. Mtu (singular person) watu (plural for people). This class is called M-WA. In this class many nouns have prefix m* in the singular and wa* in the plural. However there are very many irregular nouns that don’t follow this rule. E.g. Rafiki (friend) Daktari (doctor)
+In Kiswahili, to form the plural of nouns and adjectives depends on the noun class. Kiswahili nouns are divided into 11 classes that generally follow the syntax rules. For most nouns, the prefix before the root tells whether it’s in singular or plural. However, there are some nouns that don’t change in their structure, the change is realized in the syntax. For example we have the noun class of all the nouns that have life* mostly human beings. E.g. Mtu (singular person) watu (plural for people). This class is called M-WA. In this class many nouns have prefix m- in the singular and wa- in the plural. However there are very many irregular nouns that don’t follow this rule. E.g. Rafiki (friend) Daktari (doctor)
 
 Example:
 
