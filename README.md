@@ -15,7 +15,7 @@ $ npm test
 
 ## GitHub Pages
 
-A version with improved readibility and search is built automatically via Travis and [mdBook](https://github.com/rust-lang/mdBook/). Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
+A version with improved readibility and search is built automatically via GitHub Actions and [mdBook](https://github.com/rust-lang/mdBook/). Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
 
 If you want to build and preview these pages locally,  [install Rust and cargo](https://www.rust-lang.org/learn/get-started) and then run the following commands from the root of the repository:
 
