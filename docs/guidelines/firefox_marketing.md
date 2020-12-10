@@ -63,7 +63,6 @@ Adventurous Amplifiers:
 * Want their friends and followers to witness the good choices they are making
 * Strive to influence their community to make thoughtful choices as well
 
-
 ### Our Brand Attributes and the Firefox Brand Personality
 
 | **Attribute** | **Firefox Brand Personality** |
