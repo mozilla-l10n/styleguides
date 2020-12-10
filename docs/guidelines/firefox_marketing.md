@@ -14,7 +14,7 @@ Firefox is more than just the browser. Firefox is _a challenger brand_ that chal
 
 In everything we do, we put the rights and needs of users first. And as a tech company, we always put people before profit.
 
-Firefox as a _brand_ combines the Firefox ethos and the expanding range of products.
+Firefox as a _brand_ combines the Firefox ethos and our related products.
 
 (Mozilla is the not-for-profit organization behind Firefox.)
 
@@ -26,15 +26,15 @@ Firefox fights for you
 
 Firefox fights for our users by creating products that give people control and agency over their online lives.
 
-**Firefox Products**:
+**Products**:
 
 * Firefox Quantum (Desktop browser)
-* Firefox Mobile (für iOS und Android)
-* [Firefox Send](https://send.firefox.com/)
+* Firefox Mobile (For iOS and Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
-* [Firefox Lockbox](https://lockbox.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
-* [Firefox Reality](https://mixedreality.mozilla.org/firefox-reality/)(VR browser)
+* [Mozilla VPN](https://vpn.mozilla.org/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
+* [Firefox Relay](https://relay.firefox.com/)
 
 ## Personality and tonality
 
@@ -49,6 +49,20 @@ Conscious Choosers:
 * Are demanding customers
 * Often do their own research to fully understand all options
 
+Within Conscious Choosers there are two groups that we try to speak to specifically. **Caring Confidentials** and **Adventurous Amplifiers**.
+
+Caring Confidentials:
+
+* Most likely to already be Firefox users
+* Prioritize privacy, and are willing to spend money to ensure their digital safety
+* Believe that the internet has a responsibility to protect its citizens
+
+Adventurous Amplifiers:
+
+* Trend followers and trend setters
+* Want their friends and followers to witness the good choices they are making
+* Strive to influence their community to make thoughtful choices as well
+
 ### Our Brand Attributes and the Firefox Brand Personality
 
 | **Attribute** | **Firefox Brand Personality** |
@@ -56,9 +70,9 @@ Conscious Choosers:
 | Opinionated | **Firefox acts out of conviction and takes clear positions with confidence.**<br><br>Our products show that our motivation derives from our brand vision. Our brand ethos is at the root of everything we do. And that’s what we want to communicate to our users and partners.|
 | Open | **Firefox thinks that the internet should be open, accessible and safe for everyone.**<br><br>We strive for open conversation and collaboration. We are: Open minded. Open-hearted. Open source. A global perspective is an integral part of our brand. We speak many languages and try to take different perspectives.|
 | Kind | **Firefox anticipates needs, offering solutions and alternatives where users’ freedom and rights are threatened or abused.**<br><br>We want the best for our users and the world, so we lead by example. We develop better products, we start dialogues, we work openly and with others, we educate ourselves and others, and we inform our users. In doing so, we act empathically toward all people.|
-| Radical | **Firefox questions the status quo and common practices of tech giants and struggles with confidence for a better internet.**<br><br>Looking optimistically into the future of the internet is a radical act. Bringing users’ needs before our own is just as radical. We challenge the status quo because we think it’s the right thing to do.|
+| Radical | **Firefox questions the status quo and common practices of tech giants and struggles and takes bold steps towards a better internet.**<br><br>Looking optimistically into the future of the internet is a radical act. Putting users’ needs before our own is just as radical. We challenge the status quo because we think it’s the right thing to do.|
 
-The Firefox Brand Personality is defined by the interaction of these attributes. Depending on the context, an attribute may be more forward or less forward.
+The Firefox Brand Personality is defined by the interaction of these attributes. Depending on the context, an attribute may be more prominent or less prominent.
 
 ![Firefox Personality Matrix](../images/firefox_marketing/firefox_personality_en.png)
 
