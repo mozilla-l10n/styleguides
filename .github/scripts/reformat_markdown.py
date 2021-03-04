@@ -59,8 +59,8 @@ with open(file_path) as f:
             if text.rstrip() == "" and output_content[-1].rstrip() == "":
                 drop_line = True
 
-            # (Temporary) Fix bug with extra spaces added after bold text
-            text = re.sub(r"\*\*\s{1}(?=[.:;?])", "**", text)
+            # (Temporary) Fix bug with extra spaces added after bold and italic text
+            text = re.sub(r"\*\s{1}(?=[.,:;?!])", "*", text)
 
         if not drop_line:
             output_content.append(text)
