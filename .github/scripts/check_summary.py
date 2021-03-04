@@ -25,7 +25,7 @@ if os.path.isfile(exceptions_file):
     with open(exceptions_file) as f:
         for line in f.readlines():
             line = line.rstrip()
-            if line.startswith("#") or line == '':
+            if line.startswith("#") or line == "":
                 continue
             exceptions.append(line)
 
@@ -69,6 +69,8 @@ if missing_files:
         print(f"  - {f}")
     status = 1
 else:
-    print("\nAll markdown files referenced in SUMMARY.md are available in the repository")
+    print(
+        "\nAll markdown files referenced in SUMMARY.md are available in the repository"
+    )
 
 sys.exit(status)
