@@ -14,6 +14,10 @@ jobs:
   fetch:
     runs-on: ubuntu-20.04
     steps:
+      - name: List files
+          URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls/${{ github.event.pull_request.number }}/files"
+          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+          echo $FILES
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
       - name: Clone repository
