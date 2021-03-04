@@ -11,13 +11,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch:
+  linter:
     runs-on: ubuntu-20.04
     steps:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
       - name: Clone repository
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: Reformat Markdown files and commit changes
+        # Runs only if the pull request has the smartling label
+        if: contains(github.event.pull_request.labels.*.name, 'smartling')
+        run: |
+          bash .github/scripts/reformat_files_pr.sh ${{ github.repository }} ${{ github.event.pull_request.number }}
+          git config user.name 'flodolo'
+          git config user.email 'flodolo@users.noreply.github.com'
+          git add .
+          git commit -m "Reformat Markdown files"
+          git push
       - name: Run markdown linter
         run: |
           npm install
