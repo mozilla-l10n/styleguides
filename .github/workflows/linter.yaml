@@ -19,7 +19,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.event.pull_request.head.ref.sha }}
       - name: Reformat Markdown files and commit changes
         # Runs only if the pull request has the smartling label
         if: contains(github.event.pull_request.labels.*.name, 'smartling')
