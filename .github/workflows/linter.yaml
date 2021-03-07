@@ -23,9 +23,12 @@ jobs:
           ref: ${{github.event.pull_request.head.ref}}
           repository: ${{github.event.pull_request.head.repo.full_name}}
       - name: Reformat Markdown files and commit changes
-        # Only run if the action comes from the main repository and the PR
-        # is labeled as
-        if: github.event.pull_request.head.repo.full_name == github.repository && contains(github.event.pull_request.labels.*.name, 'smartling')
+        # Only run if the action is triggered by a pull request labeled as
+        # "smartling".
+        if: contains(github.event.pull_request.labels.*.name, 'smartling')
+        # If it's coming from a fork, the repo needs to be accessible, but
+        # that option is disabled when actions are enabled on the fork. So,
+        # this job needs to be able to continue if this step fails.
         continue-on-error: true
         run: |
           bash .github/scripts/reformat_files_pr.sh ${{ github.repository }} ${{ github.event.pull_request.number }}
