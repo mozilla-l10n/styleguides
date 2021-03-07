@@ -25,11 +25,7 @@ jobs:
       - name: Reformat Markdown files and commit changes
         # Only run if the action is triggered by a pull request labeled as
         # "smartling".
-        if: contains(github.event.pull_request.labels.*.name, 'smartling')
-        # If it's coming from a fork, the repo needs to be accessible, but
-        # that option is disabled when actions are enabled on the fork. So,
-        # this job needs to be able to continue if this step fails.
-        continue-on-error: true
+        if: github.event.pull_request.head.repo.full_name == github.repository && contains(github.event.pull_request.labels.*.name, 'smartling')
         run: |
           bash .github/scripts/reformat_files_pr.sh ${{ github.repository }} ${{ github.event.pull_request.number }}
           git config user.name 'flodolo'
@@ -39,6 +35,7 @@ jobs:
           git push
       - name: Run markdown linter
         run: |
+          echo ${{github.event.pull_request.labels.*.name}}
           npm install
           npm test
       - name: Set up Python 3
