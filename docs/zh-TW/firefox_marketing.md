@@ -1,23 +1,3 @@
-firefox_marketing_zh-TW.md
-Type
-Text
-Size
-7 KB (7,372 bytes)
-Storage used
-7 KB (7,372 bytes)Owned by Mozilla
-Location
-Firefox Marketing Style Guide
-Creator
-me
-Modified
-Mar 1, 2021 by me
-Opened
-3:17 PM by me
-Created
-Mar 1, 2021
-Add a description
-Viewers can download
-
 Firefox 文案本地化指南
 ===============
 
