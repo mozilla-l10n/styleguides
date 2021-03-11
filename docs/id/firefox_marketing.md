@@ -18,49 +18,45 @@ Mar 1, 2021
 Add a description
 Viewers can download
 
-Panduan pelokalan teks marketing Firefox
-========================================
+# Panduan pelokalan teks marketing Firefox
 
 Dokumen ini secara khusus digunakan untuk memfasilitasi penyusunan dan pelokalan teks marketing, serta mendukung persiapan dan konsistensi upaya pelokalan agar lebih optimal. Ini adalah dokumen yang dinamis dan menunjukkan situasi kami saat ini. Kami akan terus memperbarui dokumen ini sesuai dengan perkembangan ekspresi merek kami.
 
-Mengapa panduan ini penting bagi pelokalan teks marketing Firefox?
-------------------------------------------------------------------
+## Mengapa panduan ini penting bagi pelokalan teks marketing Firefox?
 
 Panduan ini dapat membantu Anda untuk lebih memahami Firefox sebagai sebuah merek, sehingga tercipta pendekatan yang lebih baik untuk menerjemahkan teksnya ke dalam bahasa lokal. Selain itu, kami juga akan membagikan pilihan kata dan ejaan yang telah ditetapkan untuk memfasilitasi proses pelokalan.
 
 Teks marketing tidak boleh diterjemahkan secara harfiah kata per kata, tetapi harus mencerminkan kepribadian dan nuansa merek kami serta dioptimalkan menurut perspektif budaya dan bahasa yang sesuai. Maksud emosional dan kiasan dari teks sumber juga harus sesuai dengan bahasa sasaran.
 
-Tentang Firefox — Siapa kami
-----------------------------
+## Tentang Firefox — Siapa kami
 
 Firefox lebih dari sekadar browser biasa. Firefox adalah *merek penantang* yang menantang status quo dan melindungi hak pengguna di dunia maya.
 
 Dalam segala hal yang kami lakukan, hak dan kebutuhan pengguna adalah hal yang utama. Dan sebagai sebuah perusahaan teknologi, kami selalu memprioritaskan pengguna sebelum laba usaha.
 
-Sebagai sebuah *brand* , Firefox mengombinasikan karakternya dalam produk\-produk yang terkait.
+Sebagai sebuah *brand*, Firefox mengombinasikan karakternya dalam produk-produk yang terkait.
 
-\(Mozilla adalah organisasi nirlaba di balik Firefox.\)
+(Mozilla adalah organisasi nirlaba di balik Firefox.)
 
-**Janji merek** :
+**Janji merek**:
 
 Firefox berjuang untuk Anda
 
-**Yang kami perjuangkan** :
+**Yang kami perjuangkan**:
 
 Firefox berjuang demi pengguna dengan menciptakan produk yang membebaskan pengguna atas kendali dan aktivitas kehidupan online mereka.
 
-**Produk** :
+**Produk**:
 
-* Firefox Quantum \(browser Desktop\)
-* Firefox Mobile \(Untuk iOS dan Android\)
+* Firefox Quantum (browser Desktop)
+* Firefox Mobile (Untuk iOS dan Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-Kepribadian dan karakter
-------------------------
+## Kepribadian dan karakter
 
 ### Dengan siapa kita bicara?
 
@@ -68,12 +64,12 @@ Kami menganggap audiens sasaran sebagai Pengguna yang Sadar. Hal ini merujuk pad
 
 Pengguna yang Sadar:
 
-* Mengembangkan preferensi dan menentukan pilihannya dengan hati\-hati dan sadar
-* Berusaha menyesuaikan tindakan dengan nilai dan cita\-cita mereka
+* Mengembangkan preferensi dan menentukan pilihannya dengan hati-hati dan sadar
+* Berusaha menyesuaikan tindakan dengan nilai dan cita-cita mereka
 * Merupakan pelanggan yang memiliki banyak tuntutan
 * Seringkali melakukan riset sendiri untuk memahami semua pilihan dengan baik
 
-Di antara Pengguna Sadar terdapat dua kategori pengguna yang secara khusus kami ajak berdiskusi. **Peduli Privasi** dan **Pelopor** .
+Di antara Pengguna Sadar terdapat dua kategori pengguna yang secara khusus kami ajak berdiskusi. **Peduli Privasi** dan **Pelopor**.
 
 Peduli Privasi:
 
@@ -100,24 +96,22 @@ Kepribadian Merek Firefox ditentukan oleh interaksi atribut ini. Berdasarkan kon
 
 ![Firefox Personality Matrix](../images/firefox_marketing/firefox_personality_en.png)
 
-Tone
-----
+## Tone
 
 Tone of voice dan pilihan bahasa kami adalah:
 
 |             Tone             |                                                                                                                                                                                                                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lugas, jelas, mudah dipahami | Kami ingin pengguna merasa diterima. Kami juga menggunakan kata\-kata dan konsep yang dipahami semua orang.                                                                                                                                                                              |
+| Lugas, jelas, mudah dipahami | Kami ingin pengguna merasa diterima. Kami juga menggunakan kata-kata dan konsep yang dipahami semua orang.                                                                                                                                                                              |
 | Ringkas                      | Kami menyukai judul, frasa, dan ajakan untuk melakukan tindakan yang jelas.  Kami mencoba menghindari struktur kalimat yang rumit atau kalimat yang tidak memiliki nilai tambah.                                                                                                          |
 | Autentik                     | Teks kami — seperti halnya produk kami — dibuat oleh manusia untuk manusia. Kami berbicara pada pengguna kami dengan posisi yang setara dan menggunakan bahasa yang alami.                                                                                                                |
 | Natural                      | Kami menulis dengan nada aktif dan menggunakan kalimat pasif seperlunya. Menghindari gaya nominal. Kami lebih suka dua kalimat pendek daripada satu kalimat panjang.                                                                                                                      |
 | Hormat                       | Bersikap hormat tanpa terdengar terlalu formal.                                                                                                                                                                                                                                           |
 | Humoris                      | Bersikap menyenangkan tanpa terlihat sembrono atau murahan.                                                                                                                                                                                                                               |
 | Relevan                      | Kami berinteraksi dengan pengguna di mana pun mereka berada. Mereka pasti segera dapat memahami konten kami dan merasakan hubungan yang lebih personal. Kiasan kultural harus masuk akal dan sesuai dengan pasar dan tidak diterjemahkan secara harfiah tanpa konteks budaya yang sesuai. |
-| Optimis dan memotivasi       | Kami percaya akan masa depan yang positif untuk internet. Meskipun terkadang kami membahas hal\-hal yang kurang berjalan baik, namun kami lebih suka mengambil sudut pandang yang positif.                                                                                               |
+| Optimis dan memotivasi       | Kami percaya akan masa depan yang positif untuk internet. Meskipun terkadang kami membahas hal-hal yang kurang berjalan baik, namun kami lebih suka mengambil sudut pandang yang positif.                                                                                               |
 | Kreatif                      | Meskipun informasi dan kejelasan lebih diutamakan, tapi kami suka menerapkan bahasa yang kreatif dan menarik dalam teks marketing. Kami tidak pernah ingin terdengar hambar dan membosankan. Kami mencoba menghindari stereotip pemasaran.                                                |
 
-Glosarium istilah / Istilah berulang \(DALAM PENGERJAAN\)
------------------------------------------------------------
+## Glosarium istilah / Istilah berulang (DALAM PENGERJAAN)
 
-Jika ada keraguan, [fitur pencarian transvision](https://transvision.mozfr.org/) juga dapat digunakan. Namun, karena hasil pencariannya kerap menunjukkan versi terjemahan yang lebih lama \(seringkali dengan gaya formal\), maka fitur ini hanya berfungsi sebagai panduan.
+Jika ada keraguan, [fitur pencarian transvision](https://transvision.mozfr.org/) juga dapat digunakan. Namun, karena hasil pencariannya kerap menunjukkan versi terjemahan yang lebih lama (seringkali dengan gaya formal), maka fitur ini hanya berfungsi sebagai panduan.
