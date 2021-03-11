@@ -43,6 +43,7 @@
     * [Units and Grammar](is/ug.md)
     * [General Mozilla L10n Style](is/general.md)
 * [Indonesian (id)](id/README.md)
+    * [Marketing guide to Firefox localization](id/firefox_marketing.md)
 * [Igbo (ig)](ig/README.md)
 * [Irish (ga-IE)](ga-IE/README.md)
 * [Italian (it)](it/README.md)
