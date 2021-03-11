@@ -1,23 +1,3 @@
-firefox_marketing_id-ID.md
-Type
-Text
-Size
-10 KB (10,679 bytes)
-Storage used
-10 KB (10,679 bytes)Owned by Mozilla
-Location
-Firefox Marketing Style Guide
-Creator
-me
-Modified
-Mar 1, 2021 by me
-Opened
-2:49 PM by me
-Created
-Mar 1, 2021
-Add a description
-Viewers can download
-
 # Panduan pelokalan teks marketing Firefox
 
 Dokumen ini secara khusus digunakan untuk memfasilitasi penyusunan dan pelokalan teks marketing, serta mendukung persiapan dan konsistensi upaya pelokalan agar lebih optimal. Ini adalah dokumen yang dinamis dan menunjukkan situasi kami saat ini. Kami akan terus memperbarui dokumen ini sesuai dengan perkembangan ekspresi merek kami.
