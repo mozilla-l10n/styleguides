@@ -58,6 +58,7 @@
 * [Malagasy (mg)](mg/README.md)
 * [Marathi (mr)](mr/README.md)
 * [Polish (pl)](pl/README.md)
+    * [Marketing guide to Firefox localization](pl/firefox_marketing.md)
     * [SUMO Style Guide](pl/sumo.md)
 * [Portuguese (pt-BR)](pt-BR/README.md)
     * [General Style Guide](pt-BR/general.md)
