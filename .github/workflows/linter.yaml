@@ -25,7 +25,10 @@ jobs:
       - name: Reformat Markdown files and commit changes
         # Only run if the action is triggered by a pull request labeled as
         # "smartling".
+        # This job needs to be able to continue if this step fails, e.g.
+        # in case there are no errors, hence no changes to commit.
         if: github.event.pull_request.head.repo.full_name == github.repository && contains(github.event.pull_request.labels.*.name, 'smartling')
+        continue-on-error: true
         run: |
           bash .github/scripts/reformat_files_pr.sh ${{ github.repository }} ${{ github.event.pull_request.number }}
           git config user.name 'flodolo'
