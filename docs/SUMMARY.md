@@ -40,7 +40,7 @@
     * [Marketing guide to Firefox localization](de/firefox_marketing.md)
 * [Hausa (ha)](ha/README.md)
 * [Hindi (hi-IN)](hi-IN/README.md)
-    * [Marketing guide to Firefox localization](hi/firefox_marketing.md)
+    * [Marketing guide to Firefox localization](hi-IN/firefox_marketing.md)
 * [Icelandic (is)](is/README.md)
     * [Style](is/style.md)
     * [Brand Names](is/brandnames.md)
