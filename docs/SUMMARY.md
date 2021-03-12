@@ -23,7 +23,7 @@
 * [Bengali, Bangladesh (bn-BD)](bn-BD/README.md)
 * [Burmese (my)](my/README.md)
 * [Chinese, Simplified (zh-CN)](zh-CN/README.md)
-    * [Marketing guide to Firefox localization](zh-TW/firefox_marketing.md)
+    * [Marketing guide to Firefox localization](zh-CN/firefox_marketing.md)
     * [SUMO Style Guide](zh-CN/sumo.md)
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
     * [Marketing guide to Firefox localization](zh-TW/firefox_marketing.md)
