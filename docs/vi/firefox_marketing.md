@@ -1,17 +1,14 @@
-Hướng dẫn của Firefox về viết nội dung phù hợp với địa phương
-=============================================================
+# Hướng dẫn của Firefox về viết nội dung phù hợp với địa phương
 
 Tài liệu này nhằm tạo điều kiện để sáng tạo và bản địa hóa nội dung và hỗ trợ việc chuẩn bị và đồng nhất tối ưu. Đây là tài liệu thực tế và phản ánh tình trạng hiện tại của chúng tôi. Khi sự biểu hiện thương hiệu của chúng tôi tiếp tục phát triển, chúng tôi sẽ cập nhật tài liệu này.
 
-Tại sao bản hướng dẫn này lại quan trọng trong việc bản địa hóa các nội dung tiếp thị của Firefox?
---------------------------------------------------------------------------------------------------
+## Tại sao bản hướng dẫn này lại quan trọng trong việc bản địa hóa các nội dung tiếp thị của Firefox?
 
 Hướng dẫn này nhằm mục đích giúp bạn hiểu rõ hơn về thương hiệu Firefox để nắm bắt cách tiếp cận dịch thuật tốt hơn sang ngôn ngữ của bạn. Ngoài ra, chúng tôi chia sẻ các cách chọn từ ngữ và đánh vần đã qua chỉnh lý, liên quan cụ thể đến công ty để tạo thuận lợi cho quy trình bản địa hóa.
 
 Không nên dịch nội dung của chúng tôi sát nghĩa đen theo từng từ mà nên phản ánh tính cách và giọng điệu thương hiệu tối ưu để phù hợp quan điểm văn hóa và ngôn ngữ. Chủ đích cảm xúc và nghĩa bóng của văn bản gốc nên được điều chỉnh cho phù hợp với ngôn ngữ chính.
 
-Giới thiệu về Firefox — Chúng tôi là ai
----------------------------------------
+## Giới thiệu về Firefox — Chúng tôi là ai
 
 Firefox không chỉ là một trình duyệt. Firefox là một *thương hiệu thách thức* đặt ra thử thách với thực trạng và ủng hộ quyền trực tuyến của người dùng.
 
@@ -19,28 +16,27 @@ Trong mọi việc làm, chúng tôi đặt quyền và nhu cầu của người
 
 Firefox là một *thương hiệu* kết hợp các đặc tính của Firefox và các sản phẩm liên quan của chúng tôi.
 
-\(Mozilla là tổ chức phi lợi nhuận đứng sau Firefox.\)
+(Mozilla là tổ chức phi lợi nhuận đứng sau Firefox.)
 
-**Lời hứa thương hiệu** :
+**Lời hứa thương hiệu**:
 
 Firefox đấu tranh vì bạn
 
-**Chúng tôi đang đấu tranh vì điều gì** :
+**Chúng tôi đang đấu tranh vì điều gì**:
 
 Firefox đấu tranh cho người dùng bằng cách tạo ra các sản phẩm cung cấp cho mọi người quyền kiểm soát và tự quyết đối với cuộc sống trực tuyến của họ.
 
-**Các sản phẩm** :
+**Các sản phẩm**:
 
-* Firefox Quantum \(Trình duyệt máy tính\)
-* Firefox Mobile \(Dành cho iOS và Android\)
+* Firefox Quantum (Trình duyệt máy tính)
+* Firefox Mobile (Dành cho iOS và Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-Tính cách và giọng điệu
------------------------
+## Tính cách và giọng điệu
 
 ### Chúng tôi đang giao tiếp với ai?
 
@@ -80,8 +76,7 @@ Tính cách Thương hiệu Firefox được xác định bởi sự tương tá
 
 ![Ma trận Tính cách Firefox](../images/firefox_marketing/firefox_personality_en.png)
 
-Giọng điệu
-----------
+## Giọng điệu
 
 Giọng điệu và lựa chọn ngôn ngữ của chúng tôi là:
 
@@ -97,7 +92,6 @@ Giọng điệu và lựa chọn ngôn ngữ của chúng tôi là:
 | Lạc quan và thúc đẩy          | Chúng tôi tin vào tương lai tích cực cho Internet. Mặc dù đôi lúc chúng tôi nói về những điều sẽ diễn ra không suôn sẻ nhưng chúng tôi muốn có cái nhìn tích cực.                                                                                       |
 | Sáng tạo                      | Dù thông tin và sự rõ ràng là ưu tiên hàng đầu, chúng tôi muốn sử dụng ngôn ngữ sáng tạo và thú vị trong nội dung. Chúng tôi không bao giờ muốn sự nhàm chán và khô khan. Chúng tôi cố gắng tránh những khuôn mẫu tiếp thị.                             |
 
-Bảng từ vựng thuật ngữ / Thuật ngữ thường dùng \(ĐANG XỬ LÝ\)
----------------------------------------------------------------
+## Bảng từ vựng thuật ngữ / Thuật ngữ thường dùng (ĐANG XỬ LÝ)
 
-Trong trường hợp không chắc chắn, có thể tham vấn [tìm kiếm chuyển đổi](https://transvision.mozfr.org/). Tuy nhiên vì việc tìm kiếm thường đưa ra các phiên bản cũ hơn của bản dịch trong danh sách kết quả \(thường có cách xưng hô trang trọng\), công cụ này đóng vai trò như một bản hướng dẫn.
+Trong trường hợp không chắc chắn, có thể tham vấn [tìm kiếm chuyển đổi](https://transvision.mozfr.org/). Tuy nhiên vì việc tìm kiếm thường đưa ra các phiên bản cũ hơn của bản dịch trong danh sách kết quả (thường có cách xưng hô trang trọng), công cụ này đóng vai trò như một bản hướng dẫn.

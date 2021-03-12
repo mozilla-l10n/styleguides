@@ -1,46 +1,42 @@
-Firefox metin yerelleştirme rehberi
-===================================
+# Firefox metin yerelleştirme rehberi
 
 Bu belge, metin yazımı ve yerelleştirmede kolaylık sağlamayı, en iyi hazırlığı sunmayı ve tutarlılığı desteklemeyi amaçlamaktadır. Bu, sürekli güncellenen bir belgedir ve mevcut durumu yansıtmaktadır. Marka söylemimiz gelişmeye devam ettikçe, bu dokümanda güncellemeler yapılacaktır.
 
-Bu rehber Firefox pazarlama metinlerinin yerelleştirilmesi açısından neden önemli?
-----------------------------------------------------------------------------------
+## Bu rehber Firefox pazarlama metinlerinin yerelleştirilmesi açısından neden önemli?
 
 Bu rehber, kendi dilinize çeviri yaparken nasıl bir yaklaşım kullanmanız gerektiği konusunda size fikir vermek için, Firefox'u bir marka olarak daha iyi anlamanıza yardımcı olmayı amaçlamaktadır. Ayrıca firmamıza özel, yerleşmiş kelime ve yazım tercihlerini, yerelleştirme sürecinde size yardımcı olması için sizinle paylaşacağız.
 
 Metinler tam anlamıyla birebir çeviri olmamalı, marka karakteri ve iletişim tonumuzu yansıtmanın yanı sıra, uygun kültürel ve dil bilimsel bağlamda en iyi şekilde yorumlanmalıdır. Kaynak metnin duygusal ve sembolik anlamları, hedef dile uyarlanmalıdır.
 
-Firefox hakkında — Biz kimiz
-----------------------------
+## Firefox hakkında — Biz kimiz
 
-Firefox bir tarayıcıdan çok daha fazlasıdır. Firefox, statükoya meydan okuyan ve kullanıcıların çevrimiçi haklarını savunan *mücadeleci bir markadır* .
+Firefox bir tarayıcıdan çok daha fazlasıdır. Firefox, statükoya meydan okuyan ve kullanıcıların çevrimiçi haklarını savunan *mücadeleci bir markadır*.
 
 Yaptığımız her şeyde kullanıcı haklarını ve ihtiyaçlarını ön planda tutuyor ve bir teknoloji firması olarak, her zaman kâr etmekten önce insanlara hizmet vermeye öncelik veriyoruz.
 
-Firefox *markası* , Firefox değerlerini ilgili ürünlerimizle bir araya getiriyor.
+Firefox *markası*, Firefox değerlerini ilgili ürünlerimizle bir araya getiriyor.
 
-\(Mozilla, Firefox'un arkasındaki kâr amacı gütmeyen kuruluştur.\)
+(Mozilla, Firefox'un arkasındaki kâr amacı gütmeyen kuruluştur.)
 
-**Marka vaadi** :
+**Marka vaadi**:
 
 Firefox sizin için savaşır
 
-**Ne için mücadele ediyoruz** :
+**Ne için mücadele ediyoruz**:
 
 Firefox, insanlara çevrim içi hayatlarında kontrol ve söz sahibi olma imkanı sunan ürünler yaratarak, kullanıcılarımız için mücadele ediyor.
 
-**Ürünler** :
+**Ürünler**:
 
-* Firefox Quantum \(Masaüstü tarayıcı\)
-* Firefox Mobile \(iOS ve Android için\)
+* Firefox Quantum (Masaüstü tarayıcı)
+* Firefox Mobile (iOS ve Android için)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Cep](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Gizli Ağ \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Gizli Ağ (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-Karakter ve ses tonu
---------------------
+## Karakter ve ses tonu
 
 ### Kime hitap ediyoruz?
 
@@ -53,7 +49,7 @@ Bilinçli Seçiciler:
 * Talepkâr müşterilerdir
 * Tüm seçenekleri değerlendirmek için çoğunlukla kendileri araştırma yaparlar
 
-Bilinçli Seçiciler arasında özellikle hitap etmek istediğimiz iki grup bulunuyor. **Duyarlı Gizliler** ve **Maceraperest Güçlendiriciler** .
+Bilinçli Seçiciler arasında özellikle hitap etmek istediğimiz iki grup bulunuyor. **Duyarlı Gizliler** ve **Maceraperest Güçlendiriciler**.
 
 Duyarlı Gizliler:
 
@@ -80,8 +76,7 @@ Firefox Marka Karakteri, bütün bu özelliklerin etkileşimi ile tanımlanır. 
 
 ![Firefox Karakter Matrisi](../images/firefox_marketing/firefox_personality_en.png)
 
-Ton
----
+## Ton
 
 İletişim tonumuz ve dil tercihlerimiz:
 
@@ -97,7 +92,6 @@ Ton
 | İyimser ve motive edici          | İnternet için olumlu bir geleceğe inanıyoruz. Zaman zaman pek iyi gitmeyen şeyler hakkında konuşsak da pozitif bir bakış açısı benimsemeyi tercih ediyoruz.                                                                                                  |
 | Yaratıcı                         | Öncelik bilgi ve netlikte olmakla beraber, metinlerimizde yaratıcı ve ilginç bir dil kullanmayı seviyoruz. Kulağa hiçbir zaman sıradan ve sıkıcı gelmek istemeyiz. Pazarlama kalıplarından kaçınmaya çalışırız.                                              |
 
-Terimler Sözlüğü /Tekrarlayan terimler \(SÜREGELEN ÇALIŞMA\)
---------------------------------------------------------------
+## Terimler Sözlüğü /Tekrarlayan terimler (SÜREGELEN ÇALIŞMA)
 
-Belirsizlikler olması durumunda, [Transvision aramasına](https://transvision.mozfr.org/) da başvurulabilir. Bununla beraber, arama genellikle sonuç listesinde \(genellikle resmi adresle birlikte\) çevirilerin eski versiyonlarını gösterdiğinden, bu araç bir rehber görevi görür.
+Belirsizlikler olması durumunda, [Transvision aramasına](https://transvision.mozfr.org/) da başvurulabilir. Bununla beraber, arama genellikle sonuç listesinde (genellikle resmi adresle birlikte) çevirilerin eski versiyonlarını gösterdiğinden, bu araç bir rehber görevi görür.

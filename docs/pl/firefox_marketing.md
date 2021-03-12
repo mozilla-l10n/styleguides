@@ -1,46 +1,42 @@
-Tłumaczenie materiałów marki Firefox
-====================================
+# Tłumaczenie materiałów marki Firefox
 
 Ten dokument stanowi punkt odniesienia podczas pisania i tłumaczenia tekstów. Ułatwia też optymalne przygotowanie i dbanie o spójność materiałów. Odzwierciedla on zawsze aktualny kontekst i jest stale aktualizowany stosownie do zmieniającego się sposobu komunikacji oraz wizerunku marki.
 
-Jak te informacje pomagają tłumaczyć teksty marketingowe marki Firefox?
------------------------------------------------------------------------
+## Jak te informacje pomagają tłumaczyć teksty marketingowe marki Firefox?
 
 Przewodnik ma na celu zaznajomić tłumaczy z marką Firefox oraz wskazać kierunek, jaki powinni obierać podczas tłumaczenia tekstów na swój język. Poza przewodnikiem udostępnimy zatwierdzony, wewnętrzny wykaz preferencji w zakresie słownictwa i pisowni, który również usprawni tłumaczenie.
 
 Tekstów dla naszej marki nie należy tłumaczyć słowo w słowo. Powinny one odzwierciedlać osobowość i ton marki, a także wychodzić naprzeciw niuansom kulturowym i językowym odbiorców docelowych. Przekaz emocjonalny i dorozumiany tekstu źródłowego powinien zostać za każdym razem odpowiednio dostosowany do charakterystyki języka docelowego.
 
-O marce Firefox – kim jesteśmy
-------------------------------
+## O marce Firefox – kim jesteśmy
 
-Firefox to nie tylko marka przeglądarki, to *marka niezależna* , podważająca status quo i walcząca o prawa użytkowników online.
+Firefox to nie tylko marka przeglądarki, to *marka niezależna*, podważająca status quo i walcząca o prawa użytkowników online.
 
 We wszystkim, co robimy, na pierwszym miejscu zawsze stawiamy prawa i potrzeby użytkowników. Jako firma technologiczna zawsze cenimy ludzi ponad zyski.
 
 Etos *marki* Firefox to wypadkowa naszych zasad oraz wartości naszych pozostałych marek.
 
-\(Mozilla to organizacja non\-profit odpowiadająca za przeglądarkę Firefox\).
+(Mozilla to organizacja non-profit odpowiadająca za przeglądarkę Firefox).
 
-**Obietnica marki** :
+**Obietnica marki**:
 
 Firefox walczy w Twoim imieniu
 
-**O co walczymy** :
+**O co walczymy**:
 
 Firefox walczy o dobro naszych użytkowników poprzez tworzenie produktów, które oddają im kontrolę i władzę nad swoim życiem online.
 
-**Produkty** :
+**Produkty**:
 
-* Firefox Quantum \(przeglądarka komputerowa\)
-* Firefox Mobile \(na systemy iOS i Android\)
+* Firefox Quantum (przeglądarka komputerowa)
+* Firefox Mobile (na systemy iOS i Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay.](https://relay.firefox.com/)
 
-Osobowość i ton głosu
----------------------
+## Osobowość i ton głosu
 
 ### Kto jest naszym odbiorcą?
 
@@ -53,7 +49,7 @@ Naszych odbiorców docelowych określamy jako świadomych wyboru, tzn. podejmuj�
 * są wymagającymi klientami;
 * często szukają informacji, aby zrozumieć dostępne możliwości.
 
-Świadomi wyboru dzielą się na dwie konkretne podgrupy, do których staramy się docierać z przekazem: **dbający o poufność** i **przygodowi promotorzy** .
+Świadomi wyboru dzielą się na dwie konkretne podgrupy, do których staramy się docierać z przekazem: **dbający o poufność** i **przygodowi promotorzy**.
 
 Dbający o poufność:
 
@@ -80,8 +76,7 @@ Osobowość marki Firefox to wypadkowa mieszanki tych cech. Zależnie od konteks
 
 ![Matryca osobowości Firefox](../images/firefox_marketing/firefox_personality_en.png)
 
-Ton głosu
----------
+## Ton głosu
 
 Oto nasz ton głosu i wybory językowe:
 
@@ -97,7 +92,6 @@ Oto nasz ton głosu i wybory językowe:
 | Optymistyczny i motywujący      | Wierzymy w pozytywną przyszłość internetu. I choć czasami mówimy o problemach lub trudnościach, preferujemy optymizm.                                                                                                                                                 |
 | Kreatywny                       | Informacja i jasność przekazu są najważniejsze. Lubimy jednak kreatywny i ciekawy język. Nie chcemy brzmieć nudno ani nijako. Staramy się unikać marketingowych frazesów.                                                                                             |
 
-Glosariusz / terminologia \(WERSJA ROBOCZA\)
-----------------------------------------------
+## Glosariusz / terminologia (WERSJA ROBOCZA)
 
-W przypadku wątpliwości można skorzystać z narzędzia [Transvision](https://transvision.mozfr.org/). Jednak wyniki wyszukiwania często zawierają starsze wersje tłumaczeń \(nierzadko formalnie odnoszące się do użytkownika\), dlatego priorytet mają poniższe materiały.
+W przypadku wątpliwości można skorzystać z narzędzia [Transvision](https://transvision.mozfr.org/). Jednak wyniki wyszukiwania często zawierają starsze wersje tłumaczeń (nierzadko formalnie odnoszące się do użytkownika), dlatego priorytet mają poniższe materiały.
