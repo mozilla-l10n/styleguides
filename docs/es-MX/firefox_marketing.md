@@ -1,17 +1,14 @@
-Guía de localización de textos de Firefox
-=========================================
+# Guía de localización de textos de Firefox
 
 El objetivo de este documento es facilitar la creación y localización de textos, así como ayudar a que su redacción y uniformidad sean óptimas. Se trata de un documento vivo que refleja nuestro estado actual. Y lo iremos actualizando conforme evolucione la expresión de nuestra marca.
 
-¿Por qué es importante esta guía para la localización de los textos de mercadotecnia de Firefox?
-------------------------------------------------------------------------------------------------
+## ¿Por qué es importante esta guía para la localización de los textos de mercadotecnia de Firefox?
 
 La finalidad de esta guía es ayudarte a entender mejor Firefox como marca y facilitarte la traducción de sus textos a tu idioma. Para facilitar el proceso de localización, también compartiremos terminología específica de la empresa y las variantes ortográficas preferidas.
 
 Nuestros textos no deben traducirse literalmente, sino de manera que reflejen la personalidad y el tono de nuestra marca, y adecuarlos tomando en cuenta los aspectos culturales y lingüísticos apropiados. La intención emocional y figurada del texto fuente deberá adaptarse a la lengua objetivo.
 
-Acerca de Firefox — Quiénes somos
----------------------------------
+## Acerca de Firefox — Quiénes somos
 
 Firefox es más que solo un navegador. Firefox es *una marca retadora* que desafía el *statu quo* y defiende los derechos de los usuarios de Internet.
 
@@ -19,28 +16,27 @@ En todo lo que hacemos, ponemos los derechos y necesidades de los usuarios en pr
 
 La razón de ser de Firefox y nuestros productos relacionados se fusionan dentro de la *marca* Firefox.
 
-\(Mozilla es la organización sin fines de lucro detrás de Firefox.\)
+(Mozilla es la organización sin fines de lucro detrás de Firefox.)
 
-**Promesa de marca** :
+**Promesa de marca**:
 
 Firefox lucha por ti
 
-**Por qué luchamos** :
+**Por qué luchamos**:
 
 Firefox lucha por nuestros usuarios al crear productos que dan a la gente el control y potestad sobre su vida en línea.
 
-**Productos** :
+**Productos**:
 
-* Firefox Quantum \(navegador para computadoras\)
-* Firefox Mobile \(para iOS y Android\)
+* Firefox Quantum (navegador para computadoras)
+* Firefox Mobile (para iOS y Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-Personalidad y tono
--------------------
+## Personalidad y tono
 
 ### ¿A quién nos dirigimos?
 
@@ -53,7 +49,7 @@ Electores conscientes:
 * Son clientes exigentes.
 * Con frecuencia, investigan por su cuenta para entender bien todas sus opciones.
 
-Entre los electores conscientes, hay dos grupos a los que intentamos dirigirnos específicamente: los **celosos de la confidencialidad** y los **amplificadores intrépidos** .
+Entre los electores conscientes, hay dos grupos a los que intentamos dirigirnos específicamente: los **celosos de la confidencialidad** y los **amplificadores intrépidos**.
 
 Los celosos de la confidencialidad:
 
@@ -80,8 +76,7 @@ La interacción de estos atributos define la personalidad de la marca Firefox. D
 
 ![Matriz de personalidad de Firefox](../images/firefox_marketing/firefox_personality_en.png)
 
-Tono
-----
+## Tono
 
 Nuestro tono de voz y manera de expresarnos es:
 
@@ -97,7 +92,6 @@ Nuestro tono de voz y manera de expresarnos es:
 | Optimista y motivador              | Creemos en un futuro positivo para el Internet. Aunque a veces hablamos de cosas que no van tan bien, preferimos tener una actitud positiva.                                                                                                                                                              |
 | Creativo                           | Aunque la información y la claridad son lo primero, nos gusta usar un lenguaje creativo e interesante en nuestros textos. Jamás queremos sonar insulsos ni aburridos. Intentamos evitar los estereotipos de la mercadotecnia.                                                                             |
 
-Glosario de términos/Términos recurrentes \(EN PROCESO\)
-----------------------------------------------------------
+## Glosario de términos/Términos recurrentes (EN PROCESO)
 
-En caso de duda, también se puede consultar el [buscador de transvision](https://transvision.mozfr.org/). Sin embargo, como los resultados de la búsqueda suelen ser versiones más antiguas de traducciones \(a menudo con un tratamiento formal\), esta herramienta solo sirve de guía.
+En caso de duda, también se puede consultar el [buscador de transvision](https://transvision.mozfr.org/). Sin embargo, como los resultados de la búsqueda suelen ser versiones más antiguas de traducciones (a menudo con un tratamiento formal), esta herramienta solo sirve de guía.
