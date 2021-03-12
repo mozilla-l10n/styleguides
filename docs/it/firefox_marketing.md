@@ -1,17 +1,14 @@
-Guida alla localizzazione dei testi di Firefox
-==============================================
+# Guida alla localizzazione dei testi di Firefox
 
 Questo documento ha lo scopo di agevolare la creazione e la localizzazione dei testi e di garantire la loro stesura e la loro coerenza a livelli ottimali. Il documento è costantemente aggiornato ed esprime la nostra situazione attuale. Gli aggiornamenti rispecchieranno fedelmente la costante evoluzione espressiva del nostro brand.
 
-Perché la guida è importante per la localizzazione dei testi di marketing di Firefox?
--------------------------------------------------------------------------------------
+## Perché la guida è importante per la localizzazione dei testi di marketing di Firefox?
 
 Questa guida ha l'obiettivo di aiutarti a entrare in piena sintonia con il brand Firefox per capire come tradurre al meglio nella tua lingua. Inoltre, condivideremo dei termini specifici e approvati a livello aziendale, spelling incluso, per semplificare la localizzazione.
 
 I nostri testi non andrebbero tradotti in modo letterale perché dovrebbero rispecchiare lo stile e la personalità del nostro brand, oltre ad essere allineati al contesto linguistico e culturale locale. Dal testo tradotto dovrebbero emergere le stesse sensazioni e metafore utilizzate nel testo originale.
 
-Parliamo di Firefox \- Chi siamo
----------------------------------
+## Parliamo di Firefox - Chi siamo
 
 Firefox è molto più di un semplice browser. Firefox è un *marchio controcorrente* che sfida lo status quo e sostiene i diritti digitali degli utenti.
 
@@ -19,28 +16,27 @@ In ogni nostra iniziativa, mettiamo sempre al primo posto i diritti e le esigenz
 
 Il *brand* Firefox è la combinazione dello spirito di Firefox e i nostri prodotti correlati.
 
-\(Mozilla è l'organizzazione no profit che ha creato Firefox.\)
+(Mozilla è l'organizzazione no profit che ha creato Firefox.)
 
-**Promessa del brand** :
+**Promessa del brand**:
 
 Firefox si batte per te
 
-**Per cosa ci stiamo battendo** :
+**Per cosa ci stiamo battendo**:
 
 Firefox si batte per i propri utenti creando prodotti che permettono alle persone di avere il pieno controllo della propria vita digitale.
 
-**Prodotti** :
+**Prodotti**:
 
-* Firefox Quantum \(Browser per desktop\)
-* Firefox Mobile \(Per iOS e Android\)
+* Firefox Quantum (Browser per desktop)
+* Firefox Mobile (Per iOS e Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-Personalità e tono di voce
---------------------------
+## Personalità e tono di voce
 
 ### A chi ci stiamo rivolgendo?
 
@@ -53,7 +49,7 @@ Decisionisti consapevoli:
 * Sono clienti esigenti
 * Spesso si informano in modo approfondito per comprendere appieno tutte le opzioni a disposizione
 
-All'interno dei Decisionisti consapevoli troviamo due gruppi a cui ci rivolgiamo in modo mirato. **Riservati e premurosi** insieme a **Divulgatori avventurosi** .
+All'interno dei Decisionisti consapevoli troviamo due gruppi a cui ci rivolgiamo in modo mirato. **Riservati e premurosi** insieme a **Divulgatori avventurosi**.
 
 Riservati e premurosi:
 
@@ -80,15 +76,14 @@ La personalità del brand Firefox è definita dall'interazione di queste caratte
 
 ![Matrice della personalità di Firefox](../images/firefox_marketing/firefox_personality_en.png)
 
-Tono di voce
-------------
+## Tono di voce
 
 Il nostro tono di voce e stile linguistico è:
 
 |            Tono di voce             |                                                                                                                                                                                                                                                                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Diretto, chiaro, semplice da capire | Vogliamo mettere gli utenti a loro agio usando parole e concetti alla portata di tutti.                                                                                                                                                                                                                                                 |
-| Sintetico                           | Ci piacciono titoli e frasi brevi oltre a call\-to\-action chiare.  Evitiamo di scrivere frasi dalla sintassi complicata e che non apportano un valore aggiunto.                                                                                                                                                                      |
+| Sintetico                           | Ci piacciono titoli e frasi brevi oltre a call-to-action chiare.  Evitiamo di scrivere frasi dalla sintassi complicata e che non apportano un valore aggiunto.                                                                                                                                                                      |
 | Autentico                           | I nostri testi — come i nostri prodotti — sono fatti da persone e si rivolgono alle persone. Parliamo con i nostri utenti da pari a pari usando un linguaggio schietto.                                                                                                                                                                 |
 | Schietto                            | Scriviamo in forma attiva e usiamo con moderazione la forma passiva. Evitiamo lo stile nominale. Preferiamo due frasi brevi a una più lunga.                                                                                                                                                                                            |
 | Rispettoso                          | Sii rispettoso senza sembrare troppo formale.                                                                                                                                                                                                                                                                                           |
@@ -97,7 +92,6 @@ Il nostro tono di voce e stile linguistico è:
 | Positivo e ispirato                 | Crediamo che il futuro di Internet sia roseo. Anche se a volte parliamo di alcuni aspetti negativi, preferiamo mantenere un atteggiamento improntato all'ottimismo.                                                                                                                                                                     |
 | Creativo                            | Anche se la chiarezza e la divulgazione delle informazioni hanno la precedenza, nei nostri testi amiamo usare uno stile creativo e accattivante. Non vorremmo mai sembrare anonimi e noiosi. Cerchiamo di evitare stereotipi di marketing.                                                                                              |
 
-Glossario dei termini / Termini ricorrenti \(IN AGGIORNAMENTO\)
------------------------------------------------------------------
+## Glossario dei termini / Termini ricorrenti (IN AGGIORNAMENTO)
 
-In caso di dubbi e perplessità, si può anche fare affidamento sul [motore di ricerca transvision](https://transvision.mozfr.org/). Tuttavia, poiché la ricerca mostra spesso versioni precedenti delle traduzioni nell'elenco dei risultati \(spesso con l'indirizzo formale\), questo strumento è utile a livello consultivo.
+In caso di dubbi e perplessità, si può anche fare affidamento sul [motore di ricerca transvision](https://transvision.mozfr.org/). Tuttavia, poiché la ricerca mostra spesso versioni precedenti delle traduzioni nell'elenco dei risultati (spesso con l'indirizzo formale), questo strumento è utile a livello consultivo.

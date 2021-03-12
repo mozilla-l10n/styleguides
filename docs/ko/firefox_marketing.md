@@ -1,17 +1,14 @@
-Firefox 광고 카피 현지화 가이드
-=====================
+# Firefox 광고 카피 현지화 가이드
 
 이 문서는 광고 카피의 작성 및 현지화 작업에 도움을 주고, 최적의 준비 상태와 일관성을 유지할 수 있도록 지원하기 위해 작성되었습니다. 이 문서는 Firefox 현재 상태를 실시간으로 반영합니다. Firefox의 브랜드 표현은 계속 진화하며, 이에 따라 이 문서도 계속 업데이트됩니다.
 
-Firefox 마케팅 카피의 현지화 작업을 진행할 때 이 문서를 꼭 참조해야 하는 이유
-------------------------------------------------
+## Firefox 마케팅 카피의 현지화 작업을 진행할 때 이 문서를 꼭 참조해야 하는 이유
 
 이 가이드는 브랜드로서의 Firefox를 명확히 이해하고, 현지어 번역 시 효과적인 접근 방법을 이해하는 데 도움을 주고자 작성되었습니다. 또한 순조로운 현지화 과정을 위해 브랜드 특정 용어나 맞춤법을 공유할 예정입니다.
 
 광고 카피는 원문의 단어를 일대일로 직역해서는 안 되며, 브랜드 개성과 어조를 잘 반영해야 하고, 문화 및 언어적 관점에서 최적의 번역이 될 수 있도록 해야 합니다. 감정을 자극하거나 비유적인 표현은 원문의 의도에 따라 현지 언어로 적절하게 수정해야 합니다.
 
-Firefox 소개 — Firefox란?
-----------------------
+## Firefox 소개 — Firefox란?
 
 Firefox는 단순한 브라우저가 아닙니다. Firefox는 현재 상황에 만족하지 않고 사용자의 온라인 권리를 옹호하며 끊임없이 *도전하는 브랜드* 입니다.
 
@@ -19,28 +16,27 @@ Firefox는 단순한 브라우저가 아닙니다. Firefox는 현재 상황에 �
 
 *브랜드* 로서의 Firefox는 Firefox 정신과 관련 제품을 결합합니다.
 
-\(Mozilla는 Firefox를 지원하는 비영리 조직입니다.\)
+(Mozilla는 Firefox를 지원하는 비영리 조직입니다.)
 
-**브랜드 약속** :
+**브랜드 약속**:
 
 Firefox는 여러분을 위해 싸웁니다.
 
-**싸움의 목적** :
+**싸움의 목적**:
 
 Firefox는 사용자가 자신의 온라인 활동을 통제하고 관리할 수 있도록 하는 제품을 개발합니다.
 
-**제품** :
+**제품**:
 
-* Firefox Quantum\(데스크톱 브라우저\)
-* Firefox Mobile\(iOS 및 Android용\)
+* Firefox Quantum(데스크톱 브라우저)
+* Firefox Mobile(iOS 및 Android용)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network\(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network(FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-브랜드 개성 및 스타일
-------------
+## 브랜드 개성 및 스타일
 
 ### 메시지를 전달하는 대상:
 
@@ -80,8 +76,7 @@ Firefox의 타겟 고객은 의식적인 의사결정자로 규정됩니다. 이
 
 ![Firefox 브랜드 개성 매트릭스](../images/firefox_marketing/firefox_personality_en.png)
 
-어조
----
+## 어조
 
 Firefox의 어조 및 언어 선택:
 
@@ -97,7 +92,6 @@ Firefox의 어조 및 언어 선택:
 | 긍정적이며 동기를 부여하는 어조     | Firefox는 인터넷의 긍정적인 미래를 믿고 있습니다. 때로는 어려운 문제에 직면하기도 하지만 긍정적인 자세로 미래를 전망합니다.                                                                            |
 | 창의적인 표현               | 명확하고 간결한 정보 전달이 우선이지만, 창의적이고 흥미로운 언어를 사용하려 합니다. 무미건조하고 지루한 어조, 식상한 마케팅 문구는 지양합니다.                                                                    |
 
-용어 설명 / 반복 용어\(개발 중\)
------------------------
+## 용어 설명 / 반복 용어(개발 중)
 
-용어의 의미가 명확하지 않을 경우 [transvision search](https://transvision.mozfr.org/)를 사용할 수 있습니다. 단, 검색 결과에 이전 버전의 번역\(주로 격식체\)이 나타날 수 있으므로 참고용으로만 사용해야 합니다.
+용어의 의미가 명확하지 않을 경우 [transvision search](https://transvision.mozfr.org/)를 사용할 수 있습니다. 단, 검색 결과에 이전 버전의 번역(주로 격식체)이 나타날 수 있으므로 참고용으로만 사용해야 합니다.

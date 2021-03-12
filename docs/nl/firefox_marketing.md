@@ -1,17 +1,14 @@
-Handleiding voor het vertalen van Firefox\-teksten
-===================================================
+# Handleiding voor het vertalen van Firefox\-teksten
 
 Deze handleiding is bedoeld om het schrijven en vertalen van teksten te vergemakkelijken en optimale voorbereiding en consistentie te bevorderen. De handleiding wordt voortdurend bijgewerkt. Ons merk ontwikkelt zich en we zullen dit document aan deze ontwikkelingen blijven aanpassen.
 
-Waarom is deze handleiding belangrijk voor het vertalen van Firefox\-teksten?
-------------------------------------------------------------------------------
+## Waarom is deze handleiding belangrijk voor het vertalen van Firefox-teksten?
 
 Deze handleiding helpt je om Firefox als merk beter te begrijpen, zodat je beter in staat bent om de teksten naar je eigen taal te vertalen. De handleiding bevat bovendien vaste, bedrijfsspecifieke termen en spellingaanwijzingen om het vertaalproces te vergemakkelijken.
 
-Het is niet de bedoeling dat onze teksten een\-op\-een worden vertaald. Ze moeten een afspiegeling zijn van de persoonlijkheid en de toon van het merk en moeten worden aangepast aan de doelcultuur en de doeltaal. De emotionele en symbolische betekenis van de brontekst moet worden aangepast voor de doeltaal.
+Het is niet de bedoeling dat onze teksten een-op-een worden vertaald. Ze moeten een afspiegeling zijn van de persoonlijkheid en de toon van het merk en moeten worden aangepast aan de doelcultuur en de doeltaal. De emotionele en symbolische betekenis van de brontekst moet worden aangepast voor de doeltaal.
 
-Over Firefox — Wie zijn wij?
-----------------------------
+## Over Firefox — Wie zijn wij?
 
 Firefox is meer dan alleen een browser. Firefox is *een uitdagend merk* dat de status quo ter discussie stelt en opkomt voor de online rechten van gebruikers.
 
@@ -19,32 +16,31 @@ De rechten en behoeften van onze gebruikers staan bij ons voorop in alles wat we
 
 Firefox als *merk* is een combinatie van de ethos van Firefox en onze verwante producten.
 
-\(Mozilla is de non\-profitorganisatie achter Firefox.\)
+(Mozilla is de non-profitorganisatie achter Firefox.)
 
-**Merkbelofte** :
+**Merkbelofte**:
 
 Firefox zet zich voor je in
 
-**Waar we voor strijden** :
+**Waar we voor strijden**:
 
 Firefox zet zich voor onze gebruikers in door producten te creëren die mensen controle geven over hun online leven.
 
-**Producten** :
+**Producten**:
 
-* Firefox Quantum \(desktopbrowser\)
-* Firefox Mobile \(voor iOS en Android\)
+* Firefox Quantum (desktopbrowser)
+* Firefox Mobile (voor iOS en Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
 * [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
-* [Firefox Private Network \(FPN\)](https://fpn.firefox.com/)
+* [Firefox Private Network (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
 
-Persoonlijkheid en toon
------------------------
+## Persoonlijkheid en toon
 
 ### Wie is onze doelgroep?
 
-We omschrijven onze doelgroep als Bewuste beslissers. Dit zijn mensen die bewuste keuzes \(willen\) maken, zowel online als offline.
+We omschrijven onze doelgroep als Bewuste beslissers. Dit zijn mensen die bewuste keuzes (willen) maken, zowel online als offline.
 
 Bewuste beslissers:
 
@@ -53,7 +49,7 @@ Bewuste beslissers:
 * zijn veeleisende klanten;
 * doen vaak hun eigen onderzoek om alle mogelijkheden volledig te begrijpen.
 
-De Bewuste beslissers zijn onder te verdelen in twee groepen die we specifiek willen aanspreken. **Privacybeschermers** en **Avontuurlijke trendsetters** .
+De Bewuste beslissers zijn onder te verdelen in twee groepen die we specifiek willen aanspreken. **Privacybeschermers** en **Avontuurlijke trendsetters**.
 
 Privacybeschermers:
 
@@ -80,8 +76,7 @@ De merkpersoonlijkheid van Firefox wordt bepaald door de interactie van deze ken
 
 ![Firefox-persoonlijkheidsmatrix](../images/firefox_marketing/firefox_personality_en.png)
 
-Toon
-----
+## Toon
 
 Onze toon en stijl is:
 
@@ -97,7 +92,6 @@ Onze toon en stijl is:
 | Optimistisch en motiverend                  | Wij geloven in een positieve toekomst voor het internet. Hoewel we het soms hebben over dingen die niet zo goed gaan, kiezen we voor een positieve instelling.                                                                                                                                   |
 | Creatief                                    | Informatie en duidelijkheid staan voorop, maar we gebruiken graag creatieve en opvallende taal in onze teksten. Ze mogen nooit saai en eentonig klinken. We proberen stereotype marketingtermen te vermijden.                                                                                    |
 
-Woordenlijst / Veel voorkomende termen \(WORDT VOORTDUREND BIJGEWERKT\)
--------------------------------------------------------------------------
+## Woordenlijst / Veel voorkomende termen (WORDT VOORTDUREND BIJGEWERKT)
 
-Bij onduidelijkheden kun je ook gebruikmaken van de [Transvision\-tool](https://transvision.mozfr.org/). Deze tool levert vaak oudere versies van vertalingen op \(vaak met een formele aanspreekvorm\), dus gebruik de tool alleen als richtlijn.
+Bij onduidelijkheden kun je ook gebruikmaken van de [Transvision-tool](https://transvision.mozfr.org/). Deze tool levert vaak oudere versies van vertalingen op (vaak met een formele aanspreekvorm), dus gebruik de tool alleen als richtlijn.
