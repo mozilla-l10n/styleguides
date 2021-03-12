@@ -24,7 +24,6 @@
 * [Chinese, Simplified (zh-CN)](zh-CN/README.md)
     * [Marketing guide to Firefox localization](zh-TW/firefox_marketing.md)
     * [SUMO Style Guide](zh-CN/sumo.md)
-
 * [Chinese, Traditional (zh-TW)](zh-TW/README.md)
     * [Marketing guide to Firefox localization](zh-TW/firefox_marketing.md)
 * [Czech (cs)](cs/README.md)
