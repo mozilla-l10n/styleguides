@@ -18,15 +18,15 @@ Firefox 不仅仅是浏览器。Firefox 是一个 *挑战者品牌* ，致力于
 
 （Mozilla 是推出 Firefox 的非营利组织。）
 
-**品牌承诺** ：
+**品牌承诺**：
 
 Firefox 捍卫您的权益
 
-**我们捍卫什么** ：
+**我们捍卫什么**：
 
 Firefox 创建让人们能控制和管理网络生活的产品，来捍卫用户的权利。
 
-**产品** ：
+**产品**：
 
 * Firefox Quantum（桌面浏览器）
 * Firefox 移动版（适用于 iOS 和 Android）

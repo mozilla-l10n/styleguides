@@ -18,15 +18,15 @@ Firefox 這個 *品牌* 結合了 Firefox 精神和我們的相關產品。
 
 (Mozilla 是 Firefox 背後的非營利組織)
 
-**品牌承諾** ：
+**品牌承諾**：
 
 Firefox 為您而奮鬥
 
-**我們的奮鬥目標** ：
+**我們的奮鬥目標**：
 
 Firefox 透過建立讓人們能夠自行控管線上生活的產品，來為我們的使用者奮鬥。
 
-**產品** ：
+**產品**：
 
 * Firefox Quantum (桌機瀏覽器)
 * Firefox Mobile (iOS 與 Android 適用)
