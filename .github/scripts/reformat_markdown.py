@@ -60,7 +60,7 @@ with open(file_path) as f:
                 drop_line = True
 
             # (Temporary) Fix bug with extra spaces added after bold and italic text
-            text = re.sub(r"\*\s{1}(?=[.,:;?!])", "*", text)
+            text = re.sub(r"\*\s{1}(?=[.,:;?!：，。])", "*", text)
 
         if not drop_line:
             output_content.append(text)
