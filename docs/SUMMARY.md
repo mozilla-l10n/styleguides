@@ -91,6 +91,7 @@
 * [Spanish, Spain (es-ES)](es-ES/README.md)
     * [Marketing guide to Firefox localization](es-ES/firefox_marketing.md)
 * [Swahili (sw)](sw/README.md)
+    * [Marketing guide to Firefox localization](sw/firefox_marketing.md)
 * [Swedish (sv-SE)](sv-SE/README.md)
 * [Tagalog (tl)](tl/README.md)
 * [Telugu (te)](te/README.md)
