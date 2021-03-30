@@ -2,11 +2,11 @@
 
 Ce document est à l’usage de toutes les personnes amenées à écrire pour Firefox en français. Il a pour objectif d’uniformiser le ton et la voix de la marque sur toutes les plateformes et à travers le monde.
 
-## Pourquoi a-t-on besoin d’un tel guide pour localiser le contenu ?
+## Pourquoi a-t-on besoin d’un tel guide pour localiser le contenu ?
 
 Firefox parle d’une même voix dans le monde entier, mais nous voulons éviter de traduire notre contenu de manière littérale. Il est important de maintenir l’image de la marque et l’intention originale du message, en prenant soin d’adapter le langage aux spécificités locales.
 
-En somme, ce guide est écrit pour :
+En somme, ce guide est écrit pour :
 * Développer un ton qui reflète l’image de la marque et qui convient à notre public
 * Uniformiser la traduction des termes techniques et/ou spécifiques à la marque
 
@@ -14,7 +14,7 @@ Le lexique en fin de document permet d’assurer une certaine cohérence dans la
 
 Les consignes de ce document ne sont pas gravées dans la roche. Notre marque évolue, nous actualisons donc le document lorsque c’est nécessaire.
 
-## À propos de Firefox – Qui sommes-nous ?
+## À propos de Firefox – Qui sommes-nous ?
 
 Firefox, c’est bien plus qu’un navigateur. C’est une marque reconnue à travers le monde, qui remet en question le statu quo et qui lutte pour les droits des internautes.
 
@@ -24,19 +24,19 @@ La marque Firefox représente une philosophie qui place les internautes avant le
 
 Mozilla est l’organisation à but non lucratif à l’origine de Firefox.
 
-**La promesse de la marque :**
+**La promesse de la marque :**
 
 Firefox se bat pour vous
 
-**Ce pour quoi nous nous battons :**
+**Ce pour quoi nous nous battons :**
 
 Firefox se bat pour défendre les internautes en leur proposant des produits qui leur permettent de prendre le contrôle de leur vie en ligne.
 
-**L’objectif de la marque :**
+**L’objectif de la marque :**
 
 Expliquer aux internautes que Firefox est la marque qui tient leurs intérêts à cœur et qu’ils ont le contrôle et sont en sécurité quand ils utilisent les outils Firefox.
 
-**Les produits Firefox :**
+**Les produits Firefox :**
 * Firefox Quantum (navigateur de bureau)
 * Firefox Mobile (sur iOS et Android)
 * [Firefox Monitor](https://monitor.firefox.com/)
@@ -45,7 +45,7 @@ Expliquer aux internautes que Firefox est la marque qui tient leurs intérêts �
 
 ## Personnalité et ton de la marque
 
-### À qui s’adresse-t-on ?
+### À qui s’adresse-t-on ?
 
 Nous ciblons les personnes qui font des choix réfléchis, c’est à dire qui ne prennent pas de décisions au hasard mais qui choisissent consciencieusement, autant en ligne que hors ligne.
 
@@ -92,10 +92,10 @@ Nous prenons soin de n’exclure personne et de nous adresser au public le plus 
 
 Cette liste non-exhaustive de consignes s’applique à notre contenu marketing.
 
-Privilégier les **formules épicènes** (invariables en genre) ou les **formules englobantes** (mots génériques pour désigner un groupe de personnes) :
+Privilégier les **formules épicènes** (invariables en genre) ou les **formules englobantes** (mots génériques pour désigner un groupe de personnes) :
 
-* Mots épicènes : internaute, élève, adulte, analyste, etc…
-* Formules englobantes : l’équipe de développement, les personnes malvoyantes, tout le monde, etc…
+* Mots épicènes : internaute, élève, adulte, analyste, etc.
+* Formules englobantes : l’équipe de développement, les personnes malvoyantes, tout le monde, etc.
 
 Dans la mesure du possible éviter la voix passive afin de ne pas avoir à accorder un participe passé.
 
@@ -263,7 +263,7 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 | Web-Innovations                | Innovations du Web                                             |
 | Webcam-Cover                   | Cache webcam                                                   |
 
-### Expressions spécifiques à la marque:
+### Expressions spécifiques à la marque :
 
 |Catégorie|Exemple|
 |----|----|
@@ -276,8 +276,8 @@ Afin d’éviter la confusion, les termes suivants doivent être traduits comme 
 |Catégorie|Exemple|
 |----|----|
 |Date|Le format de date est JJ/MM/AAAA<br>Le 7 avril 1998 s’écrit donc 07/04/1998|
-|Heure|L’heure est au format hh:mm sur 24 heures. <br>Exemple: 18:30|
-|Nombres|En français, le séparateur décimal est la virgule.  <br>Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000|
+|Heure|L’heure est au format hh:mm sur 24 heures. <br>Exemple : 18:30|
+|Nombres|En français, le séparateur décimal est la virgule.  <br>Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000|
 |Point d’exclamation et points de suspension |À utiliser avec parcimonie.|
 |Mesures|Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces.|
 |Astérisques |À éviter. Si la précision est importante, l’inclure dans le texte. Si elle ne l’est pas, ne pas l’inclure (cf. le paragraphe sur la concision).|
