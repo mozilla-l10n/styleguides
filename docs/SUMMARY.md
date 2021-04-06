@@ -62,7 +62,7 @@
 * [Lao (lo)](lo/README.md)
 * [Macedonian (mk)](mk/README.md)
 * [Malagasy (mg)](mg/README.md)
-* [Malay (ms)](my/README.md)
+* [Malay (ms)](ms/README.md)
     * [Marketing guide to Firefox localization](ms/firefox_marketing.md)
 * [Marathi (mr)](mr/README.md)
 * [Polish (pl)](pl/README.md)
