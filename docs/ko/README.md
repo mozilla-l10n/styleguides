@@ -1,6 +1,6 @@
 # 한국어 문서 번역 스타일 가이드
 
-본 문서는 로 다른 사람이 다양한 Mozilla 프로젝트 한국어 지역화를 하더라도 일관성이 있도록 공유되어야 하는 내용을 담고 있습니다. 번역을 포함하여 지역화 작업에 대한 일반적인 내용은 [General Mozilla L10n Style Guide](../mozilla_general/README.md)를 참고하세요.
+본 문서는 서로 다른 사람이 다양한 Mozilla 프로젝트 한국어 지역화를 하더라도 일관성이 있도록 공유되어야 하는 내용을 담고 있습니다. 번역을 포함하여 지역화 작업에 대한 일반적인 내용은 [General Mozilla L10n Style Guide](../mozilla_general/README.md)를 참고하세요.
 
 ## 목적
 
