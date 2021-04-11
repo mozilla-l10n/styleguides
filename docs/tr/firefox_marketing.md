@@ -31,7 +31,7 @@ Firefox, insanlara çevrim içi hayatlarında kontrol ve söz sahibi olma imkan�
 * Firefox Quantum (Masaüstü tarayıcı)
 * Firefox Mobile (iOS ve Android için)
 * [Firefox Monitor](https://monitor.firefox.com/)
-* [Cep](https://play.google.com/store/apps/)
+* [Pocket](https://play.google.com/store/apps/)
 * [Mozilla VPN](https://vpn.mozilla.org/)
 * [Firefox Gizli Ağ (FPN)](https://fpn.firefox.com/)
 * [Firefox Relay](https://relay.firefox.com/)
