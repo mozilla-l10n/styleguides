@@ -52,7 +52,7 @@ Oni povas klarigi dubon inter adjektivo aŭ aparteno per la jena ekzemplo:
 
 |angla|esperanta|
 | --- | --- |
-|File size|~~Aparatoj de sekureco~~|
+|Security Devices|~~Aparatoj de sekureco~~|
 |Security Devices|Sekurecaj aparatoj|
 
 ### uskleco (majuskloj kaj minuskloj)
