@@ -18,7 +18,7 @@ jobs:
         uses: hecrj/setup-rust-action@v1
       - name: Install packages
         run: |
-          curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang/mdBook
+          curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang/mdBook --tag v0.4.8
           curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git badboy/mdbook-toc
       - name: Build book
         run: |
