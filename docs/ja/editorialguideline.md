@@ -1,3 +1,5 @@
+# Editorial Guideline
+
 ## ガイドラインの適用範囲
 
 このガイドラインは、Mozilla 製品と公式サイトのローカライズに適用されます。公式サイトは、具体的には現在 [Pontoon](https://pontoon.mozilla.org/ja/) でローカライズされているサイトを指します。
