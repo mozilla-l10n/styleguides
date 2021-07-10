@@ -22,6 +22,7 @@
     * [Appendix](bm/appendix.md)
 * [Bengali, Bangladesh (bn-BD)](bn-BD/README.md)
 * [Burmese (my)](my/README.md)
+* [Cebuano (ceb)](ceb/README.md)
 * [Chinese, Simplified (zh-CN)](zh-CN/README.md)
     * [Marketing guide to Firefox localization](zh-CN/firefox_marketing.md)
     * [SUMO Style Guide](zh-CN/sumo.md)
