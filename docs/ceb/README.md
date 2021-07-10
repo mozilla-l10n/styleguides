@@ -147,7 +147,6 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
 
 * Name of Months: Cebuano
 
-
   * Enero
   * Pebrero
   * Marso
