@@ -52,7 +52,7 @@ The Mozilla Philippines Community localization style encompasses various element
 
 Using natural expressions make our localization sound natural to a native speaker.
 
-*	Use the "i-[verb]" format during translation: 
+* Use the "i-[verb]" format during translation:
   * [EN] Bookmark this page. | [HIL] inug-Bookmark ang pahina.
   * [EN] Cut | [TL] inug-Cut
   * [EN] Paste | [TL] inug-Paste
