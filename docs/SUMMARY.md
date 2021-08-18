@@ -42,6 +42,7 @@
 * [Hausa (ha)](ha/README.md)
 * [Hindi (hi-IN)](hi-IN/README.md)
     * [Marketing guide to Firefox localization](hi-IN/firefox_marketing.md)
+* [Hiligaynon (hil)](hil/README.md)
 * [Icelandic (is)](is/README.md)
     * [Style](is/style.md)
     * [Brand Names](is/brandnames.md)
