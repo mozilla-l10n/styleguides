@@ -40,6 +40,7 @@
 * [German (de)](de/README.md)
     * [Marketing guide to Firefox localization](de/firefox_marketing.md)
 * [Hausa (ha)](ha/README.md)
+* [Hiligaynon (hil)](https://github.com/mozillaph/localization/blob/master/hil-style-guide.md)
 * [Hindi (hi-IN)](hi-IN/README.md)
     * [Marketing guide to Firefox localization](hi-IN/firefox_marketing.md)
 * [Icelandic (is)](is/README.md)
