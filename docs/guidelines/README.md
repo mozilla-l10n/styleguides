@@ -8,7 +8,7 @@ For creating new style guides, we have prepared a [template](outline.md) you can
 
 ## How to use these guidelines
 
-1. Create a folder for your locale in the [/docs folder](https://github.com/mozilla-l10n/styleguides/tree/master/docs).
+1. Create a folder for your locale in the [/docs folder](https://github.com/mozilla-l10n/styleguides/tree/main/docs).
 2. Copy the file with the [style guide template](https://github.com/mozilla-l10n/styleguides/blob/master/docs/guidelines/outline.md) to your locale folder.
 3. Fill out each section of the template, using the questions and directions from the guidelines below. Refer to the [example style guide](example_en-us.md) as necessary.
 4. Submit a pull request to the repository administrators.
