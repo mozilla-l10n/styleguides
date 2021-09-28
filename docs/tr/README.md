@@ -46,7 +46,7 @@ Bazı dizgilerde değişkenlere çekim eki eklenmesi gerekir. Çekim ekini doğr
 
 ## Bazı terimlerin ve özel adların yazılışı
 
-İngilizcede geleneksel olarak ilk harfleri büyük yazılan bazı terimler ve özellik adları Türkçede küçük harflerde yazılır. 
+İngilizcede geleneksel olarak ilk harfleri büyük yazılan bazı terimler ve özellik adları Türkçede küçük harflerde yazılır.
 
 **Örnek:** Private Browsing (gizli gezinti), Enhanced Tracking Protection (gelişmiş izlenme koruması), Picture-in-Picture (görüntü içinde görüntü)
 
