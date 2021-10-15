@@ -58,8 +58,7 @@ This is the style guide of Mozilla’s Traditional Chinese (Taiwan) [zh-TW] loca
 
 ## MDN
 
-1. 貼上內容時，請盡量避免直接貼上 HTML 樣式，可切換成原始碼模式來檢查。
-2. 其餘同 SUMO。
+1. 請查閱 [MDN 中文翻譯指引](https://github.com/mdn/translated-content/blob/main/docs/zh-tw/translation-guide.md)
 
 ## 測試 / QA
 
