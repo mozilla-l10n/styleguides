@@ -22,6 +22,7 @@ Our copy should not only be translated one-to-one, but should reflect our brand 
 |<p>**relevant** </p><p></p><p>Lesende sollen auf den ersten Blick erkennen können, was sie von dem Text/Inhalt erwarten können und in der Lage sein, einen persönlichen Bezug zu sehen. Wir holen die Menschen dort ab, wo sie gerade sind. Kulturelle Anspielungen müssen leicht nachvollziehbar sein und zum jeweiligen Markt passen. </p>|<p>**relevant**</p><p></p><p>Readers should be able to see at first glance what they can expect from the copy/content and be able to see a relatable connection. We meet people where they are. Cultural references must make sense and fit the market.</p><p></p>|
 
 ## Glossar/Glossary
+
 Terms we consistently use across our products can be found in our glossary. This list includes many tour product features and technical terms. Pls make sure to check back while writing for our products.
 [**Full Glossary for all products**](https://docs.google.com/spreadsheets/d/1eTH5BpG6peOA_laDvyzKKBylIHBeuQbbmTllZg9QhPo/edit#gid=0)
 

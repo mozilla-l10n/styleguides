@@ -24,6 +24,7 @@ Notre langage est/our language is:
 |<p>**pertinent** </p><p></p><p>Les lecteurs doivent pouvoir savoir au premier coup d’œil ce qu’ils peuvent attendre du texte/contenu et être en mesure de déterminer si celui-ci les concerne. Il est important de placer l’utilisateur dans un contexte (où, quand, pourquoi lit-il/elle ceci).</p><p>Nous rencontrons les gens là où ils sont. Les références culturelles doivent parler au lecteur et être adaptées au marché. </p><p>Si quelque chose est intraduisible, il ne faut pas le traduire, mais plutôt chercher à exprimer la même intention différemment. </p>Exemple : <br>✅ Mozilla VPN : comme à la maison<br>❌ ~~La maison est là où se trouve le VPN~~ (traduction directe de ‘Home is where the VPN is’)</p>|<p>**relevant**</p><p></p><p>Readers should be able to see at first glance what they can expect from the copy/content and be able to see a relatable connection. It is important to put the user in a context (where, when, why are they reading this).</p><p>We meet people where they are. Cultural references must make sense and fit the market.</p><p>If something is untranslatable, one should not translate it, but rather seek to express the same intention differently.</p><br>Example:<br>Yes: Mozilla VPN: like home<Br>No : Home is where the VPN is</p>|
 
 ## Glossaire/Glossary
+
 Les termes que nous utilisons systématiquement dans nos produits se trouvent dans notre glossaire. Cette liste comprend de nombreuses caractéristiques des produits et termes techniques. N’oubliez pas de la consulter lorsque vous écrivez sur nos produits.
 
 Terms we consistently use across our products can be found in our glossary. This list includes many tour product features and technical terms. Pls make sure to check back while writing for our products.
@@ -65,48 +66,49 @@ Terms we consistently use across our products can be found in our glossary. This
 Se référer au [guide stylistique pour la traduction](https://github.com/mozfr/besogne/wiki/Guide-stylistique-pour-la-traduction#Rgles_typographiques) pour les règles concernant la typographie en français.
 
 ## Écriture inclusive et emploi du masculin et du féminin
+
 Nous prenons soin de n’exclure personne et de nous adresser au public le plus large possible et évitons autant que possible les termes et formules genrés. L’exercice relevant parfois de l’acrobatie, il est important de se fier à son bon sens afin d’éviter les phrases et formules alambiquées qui alourdissent le texte et peuvent distraire le lectorat du message que nous souhaitons faire passer.
 
 Cette liste non exhaustive de consignes s’applique à notre contenu marketing.
 
 Privilégier les **formules épicènes** (invariables en genre) ou les **formules englobantes** (mots génériques pour désigner un groupe de personnes) :
 
-- Mots épicènes : internaute, élève, adulte, analyste, etc.
-- Formules englobantes : l’équipe de développement, les personnes malvoyantes, tout le monde, etc.
+* Mots épicènes : internaute, élève, adulte, analyste, etc.
+* Formules englobantes : l’équipe de développement, les personnes malvoyantes, tout le monde, etc.
 
 Dans la mesure du possible éviter la voix passive afin de ne pas avoir à accorder un participe passé.
 
-- **Exemples** :<br>
+* **Exemples** :<br>
 ❌ Vous êtes suivi(e) par des traqueurs partout sur le Web.<br>
 ✅ Des traqueurs vous suivent partout sur le Web.
 
 Lorsqu’il n’y a pas de contraintes de limite du nombre de caractères, la double flexion peut être utilisée, avec l’accord au masculin pluriel.
 
-- **Exemples** :<br>
+* **Exemples** :<br>
 ❌ Les étudiants et les étudiantes sont fatigué·es<br>
 ✅ Les étudiants et les étudiantes sont fatigués.
 
 Dans les phrases courtes et percutantes (slogans, balises h1), utiliser le masculin pluriel en guise de neutre.
 
-- **Exemples** :<br>
+* **Exemples** :<br>
 ❌ Êtes-vous prêt à franchir le pas ?<br>
 ❌ Êtes-vous prêt·e à franchir le pas ?<br>
 ✅ Êtes-vous prêts à franchir le pas ?<br>
 
 Quand on parle de nous-mêmes, on utilise le masculin pluriel.
 
-- **Exemple** :<br>
+* **Exemple** :<br>
 ✅ Chez Firefox, nous sommes convaincus que vos données vous appartiennent.
 
 Donner plus de visibilité au féminin, notamment en l’utilisant dans des exemples et démonstrations de cas particuliers, ainsi qu’en féminisant les fonctions.
 
-- **Exemple** :<br>
+* **Exemple** :<br>
 ✅ Une utilisatrice lambda doit s’inquiéter de la manière dont ses données sont traitées.<br>
 ✅ La présidente de l’Estonie a rencontré la Première ministre de l’Islande.
 
 N’utiliser le point-milieu qu’en dernier recours, de préférence uniquement au singulier et lorsque la terminaison du féminin peut s’apposer au masculin sans fléchir le radical.
 
-- **Exemples** :<br>
+* **Exemples** :<br>
 ❌ Les instituteur·trice·s se sont mis·e·s d’accord :<br>
 ✅ C’est un·e élève discipliné·e.<br>
 ✅ Nous recherchons un·e excellent·e informaticien·ne.
