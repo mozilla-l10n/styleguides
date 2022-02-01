@@ -100,6 +100,7 @@
 * [Tagalog (tl)](tl/README.md)
 * [Telugu (te)](te/README.md)
 * [Thai (th)](th/README.md)
+* [Toki Pona (tok)](tok/README.md)
 * [Turkish (tr)](tr/README.md)
     * [Marketing guide to Firefox localization](tr/firefox_marketing.md)
 * [Ukrainian (uk)](uk/README.md)
