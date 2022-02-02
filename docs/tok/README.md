@@ -6,9 +6,9 @@ ante toki ale pi ilo Mosila li kepeken lawa, li kepeken nasin tan lipu ni.
 
 sina wile e sona, li wile toki tawa jan la, o toki lon ni:
 
-- [Mozilla Wiki](https://wiki.mozilla.org/L10n:Teams:tok)
-- [Pontoon](https://pontoon.mozilla.org/tok/)
-- [Discord](https://discord.gg/Ta2pvBeuRY)
+* [Mozilla Wiki](https://wiki.mozilla.org/L10n:Teams:tok)
+* [Pontoon](https://pontoon.mozilla.org/tok/)
+* [Discord](https://discord.gg/Ta2pvBeuRY)
 
 ## Formality and tone
 
@@ -22,12 +22,12 @@ sina wile e sona, li wile toki tawa jan la, o toki lon ni:
 
 sina toki e tenpo suno wan la, o kepeken nasin ni:
 
-- YYYY-MM-DD
+* YYYY-MM-DD
 
 anu nasin ni:
 
-- tenpo sike #YYYY, tenpo mun #MM, tenpo suno #DD
-- sike #YYYY, mun #MM, suno #DD
+* tenpo sike #YYYY, tenpo mun #MM, tenpo suno #DD
+* sike #YYYY, mun #MM, suno #DD
 
 ### Calendar view
 
@@ -39,29 +39,29 @@ toki pona li kepeken nasin tenpo Gregorian.
 
 sina toki e tenpo lili la, o kepeken nasin ni:
 
-- HH:MM:SS
+* HH:MM:SS
 
 ### Numerals
 
 sina toki e nanpa lili la, o kepeken nasin pu:
 
-- ijo wan
-- ijo tu
-- ijo tu wan
-- ijo tu tu
-- ijo luka
-- ijo luka wan
-- ...
+* ijo wan
+* ijo tu
+* ijo tu wan
+* ijo tu tu
+* ijo luka
+* ijo luka wan
+* ...
 
 sina toki e nanpa suli la, o kepeken nasin nanpa Arabic:
 
-- ijo 233
-- ijo 29
-- ijo 45,123,765,233
+* ijo 233
+* ijo 29
+* ijo 45,123,765,233
 
 nanpa ijo li suli ala la, o kepeken nasin ni:
 
-- ijo mute
+* ijo mute
 
 ### Currency
 
