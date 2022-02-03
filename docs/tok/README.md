@@ -102,14 +102,44 @@ toki pona la, o kepeken ala e sitelen suli lon nimi pi toki pona. sina kepeken
 nimi pi toki ante, kepeken nimi ijo, kepeken nimi jan la, sitelen wan ona li
 suli. o lukin:
 
-* toki Inli
+* ma Asija (Asia)
+* ma Elopa (Europe)
+* toki Inli (English)
+* toki Kanse (Français)
+* toki Nijon (日本語)
+
+toki pona taso la, ni:
+
+* ilo sona
+* ma pona
 * toki pona
-* ilo  Mozilla
 
-nimi pi toki ante la, nasin pi toki pona anu nasin pi toki pona ala li pona:
+suli la, nimi pi toki pona ala li ante lon toki pona. taso, nimi ante li ken
+pakala, li ken pana ala e sona tan ante ni. pona la, o kepeken nasin ni:
 
-* toki Inli anu toki English
-* ilo Mosila anu ilo Mozilla
+nimi ma en nimi toki la, o kepeken nasin pi toki pona:
+
+* ma Epanja (España)
+* ma Nijon (日本)
+* ma suli Elopa (Europa)
+* ma tomo Towano (Toronto)
+* toki Epanja (Español)
+* toki Inli (English)
+* toki Nijon (日本語)
+
+nimi pi toki ante li jo ala e nimi pi toki pona la, o toki tawa jan ale lon ilo
+Discord.
+
+nimi ilo en nimi pi kulupu pali la, o kepeken nasin pi toki pona ala:
+
+* ilo Common Voice
+* ilo Mozilla
+* ilo Pontoon
+* kulupu Mozilla
+* lipu Wikipedia
+
+sina ante e ni kepeken nasin pi toki pona la, ken la nimi ona li pakala. kin
+la, toki ante li ante ala e nimi ni.
 
 ## nasin pi ante toki
 
