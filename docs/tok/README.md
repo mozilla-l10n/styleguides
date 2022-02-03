@@ -17,11 +17,14 @@ jan pi toki pona li lon ale ni.
 ante toki sina la, ni li suli nanpa wan: jan ale o ken sona e toki.
 
 tan ni la o kepeken nasin pu taso lon ante toki sina. jan mute li kepeken nasin
-ante. taso jan mute li sona e nasin pu. jan ale o sona e ante toki ni, la nasin
+ante. taso, jan mute li sona e nasin pu. jan ale o sona e ante toki ni la, nasin
 pu li suli, li pona nanpa wan. ni la, nasin pu li suli, li pona nanpa wan.
 
 [nasin ni](https://github.com/kilipan/nasin-toki) kin li pona. jan mute li sona
 e ona. lipu ni li pona tawa nasin pu.
+
+ku la, nasin pu li ante lili. tan ni la, o sona e ante tan ku. o kepeken ante
+tan ku.
 
 ## nasin sona
 
