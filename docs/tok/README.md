@@ -75,7 +75,7 @@ nanpa ijo li suli ala la, o kepeken nasin ni:
 
 ### nanpa pi ilo toki
 
-nanpa pi ilo toki li lukin sama ni:
+nanpa pi ilo toki li sama lukin ni:
 
 > `(###) ###-####`
 
