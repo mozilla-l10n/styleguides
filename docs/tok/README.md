@@ -2,7 +2,7 @@
 
 toki! lipu ni li pana e nasin pona tawa ante toki sina. sina kepeken ni la, o
 kepeken [General Mozilla L10n Style Guide](../mozilla_general/) kin. ante toki
-ale pi ilo Mosila li kepeken nasin tan lipu ni.
+ale pi ilo Mozilla li kepeken nasin tan lipu ni.
 
 sina wile e sona la, o lukin:
 
