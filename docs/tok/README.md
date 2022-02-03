@@ -74,15 +74,14 @@ tu wan li wan tan sitelen palisa.
 
 ## nasin sona pi toki pona
 
-### nimi kepeken
+### nimi pona
 
-o kepeken nimi pu, kepeken nimi ku suli. sina wile kepeken nimi ku lili anu nimi
-ante la, o toki tawa jan ale lon ilo Discord. nimi ku lili li ken ike. jan mute
-li sona ala e nimi ni la, ante toki sina li ken pakala.
+o kepeken nimi pu taso.
 
-nimi ale ni li nimi ku lili pona:
+sina wile kepeken nimi ku suli la, o toki tawa jan lon ilo Discord
 
-* linluwi
+nimi ku ante la, o ni kin. taso, nimi ku ante li ken ike. sina kepeken nasin pu
+la, ante toki sina li pona.
 
 sina sona ala e tan nimi la, o lukin e [lipu
 Linku](https://lipu-linku.github.io/). ona li jo e tan pi nimi ale.
@@ -96,6 +95,11 @@ suli. o lukin:
 * toki Inli
 * toki pona
 * ilo  Mozilla
+
+nimi pi toki ante la, nasin pi toki pona anu nasin pi toki pona ala li pona:
+
+* toki Inli anu toki English
+* ilo Mosila anu ilo Mozilla
 
 ## nasin pi ante toki
 
