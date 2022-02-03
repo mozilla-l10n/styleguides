@@ -16,48 +16,7 @@ jan pi toki pona li lon ale ni.
 
 o kepeken [nasin ni](https://github.com/kilipan/nasin-toki) lon ante toki pi ilo Mozilla.
 
-### nasin pi nimi 'li'
-
-ante toki pona la, o kepeken nasin pu. sina ken kepeken nasin ante. taso, o
-lukin:
-
-pu la, nimi 'mi' en nimi 'sina' li ken ala jo e nimi 'li', li ken ala jo e nimi
-wawa tu.
-
-ni li pu, li pona:
-
-* mi moku. mi lape.
-* sina pona. sina tawa.
-
-ni li pu ala, li ken pona:
-
-* mi moku, li lape.
-* sina pona, li tawa.
-
-ni li pakala lili:
-
-* mi moku li lape.
-* sina pona li tawa.
-
-jan mute li sona e nasin pu la, nasin pu li pona nanpa wan.
-
-### nasin pi nimi lon
-
-pu la, nimi ijo li ken ala jo e nimi lon.
-
-ni li pu, li pona:
-
-* jan li pona lon tomo mi
-
-ni li pu ala, li ken pona:
-
-* jan lon tomo mi li pona
-
-sama la, jan mute li sona e nasin pu la, o kepeken nasin pu. nasin ante li ken pona.
-
-### Cultural references, idioms, and slang
-
-## Units and unit conversion
+## nasin sona
 
 ### nasin pi tenpo suno
 
