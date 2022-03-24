@@ -1,8 +1,8 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Triggers the workflow on push or pull request events but only for the
-  # default branch
+  # Triggers the workflow on push or pull request events but
+  # only for the default branch.
   push:
     branches: [ main ]
 
@@ -14,22 +14,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
-      - name: Set up Rust
-        uses: hecrj/setup-rust-action@v1
+        uses: actions/checkout@v3
       - name: Install packages
         run: |
           curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang/mdBook
           curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git badboy/mdbook-toc
+      - name: Install gh-pages
+        run: |
+          npm install gh-pages@"~3.2.0"
       - name: Build book
         run: |
             mdbook --version
             mdbook-toc --version
             mdbook build
-      - name: Deploy to GitHub Page
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: book
-          SINGLE_COMMIT: true
+      - name: Set Git config
+        run: |
+          git config --global user.email 'flodolo@users.noreply.github.com'
+          git config --global user.name 'Francesco Lodolo [:flod]'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+      - name: Deploy to GitHub pages
+        run: |
+          npx gh-pages --message "Deploy docs" --no-history --dist book
