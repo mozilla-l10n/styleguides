@@ -57,3 +57,4 @@
 | Rocket | Rocket | 不翻译 |
 | Thunderbird | Thunderbird | 不翻译 |
 | Webmaker | Webmaker | 不翻译 |
+| Transition | 迁移 | 投票决定 |
