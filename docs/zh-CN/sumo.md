@@ -43,18 +43,23 @@
 
 | English | 简体中文 | 说明 |
 | --- | --- | --- |
+| Colorway| 配色 | |
 | Firefox | Firefox | 不翻译 |
 | Firefox Focus | Firefox Focus | 不翻译 |
 | Firefox for Android | Firefox for Android | 不翻译 |
 | Firefox for iOS | Firefox for iOS | 不翻译 |
 | Firefox for Fire TV | Firefox for Fire TV | 不翻译 |
+| Fire Relay | Fire Relay | 不翻译 |
 | Firefox Rocket | Firefox Rocket | 不翻译 |
 | Fire TV | Fire TV | 不翻译 |
 | Focus | Focus | 不翻译 |
 | Google | Google/谷歌 | 均可 |
+| MDN Plus | MDN Plus | 不翻译 |
 | Microsoft | Microsoft/微软 | 均可 |
 | Mozilla | Mozilla | 不翻译 |
+| Mozilla VPN | Mozilla VPN | 不翻译 |
+| Primary Password | 主密码| 替代 Master Password |
 | Rocket | Rocket | 不翻译 |
 | Thunderbird | Thunderbird | 不翻译 |
-| Webmaker | Webmaker | 不翻译 |
 | Transition | 迁移 | 投票决定 |
+| Webmaker | Webmaker | 不翻译 |
