@@ -46,13 +46,11 @@ Finally, adherence to Mozilla and third-party branding and style guides should b
 
 More information on Mozilla-specific branding rules can be found on [Mozilla branding](https://www.mozilla.org/en-US/styleguide/identity/mozilla/branding/) and [Firefox branding](https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/) pages. For example, some brand names should never be translated, such as "Firefox."
 
-Translations of brands and product names for Ukrainian locale are included in the [Terminology List](https://wiki.mozilla.org/L10n:Teams:uk:Words).
+Translations of brands and product names for Ukrainian locale are included in the [Glossary](https://wiki.mozilla.org/L10n:Teams:uk/Glossary).
 
 ## Terminology
 
-Please follow this link to see the list of terms for Ukrainian locale:
-
-[Terminology List](https://wiki.mozilla.org/L10n:Teams:uk:Words).
+Please follow [this link](https://wiki.mozilla.org/L10n:Teams:uk/Glossary) to see the list of terms for Ukrainian locale:
 
 You should be consistent in the use of term base in the Ukrainian language. Avoid the following:
 
@@ -109,7 +107,7 @@ Genitive Case for nouns of the II declension can be very treacherous. On one han
 
 You can refer to this [Online Dictionary](http://rodovyi-vidminok.wikidot.com/). But you should keep in mind that there can be exceptions to the rules.
 
-## Pluralization
+## Plural Forms
 
 There are three plural forms in the Ukrainian language.
 
@@ -120,8 +118,14 @@ There are three plural forms in the Ukrainian language.
 
 List of all the rules of plural forms and examples, including Ukrainian, can be found at the following links:
 
-* [Localization and Plurals](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) (Plural rule #7)
-* [Language Plural Rules](http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html)
+- [Localization and Plurals](https://developer.mozilla.org.cach3.com/en/Localization_and_Plurals#List_of_Plural_Rules) (Plural rule #7)
+- [Language Plural Rules](https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html#uk)
+
+### Plural rule 7 (3 forms)
+* **Families:** Slavic (Belarusian, Bosnian, Croatian, Serbian, Russian, Ukrainian)
+* **ONE** - ends in 1, excluding 11: 1, 21, 31, 41, 51, 61, 71, 81, 91, 101, 121, 131, 141, 151, 161, 171, 181, 191, 201, 221, 231, 241, 251, 261, 271, 281, 291, …
+* **FEW** - ends in 2-4, excluding 12-14: 2, 3, 4, 22, 23, 24, 32, 33, 34, 42, 43, 44, 52, 53, 54, 62, 63, 64, 72, 73, 74, 82, 83, 84, 92, 93, 94, 102, 103, 104, 122, 123, 124, 132, 133, 134, 142, 143, 144, 152, 153, 154, 162, 163, 164, 172, 173, 174, 182, 183, …
+* **MANY** - everything else: 0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 75, 76, 77, …
 
 ### How plurals work in .properties files
 
@@ -137,7 +141,11 @@ The Ukrainian translation of the above example will be as following:
 You should evaluate and translate each sentence separately. Some locales start the second sentence lowercase because of the semicolon, or with a leading space. Both are errors.
 You shouldn’t replace the semicolon with a character from your script or another punctuation sign (commas, periods).
 
-The strings using the wrong number of plural forms are now reported on the [l10n dashboard](https://l10n.mozilla.org/teams/uk) ([example](https://l10n.mozilla.org/dashboard/compare?run=898125#issue1)).
+Using the wrong number of plural forms or incorrect rules in translations will affect the user experience not in a good way.
+
+### How plurals work in .ftl files
+
+Translating the strings with different plural forms on Pontoon is pretty straightforward. There will be separate fields within one string so the translator should simply fill them in using necessary form. Each field has its title: One, Few, Many, Other.
 
 ## User Interface Elements
 
@@ -178,6 +186,10 @@ Examples in the UI:
 | Translated Access Keys | Untranslated Access Key |
 | ---------------------- | ----------------------- |
 | ![Translated Access Key Image](taccesskey.png) | ![Untranslated Access Key Image](utaccesskey.png) |
+
+### Translating Access Keys in .ftl files
+
+Translating Access Keys in .ftl file is pretty straightforward. Pontoon already combines .label and .accesskey fields within one string, providing all possible letters to choose from.
 
 ## Accuracy
 
