@@ -20,7 +20,8 @@ A version with improved readibility and search is built automatically via GitHub
 If you want to build and preview these pages locally,  [install Rust and cargo](https://www.rust-lang.org/learn/get-started) and then run the following commands from the root of the repository:
 
 ```
-$ cargo install --vers "^0.2" mdbook-toc
+$ cargo install mdbook
+$ cargo install mdbook-toc
 $ mdbook serve
 ```
 

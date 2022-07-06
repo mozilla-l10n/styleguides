@@ -4,8 +4,8 @@ on:
   # Triggers the workflow on push or pull request events but
   # only for the default branch.
   push:
-    branches: [ main ]
-
+    branches:
+      main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -15,13 +15,13 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v3
-      - name: Install packages
+      - name: Install Rust packages
         run: |
-          curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git rust-lang/mdBook
-          curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git badboy/mdbook-toc
+          curl --proto '=https' --tlsv1.2 -sSf https://rossmacarthur.github.io/install/crate.sh | bash -s -- --repo "rust-lang/mdBook" --bin mdbook --to ~/.cargo/bin
+          curl --proto '=https' --tlsv1.2 -sSf https://rossmacarthur.github.io/install/crate.sh | bash -s -- --repo "badboy/mdbook-toc" --to ~/.cargo/bin
       - name: Install gh-pages
         run: |
-          npm install gh-pages@"~3.2.0"
+          npm install gh-pages@"~4.0.0"
       - name: Build book
         run: |
             mdbook --version
