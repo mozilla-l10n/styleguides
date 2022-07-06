@@ -118,10 +118,11 @@ There are three plural forms in the Ukrainian language.
 
 List of all the rules of plural forms and examples, including Ukrainian, can be found at the following links:
 
-- [Localization and Plurals](https://developer.mozilla.org.cach3.com/en/Localization_and_Plurals#List_of_Plural_Rules) (Plural rule #7)
-- [Language Plural Rules](https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html#uk)
+* [Localization and Plurals](https://developer.mozilla.org.cach3.com/en/Localization_and_Plurals#List_of_Plural_Rules) (Plural rule #7)
+* [Language Plural Rules](https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html#uk)
 
 ### Plural rule 7 (3 forms)
+
 * **Families:** Slavic (Belarusian, Bosnian, Croatian, Serbian, Russian, Ukrainian)
 * **ONE** - ends in 1, excluding 11: 1, 21, 31, 41, 51, 61, 71, 81, 91, 101, 121, 131, 141, 151, 161, 171, 181, 191, 201, 221, 231, 241, 251, 261, 271, 281, 291, …
 * **FEW** - ends in 2-4, excluding 12-14: 2, 3, 4, 22, 23, 24, 32, 33, 34, 42, 43, 44, 52, 53, 54, 62, 63, 64, 72, 73, 74, 82, 83, 84, 92, 93, 94, 102, 103, 104, 122, 123, 124, 132, 133, 134, 142, 143, 144, 152, 153, 154, 162, 163, 164, 172, 173, 174, 182, 183, …
