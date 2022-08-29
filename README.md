@@ -13,6 +13,10 @@ $ npm install
 $ npm test
 ```
 
+## License
+
+The files in this repository are licensed under the Creative Commons Attribution-ShareAlike 4.0 International license unless otherwise specified in the file header. You can read more about this license [here](LICENSE.md).
+
 ## GitHub Pages
 
 A version with improved readibility and search is built automatically via GitHub Actions and [mdBook](https://github.com/rust-lang/mdBook/). Updates are pushed to the `gh-pages` branch and available via GitHub Pages [here](https://mozilla-l10n.github.io/styleguides).
