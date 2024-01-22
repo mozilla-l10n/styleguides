@@ -10,3 +10,4 @@ renderer = ["html"]
 [output.html]
 git-repository-url = "https://github.com/mozilla-l10n/styleguides/"
 edit-url-template = "https://github.com/mozilla-l10n/styleguides/edit/main/{path}"
+no-section-label = true
