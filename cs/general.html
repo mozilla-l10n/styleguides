@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>General Style Guide · Czech (cs) - Documentation for Mozilla localizers</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../guidelines/index.html">Guidelines</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../guidelines/outline.html">Style guide outline</a></li><li class="chapter-item expanded "><a href="../guidelines/example_en-us.html">Example style guide</a></li><li class="chapter-item expanded "><a href="../guidelines/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../mozilla_general/index.html">Mozilla general style guide</a></li><li class="chapter-item expanded "><a href="../af/index.html">Africaans (af)</a></li><li class="chapter-item expanded "><a href="../ar/index.html">Arabic (ar)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ar/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../hy-AM/index.html">Armenian (hy-AM)</a></li><li class="chapter-item expanded "><a href="../bm/index.html">Bambara (bm)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../bm/general.html">General Style Considerations</a></li><li class="chapter-item expanded "><a href="../bm/aaa.html">Abbreviations, Acronyms, Articles, and Loan Words</a></li><li class="chapter-item expanded "><a href="../bm/loanwords.html">Non-translated and Loan Words</a></li><li class="chapter-item expanded "><a href="../bm/wl.html">Word-level Guidelines</a></li><li class="chapter-item expanded "><a href="../bm/sl.html">Sentence-level Guidelines</a></li><li class="chapter-item expanded "><a href="../bm/appendix.html">Appendix</a></li></ol></li><li class="chapter-item expanded "><a href="../bn-BD/index.html">Bengali, Bangladesh (bn-BD)</a></li><li class="chapter-item expanded "><a href="../my/index.html">Burmese (my)</a></li><li class="chapter-item expanded "><a href="../ceb/index.html">Cebuano (ceb)</a></li><li class="chapter-item expanded "><a href="../zh-CN/index.html">Chinese, Simplified (zh-CN)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zh-CN/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../zh-CN/sumo.html">SUMO Style Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../zh-TW/index.html">Chinese, Traditional (zh-TW)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zh-TW/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../cs/index.html">Czech (cs)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cs/general.html" class="active">General Style Guide · Czech (cs)</a></li><li class="chapter-item expanded "><a href="../cs/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../nl/index.html">Dutch (nl)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../nl/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../eo/index.html">Esperanto (eo)</a></li><li class="chapter-item expanded "><a href="../fi/index.html">Finnish (fi)</a></li><li class="chapter-item expanded "><a href="../fr/index.html">French (fr)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../fr/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../fr/mozilla_marketing.html">Mozilla Tone of Voice & Localization Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../de/index.html">German (de)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../de/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../de/mozilla_marketing.html">Mozilla Tone of Voice & Localization Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../ha/index.html">Hausa (ha)</a></li><li class="chapter-item expanded "><a href="../hi-IN/index.html">Hindi (hi-IN)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hi-IN/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../hil/index.html">Hiligaynon (hil)</a></li><li class="chapter-item expanded "><a href="../is/index.html">Icelandic (is)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../is/style.html">Style</a></li><li class="chapter-item expanded "><a href="../is/brandnames.html">Brand Names</a></li><li class="chapter-item expanded "><a href="../is/term.html">Terminology</a></li><li class="chapter-item expanded "><a href="../is/ug.html">Units and Grammar</a></li><li class="chapter-item expanded "><a href="../is/general.html">General Mozilla L10n Style</a></li></ol></li><li class="chapter-item expanded "><a href="../id/index.html">Indonesian (id)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../id/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ig/index.html">Igbo (ig)</a></li><li class="chapter-item expanded "><a href="../ga-IE/index.html">Irish (ga-IE)</a></li><li class="chapter-item expanded "><a href="../it/index.html">Italian (it)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../it/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ja/index.html">Japanese (ja)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ja/l10nguideline.html">L10n Guideline</a></li><li class="chapter-item expanded "><a href="../ja/editorialguideline.html">Editorial Guideline</a></li><li class="chapter-item expanded "><a href="../ja/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ko/index.html">Korean (ko)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ko/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../lo/index.html">Lao (lo)</a></li><li class="chapter-item expanded "><a href="../mk/index.html">Macedonian (mk)</a></li><li class="chapter-item expanded "><a href="../mg/index.html">Malagasy (mg)</a></li><li class="chapter-item expanded "><a href="../ms/index.html">Malay (ms)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ms/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../mr/index.html">Marathi (mr)</a></li><li class="chapter-item expanded "><a href="../pl/index.html">Polish (pl)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pl/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../pl/sumo.html">SUMO Style Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../pt-BR/index.html">Portuguese (pt-BR)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pt-BR/general.html">General Style Guide</a></li><li class="chapter-item expanded "><a href="../pt-BR/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../pt-BR/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../pt-PT/index.html">Portuguese (pt-PT)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pt-PT/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ro/index.html">Romanian (ro)</a></li><li class="chapter-item expanded "><a href="../ru/index.html">Russian (ru)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ru/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../gd/index.html">Scottish Gaelic (gd)</a></li><li class="chapter-item expanded "><a href="../sr/index.html">Serbian (sr)</a></li><li class="chapter-item expanded "><a href="../si/index.html">Sinhala (si)</a></li><li class="chapter-item expanded "><a href="../sl/index.html">Slovenian (sl)</a></li><li class="chapter-item expanded "><a href="../es/index.html">Spanish (es)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es/sumo.html">SUMO Style Guide</a></li><li class="chapter-item expanded "><a href="../es/ff.html">Firefox Style Guide</a></li><li class="chapter-item expanded "><a href="../es/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../es-CL/index.html">Spanish, Chile (es-CL)</a></li><li class="chapter-item expanded "><a href="../es-MX/index.html">Spanish, Mexico (es-MX)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es-MX/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../es-ES/index.html">Spanish, Spain (es-ES)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es-ES/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../sw/index.html">Swahili (sw)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../sw/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../sv-SE/index.html">Swedish (sv-SE)</a></li><li class="chapter-item expanded "><a href="../tl/index.html">Tagalog (tl)</a></li><li class="chapter-item expanded "><a href="../te/index.html">Telugu (te)</a></li><li class="chapter-item expanded "><a href="../th/index.html">Thai (th)</a></li><li class="chapter-item expanded "><a href="../tok/index.html">Toki Pona (tok)</a></li><li class="chapter-item expanded "><a href="../tr/index.html">Turkish (tr)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tr/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../uk/index.html">Ukrainian (uk)</a></li><li class="chapter-item expanded "><a href="../ur/index.html">Urdu (ur)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ur/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../vi/index.html">Vietnamese (vi)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../vi/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../wo/index.html">Wolof (wo)</a></li><li class="chapter-item expanded "><a href="../xh/index.html">Xhosa (xh)</a></li><li class="chapter-item expanded "><a href="../yo/index.html">Yoruba (yo)</a></li><li class="chapter-item expanded "><a href="../zu/index.html">Zulu (zu)</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Documentation for Mozilla localizers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/edit/main/docs/cs/general.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="style-guide-czech-cs--překladatelská-stylistická-příručka"><a class="header" href="#style-guide-czech-cs--překladatelská-stylistická-příručka">Style Guide Czech (cs) / Překladatelská stylistická příručka</a></h1>
+<ul>
+<li><a href="#czech-language-in-a-nutshell">Czech language in a nutshell</a></li>
+<li><a href="#formality-and-tone">Formality and Tone</a></li>
+<li><a href="#natural-expression">Natural expression</a></li>
+<li><a href="#handling-cultural-references-idioms-and-slang">Handling cultural references, idioms, and slang</a></li>
+<li><a href="#units-and-unit-conversion">Units and Unit Conversion</a>
+<ul>
+<li><a href="#calendar-view">Calendar view</a></li>
+<li><a href="#date-format">Date Format</a></li>
+<li><a href="#time-format">Time Format</a></li>
+<li><a href="#numerals">Numerals</a></li>
+<li><a href="#currency">Currency</a></li>
+<li><a href="#units">Units</a></li>
+<li><a href="#address-and-postal-code-format">Address and Postal Code Format</a></li>
+<li><a href="#telephone-number-format">Telephone Number format</a></li>
+</ul>
+</li>
+<li><a href="#grammar">Grammar</a></li>
+<li><a href="#copy-rules">Copy rules</a>
+<ul>
+<li><a href="#punctuation">Punctuation</a></li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#feature-names">Feature names</a></li>
+<li><a href="#user-interface-elements">User interface elements</a></li>
+</ul>
+</li>
+</ul>
+<p>This style guide provides instruction for translating to the Czech locale. This style guide is to be used in coordination with the <a href="../mozilla_general/">General Mozilla L10n Style Guide</a>. Please read both before starting with any localization work on Mozilla product and project, help articles or extensions for Firefox. It will help you to avoid some common mistakes and make the translation consistent.</p>
+<p>In addition to this style guide, please also read our <a href="glossary.html">glossary</a>. Words like &quot;kliknout&quot; and &quot;storno&quot; may look trivial to you, but in fact those apply to the world of MS Windows only. In multiplatform Mozilla products we use &quot;klepnout&quot; and &quot;zrušit&quot;. Some terminology may be specific directly to the product, in Firefox e.g. &quot;záložky&quot; (&quot;bookmarks&quot;) or &quot;panely&quot; (&quot;tabs&quot;). Please read and use our <a href="glossary.html">glossary</a> or <a href="https://wiki.l10n.cz/Transvision">Transvision</a> whenever you are in doubt.</p>
+<p>If you prefer to read the style guide in Czech, there is the <a href="https://wiki.l10n.cz/Stylistick%C3%A1_p%C5%99%C3%ADru%C4%8Dka">L10N.cz style guide</a>, which was created base on this one, but in may differ in less or more important parts.</p>
+<h2 id="czech-language-in-a-nutshell"><a class="header" href="#czech-language-in-a-nutshell">Czech language in a nutshell</a></h2>
+<p>Czech is a West Slavic language. It’s close to Polish, Sorbian and very closely related to Slovak to the point of mutual intelligibility. Similar to other Slavic languages, nouns, verbs and adjectives are inflected. The inflection rules are complex, depending on grammatical case, gender, number, tense, person, and more.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Czech_language">Czech language - Wikipedia</a></li>
+<li><a href="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#cs">Unicode CLDR - Czech Plural Rules</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Czech_grammar">Czech grammar - Wikipedia</a></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Localization/Localization_and_Plurals#Plural_rule_8_%283_forms%29">Localization and Plurals - MDN</a></li>
+</ul>
+<h2 id="formality-and-tone"><a class="header" href="#formality-and-tone">Formality and Tone</a></h2>
+<p>The tone of Mozilla’s language should be adaptable to anyone. From new users to seasoned Mozillians, the tone should be approachable, welcoming, and inclusive. Mozilla is fun and should delight the user in expected and unexpected ways.</p>
+<p>Especially in desktop products, prefer formal language, but stay friendly, authentic and natural. Prefer active voice over passive voice, but please note some common exceptions below. Avoid any long and complicated sentences and grammatical constructions. Clarity and meaning of every sentence has the highest priority.</p>
+<p>In general, use the second person plural (vy - vykání) to address the user in Firefox products (&quot;zadejte&quot;, but not &quot;zadej&quot;). It will not sound that strict and you will also workaround grammatical genders (&quot;Pokud si nejste jistý/á, ...&quot; -&gt; &quot;Pokud si nejste jisti, ...&quot;).</p>
+<p>Avoid using the first person (já, mé, moje) as it can create confusion about who is being addressed. Avoid personification of the software. It’s not a live person. Instead of &quot;Stahuji...&quot;, use passive &quot;Stahuje se...&quot; or &quot;Stahování...&quot;.</p>
+<p>In some projects (like Desktop, Android, iOS, Focus), the language will be direct as it belongs to a software string. This language should be maintained as direct, yet respectful. Avoid using imperative! In short actions and button labels use infinitive constructions (&quot;Zobrazit&quot;, &quot;Použít&quot;, instead of &quot;Zobraz&quot;, &quot;Použij&quot;). If there is a need to ask the user to perform an action, be polite (&quot;Vyberte (prosím)...&quot;).</p>
+<h2 id="natural-expression"><a class="header" href="#natural-expression">Natural expression</a></h2>
+<p>Any translation has to obey rules of the Czech grammar. Sentences have to be both <a href="#grammar">grammatically correct</a> and also have a clear meaning. Meaning and readability is the first thing you should care about. Do not feel ashamed to read the sentence aloud or ask someone to read it for you to make sure it sounds good.</p>
+<p>Avoid any archaisms or long and complicated sentences and constructions. Especially beware of translating the English original word by word. Do not stick to the English word order nor sentence constructions too much. Such translations are inaccurate and sound &quot;like a robot&quot; instead of a human. Use your own words and everyday terms to express the desired meaning instead. One of the typical examples is &quot;Are you sure you want...?&quot; being translated as &quot;Jste si jisti, že chcete...?&quot;, instead of more natural &quot;Opravdu chcete...?&quot;.</p>
+<p>For complex sentences, read them multiple times before translating to Czech. To make the translated text sound natural, it may be necessary to adjust the number of sentences (either split them or combine) or change their order and relations. Keep the translations simple and easy to understand. Be careful about commas and semicolons too.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=150">Internetová jazyková příručka: Psaní čárky v souvětí</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/">Internetová jazyková příručka</a> v části &quot;Pravopis – interpunkce&quot;</li>
+<li><a href="https://www.jakpsatweb.cz/interpunkce.html">Interpunkce na webu</a></li>
+</ul>
+<p>Think twice when translating possessive pronouns, especially &quot;your&quot;. You may tempt to translate &quot;Set Firefox as your default browser&quot; as &quot;Nastavte si Firefox jako váš výchozí prohlížeč&quot;, however the right translation &quot;Nastavte si Firefox jako svůj výchozí prohlížeč&quot;. Despite English does not have it, the possessive pronoun &quot;svůj&quot; refers to the subject and sounds much more natural in Czech. Check the language reference page and don’t be afraid to use it. ;) When translating &quot;you&quot;/&quot;your&quot; as &quot;vy&quot;/&quot;váš&quot;, start the word with lowercase &quot;v&quot; (except where the capital letter is required by grammar, e.g. at the beginning of a sentence or <a href="#user-interface-elements">label</a>). Also keep in mind that English uses &quot;you&quot;/&quot;your&quot; more frequently than Czech does. Sometimes it sounds better if you omit the pronoun completely.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=630">Internetová jazyková příručka: Konkurence přivlastňovacích zájmen</a></li>
+</ul>
+<p>A common mistake, both in translations and spoken language, is the overuse of some pronouns and conjunctions, especially &quot;který&quot;, &quot;pokud&quot; and &quot;ale&quot;. If you cannot find any better formulations, try to alternate some of the occurrences with &quot;jenž&quot;, &quot;avšak&quot; or verb conditionals (&quot;-li&quot;).</p>
+<ul>
+<li><a href="https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_z%C3%A1jmena">Česká zájmena – Wikipedie</a></li>
+</ul>
+<p>Very frequent mistake is the overuse of borrowed words and phrases. Despite some of them may be used in your day to day life, even in the related area, always use Czech equivalents if there are any. While &quot;menu&quot; and &quot;level&quot; might work for many people using computers every day, your parents will prefer Czech equivalents &quot;nabídka&quot; and &quot;úroveň&quot;. Please use our <a href="glossary.html">glossary</a> or <a href="https://wiki.l10n.cz/Transvision">Transvision</a> to lookup Czech equivalents already in use. The only exception are branded names.</p>
+<p>Usually it’s also better to avoid abbreviations and acronyms. In case you need to use it (e.g. because of the space limitation), please search in the existing translations first. If this is the first occurrence, lookup and use a standard one, or follow the rules from the language reference.</p>
+<ul>
+<li><a href="https://www.zkratky.cz/">Zkratky.cz - významy zkratek</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/?id=784">Internetová jazyková příručka: Zkratková slova</a></li>
+</ul>
+<h2 id="handling-cultural-references-idioms-and-slang"><a class="header" href="#handling-cultural-references-idioms-and-slang">Handling cultural references, idioms, and slang</a></h2>
+<p>English idioms and phrases usually do not make sense in Czech translated word by word. If you see a parable or a word phrase that sound weird for you, there is a good chance it’a an idiom. There are several pages you can use to search English idioms and their meaning.</p>
+<ul>
+<li><a href="https://www.engvid.com/english-resource/50-common-proverbs-sayings/">List of Common Proverbs</a></li>
+<li><a href="http://www.smart-words.org/quotes-sayings/idioms-meaning.html">List of Common Idioms</a></li>
+<li><a href="https://dictionary.cambridge.org/dictionary/english/">Cambridge English Dictionary</a></li>
+</ul>
+<p>Once you know the idiom meaning, you can search for an equivalent in Czech, or just translate the meaning as you would say it without any parables.</p>
+<ul>
+<li><a href="https://cs.wiktionary.org/wiki/Kategorie:%C4%8Cesk%C3%A9_idiomy">České idiomy - Wikislovník</a></li>
+<li><a href="https://cs.wiktionary.org/wiki/Kategorie:%C4%8Cesk%C3%A9_fr%C3%A1ze">České fráze - Wikislovník</a></li>
+</ul>
+<h2 id="units-and-unit-conversion"><a class="header" href="#units-and-unit-conversion">Units and Unit Conversion</a></h2>
+<h3 id="calendar-view"><a class="header" href="#calendar-view">Calendar view</a></h3>
+<p>In the Czech Republic, the 12-month <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">Gregorian calendar</a> is used with the week starting on Monday.</p>
+<h3 id="date-format"><a class="header" href="#date-format">Date Format</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Format</th><th>Example</th></tr></thead><tbody>
+<tr><td>Short (rare since 2000)</td><td>d. m. yy</td><td>1. 12. ’99</td></tr>
+<tr><td>Abbreviated</td><td>d. mmm</td><td>1. pro</td></tr>
+<tr><td>Long (numerical)</td><td>d. m. yyyy</td><td>1. 12. 1999</td></tr>
+<tr><td>Long</td><td>d. Month yyyy (month in genitive)</td><td>1. prosince 1999</td></tr>
+</tbody></table>
+</div>
+<p>Date and month, if written numerical, are single digit ordinal numbers (followed by a period with a space). In business and official correspondence double digit ordinal numbers may be used. In localization, always use the single digit form.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=810">Internetová jazyková příručka: Kalendářní datum a místo původu</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_Czech_Republic">Date and time notation in the Czech Republic - Wikipedia</a></li>
+</ul>
+<h3 id="time-format"><a class="header" href="#time-format">Time Format</a></h3>
+<p>The 24-hour cycle is used for official and exact purposes. The 12-hour cycle is also used in daily life, especially in spoken language. In localization, always use 24-hour clock.</p>
+<p>Hours and minutes are separated by a period without any space, hours written a single digit, minutes always double digit (7.30, 18.05, 23.25). The period can be replaced by a colon. In that case hours can be written both single and double digit (7:30 or 07:30). In localization, always use the single digit form.</p>
+<p>For time ranges, use a dash without space (10-13 h, 12.00-12.45).</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=820">Internetová jazyková příručka: Časové údaje</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_Czech_Republic">Date and time notation in the Czech Republic - Wikipedia</a></li>
+</ul>
+<h3 id="numerals"><a class="header" href="#numerals">Numerals</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Separator</th><th>Character Name</th><th>Symbol</th><th>Example</th></tr></thead><tbody>
+<tr><td>Decimal</td><td>Comma</td><td><code>,</code></td><td>1,23</td></tr>
+<tr><td>Thousands</td><td>none or Space (in longer numbers)</td><td></td><td>1234 or 123 456</td></tr>
+<tr><td>Percentage</td><td>Percent sign (with a leading space)</td><td><code>%</code></td><td>99 %</td></tr>
+<tr><td>Percentage (adjective)</td><td>Percent sign (without any space)</td><td><code>%</code></td><td>99%</td></tr>
+</tbody></table>
+</div>
+<p>Numerals can become a pretty hard nut to crack, especially in case of words composed from digits and words. As a localizer, you should get familiar with the correct grammar for numerals below (what’s the difference between &quot;12m&quot; and &quot;12 m&quot;, or how to correctly write &quot;dvaačtyřicetiletý&quot; with digits).</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=785">Internetová jazyková příručka: Znaky, čísla a číslice</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/?id=790">Internetová jazyková příručka: Tvoření a psaní výrazů složených z číslic a slov</a></li>
+<li><a href="https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A9_%C4%8D%C3%ADslovky">České číslovky – Wikipedie</a></li>
+</ul>
+<h3 id="currency"><a class="header" href="#currency">Currency</a></h3>
+<p>The currency of the Czech Republic is the <a href="https://en.wikipedia.org/wiki/Czech_koruna">Czech koruna</a> (CZK). The monetary signs are <code>Kč</code> or <code>,-</code> separated by a space from the amount (50 Kč). If used as a adjective (e.g. a fifty-crown coin), the symbol is without any space (50Kč mince).</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=786">Internetová jazyková příručka: Peněžní částky, značky měn</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/?id=790">Internetová jazyková příručka: Tvoření a psaní výrazů složených z číslic a slov</a></li>
+</ul>
+<h3 id="units"><a class="header" href="#units">Units</a></h3>
+<p>In the Czech Republic <a href="https://en.wikipedia.org/wiki/Metric_system">metric system</a> (kilograms, meters, ...) is used.</p>
+<h3 id="address-and-postal-code-format"><a class="header" href="#address-and-postal-code-format">Address and Postal Code Format</a></h3>
+<pre><code>[addressee]
+[street name][building and suite numbers]
+[postal code][city/post name]
+
+Vážená paní
+Jarmila Novotná
+Pod Mlýnem 4
+463 41 Dlouhý Most
+</code></pre>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=800">Internetová jazyková příručka: Adresy</a></li>
+</ul>
+<h3 id="telephone-number-format"><a class="header" href="#telephone-number-format">Telephone Number format</a></h3>
+<p>Phone numbers in the Czech Republic consist of 9 digits, usually separated by triplets. Usually the phone number also have the international code (+420 or less frequently 00420) in front.</p>
+<p><code>+420 ### ### ###</code></p>
+<h2 id="grammar"><a class="header" href="#grammar">Grammar</a></h2>
+<p>Any translation has to obey rules of the Czech grammar. Sentences have to be both grammatically correct and also have a clear meaning. Avoid any archaisms or long and complicated sentences and constructions. When using any, make sure the punctuation is correct. <a href="https://duckduckgo.com/?q=punctuation+saves+lives&amp;ia=images">Punctuation saves lives</a>.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=150">Internetová jazyková příručka: Psaní čárky v souvětí</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/">Internetová jazyková příručka: Pravopis – interpunkce</a></li>
+<li><a href="https://www.jakpsatweb.cz/interpunkce.html">Interpunkce na webu</a></li>
+</ul>
+<h2 id="copy-rules"><a class="header" href="#copy-rules">Copy rules</a></h2>
+<!-- TODO: capitalization https://bugzilla.mozilla.org/show_bug.cgi?id=1430453 -->
+<p>In full sentences and texts on websites or support articles, always follow the grammatical rules for capitalization.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=180">Internetová jazyková příručka: Psaní velkých písmen – obecné poučení</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/">Internetová jazyková příručka: Pravopis – velká písmena</a></li>
+</ul>
+<h3 id="punctuation"><a class="header" href="#punctuation">Punctuation</a></h3>
+<p>Note, include the terminal punctuation in hyperlink if the entire text in the UI is linked. Do not include the terminal punctuation in the hyperlink if the link is within running text or only part of the sentence is linked.</p>
+<p>In texts, do not forget a space after a period at the end of a sentence. Spaces need to be also written after (but not before) colons or semicolons. Text inside brackets is not separated by spaces from them, but the correct placement of spaces is right before the opening and after the closing bracket only.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=160">Internetová jazyková příručka: Tečka</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/?id=161">Internetová jazyková příručka: Dvojtečka</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/?id=163">Internetová jazyková příručka: Závorky</a></li>
+<li><a href="http://prirucka.ujc.cas.cz/?id=167">Internetová jazyková příručka: Lomítko</a></li>
+</ul>
+<p>For quotes use the Czech double quotation marks (<code>„</code> and <code>“</code>). On the Czech keyboard, you can write them as <code>Alt + 0132</code> and <code>Alt + 0147</code> respectively. The corresponding HTML entities are <code>&amp;bdquo;</code> and <code>&amp;ldquo;</code>. For code snippets or API or function name references use quotation marks or apostrophes (<code>&quot;</code> or <code>'</code>). These you can usually copy from the original English text.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=162">Internetová jazyková příručka: Uvozovky</a></li>
+</ul>
+<h3 id="lists"><a class="header" href="#lists">Lists</a></h3>
+<p>Lists in Czech do not have a strict rules to obey. However there are good practices to follow, all mentioned in the language reference page.</p>
+<ul>
+<li><a href="http://prirucka.ujc.cas.cz/?id=870">Internetová jazyková příručka: Psaní výčtů</a></li>
+</ul>
+<h3 id="feature-names"><a class="header" href="#feature-names">Feature names</a></h3>
+<p>Title case does not look natural for the Czech language. Even for product features, use lowercase, but obey the general grammatical rules. E.g. &quot;With Tracking protection...&quot; would be translated as &quot;S ochranou proti sledování...&quot;.</p>
+<p>If you want to really emphasize the importance of the feature, you can use title case for the first word of its name in nominative and introduce it by a general word &quot;funkce&quot;. The previous sentence would now look like &quot;S funkcí Ochrana proti sledování...&quot;. But even here more natural wording &quot;S funkcí ochrany proti sledování...&quot; is preferred, with the feature name all in lowercase.</p>
+<h3 id="user-interface-elements"><a class="header" href="#user-interface-elements">User interface elements</a></h3>
+<ul>
+<li><strong>Titles</strong> should be brief and precise. Unless necessary, it shouldn’t be a whole sentence. Capitalize the first letter of the first word only.</li>
+<li><strong>Window titles</strong> should be short and use infinitive form, e.g. &quot;Uložit soubor&quot;.</li>
+<li>In <strong>buttons</strong> capitalize the first letter of the first word in the label only. Limit the whole text to one or two words. Use verbs in infinitive form that precisely describe the button’s action result. It’s way better to translate &quot;Install&quot; button label as &quot;Nainstalovat&quot; than &quot;Instalovat&quot;. Most of them will be probably covered in our <a href="glossary.html">glossary</a>.</li>
+<li><strong>Checkboxes</strong> and <strong>radio buttons</strong> capitalize the first letter of the first word and use infinitive form. Make sure that the translations of elements in the same group or section are consistent and sound natural as a list of alternative or complementary choices.</li>
+<li>In <strong>select options list</strong> capitalize the first letter of the first word, unless the selector makes a sentence together with the corresponding label. In that case make sure all options make a correct sentence with the label. Try to keep all the options about the same length and preferably short.</li>
+<li><strong>Tooltips</strong> serve the purpose of a short help and appear when mouse is hovered over an UI element. Use active voice with the element as unexpressed subject, e.g. &quot;Zobrazí historii&quot;, &quot;Uloží soubor&quot;, &quot;Otevře nabídku&quot;.</li>
+<li><strong>Accesskeys</strong>, sometime also called accelerators, are keys to access specific UI elements using your keyboard only. Combined with screen readers, accesskeys improve the accessibility for visually impaired users, or used standalone they speedup the UI navigation. In the UI you can often determine them as underscored letters. When localizing accesskeys you have to make sure the letter is on the Czech keyboard and users can press it with the <code>Alt</code> key at the same time. The rule of thumb is to only use letters without diacritics. To make the accesskeys look and work the best, use letters contained in the corresponding label and if possible unique in the application menu or dialog. If it fulfills the mentioned rules, using the same accesskey as in English is a small plus.</li>
+<li><strong>Commandkeys</strong> are similar to accesskeys, but they work as regular keyboard shortcuts (e.g. <code>Ctrl+S</code> for save or <code>Ctrl+Q</code> to quit the application). Always keep the same commandkey as in English, unless the key is not available on the standard Czech keyboard. See the <em>Shortcuts and Accesskeys</em> section in the <a href="../mozilla_general/">General Mozilla L10n Style Guide</a> for more information about both accesskeys and commandkeys.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../cs/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../cs/glossary.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../cs/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../cs/glossary.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

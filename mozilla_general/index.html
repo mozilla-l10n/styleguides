@@ -1,0 +1,420 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Mozilla general style guide - Documentation for Mozilla localizers</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../guidelines/index.html">Guidelines</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../guidelines/outline.html">Style guide outline</a></li><li class="chapter-item expanded "><a href="../guidelines/example_en-us.html">Example style guide</a></li><li class="chapter-item expanded "><a href="../guidelines/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../mozilla_general/index.html" class="active">Mozilla general style guide</a></li><li class="chapter-item expanded "><a href="../af/index.html">Africaans (af)</a></li><li class="chapter-item expanded "><a href="../ar/index.html">Arabic (ar)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ar/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../hy-AM/index.html">Armenian (hy-AM)</a></li><li class="chapter-item expanded "><a href="../bm/index.html">Bambara (bm)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../bm/general.html">General Style Considerations</a></li><li class="chapter-item expanded "><a href="../bm/aaa.html">Abbreviations, Acronyms, Articles, and Loan Words</a></li><li class="chapter-item expanded "><a href="../bm/loanwords.html">Non-translated and Loan Words</a></li><li class="chapter-item expanded "><a href="../bm/wl.html">Word-level Guidelines</a></li><li class="chapter-item expanded "><a href="../bm/sl.html">Sentence-level Guidelines</a></li><li class="chapter-item expanded "><a href="../bm/appendix.html">Appendix</a></li></ol></li><li class="chapter-item expanded "><a href="../bn-BD/index.html">Bengali, Bangladesh (bn-BD)</a></li><li class="chapter-item expanded "><a href="../my/index.html">Burmese (my)</a></li><li class="chapter-item expanded "><a href="../ceb/index.html">Cebuano (ceb)</a></li><li class="chapter-item expanded "><a href="../zh-CN/index.html">Chinese, Simplified (zh-CN)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zh-CN/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../zh-CN/sumo.html">SUMO Style Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../zh-TW/index.html">Chinese, Traditional (zh-TW)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zh-TW/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../cs/index.html">Czech (cs)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cs/general.html">General Style Guide · Czech (cs)</a></li><li class="chapter-item expanded "><a href="../cs/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../nl/index.html">Dutch (nl)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../nl/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../eo/index.html">Esperanto (eo)</a></li><li class="chapter-item expanded "><a href="../fi/index.html">Finnish (fi)</a></li><li class="chapter-item expanded "><a href="../fr/index.html">French (fr)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../fr/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../fr/mozilla_marketing.html">Mozilla Tone of Voice & Localization Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../de/index.html">German (de)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../de/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../de/mozilla_marketing.html">Mozilla Tone of Voice & Localization Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../ha/index.html">Hausa (ha)</a></li><li class="chapter-item expanded "><a href="../hi-IN/index.html">Hindi (hi-IN)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hi-IN/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../hil/index.html">Hiligaynon (hil)</a></li><li class="chapter-item expanded "><a href="../is/index.html">Icelandic (is)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../is/style.html">Style</a></li><li class="chapter-item expanded "><a href="../is/brandnames.html">Brand Names</a></li><li class="chapter-item expanded "><a href="../is/term.html">Terminology</a></li><li class="chapter-item expanded "><a href="../is/ug.html">Units and Grammar</a></li><li class="chapter-item expanded "><a href="../is/general.html">General Mozilla L10n Style</a></li></ol></li><li class="chapter-item expanded "><a href="../id/index.html">Indonesian (id)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../id/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ig/index.html">Igbo (ig)</a></li><li class="chapter-item expanded "><a href="../ga-IE/index.html">Irish (ga-IE)</a></li><li class="chapter-item expanded "><a href="../it/index.html">Italian (it)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../it/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ja/index.html">Japanese (ja)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ja/l10nguideline.html">L10n Guideline</a></li><li class="chapter-item expanded "><a href="../ja/editorialguideline.html">Editorial Guideline</a></li><li class="chapter-item expanded "><a href="../ja/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ko/index.html">Korean (ko)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ko/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../lo/index.html">Lao (lo)</a></li><li class="chapter-item expanded "><a href="../mk/index.html">Macedonian (mk)</a></li><li class="chapter-item expanded "><a href="../mg/index.html">Malagasy (mg)</a></li><li class="chapter-item expanded "><a href="../ms/index.html">Malay (ms)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ms/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../mr/index.html">Marathi (mr)</a></li><li class="chapter-item expanded "><a href="../pl/index.html">Polish (pl)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pl/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../pl/sumo.html">SUMO Style Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../pt-BR/index.html">Portuguese (pt-BR)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pt-BR/general.html">General Style Guide</a></li><li class="chapter-item expanded "><a href="../pt-BR/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../pt-BR/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../pt-PT/index.html">Portuguese (pt-PT)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pt-PT/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ro/index.html">Romanian (ro)</a></li><li class="chapter-item expanded "><a href="../ru/index.html">Russian (ru)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ru/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../gd/index.html">Scottish Gaelic (gd)</a></li><li class="chapter-item expanded "><a href="../sr/index.html">Serbian (sr)</a></li><li class="chapter-item expanded "><a href="../si/index.html">Sinhala (si)</a></li><li class="chapter-item expanded "><a href="../sl/index.html">Slovenian (sl)</a></li><li class="chapter-item expanded "><a href="../es/index.html">Spanish (es)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es/sumo.html">SUMO Style Guide</a></li><li class="chapter-item expanded "><a href="../es/ff.html">Firefox Style Guide</a></li><li class="chapter-item expanded "><a href="../es/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../es-CL/index.html">Spanish, Chile (es-CL)</a></li><li class="chapter-item expanded "><a href="../es-MX/index.html">Spanish, Mexico (es-MX)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es-MX/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../es-ES/index.html">Spanish, Spain (es-ES)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es-ES/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../sw/index.html">Swahili (sw)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../sw/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../sv-SE/index.html">Swedish (sv-SE)</a></li><li class="chapter-item expanded "><a href="../tl/index.html">Tagalog (tl)</a></li><li class="chapter-item expanded "><a href="../te/index.html">Telugu (te)</a></li><li class="chapter-item expanded "><a href="../th/index.html">Thai (th)</a></li><li class="chapter-item expanded "><a href="../tok/index.html">Toki Pona (tok)</a></li><li class="chapter-item expanded "><a href="../tr/index.html">Turkish (tr)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tr/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../uk/index.html">Ukrainian (uk)</a></li><li class="chapter-item expanded "><a href="../ur/index.html">Urdu (ur)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ur/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../vi/index.html">Vietnamese (vi)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../vi/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../wo/index.html">Wolof (wo)</a></li><li class="chapter-item expanded "><a href="../xh/index.html">Xhosa (xh)</a></li><li class="chapter-item expanded "><a href="../yo/index.html">Yoruba (yo)</a></li><li class="chapter-item expanded "><a href="../zu/index.html">Zulu (zu)</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Documentation for Mozilla localizers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/edit/main/docs/mozilla_general/README.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="mozilla-general-localization-style-guide"><a class="header" href="#mozilla-general-localization-style-guide">Mozilla general localization style guide</a></h1>
+<ul>
+<li><a href="#fluency">Fluency</a></li>
+<li><a href="#meaning-based-translation">Meaning-based translation</a>
+<ul>
+<li><a href="#translating-culture-specific-references">Translating culture-specific references</a></li>
+<li><a href="#units-and-measurement">Units and measurement</a></li>
+</ul>
+</li>
+<li><a href="#terminology">Terminology</a>
+<ul>
+<li><a href="#abbreviations-and-acronyms">Abbreviations and acronyms</a></li>
+</ul>
+</li>
+<li><a href="#text-that-should-not-be-translated">Text that should not be translated</a>
+<ul>
+<li><a href="#shortcuts-and-accesskeys">Shortcuts and accesskeys</a></li>
+<li><a href="#variables">Variables</a>
+<ul>
+<li><a href="#cross-references-and-links">Cross-references and links</a></li>
+</ul>
+</li>
+<li><a href="#brands-copyright-and-trademark">Brands, copyright, and trademark</a>
+<ul>
+<li><a href="#use-in-local-languages-with-non-latin-script--permissible-transcriptions">Use in local languages with non-Latin script / permissible transcriptions</a></li>
+<li><a href="#use-in-local-languages-with-latin-script">Use in local languages with Latin script</a></li>
+<li><a href="#translations-of-trademarks">Translations of trademarks</a></li>
+<li><a href="#declensions">Declensions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#copy-rules">Copy rules</a>
+<ul>
+<li><a href="#title-case">Title Case</a></li>
+<li><a href="#sentence-case">Sentence Case</a></li>
+<li><a href="#all-caps">All Caps</a></li>
+<li><a href="#user-interface-elements">User interface elements</a></li>
+</ul>
+</li>
+</ul>
+<p>This style guide provides the basic guidelines for translating Mozilla products. This guide should be used in coordination with a locale-specific style guide for your language.</p>
+<h2 id="fluency"><a class="header" href="#fluency">Fluency</a></h2>
+<p>To produce a fluent translation, not only should the translation follow the language’s standard grammar, punctuation, and spelling rules, but it should avoid being ambiguous, incoherent, inconsistent or unintelligible.</p>
+<p>To avoid ambiguity, the translator must thoroughly understand the meaning behind the source text, including any references that text might include. For example, if the English source text uses the word <code>it</code>, the translator must know what <code>it</code> is to avoid an ambiguous translation. Clearly understanding the source text will also allow a translator to make the source text’s logical connections in their own translation. This helps to keep the translation coherent.</p>
+<p>Inconsistency can pop up in many forms. A translator must be consistent in their use of abbreviations, references, and links within each localization project. They must also be consistent with Mozilla and the localization communities’ style guides and approved terminology.</p>
+<p>Finally, there are times that a translation simply doesn’t make sense. It’s hard to put your finger on what exactly is wrong with it, but you know it is unintelligible and not fluent. While this is uncommon, it’s important to report these unintelligible translations and offer suggestions to correct them.</p>
+<h2 id="meaning-based-translation"><a class="header" href="#meaning-based-translation">Meaning-based translation</a></h2>
+<p>When it comes to translation, meaning is everything. A translator needs to understand the source text’s meaning exactly. You then find its most closely linked equivalent in your own language, without adding or subtracting meaning in your translation. Finding meaning-based equivalents between languages can be difficult. To help concentrate your thoughts, ask yourself questions like:</p>
+<ul>
+<li>What does this word/sentence/string mean in English?</li>
+<li>What is the message the author is trying to send?</li>
+<li>How would I express that meaning in my own language?</li>
+</ul>
+<p>Sometimes translation memory and machine translation tools can offer bad suggestions for a translation. If you use either as part of your translation workflow, make sure to correct the suggestions before submitting them. Avoid literal translation at all costs. Watch out for words that might sound or look the same between English and your language, but have a different meaning.</p>
+<h3 id="translating-culture-specific-references"><a class="header" href="#translating-culture-specific-references">Translating culture-specific references</a></h3>
+<p>At times there will be English content included in Mozilla products or web projects (e.g., marketing campaigns) that makes references to American culture and concepts. When translating these, it is best to find an equivalent cultural reference within your own culture that accurately conveys the meaning of the English reference. For example, an American might say, <code>Good job, home run!</code> A <code>home run</code> is a baseball reference for a successful outcome. An appropriate translation would be an equivalent metaphor within your culture. Using soccer as an example, you might translate <code>Good job, home run!</code> into <code>Good job, nice goal!</code> in your language.</p>
+<h3 id="units-and-measurement"><a class="header" href="#units-and-measurement">Units and measurement</a></h3>
+<p>The translation should strive to achieve proper unit conversions for currency, measurements, etc. for the target audience. Source strings will use the imperial system (e.g., miles, pounds, feet, gallons, etc.). Target translations should convert imperial metrics to their measurement system when the measurement is provided as a number. If the measurement is provided as a variable, use the translation for the imperial system unit.</p>
+<div class="table-wrapper"><table><thead><tr><th>Example</th><th>Source</th><th>Translation</th></tr></thead><tbody>
+<tr><td>Number as string</td><td><code>320 miles</code></td><td><code>500 meters</code></td></tr>
+<tr><td>Number as variable</td><td><code>%d miles</code></td><td><code>%d miles</code></td></tr>
+</tbody></table>
+</div>
+<h2 id="terminology"><a class="header" href="#terminology">Terminology</a></h2>
+<p>You should be consistent in the use of terminology in your language. These term bases could be developed and approved by the community, or leveraged from another party that adhere to national, international or local standards for software and internet terminology. Avoid inconsistent use of terminology within the project, within term base, or across all of your projects and using terminology from another subject matter (e.g., don’t use medical terminology in Firefox).</p>
+<p>Here are a few things to keep in mind when managing your team’s terminology:</p>
+<ul>
+<li>Avoid overly borrowing English expressions.</li>
+<li>Referencing another language from the same language family may inspire you to come up with your own terms.</li>
+<li>Consider the product target audience (age, level of literacy, education, social and economic status).</li>
+<li>Will you use loan words from another language or coin new terms in your language to maintain language purity? Is there government requirement or policy to encourage creating new terms for new concepts, or will loan words be sufficient to reach broader masses and expedite new technology adoption?</li>
+<li>If there are two acceptable scripts commonly used by the general public, what is the commonly used script on the web or government sites? What is the script used by major web technology companies?</li>
+</ul>
+<h3 id="abbreviations-and-acronyms"><a class="header" href="#abbreviations-and-acronyms">Abbreviations and acronyms</a></h3>
+<p>Abbreviations and acronyms, should come from either a standard reference (like a dictionary of abbreviations) or should follow your language’s rules for creating abbreviations and acronyms. Once used, abbreviations and acronyms must remain consistent every place that it is used in the translation.</p>
+<h2 id="text-that-should-not-be-translated"><a class="header" href="#text-that-should-not-be-translated">Text that should not be translated</a></h2>
+<h3 id="shortcuts-and-accesskeys"><a class="header" href="#shortcuts-and-accesskeys">Shortcuts and accesskeys</a></h3>
+<p>In Firefox and other software it’s possible to use keyboard shortcuts to invoke a specific command. For example, to open a file in Firefox you can press the combination of keys CTRL+O (Cmd+O on Mac). The accelerator key depends on the operative system, but the letter itself is normally localizable. This is what is called a shortcut, or commandkey. For example, the <code>Open File…</code> menu item is stored as</p>
+<pre><code>&lt;!ENTITY openFileCmd.label &quot;Open File…&quot;&gt;
+&lt;!ENTITY openFileCmd.accesskey &quot;O&quot;&gt;
+&lt;!ENTITY openFileCmd.commandkey &quot;o&quot;&gt;
+</code></pre>
+<p>The commandkey is stored in <code>openFileCmd.commandkey</code> (sometimes the string has <code>.key</code> in the identifier). Normally you should not localize this key, since shortcuts are often common across the entire operative system (e.g. <code>CTRL+S</code> to Save) or similar products (<code>CTRL+T</code> to open a new tab in most browsers). But it needs to be localized if the letter is not available in your keyboard layout. For example, in Italian the character <code>[</code> can be accessed through <code>ALT+è</code>, a command key <code>[</code> would not work.</p>
+<p>In the code fragment above you see also an accesskey defined for <code>Open File…</code>. Accesskeys are used to access a UI element from the keyboard. Example: if File menu has an accesskey <code>F</code>, and the <code>Open file…</code> menu has <code>O</code>, you can press <code>ALT+F</code> to access the menu, and then <code>O</code> to open a file.</p>
+<p>If the label is File, and the accesskey is <code>F</code>, it will be displayed as <code>File</code> on Windows and Linux, with an underscored <code>F</code>. If the accesskey was <code>O</code>, so a character not available in the original label, it will be displayed underlined between parenthesis: <code>File (O)</code>.</p>
+<p>One important thing to determine is if, for your locale, it makes sense to have localized accesskeys: for example, if most users will use a keyboard with a different layout (English), it might make sense to keep the English original accesskey instead of using a letter available in your localization.</p>
+<p>Accesskeys, like commandkeys, have their own lines within .dtd and .properties files and are usually identified by .accesskey in the string ID.</p>
+<h3 id="variables"><a class="header" href="#variables">Variables</a></h3>
+<p>Variables should never be translated. You can recognize a variable within a string by its beginning with a specific character (e.g., <code>$</code>, <code>#</code>, <code>%</code>, etc.) followed by a combination of words without spacing. For example, <code>$BrandShortName</code> and <code>%S</code> are variables. You can move a variable around within a string, if the translation of the string requires it.</p>
+<h4 id="cross-references-and-links"><a class="header" href="#cross-references-and-links">Cross-references and links</a></h4>
+<p>Cross-references (or links) must be consistently used within a translation. If a text contains a hyperlink URL to a support article in English, the translation should also contain a hyperlink to a translation of that support article (if available) or the English version. Links should not redirect to other pages nor should they be broken and unusable.</p>
+<h3 id="brands-copyright-and-trademark"><a class="header" href="#brands-copyright-and-trademark">Brands, copyright, and trademark</a></h3>
+<p>Trademarks present a special case for localization as they have legal as well as semantic significance. To ensure that localization does not undermine Mozilla’s trademarks rights, please follow these rules when translating content that includes trademarks.</p>
+<p>This page has a <a href="https://www.mozilla.org/en-US/foundation/trademarks/list/">list of Mozilla trademarks</a>.</p>
+<h4 id="use-in-local-languages-with-non-latin-script--permissible-transcriptions"><a class="header" href="#use-in-local-languages-with-non-latin-script--permissible-transcriptions">Use in local languages with non-Latin script / permissible transcriptions</a></h4>
+<p>When your local language is not written in the Latin alphabet and you use a Mozilla trademark in a headline, a prominent position, or for the first time on a site, you should always use it in its original form in Latin script (e.g. Mozilla, Firefox, Thunderbird). Mozilla trademarks should therefore not be altered in prominent UI elements. For example, do not alter “Firefox” in the first-run menus, or for the first use of the term in landing pages and legal notices.</p>
+<p>If you use the trademarks in a referential context after that, within continuous text, you may use a transcribed local language version. If a transcribed local version is used, each community must take care to select a single version and use it consistently. This should be in the form that is the most used and accepted expression in digital/print media.</p>
+<p>Correct example:</p>
+<blockquote>
+<p>Finally released: the Firefox Quantum Update!
+In November 2017, Mozilla has released the latest version of its Firefox software. […]</p>
+</blockquote>
+<blockquote>
+<p>Наконец выпущен: обновление квантового Firefox Quantum!
+В ноябре 2017 года Mozilla выпустила последнюю версию своего программного обеспечения для Файрфокс. […]</p>
+</blockquote>
+<p>Incorrect example:</p>
+<blockquote>
+<p>Finally released: the Firefox Quantum Update!
+In November 2017, Mozilla has released the latest version of its Firefox software. […]</p>
+</blockquote>
+<blockquote>
+<p>Наконец выпущен: обновление квантового Файрфокс квантум!
+В ноябре 2017 года Моцилла выпустила последнюю версию своего программного обеспечения для Файрфокс. […]</p>
+</blockquote>
+<h4 id="use-in-local-languages-with-latin-script"><a class="header" href="#use-in-local-languages-with-latin-script">Use in local languages with Latin script</a></h4>
+<p>When your local language is written in the Latin alphabet, you should always use Mozilla’s trademarks in their original Latin script form. This also applies if the respective terms should be pronounced differently in your local language. You should therefore not modify the original Mozilla trademarks in order to reflect or facilitate local pronunciation.</p>
+<p>Correct example:</p>
+<blockquote>
+<p>In November 2017, Mozilla has released the latest version of its Firefox software. […]</p>
+</blockquote>
+<blockquote>
+<p>W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefox. […]</p>
+</blockquote>
+<p>Incorrect example:</p>
+<blockquote>
+<p>In November 2017, Mozilla has released the latest version of its Firefox software. […]</p>
+</blockquote>
+<blockquote>
+<p>W listopadzie 2017 roku Mozilla wydała najnowszą wersję swojego oprogramowania Firefoks, […]</p>
+</blockquote>
+<h4 id="translations-of-trademarks"><a class="header" href="#translations-of-trademarks">Translations of trademarks</a></h4>
+<p>Always use Mozilla’s trademarks in their original wording, even if you are transcribing them into your local non-Latin alphabet (per the guidance under point 1 above). For example, do not translate Firefox into another language by using words that have the meaning of “fire” and “fox” in that language.[1]</p>
+<p>If you want to explain how a Mozilla trademark is pronounced in your local language or what it means if translated literally, you may do so in a referential context only. When doing so, you should also state expressly that you want to explain the meaning or pronunciation of the term.</p>
+<p>Correct example:</p>
+<blockquote>
+<p>The newest version of the Mozilla Firefox software – which literally means “fire fox” – outpaces its opponents and lives up to its name. […]</p>
+</blockquote>
+<blockquote>
+<p>Die neueste Version der Firefox Software – was wörtlich übersetzt “Feuerfuchs” bedeutet – überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre. […]</p>
+</blockquote>
+<p>Incorrect example:</p>
+<blockquote>
+<p>The newest version of Mozilla’s Firefox software outpaces its opponents and lives up to its name.</p>
+</blockquote>
+<blockquote>
+<p>Die neueste Version von Mozillas Feuerfuchs Software überholt all ihre Konkurrenten und macht ihrem Namen alle Ehre.</p>
+</blockquote>
+<p>[1] The only exception to this rule is the Chinese characters for “Fire” and “Fox” together. Mozilla has a registered trademark on these characters (China Reg. No. 16199671A).</p>
+<h4 id="declensions"><a class="header" href="#declensions">Declensions</a></h4>
+<p>As noted above, when you use a Mozilla trademark in a headline, a prominent page position or UI element (such as first-run application menus or the first use of the term in landing pages and legal notices), or for the first time on a site, you should always use it in its original, unaltered form.</p>
+<p>If your language requires declension of proper nouns and adjectives, try to limit their use to the following cases:</p>
+<ul>
+<li>Grammatical unintelligibility requirements.</li>
+<li>The contextual meaning of the proper noun requires the declension.</li>
+<li>The UI cannot accommodate a large enough translation to avoid it.</li>
+</ul>
+<p>In other cases, avoid using declension on trademarks.</p>
+<p>Never use Mozilla trademarks as verbs and do not coin verbs out of Mozilla trademarks.</p>
+<h2 id="copy-rules"><a class="header" href="#copy-rules">Copy rules</a></h2>
+<h3 id="title-case"><a class="header" href="#title-case">Title Case</a></h3>
+<p>Title case is a capitalization style that includes the following rules:</p>
+<ul>
+<li>Always capitalize the first and last word in the text element, regardless of part of speech or other rules below.</li>
+<li>For words in between the first and last, capitalize all nouns, verbs, adverbs and pronouns.</li>
+<li>Capitalize conjunctions of four or more letters, but also capitalize if.</li>
+<li>Capitalize prepositions for four or more letters.</li>
+<li>Do not capitalize articles, prepositions of three or fewer letters, and conjunctions of three or fewer letters (but not if).</li>
+<li>A note about hyphens: capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word according to title case rules. So, capitalize the S in Quick-Search Options, lowercase the o in Add-on Choices.</li>
+</ul>
+<p>Example: <code>All Your Activity</code>.</p>
+<h3 id="sentence-case"><a class="header" href="#sentence-case">Sentence Case</a></h3>
+<p>Sentence case is a capitalization style where the first word of the text element is capitalized as well as any words that are normally capitalized.</p>
+<p>Example: <code>Sign in to continue to Firefox Sync</code>.</p>
+<h3 id="all-caps"><a class="header" href="#all-caps">All Caps</a></h3>
+<p>All Caps is a style where every letter is capitalized.</p>
+<p>Example: <code>CANCEL</code>.</p>
+<h3 id="user-interface-elements"><a class="header" href="#user-interface-elements">User interface elements</a></h3>
+<ul>
+<li><strong>Titles</strong>: should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.</li>
+<li><strong>Headlines</strong>: which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages</li>
+<li><strong>Buttons</strong>: capitalize the first letter of each word. Limit to one or two words. Use verbs that precisely describe the button’s action. For example, <code>Cancel</code>, <code>Clear History</code>, <code>Add Email</code>, <code>Select All</code>, etc.</li>
+<li><strong>Value Selector Lists</strong>: capitalize the first letter of the first word and the first letter of any proper nouns. Limit to one or two words.</li>
+<li><strong>Articles</strong>: avoid them where possible. Articles (such as the word <code>the</code> in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.</li>
+<li><strong>Ellipsis</strong>: ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue. Focus on making the UI short and precise. The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../guidelines/firefox_marketing.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../af/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../guidelines/firefox_marketing.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../af/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
