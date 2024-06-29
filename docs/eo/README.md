@@ -17,7 +17,9 @@ Kvankam ankoraŭ ne estas aparta terminaro, vi povas kontroli tradukojn serĉant
 ### Gramatiko kaj vortaro
 
 Nia norma gramatiko estas [PMEG](http://bertilow.com/pmeg/ "Plena Manlibro de Esperanta Gramatiko") kaj la norma vortaro estas [PIV - Plena Ilustrita Vortaro de Esperanto](http://vortaro.net "Plena Ilustrita Vortaro de Esperanto").
-Aliaj estas uzeblaj, kompreneble, sed okaze de dubo, la ĉi supraj estos decidaj.
+Aliaj estas uzeblaj, kompreneble, sed okaze de dubo, la ĉi supraj estos decidaj. 
+
+Por komputilaj vortoj [komputeko](https://komputeko.net/) (mallongigo de "prikomputila terminokolekto") estas utila fonto.
 
 #### verboformoj
 
@@ -102,3 +104,5 @@ Dum tradukado ĝi permesas vidi la tradukojn en aliaj lingvoj (vi povas agordi k
 [PIV - Plena Ilustrita Vortaro de Esperanto](http://vortaro.net "Plena Ilustrita Vortaro de Esperanto")
 
 [Revo - Reta vortaro](http://www.reta-vortaro.de/revo/ "Reta vortaro")
+
+[komputeko.net - Prikomputila Terminokolekto](https://komputeko.net/)
