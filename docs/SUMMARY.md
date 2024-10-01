@@ -9,7 +9,7 @@
     * [Example style guide](guidelines/example_en-us.md)
     * [Marketing guide to Firefox localization](guidelines/firefox_marketing.md)
 * [Mozilla general style guide](mozilla_general/README.md)
-* [Africaans (af)](af/README.md)
+* [Afrikaans (af)](af/README.md)
 * [Arabic (ar)](ar/README.md)
     * [Marketing guide to Firefox localization](ar/firefox_marketing.md)
 * [Armenian (hy-AM)](hy-AM/README.md)
