@@ -1,4 +1,4 @@
-# Style Guide Africaans (af)
+# Style Guide Afrikaans (af)
 
 <!-- markdownlint-disable MD037 -->
 
@@ -466,7 +466,7 @@ There are a few important punctuation conventions that need to be observed:
 3. A non-defining adjectival clause is preceded by a comma before the relative pronoun and is terminated by a comma.
 4. A dash (en dash) between words should be preceded and followed by a single space.
 
-### omma vs. Period in Numerals
+### Comma vs. Period in Numerals
 
 English uses a period as decimal separator, Afrikaans usually uses a comma.
 
