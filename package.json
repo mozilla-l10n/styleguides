@@ -4,7 +4,7 @@
   "description": "Localization style guides for Mozilla communities.",
   "main": "README.md",
   "devDependencies": {
-    "mozilla-l10n-docs-linter": "github:flodolo/l10ndocs-linter"
+    "mozilla-l10n-docs-linter": "flodolo/l10ndocs-linter"
   },
   "scripts": {
     "test": "node node_modules/mozilla-l10n-docs-linter/linter/markdownlint.js"
