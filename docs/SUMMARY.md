@@ -84,6 +84,8 @@
 * [Scottish Gaelic (gd)](gd/README.md)
 * [Serbian (sr)](sr/README.md)
 * [Sinhala (si)](si/README.md)
+* [Slovak (sk)](sk/README.md)
+    * [Glossary](sk/glossary.md)
 * [Slovenian (sl)](sl/README.md)
 * [Spanish (es)](es/README.md)
     * [SUMO Style Guide](es/sumo.md)
