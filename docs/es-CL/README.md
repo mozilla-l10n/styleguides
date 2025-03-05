@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Bienvenido a la guía de estilo para la localización de es-CL. Aquí encontrarás las reglas y la terminología que utilizamos para tener una línea definida en el estilo de traducción, manteniendo así la coherencia y consistencia en el programa:
+Te damos la bienvenida a la guía de estilo para la localización de es-CL. Aquí encontrarás las reglas y la terminología que utilizamos para tener una línea definida en el estilo de traducción, manteniendo así la coherencia y consistencia en el programa:
 
 Esta guía se divide en dos partes, la primera trata sobre el estilo y las reglas específicas del lenguaje que usamos para la localización. La segunda parte hace alusión a las reglas generales que Mozilla definió para todo traductor (incluyendo principios de precisión y fluidez), una ayuda para ayudarte a traducir mejor.
 
@@ -36,7 +36,7 @@ El formato para escribir fechas es el siguiente: Día/Mes/Año
 
 #### Números
 
-Los números se expresan con su respectivo símbolo. Con la coma (,) se separan los decimales y los miles, con un punto (.).
+Los números se expresan con su respectivo símbolo. Con la coma (,) se separan los decimales, y los miles con un punto (.).
 
   **ejemplo:** `1,23` (separación de decimales) y `1.000` (separación de miles)
 
@@ -50,7 +50,7 @@ Para medir unidades de distancia, peso y otros utilizamos el sistema métrico.
 
 #### Nombres
 
-Para los nombres de personas se escriben primero los nombres y después el apellido.
+Para los nombres de personas se escriben primero los nombres y después los apellidos.
 
 ### Ortografía y gramática
 
@@ -68,7 +68,7 @@ La mayoría de los mensajes deben terminar con un punto, pero en este ítem se d
 
 #### Mayúsculas
 
-Solo escribimos la primera palabra de cada cadena con mayúsculas, a menos que se mencionen nombres propios, nombres de compañía, marcas, productos y títulos de libros en cuyo caso estas también llevan mayúsculas.
+Solo escribimos la primera letra de la primera palabra de cada cadena con mayúsculas, a menos que se mencionen nombres propios, nombres de compañía, marcas, productos y títulos de libros en cuyo caso estas también llevan mayúsculas.
 
 **Títulos :**  Deben ser breves y precisos. Los localizadores deben asumir que 2/3 de la cadena es de contenido. Esto ayuda a que las cadenas se vean enteras y no sean cortadas por los tres puntitos (`...`).
 
