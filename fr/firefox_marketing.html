@@ -1,0 +1,476 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Marketing guide to Firefox localization - Documentation for Mozilla localizers</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../guidelines/index.html">Guidelines</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../guidelines/outline.html">Style guide outline</a></li><li class="chapter-item expanded "><a href="../guidelines/example_en-us.html">Example style guide</a></li><li class="chapter-item expanded "><a href="../guidelines/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../mozilla_general/index.html">Mozilla general style guide</a></li><li class="chapter-item expanded "><a href="../af/index.html">Afrikaans (af)</a></li><li class="chapter-item expanded "><a href="../ar/index.html">Arabic (ar)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ar/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../hy-AM/index.html">Armenian (hy-AM)</a></li><li class="chapter-item expanded "><a href="../bm/index.html">Bambara (bm)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../bm/general.html">General Style Considerations</a></li><li class="chapter-item expanded "><a href="../bm/aaa.html">Abbreviations, Acronyms, Articles, and Loan Words</a></li><li class="chapter-item expanded "><a href="../bm/loanwords.html">Non-translated and Loan Words</a></li><li class="chapter-item expanded "><a href="../bm/wl.html">Word-level Guidelines</a></li><li class="chapter-item expanded "><a href="../bm/sl.html">Sentence-level Guidelines</a></li><li class="chapter-item expanded "><a href="../bm/appendix.html">Appendix</a></li></ol></li><li class="chapter-item expanded "><a href="../bn-BD/index.html">Bengali, Bangladesh (bn-BD)</a></li><li class="chapter-item expanded "><a href="../my/index.html">Burmese (my)</a></li><li class="chapter-item expanded "><a href="../ceb/index.html">Cebuano (ceb)</a></li><li class="chapter-item expanded "><a href="../zh-CN/index.html">Chinese, Simplified (zh-CN)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zh-CN/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../zh-CN/sumo.html">SUMO Style Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../zh-TW/index.html">Chinese, Traditional (zh-TW)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zh-TW/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../cs/index.html">Czech (cs)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cs/general.html">General Style Guide · Czech (cs)</a></li><li class="chapter-item expanded "><a href="../cs/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../nl/index.html">Dutch (nl)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../nl/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../eo/index.html">Esperanto (eo)</a></li><li class="chapter-item expanded "><a href="../fi/index.html">Finnish (fi)</a></li><li class="chapter-item expanded "><a href="../fr/index.html">French (fr)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../fr/firefox_marketing.html" class="active">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../fr/mozilla_marketing.html">Mozilla Tone of Voice & Localization Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../de/index.html">German (de)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../de/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../de/mozilla_marketing.html">Mozilla Tone of Voice & Localization Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../ha/index.html">Hausa (ha)</a></li><li class="chapter-item expanded "><a href="../hi-IN/index.html">Hindi (hi-IN)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hi-IN/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../hil/index.html">Hiligaynon (hil)</a></li><li class="chapter-item expanded "><a href="../is/index.html">Icelandic (is)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../is/style.html">Style</a></li><li class="chapter-item expanded "><a href="../is/brandnames.html">Brand Names</a></li><li class="chapter-item expanded "><a href="../is/term.html">Terminology</a></li><li class="chapter-item expanded "><a href="../is/ug.html">Units and Grammar</a></li><li class="chapter-item expanded "><a href="../is/general.html">General Mozilla L10n Style</a></li></ol></li><li class="chapter-item expanded "><a href="../id/index.html">Indonesian (id)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../id/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ig/index.html">Igbo (ig)</a></li><li class="chapter-item expanded "><a href="../ga-IE/index.html">Irish (ga-IE)</a></li><li class="chapter-item expanded "><a href="../it/index.html">Italian (it)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../it/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ja/index.html">Japanese (ja)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ja/l10nguideline.html">L10n Guideline</a></li><li class="chapter-item expanded "><a href="../ja/editorialguideline.html">Editorial Guideline</a></li><li class="chapter-item expanded "><a href="../ja/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ko/index.html">Korean (ko)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ko/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../lo/index.html">Lao (lo)</a></li><li class="chapter-item expanded "><a href="../mk/index.html">Macedonian (mk)</a></li><li class="chapter-item expanded "><a href="../mg/index.html">Malagasy (mg)</a></li><li class="chapter-item expanded "><a href="../ms/index.html">Malay (ms)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ms/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../mr/index.html">Marathi (mr)</a></li><li class="chapter-item expanded "><a href="../pl/index.html">Polish (pl)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pl/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../pl/sumo.html">SUMO Style Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../pt-BR/index.html">Portuguese (pt-BR)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pt-BR/general.html">General Style Guide</a></li><li class="chapter-item expanded "><a href="../pt-BR/firefox_marketing.html">Marketing guide to Firefox localization</a></li><li class="chapter-item expanded "><a href="../pt-BR/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../pt-PT/index.html">Portuguese (pt-PT)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pt-PT/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../ro/index.html">Romanian (ro)</a></li><li class="chapter-item expanded "><a href="../ru/index.html">Russian (ru)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ru/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../gd/index.html">Scottish Gaelic (gd)</a></li><li class="chapter-item expanded "><a href="../sr/index.html">Serbian (sr)</a></li><li class="chapter-item expanded "><a href="../si/index.html">Sinhala (si)</a></li><li class="chapter-item expanded "><a href="../sk/index.html">Slovak (sk)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../sk/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../sl/index.html">Slovenian (sl)</a></li><li class="chapter-item expanded "><a href="../es/index.html">Spanish (es)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es/sumo.html">SUMO Style Guide</a></li><li class="chapter-item expanded "><a href="../es/ff.html">Firefox Style Guide</a></li><li class="chapter-item expanded "><a href="../es/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../es-CL/index.html">Spanish, Chile (es-CL)</a></li><li class="chapter-item expanded "><a href="../es-MX/index.html">Spanish, Mexico (es-MX)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es-MX/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../es-ES/index.html">Spanish, Spain (es-ES)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../es-ES/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../sw/index.html">Swahili (sw)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../sw/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../sv-SE/index.html">Swedish (sv-SE)</a></li><li class="chapter-item expanded "><a href="../tl/index.html">Tagalog (tl)</a></li><li class="chapter-item expanded "><a href="../te/index.html">Telugu (te)</a></li><li class="chapter-item expanded "><a href="../th/index.html">Thai (th)</a></li><li class="chapter-item expanded "><a href="../tok/index.html">Toki Pona (tok)</a></li><li class="chapter-item expanded "><a href="../tr/index.html">Turkish (tr)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tr/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../uk/index.html">Ukrainian (uk)</a></li><li class="chapter-item expanded "><a href="../ur/index.html">Urdu (ur)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ur/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../vi/index.html">Vietnamese (vi)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../vi/firefox_marketing.html">Marketing guide to Firefox localization</a></li></ol></li><li class="chapter-item expanded "><a href="../wo/index.html">Wolof (wo)</a></li><li class="chapter-item expanded "><a href="../xh/index.html">Xhosa (xh)</a></li><li class="chapter-item expanded "><a href="../yo/index.html">Yoruba (yo)</a></li><li class="chapter-item expanded "><a href="../zu/index.html">Zulu (zu)</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Documentation for Mozilla localizers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/edit/main/docs/fr/firefox_marketing.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="french-localization-guide"><a class="header" href="#french-localization-guide">French Localization Guide</a></h1>
+<p>Ce document est à l’usage de toutes les personnes amenées à écrire pour Firefox en français. Il a pour objectif d’uniformiser le ton et la voix de la marque sur toutes les plateformes et à travers le monde.</p>
+<h2 id="pourquoi-a-t-on-besoin-dun-tel-guide-pour-localiser-le-contenu-"><a class="header" href="#pourquoi-a-t-on-besoin-dun-tel-guide-pour-localiser-le-contenu-">Pourquoi a-t-on besoin d’un tel guide pour localiser le contenu ?</a></h2>
+<p>Firefox parle d’une même voix dans le monde entier, mais nous voulons éviter de traduire notre contenu de manière littérale. Il est important de maintenir l’image de la marque et l’intention originale du message, en prenant soin d’adapter le langage aux spécificités locales.</p>
+<p>En somme, ce guide est écrit pour :</p>
+<ul>
+<li>Développer un ton qui reflète l’image de la marque et qui convient à notre public</li>
+<li>Uniformiser la traduction des termes techniques et/ou spécifiques à la marque</li>
+</ul>
+<p>Le lexique en fin de document permet d’assurer une certaine cohérence dans la terminologie que nous employons.</p>
+<p>Les consignes de ce document ne sont pas gravées dans la roche. Notre marque évolue, nous actualisons donc le document lorsque c’est nécessaire.</p>
+<h2 id="À-propos-de-firefox--qui-sommes-nous-"><a class="header" href="#À-propos-de-firefox--qui-sommes-nous-">À propos de Firefox – Qui sommes-nous ?</a></h2>
+<p>Firefox, c’est bien plus qu’un navigateur. C’est une marque reconnue à travers le monde, qui remet en question le statu quo et qui lutte pour les droits des internautes.</p>
+<p>Nous plaçons les utilisateurs et utilisatrices au centre de tout ce que nous créons et décidons.</p>
+<p>La marque Firefox représente une philosophie qui place les internautes avant les bénéfices, et ce dans chacun des produits de sa gamme.</p>
+<p>Mozilla est l’organisation à but non lucratif à l’origine de Firefox.</p>
+<p><strong>La promesse de la marque :</strong></p>
+<p>Firefox se bat pour vous</p>
+<p><strong>Ce pour quoi nous nous battons :</strong></p>
+<p>Firefox se bat pour défendre les internautes en leur proposant des produits qui leur permettent de prendre le contrôle de leur vie en ligne.</p>
+<p><strong>L’objectif de la marque :</strong></p>
+<p>Expliquer aux internautes que Firefox est la marque qui tient leurs intérêts à cœur et qu’ils ont le contrôle et sont en sécurité quand ils utilisent les outils Firefox.</p>
+<p><strong>Les produits Firefox :</strong></p>
+<ul>
+<li>Firefox Quantum (navigateur de bureau)</li>
+<li>Firefox Mobile (sur iOS et Android)</li>
+<li><a href="https://monitor.firefox.com/">Firefox Monitor</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro&amp;hl=fr">Pocket</a></li>
+<li><a href="https://mixedreality.mozilla.org/firefox-reality/">Firefox Reality</a> (navigateur web immersif)</li>
+</ul>
+<h2 id="personnalité-et-ton-de-la-marque"><a class="header" href="#personnalité-et-ton-de-la-marque">Personnalité et ton de la marque</a></h2>
+<h3 id="À-qui-sadresse-t-on-"><a class="header" href="#À-qui-sadresse-t-on-">À qui s’adresse-t-on ?</a></h3>
+<p>Nous ciblons les personnes qui font des choix réfléchis, c’est à dire qui ne prennent pas de décisions au hasard mais qui choisissent consciencieusement, autant en ligne que hors ligne.</p>
+<p>Choisir consciencieusement signifie :</p>
+<ul>
+<li>Développer des préférences et prendre des décisions de consommations réfléchies.</li>
+<li>S’efforcer d’agir selon ses valeurs et ses idéaux.</li>
+<li>Faire preuve d’exigence et ne pas se satisfaire du minimum.</li>
+<li>Effectuer son propre travail de recherche afin de comprendre toutes les options qu’on a à sa disposition.</li>
+</ul>
+<h3 id="personnalité-de-la-marque-firefox"><a class="header" href="#personnalité-de-la-marque-firefox">Personnalité de la marque Firefox</a></h3>
+<p>La marque repose sur quatre piliers, véritables fondations de tout ce que nous faisons et de tout ce que nous écrivons, aussi bien en anglais qu’en français.</p>
+<div class="table-wrapper"><table><thead><tr><th>Caractéristiques</th><th>Personnalité</th></tr></thead><tbody>
+<tr><td>Dogmatisme</td><td>Nos produits prouvent que nous sommes portés par des convictions profondes. Nous exprimons fièrement nos points de vue. Quand d’autres ne s’intéressent qu’aux aspects techniques, nous fondons tout sur notre éthique.</td></tr>
+<tr><td>Ouverture</td><td>Ouverture d’esprit. Sincérité. Open Source. La transparence et notre vision globale font partie intégrante de notre marque. En effet, nous parlons plusieurs langues et nous nous efforçons de refléter tous les points de vue.</td></tr>
+<tr><td>Bienveillance</td><td>Nous voulons ce qu’il y a de mieux pour Internet et pour les internautes. Nous montrons l’exemple. En concevant de meilleurs produits. En engageant la conversation, en établissant des partenariats en collaborant, éduquant et informant. Notre empathie s’étend à tout le monde.</td></tr>
+<tr><td>Radicalité</td><td>C’est un acte radical que d’être optimiste quant à l’avenir d’Internet. C’est un acte radical de servir les autres avant soi-même. Nous bouleversons le statu quo car c’est la bonne chose à faire.</td></tr>
+</tbody></table>
+</div>
+<p>Nous sommes dogmatiques, mais ouverts. Nous sommes radicalement bienveillants. La personnalité de la marque tient sa richesse de ses traits de caractère opposés en apparence, mais essentiellement complémentaires chez Firefox.</p>
+<h3 id="ton-de-la-marque"><a class="header" href="#ton-de-la-marque">Ton de la marque</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Caractéristique</th><th>Explication</th></tr></thead><tbody>
+<tr><td>Direct et facile à comprendre</td><td>Nous voulons que tous les internautes se sentent les bienvenus. Ainsi, nous n’utilisons que des mots et des concepts clairs que tout le monde peut comprendre.</td></tr>
+<tr><td>Concis</td><td>On aime les titres et les phrases courtes. Il en va de même pour les calls to action (boutons d’appel à l’action).<br><br>Les mots et phrases clés doivent figurer en début de paragraphe On évite les structures de phrase complexes ainsi que les informations superflues.</td></tr>
+<tr><td>Authentique</td><td>Tout comme nos produits, nos textes sont créés par la communauté et pour la communauté. Nous nous adressons à notre public sur un pied d’égalité et écrivons de façon naturelle.On sait de quoi on parle, mais on ne s’exprime pas avec condescendance.</td></tr>
+<tr><td>Naturel</td><td>Nous évitons les structures à la voix passive et préférons la voix active. Deux phrases courtes valent mieux qu’une longue phrase.</td></tr>
+<tr><td>Respectueux</td><td>S’exprimer avec respect ne signifie pas s’exprimer de façon guindée.</td></tr>
+<tr><td>Plein d’humour</td><td>Nous n’hésitons pas à faire preuve d’humour, sans être grossiers ni mièvres.</td></tr>
+<tr><td>Pertinent</td><td>Pour les textes plus longs, les lecteurs doivent pouvoir savoir à quoi s’attendre dès le début de l’article, et si celui-ci les concerne. <br><br>Il est important de placer l’utilisateur dans un contexte (où, quand, pourquoi lit-il/elle ceci).<br><br>Les références culturelles doivent parler au lecteur et être adaptées au marché concerné. Si quelque chose est intraduisible, il ne faut pas le traduire, mais plutôt chercher à exprimer la même intention différemment.</td></tr>
+<tr><td>Optimiste et motivant</td><td>Nous sommes confiants que le futur d’Internet est positif. Bien sûr, nous sommes aussi conscients des problèmes qui existent, mais nous essayons toujours de conclure sur une note positive, orientée sur des solutions.</td></tr>
+<tr><td>Créatif</td><td>Notre contenu doit avant tout être clair, facile à comprendre et informatif. Mais nous aimons aussi être innovants et créatifs. On évite les discours ennuyeux et les lieux communs du marketing.</td></tr>
+</tbody></table>
+</div>
+<h3 id="2ᵉ-personne-du-pluriel-et-forme-impersonnelle"><a class="header" href="#2ᵉ-personne-du-pluriel-et-forme-impersonnelle">2ᵉ personne du pluriel et forme impersonnelle</a></h3>
+<p>Il est recommandé d’utiliser, selon le contexte, soit la deuxième personne du pluriel, soit la forme impersonnelle (« on »). Le tutoiement est à proscrire, sauf lorsque le contexte le requiert (citations, expressions, etc.)</p>
+<h3 id="Écriture-inclusive-et-emploi-du-masculin-et-féminin"><a class="header" href="#Écriture-inclusive-et-emploi-du-masculin-et-féminin">Écriture inclusive et emploi du masculin et féminin</a></h3>
+<p>Nous prenons soin de n’exclure personne et de nous adresser au public le plus large possible et évitons autant que possible les termes et formules genrés. L’exercice relevant parfois de l’acrobatie, il est important de se fier à son bon sens afin d’éviter les phrases et formules alambiquées qui alourdissent le texte et peuvent distraire le lectorat du message que nous souhaitons faire passer.</p>
+<p>Cette liste non-exhaustive de consignes s’applique à notre contenu marketing.</p>
+<p>Privilégier les <strong>formules épicènes</strong> (invariables en genre) ou les <strong>formules englobantes</strong> (mots génériques pour désigner un groupe de personnes) :</p>
+<ul>
+<li>Mots épicènes : internaute, élève, adulte, analyste, etc.</li>
+<li>Formules englobantes : l’équipe de développement, les personnes malvoyantes, tout le monde, etc.</li>
+</ul>
+<p>Dans la mesure du possible éviter la voix passive afin de ne pas avoir à accorder un participe passé.</p>
+<ul>
+<li><strong>Exemples :</strong><br>
+👎 Vous êtes suivi(e) par des traqueurs partout sur le Web.<br>
+👍 Des traqueurs vous suivent partout sur le Web.</li>
+</ul>
+<p>Lorsqu’il n’y a pas de contraintes de limite du nombre de caractères, la double flexion peut être utilisée, avec l’accord au masculin pluriel.</p>
+<ul>
+<li><strong>Exemples :</strong><br>
+👎 Les étudiants et les étudiantes sont fatigué·es<br>
+👍 Les étudiants et les étudiantes sont fatigués.</li>
+</ul>
+<p>Dans les phrases courtes et percutantes (slogans, balises h1), utiliser le masculin pluriel en guise de neutre.</p>
+<ul>
+<li><strong>Exemples :</strong><br>
+👎 Êtes-vous prêt à franchir le pas ?<br>
+👎 Êtes-vous prêt·e à franchir le pas ?<br>
+👍 Êtes-vous prêts à franchir le pas ?</li>
+</ul>
+<p>Quand on parle de nous-mêmes, on utilise le masculin pluriel</p>
+<ul>
+<li><strong>Exemples :</strong><br>
+👍 Chez Firefox, nous sommes convaincus que vos données vous appartiennent.</li>
+</ul>
+<p>Donner plus de visibilité au féminin, notamment en l’utilisant dans des exemples et démonstrations de cas particuliers, ainsi qu’en féminisant les fonctions.</p>
+<ul>
+<li><strong>Exemples :</strong><br>
+👍 Une utilisatrice lambda doit s’inquiéter de la manière dont ses données sont traitées.<br>
+👍 La présidente de l’Estonie a rencontré la première ministre de l’Islande.</li>
+</ul>
+<p>N’utiliser le point-milieu qu’en dernier recours, de préférence uniquement au singulier et lorsque la terminaison du féminin peut s’apposer au masculin sans fléchir le radical.</p>
+<ul>
+<li><strong>Exemples :</strong><br>
+👎 Les instituteur·trice·s se sont mis·e·s d’accord :<br>
+👍 C’est un·e élève discipliné·e.<br>
+👍 Nous recherchons un·e excellent·e informaticien·ne.</li>
+</ul>
+<h3 id="règles-typographiques"><a class="header" href="#règles-typographiques">Règles typographiques</a></h3>
+<p>Se référer au <a href="https://github.com/mozfr/besogne/wiki/Guide-stylistique-pour-la-traduction#Rgles_typographiques">guide stylistique pour la traduction</a> pour les règles concernant la typographie en français.</p>
+<h3 id="titres-dœuvres"><a class="header" href="#titres-dœuvres">Titres d’œuvres</a></h3>
+<p>Les titres d’œuvres, de publications, d’émissions de télé ou de radio, etc. doivent être placés en italique, sans guillemets. On parlera ainsi d’un article du Monde, ou de 1984, l’œuvre prophétique d’Orwell.</p>
+<h3 id="anglicismes"><a class="header" href="#anglicismes">Anglicismes</a></h3>
+<p>Nous parlons et écrivons comme notre public parle et écrit. Nous défendons un usage libre de la langue française et ne forçons personne à franciser les mots empruntés à l’anglais. Nous recommandons l’utilisation du terme le plus couramment employé dans la langue de tous les jours. On préférera donc les termes e-mail (avec le trait d’union), bug, chat ou newsletter à la place de courriel, bogue, clavardage et liste de diffusion.</p>
+<p>Les mots empruntés à l’anglais (ainsi qu’à d’autres langues) et non adoptés par l’usage sont mis en italique.</p>
+<p><strong>Exemples :</strong></p>
+<ul>
+<li>Les entreprises sont appelées à mettre en place les bonnes pratiques de lean data.</li>
+<li>la NSA a publié un document informant ses employés des dangers du <em>juice jacking</em>.</li>
+</ul>
+<h3 id="calls-to-action-cta"><a class="header" href="#calls-to-action-cta">Calls to action (CTA)</a></h3>
+<p>Le verbe dans les CTA (boutons d’appel à l’action en bon français) doit préférablement être à l’infinitif.</p>
+<p><strong>Exemples :</strong></p>
+<ul>
+<li><em>Télécharger Firefox</em> plutôt que <em>Téléchargez Firefox</em>, ou encore <em>Lire l’article</em> plutôt que <em>Lisez l’article</em>.</li>
+</ul>
+<p>Expressions et métaphores Dans la traduction, toujours s’assurer que les expressions employées en français sont idiomatiques. Si ce n’est pas le cas, chercher une expression équivalente. Les noms de marques tierces doivent être laissés tels quels. Dans le cas d’une référence culturelle inadaptée à un public francophone, ne pas hésiter à trouver une marque française équivalente.</p>
+<h3 id="textes-optimisés-pour-le-référencement-seo"><a class="header" href="#textes-optimisés-pour-le-référencement-seo">Textes optimisés pour le référencement (SEO)</a></h3>
+<ul>
+<li>Comme tout ce que nous écrivons, les textes SEO doivent être localisés de manière à ce qu’ils offrent de la valeur aux lecteurs. Il faut s’assurer que les textes SEO sont aussi intéressants et pertinents que les articles de nos blogs.</li>
+<li>Les titres doivent être aussi précis que possible et doivent adresser le sujet de l’article en question, pas seulement le thème général (par exemple, un article sur le respect de la vie privée ne doit pas s’intituler : Tout ce qu’il faut savoir sur le respect de la vie privée).</li>
+</ul>
+<h3 id="articles-sur-le-blog"><a class="header" href="#articles-sur-le-blog">Articles sur le blog</a></h3>
+<ul>
+<li>Le titre de l’article doit être aussi précis que possible et doit préférablement tenir sur une seule ligne.</li>
+<li>Dans la mesure du possible, la première phrase doit apparaître intégralement dans l’aperçu de l’article afin que les lecteurs sachent à quoi s’attendre avant de cliquer.</li>
+<li>Ne pas hésiter à diviser l’article en paragraphes et à utiliser des sous-titres afin de le rendre plus facile à lire.</li>
+</ul>
+<h2 id="lexique"><a class="header" href="#lexique">Lexique</a></h2>
+<h3 id="expressions-fréquentes-dans-lunivers-firefox"><a class="header" href="#expressions-fréquentes-dans-lunivers-firefox">Expressions fréquentes dans l’univers Firefox</a></h3>
+<p>Les expressions suivantes reviennent fréquemment dans nos articles et il est important de toujours utiliser la même traduction pour des raisons de cohérence.</p>
+<p>L’outil de recherche <a href="https://transvision.mozfr.org/?recherche=search+choice&amp;repo=mozilla_org&amp;sourcelocale=en-US&amp;locale=de&amp;search_type=strings">Transvision</a> est une excellente ressource qui permet de voir certaines expressions et tournures de phrase dans différents contextes et leur traduction en français.</p>
+<p>Afin d’éviter la confusion, les termes suivants doivent être traduits comme indiqué ci-dessous.</p>
+<div class="table-wrapper"><table><thead><tr><th>Anglais</th><th>Français</th></tr></thead><tbody>
+<tr><td>Activity Stream</td><td>Activity Stream</td></tr>
+<tr><td>Ad tracker</td><td>Traqueur publicitaire</td></tr>
+<tr><td>Browser Engine</td><td>Moteur de rendu</td></tr>
+<tr><td>Browser history</td><td>Historique de navigation</td></tr>
+<tr><td>Clickbait</td><td>Piège à clics</td></tr>
+<tr><td>Context Graph</td><td>Context Graph</td></tr>
+<tr><td>Control Tab</td><td>Control Tab</td></tr>
+<tr><td>Corporate control</td><td>Contrôle par les grandes entreprises</td></tr>
+<tr><td>Corporate Powers</td><td>Pouvoirs collectifs</td></tr>
+<tr><td>Cryptominer</td><td>Mineur de cryptomonnaie</td></tr>
+<tr><td>data breach</td><td>Fuite de données</td></tr>
+<tr><td>Data collection</td><td>Collecte de données</td></tr>
+<tr><td>Decentralization</td><td>Décentralisation</td></tr>
+<tr><td>Decentralized Internet</td><td>Internet décentralisé</td></tr>
+<tr><td>Deep Learning</td><td>Apprentissage profond</td></tr>
+<tr><td>Desktop Browser</td><td>Navigateur pour ordinateur</td></tr>
+<tr><td>Dev Tools</td><td>Outils de développement</td></tr>
+<tr><td>Digital Citizenship</td><td>Citoyenneté numérique</td></tr>
+<tr><td>Digital footprint</td><td>Empreinte numérique</td></tr>
+<tr><td>Digital Inclusion</td><td>Inclusion numérique</td></tr>
+<tr><td>Download Firefox</td><td>Télécharger Firefox</td></tr>
+<tr><td>Dropdown menu</td><td>Menu déroulant</td></tr>
+<tr><td>empower</td><td>Donner le contrôle / Valoriser</td></tr>
+<tr><td>Enhanced tracking protection</td><td>Protection renforcée contre le pistage</td></tr>
+<tr><td>Exposure</td><td>Vulnérabilité</td></tr>
+<tr><td>ExtensionsAdd-ons</td><td>ExtensionsModules complémentaires (pour les fonctions du menu)</td></tr>
+<tr><td>Feature</td><td>Fonctionnalité</td></tr>
+<tr><td>Fingerprinting</td><td>Capture d’empreinte numérique</td></tr>
+<tr><td>Firefox Privacy</td><td>Politique de confidentialité de Firefox</td></tr>
+<tr><td>Form</td><td>Formulaire</td></tr>
+<tr><td>intelligent search suggestions</td><td>Suggestions de recherche intelligentes</td></tr>
+<tr><td>Internet citizen</td><td>Citoyen d’Internet</td></tr>
+<tr><td>Internet experience</td><td>Expérience internet</td></tr>
+<tr><td>Internet health</td><td>Santé d’Internet</td></tr>
+<tr><td>lean browser</td><td>Navigateur</td></tr>
+<tr><td>Lean Data Toolkit</td><td>Boîte à outils du lean data</td></tr>
+<tr><td>Library</td><td>Bibliothèque</td></tr>
+<tr><td>Life online</td><td>Vie numérique</td></tr>
+<tr><td>limited data</td><td>Données limitées</td></tr>
+<tr><td>Malware</td><td>Logiciel malveillant</td></tr>
+<tr><td>Memory</td><td>Mémoire</td></tr>
+<tr><td>Mozilla Developer Network</td><td>Mozilla Developer Network</td></tr>
+<tr><td>Mozillian</td><td>Mozillien (avec une majuscule)</td></tr>
+<tr><td>Multi-process</td><td>Multi-processus</td></tr>
+<tr><td>Network</td><td>Réseau</td></tr>
+<tr><td>Network neutrality</td><td>Neutralité du réseau</td></tr>
+<tr><td>Network requests</td><td>Appels réseau</td></tr>
+<tr><td>Night mode</td><td>Mode nuit</td></tr>
+<tr><td>Non-Profit</td><td>Non lucratif</td></tr>
+<tr><td>Open Source</td><td>Open Source</td></tr>
+<tr><td>Padding</td><td>Remplissage</td></tr>
+<tr><td>Password manager</td><td>Gestionnaire de mots de passe</td></tr>
+<tr><td>Performance</td><td>Performance</td></tr>
+<tr><td>Personal data promise</td><td>Principes concernant les données personnelles</td></tr>
+<tr><td>Policy</td><td>Politique</td></tr>
+<tr><td>Privacy</td><td>Selon le contexte:vie privée confidentialité</td></tr>
+<tr><td>Privacy Mode</td><td>Mode privé</td></tr>
+<tr><td>Responsive Design Mode</td><td>Vue adaptative</td></tr>
+<tr><td>Scratchpad</td><td>Bloc-notes</td></tr>
+<tr><td>Search Choice</td><td>Choix de recherche</td></tr>
+<tr><td>Storage Panel</td><td>Panneau de stockage</td></tr>
+<tr><td>Style Editor</td><td>Éditeur de Style</td></tr>
+<tr><td>Technology</td><td>Technologie</td></tr>
+<tr><td>technology</td><td>Technologie</td></tr>
+<tr><td>technology devices</td><td>Appareils technologiques</td></tr>
+<tr><td>Third-party advertisers</td><td>Publicitaires tiers</td></tr>
+<tr><td>Third-party trackers</td><td>Traqueurs tiers</td></tr>
+<tr><td>to champion</td><td>Soutenir</td></tr>
+<tr><td>Toolbar</td><td>Barre d’outils</td></tr>
+<tr><td>Tracking Protection</td><td>Protection contre le pistage</td></tr>
+<tr><td>trust and privacy</td><td>Confiance et protection de la vie privée</td></tr>
+<tr><td>Visual Editing</td><td>Édition visuelle</td></tr>
+<tr><td>Volunteer</td><td>Contribuer – Contributeur / Contributrice</td></tr>
+<tr><td>Web Audio</td><td>Web Audio</td></tr>
+<tr><td>Web browser</td><td>Navigateur web</td></tr>
+<tr><td>Web Literacy</td><td>Éducation à Internet</td></tr>
+<tr><td>Web-Innovations</td><td>Innovations du Web</td></tr>
+<tr><td>Webcam-Cover</td><td>Cache webcam</td></tr>
+</tbody></table>
+</div>
+<h3 id="expressions-spécifiques-à-la-marque-"><a class="header" href="#expressions-spécifiques-à-la-marque-">Expressions spécifiques à la marque :</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Catégorie</th><th>Exemple</th></tr></thead><tbody>
+<tr><td>Marques</td><td>Mozilla et Firefox sont toujours écrits avec une majuscule, sauf dans une URL.<br><br>Le logotype moz://a ne doit pas être utilisé.</td></tr>
+<tr><td>Quelques slogans</td><td>Ensemble, créons un Internet ouvert et indépendant Votre vie, vos données.<br><br>Le compte qui vous protège sans profiter de vous<br><br>Rejoignez Firefox<br>Tenez tête à une industrie qui vous considère comme un produit.<br><br> Adoptez une technologie qui lutte pour vos droits.<br><br>Obtenez le respect que vous méritez.<br><br>Moins d’informations. Plus de protection.<br><br>Pas de secrets. (à retravailler ?)<br>Nous luttons pour un Internet plus sain</td></tr>
+<tr><td>URL</td><td>Pour plus de lisibilité, ne pas inclure www à une URL.<br>Exemple : mozilla.org</td></tr>
+</tbody></table>
+</div>
+<h3 id="quelques-règles-générales"><a class="header" href="#quelques-règles-générales">Quelques règles générales</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Catégorie</th><th>Exemple</th></tr></thead><tbody>
+<tr><td>Date</td><td>Le format de date est JJ/MM/AAAA<br>Le 7 avril 1998 s’écrit donc 07/04/1998</td></tr>
+<tr><td>Heure</td><td>L’heure est au format hh:mm sur 24 heures. <br>Exemple : 18:30</td></tr>
+<tr><td>Nombres</td><td>En français, le séparateur décimal est la virgule.  <br>Exemple : ½ = 0,5 <br><br>Les nombres de plus de 4 chiffres sont séparés en tranches de trois chiffres par une espace insécable.<br>Exemples : 1983 ; 25 700 ; 100 000</td></tr>
+<tr><td>Point d’exclamation et points de suspension</td><td>À utiliser avec parcimonie.</td></tr>
+<tr><td>Mesures</td><td>Utiliser le système métrique en toutes circonstances, et convertir quand on traduit de l’anglais, sauf quelques exceptions comme la diagonale d’un écran habituellement exprimée en pouces.</td></tr>
+<tr><td>Astérisques</td><td>À éviter. Si la précision est importante, l’inclure dans le texte. Si elle ne l’est pas, ne pas l’inclure (cf. le paragraphe sur la concision).</td></tr>
+<tr><td>Liens</td><td>S’assurer que les liens inclus dans un texte ouvrent dans un nouvel onglet. Quand le lien est intégré dans une phrase, surligner les mots clés.<br><br>S’assurer également que le lien renvoie à une ressource en français.</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../fr/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../fr/mozilla_marketing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../fr/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../fr/mozilla_marketing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
