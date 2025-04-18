@@ -1,18 +1,18 @@
-# Guia de localização de conteúdos do Firefox
+# Guia para a tradução de textos do Firefox
 
-Este documento visa facilitar a criação e localização de textos e prestar apoio para uma boa preparação e consistência dos conteúdos. É um documento permanentemente em aberto e que reflete o nosso momento atual. À medida que a expressão da nossa marca continua a evoluir, iremos continuar a efetuar atualizações a este documento.
+Este documento visa facilitar a criação e a tradução de textos, e suportar uma boa preparação e consistência dos conteúdos. É um documento permanentemente em aberto e que reflete o nosso momento atual. À medida que a expressão da nossa marca continua a evoluir, nós iremos continuar a atualizar este documento.
 
-## Por que motivo este guia é importante para a localização dos conteúdos de marketing do Firefox?
+## Porque é que este guia é importante para a tardução dos conteúdos de marketing do Firefox?
 
 Este guia destina-se a permitir compreender melhor o Firefox enquanto marca, para perceber qual a melhor abordagem na tradução de conteúdos para o seu idioma. Adicionalmente, iremos partilhar escolhas de palavras e de ortografia específicas da empresa que visam facilitar o processo de localização.
 
 Os nossos textos não devem ser traduzidos literalmente, palavra por palavra, devem sim refletir a personalidade e o tom da nossa marca e ser otimizados para transmitir a perspetiva cultural e linguística mais adequada. A intenção emocional e figurativa do texto de origem deve ser adaptada para a língua de chegada.
 
-## Sobre o Firefox — Quem somos
+## Sobre o Firefox — Quem somos nós
 
-O Firefox é mais que um simples browser. O Firefox é uma *marca desafiante* que desafia o *status quo* e defende os direitos online dos utilizadores.
+O Firefox é mais que um simples navegador. O Firefox é uma *marca desafiante* que desafia o *estado atual das coisas* e defende os direitos ''on-line'' dos utilizadores.
 
-Em tudo o que fazemos, colocamos os direitos e as necessidades dos utilizadores em primeiro lugar. E, enquanto empresa de tecnologia que somos, damos prioridade às pessoas face aos lucros.
+Em tudo o que nós fazemos, nós colocamos os direitos e as necessidades dos utilizadores em primeiro lugar. E, enquanto a empresa de tecnologia que nós somos, nós damos prioridade às pessoas face aos lucros.
 
 O Firefox enquanto *marca* combina o *ethos* Firefox e os nossos produtos relacionados.
 
@@ -22,9 +22,9 @@ O Firefox enquanto *marca* combina o *ethos* Firefox e os nossos produtos relaci
 
 A Firefox luta por si
 
-**Objetivos pelos quais lutamos**:
+**Pelo que nós estamos a lutar:**:
 
-O Firefox luta pelos seus utilizadores através da criação de produtos que dão às pessoas poder e controlo sobre as suas vidas online.
+O Firefox luta pelos seus utilizadores através da criação de produtos que dão às pessoas o poder e o controlo sobre as suas vidas ''on-line''.
 
 **Produtos**:
 
@@ -38,9 +38,9 @@ O Firefox luta pelos seus utilizadores através da criação de produtos que dã
 
 ## Personalidade e tom de voz
 
-### Para quem estamos a falar?
+### Para quem nós estamos a falar?
 
-Descrevemos o nosso público-alvo como Consumidores Conscientes. Este conceito refere-se a pessoas que tomam ou pretendem tomar decisões conscientes, tanto online como offline.
+Nós descrevemos o nosso público-alvo como Consumidores Conscientes. Este conceito refere-se a pessoas que tomam ou pretendem tomar decisões conscientes, tanto online como offline.
 
 Consumidores Conscientes:
 
@@ -63,7 +63,7 @@ Amplificadores aventureiros:
 * Querem que os seus amigos e seguidores testemunhem as boas escolhas que estão a fazer
 * Esforçam-se por influenciar a sua comunidade para que esta também faça escolhas ponderadas
 
-### Os Atributos da Marca e a Personalidade da Marca Firefox
+### Os Nossos Atributos da Marca e a Personalidade da Marca Firefox
 
 |  **Atributo**   |                                                                                                                                                                                                                                               **Personalidade da marca Firefox**                                                                                                                                                                                                                                               |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
