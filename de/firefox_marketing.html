@@ -1,0 +1,495 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Marketing guide to Firefox localization - Documentation for Mozilla localizers</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-817cd79e.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-d2375e2f.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Documentation for Mozilla localizers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/edit/main/docs/de/firefox_marketing.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="how-to-firefox-in-german"><a class="header" href="#how-to-firefox-in-german">How to Firefox in German</a></h1>
+<p>Dieses Dokument soll die Erstellung und Lokalisierung von Texten erleichtern – für optimal aufbereitete und konsistente Inhalte. Wichtig hierfür sind:</p>
+<ul>
+<li><a href="#pers%C3%B6nlichkeit--tonalit%C3%A4t">Persönlichkeit &amp; Tonalität</a></li>
+<li><a href="#glossar">Glossar</a></li>
+</ul>
+<p>Das Dokument spiegelt den aktuellen Stand wieder. Unsere Marke entwickelt sich aber immer weiter, sodass Aktualisierungen weiterhin vorgenommen werden.</p>
+<h2 id="warum-ist-dieser-guide-wichtig-für-die-lokalisierung-unserer-texte"><a class="header" href="#warum-ist-dieser-guide-wichtig-für-die-lokalisierung-unserer-texte">Warum ist dieser Guide wichtig für die Lokalisierung unserer Texte?</a></h2>
+<p>Unsere Texte sollen nicht nur eins zu eins übersetzt werden, sondern unsere Markenpersönlichkeit und Tonalität widerspiegeln und für den kulturellen und linguistischen Hintergrund optimiert werden. Die emotionale Intention des Ausgangstextes soll adaptiert werden.</p>
+<p>Unsere <a href="#unsere-markeneigenschaftenfirefox-brand-personality">Markeneigenschaften</a> bestimmen dabei die Tonalität der englischen als auch deutschen Fassung. Dieser Guide soll dabei helfen, Firefox als Marke besser zu verstehen, um ein besseres Gefühl dafür zu bekommen, wie die Texte in der deutschen Sprache klingen sollen. Außerdem teilen wir hier festgelegte, unternehmensspezifische Schreibweisen, die den Lokalisierungsprozess erleichtern sollen.</p>
+<h2 id="about-firefox--wer-wir-sind"><a class="header" href="#about-firefox--wer-wir-sind">About Firefox – wer wir sind</a></h2>
+<p>Firefox ist mehr als nur der Browser. Firefox ist bietet ein ganze Reihe an Produkten, die Menschen dabei helfen sollen, online sicherer zu sein.</p>
+<p>Firefox ist eine Challenger-Brand, die als Herausforderer den Status quo infrage stellt und sich für die Online-Rechte der Nutzer stark macht.</p>
+<p>Bei allem was wir tun, stellen wir die Rechte und Bedürfnisse der Menschen, die unsere Produkte nutzen, an die erste Stelle. Und als Tech-Unternehmen stellen wir Menschen immer über Profit.</p>
+<p>Firefox als Marke vereint den Firefox Ethos und die sich erweiternde Bandbreite der Produkte. (Mozilla ist dabei die Non-Profit-Organisation, die hinter Firefox steht.)</p>
+<p><strong>Brand promise:</strong></p>
+<p>Firefox fights for you</p>
+<p>(Wichtig: Dieser Claim wird nie ins Deutsche übersetzt. Wir benutzen ihn in der deutschen Kommunikation ebenfalls auf englisch)</p>
+<p><strong>Wofür kämpfen wir:</strong></p>
+<p>Firefox kämpft für seine Nutzer/innen – mit Produkten, die Menschen auch online die Kontrolle über Leben geben.</p>
+<p><strong>Firefox Produkte:</strong></p>
+<ul>
+<li>Firefox Browser (Desktop-Browser)</li>
+<li>Firefox Mobile (für iOS und Android)</li>
+<li><a href="https://send.firefox.com/">Firefox Send</a> (versendet Dateien bis zu 2.5 GB per verschlüsseltem Link, der automatisch abläuft)</li>
+<li><a href="https://monitor.firefox.com/">Firefox Monitor</a> (überprüft E-Mail-Adressen auf Datenleaks)</li>
+<li><a href="https://lockwise.firefox.com/">Firefox Lockwise</a> (Passwort-Manager)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro&amp;hl=de">Pocket</a> (Qualitätsinhalte aus dem Web)</li>
+<li><a href="https://mixedreality.mozilla.org/firefox-reality/">Firefox Reality</a> (VR Browser)</li>
+</ul>
+<h2 id="persönlichkeit--tonalität"><a class="header" href="#persönlichkeit--tonalität">Persönlichkeit &amp; Tonalität</a></h2>
+<h3 id="mit-wem-sprechen-wir"><a class="header" href="#mit-wem-sprechen-wir">Mit wem sprechen wir?</a></h3>
+<p>Wir beschreiben unsere Zielgruppe als Conscious Choosers. Damit sind Menschen gemeint, die bewusste Entscheidungen treffen oder treffen wollen – online und offline.</p>
+<p>Conscious Choosers:</p>
+<ul>
+<li>entwickeln Vorlieben und Konsumentscheidungen sorgsam und bewusst</li>
+<li>streben danach, Handlungen mit ihren Werten und Idealen in Einklang zu bringen</li>
+<li>sind anspruchsvolle Kunden</li>
+<li>recherchieren oft selbst, um alle Optionen zu kennen und zu verstehen</li>
+</ul>
+<h3 id="unsere-markeneigenschaftenfirefox-brand-personality"><a class="header" href="#unsere-markeneigenschaftenfirefox-brand-personality">Unsere Markeneigenschaften/Firefox Brand Personality</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Eigenschaften</th><th>Persönlichkeit</th></tr>
+</thead>
+<tbody>
+<tr><td>opinionated/meinungsstark</td><td><strong>Firefox handelt aus Überzeugung und nimmt selbstbewusst klare Positionen ein.</strong> <br>Unsere Produkte zeigen, dass sich unsere Motivation aus unserer Brand-Vision ableitet. Unser Brand-Ethos liegt allem, was wir tun, zugrunde. Und das wollen wir auch an unsere Nutzern und Partner kommunizieren.</td></tr>
+<tr><td>open/offen</td><td><strong>Firefox findet, dass das Internet für alle zugänglich und sicher sein sollte und strebt immer ein offenes Gespräch oder eine Zusammenarbeit an.</strong> <br>Open-minded. Open-hearted. Open source. Eine globale Perspektive ist fester Bestandteil unserer Marke. Wir sprechen viele Sprachen und bemühen uns darum verschiedene Blickwinkel einzunehmen.</td></tr>
+<tr><td>kind/einfühlsam</td><td><strong>Firefox antizipiert Bedürfnisse und bietet dort Lösungen und Alternativen an, wo Freiheit und Rechte der Menschen, die das Web nutzen, bedroht sind oder missbraucht werden können.</strong> <br>Wir wollen das Beste für unsere Nutzer und die Welt. Also gehen wir mit gutem Beispiel voraus: wir entwickeln bessere Produkte, wir starten Dialoge, wir arbeiten offen und mit anderen zusammen, wir bilden uns und andere weiter und wir informieren unsere Nutzer. Dabei handeln wir allen Menschen gegenüber empathisch.</td></tr>
+<tr><td>radical/radikal</td><td><strong>Firefox stellt den Status quo und gängige Praktiken der Tech-Giganten infrage und kämpft mit Zuversicht für ein besseres Internet.</strong> <br>Optimistisch in die Zukunft des Internets zu schauen, ist ein radikaler Akt. Die Bedürfnisse der Nutzer vor unsere eigenen zu stellen ist ebenso radikal. Wir rütteln am Status quo, weil wir finden, dass es richtig ist.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Unsere Marken- Persönlichkeit wird von dem Zusammenspiel dieser Eigenschaften definiert. Je nach Kontext kann eine Eigenschaft deutlicher oder weniger deutlich hervorstechen.</p>
+<p><img src="../images/firefox_marketing/firefox_personality_de.png" alt="Firefox Personality Matrix"></p>
+<h3 id="ansprachetonalität"><a class="header" href="#ansprachetonalität">Ansprache/Tonalität</a></h3>
+<p>Unsere Sprache ist:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Ansprache</th><th>Tonalität</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Direkt, deutlich, einfach verständlich</strong></td><td>Wir wollen, dass sich die Menschen, mit den wir sprechen, willkommen fühlen und benutzen Wörter und Konzepte, die jeder versteht.</td></tr>
+<tr><td><strong>prägnant</strong></td><td>Wir mögen kurze Headlines, Sätze und eindeutige Call-to-Actions. Wichtige Keyword holen wir nach vorn. <br>Komplizierte Satzkonstruktionen oder Sätze ohne Mehrwert versuchen wir zu vermeiden.</td></tr>
+<tr><td><strong>authentisch</strong></td><td>Unsere Texte sind – wie unsere Produkte – von Menschen für Menschen gemacht. Wir sprechen mit den Leuten, die Firefox nutzen, auf Augenhöhe und benutzen eine natürliche Sprache. Wir wissen wovon wir reden, aber wir tun auch nicht so als wüssten wir immer alles.</td></tr>
+<tr><td><strong>natürlich</strong></td><td>Passivsätze nur sparsam verwenden und lieber in Aktivform schreiben. Nominalstil vermeiden. Lieber zwei kurze Sätze als einen langen.</td></tr>
+<tr><td><strong>respektvoll</strong></td><td>Ohne zu formal zu klingen</td></tr>
+<tr><td><strong>humorvoll</strong></td><td>Ohne zu flapsig oder cheesy  zu werden</td></tr>
+<tr><td><strong>inklusiv</strong></td><td>Wir achten auch beim Schreiben darauf, niemanden auszuschließen und wir versuchen Annahmen über die Personen, die unsere Texte lesen, zu vermeiden. <br>Das heißt, wir vermeiden das generische Maskulinum und Formen, die lediglich 2 Geschlechter einbeziehen ( Doppelform, Schrägstrich usw.). <br><a href="https://de.wikipedia.org/wiki/Gendersternchen">Gendersternchen</a> und <a href="https://de.wikipedia.org/wiki/Gendergap_(Linguistik)">Gendergap</a> sind zwar inklusiver, aber eben auch länger. Durch Neutralisierungen und direkte Ansprachen lässt es sich oft leichter vermeiden, Geschlechtergruppen auszuschließen. Gleichzeitig ist es leichter die vorgegebene Zeichenanzahl nicht zu überschreiten. <br>Auch wenn die meisten Leute, die Firefox anspricht, recht Tech-affin sind, erklären wir Begriffe, die unter Umständen nicht eindeutig sind etwas genauer. <br>Wir schreiben mit dem Verständnis dafür, dass wir mit Menschen auf der ganzen Welt – mit unterschiedlichen Lebensumständen, Backgrounds und Erfahrungen – sprechen.</td></tr>
+<tr><td><strong>relevant</strong></td><td>Lesende sollen auf den ersten Blick erkennen können, was sie von dem Text/Inhalt erwarten können und in der Lage sein einen persönlichen Bezug zu sehen. Wir holen die Menschen dort ab, wo er gerade ist. Kulturelle Anspielungen müssen Sinn machen und zum Markt passen.</td></tr>
+<tr><td><strong>Optimistisch und motivierend</strong></td><td>Wir glauben an eine gute Zukunft für das Internet. Wir sprechen zwar über das, was nicht so gut läuft, aber wir enden immer mit einem positiven Ausblick.</td></tr>
+<tr><td><strong>Kreativ</strong></td><td>Auch wenn Information und Klarheit an erster Stelle stehen, zeigen wir uns gern auch sprachlich innovativ. Wir wollen niemals langweilig klingen und versuchen Marketing-Klischées zu vermeiden.</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="du-vs-sie"><a class="header" href="#du-vs-sie">DU vs. SIE</a></h3>
+<p><strong>Firefox</strong></p>
+<p>Ganz im Sinne des Community-Gedankens verwenden wir “du”. Das ist unkomplizierter, emotionaler und aktivierender.</p>
+<p>“Du” wird dabei – außer natürlich am Satzanfang –  <strong>klein</strong> geschrieben.</p>
+<h3 id="tipps-für-seo-texte"><a class="header" href="#tipps-für-seo-texte">Tipps für SEO-Texte</a></h3>
+<ul>
+<li>Auch SEO-Texte sollen nicht eins zu eins übersetzt, sondern so lokalisiert werden, dass sie einen Mehrwert für den Leser schaffen und kulturell relevant sind.</li>
+<li>Titel sollten so spezifisch wie möglich formuliert werden und nicht das Übergeordnete Thema, sondern immer das konkrete Thema beschreiben (Bsp.: geht es um digitale Privatsphäre, sollte im Titel nicht stehen: Alles, was du über Privatsphäre wissen musst.</li>
+</ul>
+<h3 id="tipps-für-blog-artikel"><a class="header" href="#tipps-für-blog-artikel">Tipps für Blog-Artikel</a></h3>
+<ul>
+<li>Auch hier sollte der Titel so eindeutig wie möglich sein</li>
+<li>Die ersten 1-2 Sätze werden beim Einbau als Teaser übernommen. Hier sollte der Leser bestenfalls schon erkennen, was im Text etwa abgedeckt wird bzw. Lust bekommen weiterzulesen. (Teaser werden so angezeigt: https://blog.mozilla.org/firefox/de/)</li>
+<li>Zwischenüberschriften</li>
+</ul>
+<p>Beispiel-Posts:</p>
+<ul>
+<li>https://blog.mozilla.org/firefox/de/firefox-versprechen-fuer-deine-persoenlichen-daten/</li>
+<li>https://blog.mozilla.org/firefox/de/so-schuetzt-du-deine-daten-auf-reisen/</li>
+<li>https://blog.mozilla.org/firefox/de/join-firefox/</li>
+<li>https://blog.mozilla.org/firefox/de/loesche-deinen-digitalen-fingerabdruck-in-firefox/</li>
+<li>https://blog.mozilla.org/firefox/de/so-blockierst-du-krypto-mining-auf-deinem-computer-mit-firefox/</li>
+<li>https://blog.mozilla.org/firefox/de/add-ons-fuer-digitalen-fruehjahrsputz/</li>
+<li>https://blog.mozilla.org/firefox/de/online-tracking-hol-dir-die-kontrolle-zurueck/</li>
+<li>https://blog.mozilla.org/firefox/de/firefox-fights-for-you/</li>
+<li>https://blog.mozilla.org/internetcitizen/de/2018/10/29/sichere-zuallererst-deine-passwoerter/</li>
+<li>https://blog.mozilla.org/firefox/de/das-original-unter-den-alternativen-firefox/</li>
+<li>https://blog.mozilla.org/firefox/de/firefox-monitor-dein-schutz-vor-hackern/</li>
+</ul>
+<h2 id="glossar"><a class="header" href="#glossar">Glossar</a></h2>
+<h3 id="immer-wiederkehrende-schreibweisen-bei-firefox-englisch-deutsch"><a class="header" href="#immer-wiederkehrende-schreibweisen-bei-firefox-englisch-deutsch">Immer wiederkehrende Schreibweisen bei Firefox Englisch-Deutsch</a></h3>
+<p>Die hier aufgeführten Begriffe werden häufig in unserer Kommunikation verwendet. Und sollten aus Konsistenzgründen bevorzugt eingesetzt werden.</p>
+<p>Bei Unsicherheiten kann auch die <a href="https://transvision.mozfr.org/?recherche=search+choice&amp;repo=mozilla_org&amp;sourcelocale=en-US&amp;locale=de&amp;search_type=strings">Transvision Suche</a> konsultiert werden. Da in der Suche aber häufig auch ältere Übersetzungs-Versionen in der Ergebnisliste (oft noch mit der formalen Ansprache) angezeigt werden, dient dieses Tools eher als Orientierungshilfe.</p>
+<h3 id="folgende-begriffe-und-schreibweisen-gelten-jedoch-immer"><a class="header" href="#folgende-begriffe-und-schreibweisen-gelten-jedoch-immer">Folgende Begriffe und Schreibweisen gelten jedoch immer:</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>English Term</th><th>Translation</th></tr>
+</thead>
+<tbody>
+<tr><td>Activity Stream</td><td>Activity Stream</td></tr>
+<tr><td>Add-ons Extensions</td><td>Add-ons Erweiterungen<br><a href="https://wiki.mozilla.org/Add-ons/Terminology">Mehr darüber</a></td></tr>
+<tr><td>Ad tracker</td><td>Werbe-Tracker</td></tr>
+<tr><td>Adblocker</td><td>Adblocker</td></tr>
+<tr><td>Auto-fill Form</td><td>Autovervollständigung</td></tr>
+<tr><td>Block fingerprinting</td><td>Fingerprinter (Identifizierer) blockieren</td></tr>
+<tr><td>Browser Engine</td><td>die Browser Engine, CSS Engine …</td></tr>
+<tr><td>Browser history</td><td>Chronik</td></tr>
+<tr><td>Clickbait</td><td>Clickbait, Klickköder, Clickbaiting</td></tr>
+<tr><td>to champion</td><td>für + Eigenschaft<br>dafür eintreten</td></tr>
+<tr><td>Console</td><td>Konsole</td></tr>
+<tr><td>Context Graph</td><td>Context Graph oder Empfehlungssystem</td></tr>
+<tr><td>Control Tab</td><td>Control Tab</td></tr>
+<tr><td>Corporate control</td><td>Kontrolle durch Unternehmen</td></tr>
+<tr><td>Corporate Powers</td><td>Technologie-Giganten / Tech-Konzerne / Tech-Riesen</td></tr>
+<tr><td>Customizable search defaults</td><td>Sucheinstellungen anpassen</td></tr>
+<tr><td>Cryptominer<br> Cryptomining</td><td>Krypto-Miner<br>Krypto-Mining</td></tr>
+<tr><td>data breach</td><td>Datenleck</td></tr>
+<tr><td>Debugger</td><td>Debugger</td></tr>
+<tr><td>Decentralized Internet</td><td>dezentralisiertes Internet</td></tr>
+<tr><td>Decentralization</td><td>Dezentralisierung</td></tr>
+<tr><td>Deep Learning</td><td>Deep Learning</td></tr>
+<tr><td>Digital Citizenship</td><td>digitale Staatsbürgerschaft</td></tr>
+<tr><td>Digital Inclusion</td><td>Digitale Teilhabe</td></tr>
+<tr><td>Desktop Browser</td><td>Desktop-Browser, für den Desktop</td></tr>
+<tr><td>Dev Tools</td><td>Dev Tools</td></tr>
+<tr><td>Download Firefox</td><td>Firefox downloaden, für CTA-Buttons auch: Download Firefox</td></tr>
+<tr><td>Dropdown menu</td><td>Menüschaltfläche</td></tr>
+<tr><td>Feature</td><td>Funktion, Features</td></tr>
+<tr><td>Firefox Privacy</td><td>Datenschutz bei Firefox</td></tr>
+<tr><td>Icon</td><td>Symbol</td></tr>
+<tr><td>Inspector</td><td>Inspector</td></tr>
+<tr><td>intelligent search suggestions</td><td>intelligente Suchvorschläge</td></tr>
+<tr><td>Internet health</td><td>Zustand des Internets</td></tr>
+<tr><td>Internet experience</td><td>Surf-Erlebnis</td></tr>
+<tr><td>JavaScript-Debugger</td><td>JavaScript-Debugger</td></tr>
+<tr><td>Join Firefox</td><td>Join Firefox<br>Komm zu Firefox (nicht auf CTA buttons nutzen, dort wird zwischen Sign in (einloggen) und Sign up (Anmelden oder Konto erstellen) differenziert.</td></tr>
+<tr><td>lean browser</td><td>schlanker Browser, auf das Wesentliche reduzierter Browser</td></tr>
+<tr><td>Lean Data Toolkit</td><td>Lean Data Toolkit</td></tr>
+<tr><td>Library</td><td>Bibliothek</td></tr>
+<tr><td>limited data</td><td>verbleibende Daten</td></tr>
+<tr><td>local community</td><td>näheres Umfeld / Umfeld vor Ort</td></tr>
+<tr><td>Memory</td><td>Speicher</td></tr>
+<tr><td>Mozillian</td><td>Mozillianer</td></tr>
+<tr><td>Mozilla Developer Network</td><td>Mozilla Developer Network</td></tr>
+<tr><td>Multi-process</td><td>Multi-Prozess-Architektur</td></tr>
+<tr><td>Network</td><td>Netzwerk</td></tr>
+<tr><td>Network requests</td><td>Netzwerkanfragen</td></tr>
+<tr><td>New tab</td><td>Neuer Tab</td></tr>
+<tr><td>Night mode</td><td>Nachtmodus</td></tr>
+<tr><td>Non-Profit</td><td>Bevorzugt:<br>Non-Profit<br>Non-Profit-Organisation<br><br>Weniger bevorzugt ;-): <br>gemeinnützig</td></tr>
+<tr><td>Open Source</td><td>Open Source<br>Aber: Open-Source-Initiative</td></tr>
+<tr><td>Padding</td><td>Innenabstand</td></tr>
+<tr><td>Performance</td><td>Performance, Leistung</td></tr>
+<tr><td>performance panel</td><td>Ansicht für die Laufzeitanalyse</td></tr>
+<tr><td>Personal Data Promise:<br>Take less.Keep it safe.No secrets.</td><td>Unser Versprechen für deine (persönlichen) DatenOder auch(Das) Firefox Versprechen für deine (persönlichen) Daten:<br>Wenig sammeln.Sicher aufbewahren.Ehrlich sein.</td></tr>
+<tr><td>Privacy</td><td>Datenschutz – die Mittel zum Schutz<br>Privatsphäre – das Ergebnis<br><br>Der Unterschied: Datenschutz schützt unsere Privatsphäre.</td></tr>
+<tr><td>Privacy Mode</td><td>Privater Modus</td></tr>
+<tr><td>Policy</td><td>Richtlinie<br>Politik-Gestaltungsprozesse</td></tr>
+<tr><td>rebuilt from the ground</td><td>fundamental erneuert</td></tr>
+<tr><td>Responsive Design Mode</td><td>Responsive Design Mode</td></tr>
+<tr><td>Scratchpad</td><td>Scratchpad</td></tr>
+<tr><td>seamlessly</td><td>nahtlos / geräteübergreifend</td></tr>
+<tr><td>Search Choice</td><td>Bevorzugte Suchauswahl</td></tr>
+<tr><td>Search Engine</td><td>Suchmaschine</td></tr>
+<tr><td>Search engine options</td><td>Anpassbare Sucheinstellungen</td></tr>
+<tr><td>Smarter Sharing</td><td>Smarter teilen</td></tr>
+<tr><td>Storage Panel</td><td>Storage Panel</td></tr>
+<tr><td>Style Editor</td><td>Style Editor</td></tr>
+<tr><td>tab hop</td><td>Tabs wechseln</td></tr>
+<tr><td>Third-party advertisers</td><td>Werbung von Drittanbietern</td></tr>
+<tr><td>Technology</td><td>Web-Technologien<br>Technik<br>digitale Technologien</td></tr>
+<tr><td>technology devices</td><td>technische Geräte</td></tr>
+<tr><td>Top Sites (new tab)</td><td>Wichtige Seiten (in neuer Tab)</td></tr>
+<tr><td>Toolbar</td><td>Symbolleiste</td></tr>
+<tr><td>trust and privacy</td><td>Daten- und Vertrauensschutz</td></tr>
+<tr><td>User</td><td>User</td></tr>
+<tr><td>Volunteer</td><td>Mitmachen</td></tr>
+<tr><td>Web Audio</td><td>Web Audio</td></tr>
+<tr><td>Webcam-Cover</td><td>Webcam-Abdeckung</td></tr>
+<tr><td>Web-Innovations</td><td>Web-Innovationen</td></tr>
+<tr><td>Web Literacy</td><td>Web-Kenntnisse</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="unternehmensspezifische-schreibweisenfirefox-claims"><a class="header" href="#unternehmensspezifische-schreibweisenfirefox-claims">Unternehmensspezifische Schreibweisen/Firefox Claims:</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Content type</th><th>Spelling</th></tr>
+</thead>
+<tbody>
+<tr><td>Unternehmensname // Company name</td><td>Der Markenname wird aus Alleinstellungsgründen nie per Bindestrich angebunden.<br><br>Beispiel:<br>Firefox Team statt <del>Firefox-Team</del><br><br>Einzige Ausnahmen:<br>Firefox-Konto<br>und<br>Firefox-Produkte<br><br>Gleiches gilt für Mozilla:<br>Mozilla Team statt <del>Mozilla-Team</del><br><br>Außerdem wird Mozilla Im Fließtext stets so ausgeschrieben. Nicht erlaubt <del>moz://a</del></td></tr>
+<tr><td>Claims // Taglines für Firefox</td><td><a href="https://www.mozilla.org/de/firefox/fights-for-you/">Firefox fights for you</a> (Achtung: wird nicht übersetzt, sondern bleibt Englisch)<br><br>Weniger Big-Tech, mehr Good-Tech<br><br> Wir kämpfen für ein besseres Internet – mit Produkten, die Dir auch online die Kontrolle über Dein Leben geben.<br><br>Firefox respektiert Deine Privatsphäre und macht es Dir leicht, Deine Daten zu schützen. <br><br>Du entscheidest, was Du teilst und wann.<br><br>Deine Daten gehören Dir. Wir verkaufen sie niemals.<br><br>Für Menschen, statt für Profit. <br><br>Tech mit Respekt<br><br>Komm zu Firefox<br><br>Alle reden über Privatsphäre. Firefox macht Privatsphäre. Mit jedem einzelnen Produkt.<br><br>Firefox kann mehr als nur einen richtig guten Bowser.<br><br>Zeige Big-Tech, dass du dich nicht zum Produkt machen lässt.<br><br>Nutze Technologien, die sich für dich einsetzen.<br><br>Privatsphäre in jedem Produkt. Nicht nur in der Tagline.<br><br>Das Firefox Versprechen für deine persönlichen Daten: Wenig sammeln. Sicher aufbewahren. Ehrlich sein.</td></tr>
+<tr><td>Website und Blog-URL’s</td><td>Für einen verbesserten Lesefluss entfällt im Fließtext entfällt das www<br><br>Beispiel: mozilla.org<br><br>Entsprechend entfällt bei Blogs oder beispielsweise dem MDN das https:// im Fließtext.<br><br>Beispiel: blog.mozilla.org/ und developer.mozilla.org/de/</td></tr>
+<tr><td>Social Media URL’s</td><td><strong>Firefox</strong><br>https://twitter.com/firefox_de<br>https://www.facebook.com/Firefox<br>https://www.youtube.com/user/firefoxchannel<br><br><strong>Mozilla</strong><br>https://twitter.com/mozilla<br>https://www.facebook.com/mozilla<br>https://www.instagram.com/mozillagram<br><br>In der Kommunikation werden hier idealerweise jeweils das entsprechende Icon für den jeweiligen Kanal samt Handle kommuniziert.</td></tr>
+<tr><td>Fremdmarken // Third party brands</td><td>Die Schreibweise von Fremdmarken wird jeweils 1:1 von der jeweiligen Marke übernommen.<br><br>Beispiel: Vidyo</td></tr>
+<tr><td>Anglizismen // English Words in German</td><td>Es können Anglizismen verwendet werden. Als Grundregel gilt hier: Die Ausdrücke sollten geläufig und allgemeinverständlich sein. Ansonsten sollten sie weiter ausgeführt werden. Oder durch einen gleichbedeutenden deutschen Ausdruck ersetzt werden.<br><br>Englisch-Deutsche Wortkombinationen werden mit Bindestrichen angebunden. Beispiel: Open-Source-Initiative</td></tr>
+<tr><td>Metaphern und Sprichwörter //Metaphors and sayings</td><td>1:1 Übersetzung nur wenn möglich. Ansonsten durch eine in die gleiche Richtung gehende Umschreibung.</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="allgemeine-schreibweisen"><a class="header" href="#allgemeine-schreibweisen">Allgemeine Schreibweisen</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th> </th><th> </th></tr>
+</thead>
+<tbody>
+<tr><td>Datum // Dates</td><td>Numerisch: TT.MM.JJJJ – 06.03.2017 Im Fließtext: 6. März 2017, eine vorangestellte Null kann eingefügt werden. <br>Beispiel: 06.03.</td></tr>
+<tr><td>Uhrzeiten // Time</td><td>Uhrzeiten werden mit einer ein- oder zweistelligen Ziffer geschrieben, durch einen Punkt getrennt und mit “Uhr” beendet. <br>Beispiel: 16.00 Uhr</td></tr>
+<tr><td>Zahlen  // Numbers</td><td>Zahlen bis zwölf werden im Fließtext immer ausgeschrieben.<br><br>Zahlen-Wortkombinationen richten sich nach dem Duden.<br><br>Tausenderstellen werden mit Punkten getrennt, das Komma ist das Dezimaltrennzeichen</td></tr>
+<tr><td>Bindestriche // Hyphens</td><td>Bei Zahl-Wort-Kombinationen: 80-prozentig<br><br>Deutsch-Englisch-Kombinationen: Non-Profit-Organisation<br><br>Für bessere Lesbarkeit: Desktop-Browser</td></tr>
+<tr><td>Gedankenstriche</td><td>Option + Bindestrich = Gedankenstrich (- vs. –)</td></tr>
+<tr><td>Ausrufezeichen // Exclamation marks</td><td>Sehr sparsam einsetzen.</td></tr>
+<tr><td>Prozentangaben  // Percentage</td><td>Prozentangaben werden immer mit Leerzeichen zwischen Zahl und % geschrieben. Beispiel: 100 %</td></tr>
+<tr><td>Maßeinheiten  // Measurements</td><td>Werden in der vom Duden empfohlenen Schreibweise abgekürzt. Beispiel: cm, mm, km, 36° …</td></tr>
+<tr><td>Telefonnummern  // Phone numbers</td><td>Telefonnummern geht immer ein + mit der jeweiligen Länderkennzahl voraus. Die Null der Ortsvorwahl wird in Klammern gesetzt. <br><br>+49(0)30983333002</td></tr>
+<tr><td>Dateiformate // File formats</td><td>Dateiformate werden in ihrer gängigen Form verwendet:<br>PDF, 13 GB …</td></tr>
+<tr><td>Slash</td><td>Für verbesserte Lesbarkeit nutzen wir ein Leerzeichen vor und nach dem Slash. Beispiel: Mitarbeiterinnen / Mitarbeiter</td></tr>
+<tr><td>Sternchen // Asterisks</td><td>Sternchentexte werden nach Möglichkeit vermieden. Sollten sie dennoch benötigt werden, sollten sie so nahe wie möglich am betreffenden Inhalt platziert werden.</td></tr>
+<tr><td>Links</td><td>Linktexte sind möglichst sprechend und geben Aufschluss auf die zu erwartenden Inhalte.</td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="überschriften-aufzählungen-und-formatierungen"><a class="header" href="#überschriften-aufzählungen-und-formatierungen">Überschriften, Aufzählungen und Formatierungen</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th> </th><th> </th></tr>
+</thead>
+<tbody>
+<tr><td>H1 / H2 / H3</td><td>In der Regel beginnen alle Headlines mit einem Großbuchstaben und werden ohne Punkt beendet. Idealerweise sollten sie eine Zeilenlänge nicht überschreiten.</td></tr>
+<tr><td>Headlines in Videos // Headlines in Videos</td><td>Auch diese beginnen mit einem Großbuchstaben und werden ohne Punkt beendet. Beispiel <a href="https://www.youtube.com/watch?v=C2_BQ0PhEM8">hier</a>.</td></tr>
+<tr><td>Aufzählungen // Bullet points</td><td>Aufzählungen beginnen mit einem Großbuchstaben und enden ohne Punkt.</td></tr>
+</tbody>
+</table>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../de/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../de/mozilla_marketing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../de/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../de/mozilla_marketing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

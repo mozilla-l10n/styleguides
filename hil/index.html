@@ -1,0 +1,516 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Hiligaynon (hil) - Documentation for Mozilla localizers</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-817cd79e.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-d2375e2f.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Documentation for Mozilla localizers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/edit/main/docs/hil/README.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="style-guide-hiligaynon-hil"><a class="header" href="#style-guide-hiligaynon-hil">Style Guide Hiligaynon (hil)</a></h1>
+<h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
+<p>Style guides define the standard against which we determine a translation’s quality. They contain rules that are both defined by Mozilla and by Mozilla’s localization communities on how to best translate text in Mozilla products, websites, and other projects. Style guides are used to both translate and evaluate a translation’s quality. By following these rules, a translator has a better chance of producing a high quality translation that represents Mozilla values and culture.</p>
+<p>This style guide is broken up into two main parts:</p>
+<ul>
+<li>the first contains rules that are language-specific and must be defined by each Mozilla l10n community (covering language-specific style, terminology, and units);</li>
+<li>the second contains general rules that Mozilla has defined for translators of all languages that can help you translate well (covering principles of accuracy and fluency).</li>
+</ul>
+<h2 id="language-specific-mozilla-style"><a class="header" href="#language-specific-mozilla-style">Language-specific Mozilla style</a></h2>
+<h3 id="rule-of-thumb"><a class="header" href="#rule-of-thumb">Rule of Thumb</a></h3>
+<ul>
+<li>DO NOT translate technical terms to Hiligaynon.</li>
+<li>DO NOT translate proper nouns such as company brands and trademarks to Hiligaynon.</li>
+<li>DO NOT transliterate. In Hiligaynon, words are spelled in accordance to how a Filipino enunciates them; examples include drayber (“driver”), diskusyon (“discussion”) and iskul (“school”). Alternatively, words are spelled as they were in the source language. In a strictly formal Hiligaynon translation, purists resort to transliteration only when source words—particularly technical, scientific, medical and legal word forms—definitely have no direct, exact and accurate equivalents in the target language. For uniformity sake, we should avoid transliterating.</li>
+<li>LEAVE AS IS words, phrases or terms that are hard to be translated in Hiligaynon, particularly the technical ones (DO NOT transliterate).</li>
+</ul>
+<h3 id="style"><a class="header" href="#style">Style</a></h3>
+<p>The Mozilla Philippines Community localization style encompasses various elements, such as formality, tone, natural expression, handling cultural references, idioms, or slang, and maintaining consistency with Mozilla and 3rd party branding and style guides. The Mozilla Philippines Community define these style elements for localizing Mozilla projects.</p>
+<h3 id="formality-and-tone"><a class="header" href="#formality-and-tone">Formality and Tone</a></h3>
+<ul>
+<li>Target users of this project are people who speak and read Hiligaynon.</li>
+<li>Formal language version of Hiligaynon is appropriate for all Mozilla L10n projects.</li>
+</ul>
+<h3 id="content-principles"><a class="header" href="#content-principles">Content Principles</a></h3>
+<ul>
+<li>
+<p>Keep it simple</p>
+<ul>
+<li>Stick to common words that people use in everyday speech.</li>
+<li>Be concise. Write short sentences that are easy to understand.</li>
+</ul>
+</li>
+<li>
+<p>Get to the point</p>
+<ul>
+<li>Keep terms and messaging consistent across all channels, on and off Mozilla.</li>
+<li>Don’t bury information or gloss over it.</li>
+<li>Don’t use language that’s vague or possibly misleading.</li>
+</ul>
+</li>
+<li>
+<p>Talk like a person</p>
+<ul>
+<li>Translate like you’re talking to someone one-on-one. Minimize the use of online translation tools. Translate naturally.</li>
+<li>Stay neutral. Avoid language that’s opinionated, cutesy, irreverent or otherwise over the top.</li>
+<li>Don’t sound like a robot. Even the smallest bits of interference content should be approachable.</li>
+</ul>
+</li>
+<li>
+<p>Be brief</p>
+<ul>
+<li>Use as few words as possible while still being clear.</li>
+<li>Make sure every word has a job to do.</li>
+<li>Replace jargon with everyday terms.</li>
+</ul>
+</li>
+</ul>
+<h3 id="natural-expression"><a class="header" href="#natural-expression">Natural expression</a></h3>
+<p>Using natural expressions make our localization sound natural to a native speaker.</p>
+<ul>
+<li>Use the “i-[verb]” format during translation:
+<ul>
+<li>[EN] Bookmark this page. | [HIL] inug-Bookmark ang pahina.</li>
+<li>[EN] Cut | [TL] inug-Cut</li>
+<li>[EN] Paste | [TL] inug-Paste</li>
+<li>EXCEPTION: [EN] Copy | [HIL] inug-Copy</li>
+</ul>
+</li>
+</ul>
+<h3 id="handling-cultural-references-idioms-and-slang"><a class="header" href="#handling-cultural-references-idioms-and-slang">Handling cultural references, idioms, and slang</a></h3>
+<p>Cultural references, idioms, and slang require a full understanding of these references between the cultures of your source and target languages. An example of a cultural reference in English would be the phrase, “kick-off meeting.” This is a reference that uses an American football term. It means a meeting to begin a project. To translate it, you can follow one of two approaches:</p>
+<ul>
+<li>Section contents to be populated.</li>
+</ul>
+<h3 id="style-consistency"><a class="header" href="#style-consistency">Style consistency</a></h3>
+<p>Finally, adherence to Mozilla and third-party branding and style guides should be respected throughout a localization project. More information on Mozilla-specific branding rules can be found here:<a href="https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/">https://www.mozilla.org/en-US/styleguide/identity/firefox/branding/</a>. For example, some brand names should never be translated, such as “Firefox”. For other brands that do not have any branding guidelines, your localization community must define whether to translate them. Be extra careful to check on branding rules before deciding to translate a name or not (whether for Mozilla or for a third-party) and to list them here in your community’s l10n style guide.</p>
+<h3 id="terminology"><a class="header" href="#terminology">Terminology</a></h3>
+<p>The Mozilla Philippines L10n Term Bases and Glossary is under development as Project ATOMPH (App for the Translation Of MozillaPH).</p>
+<h3 id="tips-on-translating-difficult-concepts"><a class="header" href="#tips-on-translating-difficult-concepts">Tips on translating difficult concepts</a></h3>
+<p>Translating terms representing difficult concepts is a tricky task. Here are some ideas to help you translate terms that do not have equivalents in your language:</p>
+<ul>
+<li>Understand the meaning of the term in English. Definitions of a few key terms [2]</li>
+<li>Know your product and understand the function of the feature.</li>
+<li>Consider similar ideas for those functions in your culture.</li>
+<li>Associate a culturally specific image with the meaning and function of the term.</li>
+</ul>
+<h3 id="units-and-grammar"><a class="header" href="#units-and-grammar">Units and Grammar</a></h3>
+<p>For the sake of uniformity, the following formats are to be used in MozillaPH L10n:</p>
+<h4 id="date"><a class="header" href="#date">Date</a></h4>
+<ul>
+<li>Calendar / Era: Roman / Christian (Anno Domini, AD)</li>
+<li>Name of Days:
+<ul>
+<li>Monday</li>
+<li>Tuesday</li>
+<li>Wednesday</li>
+<li>Thursday</li>
+<li>Friday</li>
+<li>Saturday</li>
+<li>Sunday</li>
+</ul>
+</li>
+<li>Short Name of Days:
+<ul>
+<li>Mon</li>
+<li>Tue</li>
+<li>Wed</li>
+<li>Thu</li>
+<li>Fri</li>
+<li>Sat</li>
+<li>Sun</li>
+</ul>
+</li>
+<li>Name of Months:
+<ul>
+<li>January</li>
+<li>February</li>
+<li>March</li>
+<li>April</li>
+<li>May</li>
+<li>June</li>
+<li>July</li>
+<li>August</li>
+<li>September</li>
+<li>October</li>
+<li>November</li>
+<li>December</li>
+</ul>
+</li>
+<li>Short Name of Months:
+<ul>
+<li>Jan</li>
+<li>Feb</li>
+<li>Mar</li>
+<li>Apr</li>
+<li>May</li>
+<li>Jun</li>
+<li>Jul</li>
+<li>Aug</li>
+<li>Sep</li>
+<li>Oct</li>
+<li>Nov</li>
+<li>Dec</li>
+</ul>
+</li>
+<li>Year Format: English</li>
+<li>Default Short Date Format: MM-dd-yyyy</li>
+<li>Currency
+<ul>
+<li>Symbol: PHP</li>
+<li>Format: PHP x,xxx.xx</li>
+</ul>
+</li>
+<li>Time
+<ul>
+<li>Time Format: English</li>
+<li>24-hour Format: NO (12-hour format)</li>
+<li>Time Separator: colon (:)</li>
+<li>String for AM Designator: AM</li>
+<li>String for PM Designator: PM</li>
+<li>Century: use “ika-” followed by the number (e.g. ika-21)</li>
+</ul>
+</li>
+<li>Number
+<ul>
+<li>When written as English Roman Numeral: as is.</li>
+<li>When used as part of a sentence (spelled-out) or as an ordinal number: Translate to Tagalog</li>
+<li>Examples:
+<ul>
+<li>[EN] Close one tab. | [HIL] Itakop ang isa ka tab.</li>
+<li>[EN] Close the second tab. | [HIL] Itakop ang ikaduha nga tab.</li>
+</ul>
+</li>
+<li>When written as part of a telephone number: as is.
+Addresses</li>
+<li>Country / Region:</li>
+<li>[EN] Republic of the Philippines | [HIL] Republika sang Pilipinas</li>
+<li>[EN] The Philippines | [HIL] Pilipinas</li>
+<li>Address Format:
+<ul>
+<li>House or Building Number</li>
+<li>Building Name</li>
+<li>Street Name</li>
+<li>Village or Subdivision Name</li>
+<li>Barangay Name</li>
+<li>City or Town Name</li>
+<li>Province Name</li>
+<li>Postal Code</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="measurement-units"><a class="header" href="#measurement-units">Measurement Units</a></h4>
+<p>Follow the rules on how to translate numbers</p>
+<h4 id="percentages"><a class="header" href="#percentages">Percentages</a></h4>
+<p>The Hiligaynon language follows the English rules for percentages. In Mozilla localization, the percentage symbol (%) is frequently used a placeholder. DO NOT modify or remove placeholders. Follow general software localization guidelines and rules.</p>
+<h4 id="spelling-and-grammar-checks"><a class="header" href="#spelling-and-grammar-checks">Spelling And Grammar Checks</a></h4>
+<p>Spelling checks will be part of Project ATOMPH.
+Grammar checking tools and guides:
+https://languagetool.org/
+http://www.aclweb.org/anthology/W11-3402</p>
+<h2 id="word-forms"><a class="header" href="#word-forms">Word Forms</a></h2>
+<h3 id="pluralization"><a class="header" href="#pluralization">Pluralization</a></h3>
+<p>In Tagalog/Filipino, we use the term “mga” before a noun to denote the common pluralization form:</p>
+<ul>
+<li>Example: [EN] Letters | [HIL] Mga sulat</li>
+<li>Example: [EN] Bookmarks | [HIL] Mga Tanda</li>
+</ul>
+<h3 id="abbreviations"><a class="header" href="#abbreviations">Abbreviations</a></h3>
+<p>Here are some of the commonly used abbreviations in Hiligaynon:</p>
+<ul>
+<li>[EN] example = ex. | [HIL] halimbawa = hal.</li>
+</ul>
+<h3 id="acronyms"><a class="header" href="#acronyms">Acronyms</a></h3>
+<p>English acronyms can be used in Hiligaynon for simplicity and practicality.</p>
+<h3 id="punctuation"><a class="header" href="#punctuation">Punctuation</a></h3>
+<p>Hiligaynon follows the universal standards in the use of punctuations.</p>
+<h3 id="emphasis"><a class="header" href="#emphasis">Emphasis</a></h3>
+<ul>
+<li>Each sentence in Hiligaynon begins with a capital letter.</li>
+<li>Proper nouns are written with their first letters capitalized.</li>
+</ul>
+<h3 id="hyphens-and-compounds"><a class="header" href="#hyphens-and-compounds">Hyphens and compounds</a></h3>
+<p>Hiligaynon uses the English standards on the use of hyphens and compounds.</p>
+<h3 id="prepositions-and-articles"><a class="header" href="#prepositions-and-articles">Prepositions and articles</a></h3>
+<p>What is the appropriate form of expressing prepositions and articles in your language?</p>
+<h3 id="diacritics-and-special-characters"><a class="header" href="#diacritics-and-special-characters">Diacritics and Special characters</a></h3>
+<p>An official spelling system that uses diacritical marks for indicating long vowels and final glottal stops was introduced in 1939. Although it is used in some dictionaries and Hiligaynon learning materials, it has not been generally adopted by native speakers.</p>
+<h3 id="quotes"><a class="header" href="#quotes">Quotes</a></h3>
+<p>Hiligaynon follows the Universal Standard for quotes and brackets.</p>
+<h3 id="whitespace"><a class="header" href="#whitespace">Whitespace</a></h3>
+<p>Hiligaynon requires a space in between words and after each punctuation mark.</p>
+<h3 id="user-interface-elements"><a class="header" href="#user-interface-elements">User Interface Elements</a></h3>
+<ul>
+<li>
+<p>Titles : Should be brief and precise. Localizers can assume that source content reaches 2/3 of the total available line space. This allows localization text to expand and not be truncated or resolved through ellipsis. Title on the final page (meaning no more click through) should allow enough room to display full text.</p>
+</li>
+<li>
+<p>Buttons: Capitalize the first letter of each word. Limit to one or two words. Use verbs that precisely describe the button’s action. For example, “Cancel”, “Clear History”, “Add Email”, “Select All”, etc.</p>
+</li>
+<li>
+<p>Value Selector Lists: Capitalize the first letter of the first word and the first letter of any proper nouns. Limit to one or two words.</p>
+</li>
+<li>
+<p>Articles: Avoid them where possible. Articles (such as the word “the” in English) should be avoided wherever possible. User interface elements have limited space available for text. Avoiding articles will help ensure that your translations will be accommodated within the user interface.</p>
+</li>
+<li>
+<p>Ellipsis: Ellipsis are often inserted automatically in the UI where strings are truncated. Ellipsis should only be used at high level of UI pages, but not be on the final page (after a series of click-through) where detailed instruction is given. Ellipsis should not be used as a way to solve truncation issue. Focus on making the UI short and precise. The sequence of the sentence structure in another language may not translate well, when a sentence is half finished as such.</p>
+</li>
+</ul>
+<h3 id="general-mozilla-l10n-style"><a class="header" href="#general-mozilla-l10n-style">General Mozilla l10n style</a></h3>
+<p>Accuracy Meaning-based translation When it comes to translation, meaning is everything. A translator needs to understand the source text’s meaning exactly. You then find its most closely linked equivalent in your own language, without adding or subtracting meaning in your translation. Finding meaning-based equivalents between languages can be difficult. To help concentrate your thoughts, ask yourself questions like:</p>
+<ul>
+<li>What does this word/sentence/string mean in English?</li>
+<li>What is the message the author is trying to send?</li>
+<li>How would I express that meaning in my own language?</li>
+</ul>
+<p>Sometimes translation memory and machine translation tools can offer bad suggestions for a translation. If you use either as part of your translation workflow, make sure to correct the suggestions before submitting them. Avoid literal translation at all costs. Watch out for words that might sound or look the same between English and your language, but have a different meaning. Should not be translated Shortcuts and accesskeys</p>
+<p>In Firefox and other software it’s possible to use keyboard shortcuts to invoke a specific command. For example, to open a file in Firefox you can press the combination of keys CTRL+O (Cmd+O on Mac). The accelerator key depends on the operative system, but the letter itself is normally localizable. This is what is called a shortcut, or commandkey. For example, the Open File… menu item is stored as</p>
+<p><code>&lt;!ENTITY openFileCmd.label "Open File…"&gt; &lt;!ENTITY openFileCmd.accesskey "O"&gt; &lt;!ENTITY openFileCmd.commandkey "o"&gt;</code></p>
+<p>The commandkey is stored in <code>openFileCmd.commandkey</code> (sometimes the string has .key in the identifier). Normally you should not localize this key, since shortcuts are often common across the entire operative system (e.g. CTRL+S to Save) or similar products (CTRL+T to open a new tab in most browsers). But it needs to be localized if the letter is not available in your keyboard layout. For example, in Italian the character [ can be accessed through ALT+è, a command key [ would not work.</p>
+<p>In the code fragment above you see also an accesskey defined for Open File…. Accesskeys are used to access a UI element from the keyboard. Example: if File menu has an accesskey F, and the Open file… menu has O, you can press ALT+F to access the menu, and then O to open a file.</p>
+<p>If the label is File, and the accesskey is F, it will be displayed as “File” on Windows and Linux, with an underscored F. If the accesskey was “O”, so a character not available in the original label, it will be displayed underlined between parenthesis: “File (O)”.</p>
+<p>One important thing to determine is if, for your locale, it makes sense to have localized accesskeys: for example, if most users will use a keyboard with a different layout (English), it might make sense to keep the English original accesskey instead of using a letter available in your localization.</p>
+<p>Accesskeys, like commandkeys, have their own lines within .dtd and .properties files and are usually identified by .accesskey in the string ID. Variables</p>
+<p>Variables should never be translated. You can recognize a variable within a string by its beginning with a specific character (e.g., <code>$</code>, <code>#</code>, <code>%</code>, etc.) followed by a combination of words without spacing. For example, <code>$BrandShortName</code> and <code>%S</code> are variables. You can move a variable around within a string, if the translation of the string requires it. Brands, copyright, and trademark</p>
+<p>Brand names, as well as copyright and trademarks should never be translated, nor transliterated into a non-Latin based script. See the Mozilla branding guide for more details.</p>
+<h3 id="translating-culture-specific-references"><a class="header" href="#translating-culture-specific-references">Translating culture-specific references</a></h3>
+<p>At times there will be English content included in Mozilla products or web projects (e.g., marketing campaigns) that makes references to American culture and concepts. When translating these, it is best to find an equivalent cultural reference within your own culture that accurately conveys the meaning of the English reference. For example, an American might say, “Good job, home run!” A home run is a baseball reference for a successful outcome. An appropriate translation would be an equivalent metaphor within your culture. Using soccer as an example, you might translate “Good job, home run!” into “Good job, nice goal!” in your language.</p>
+<p>[Add a note about Mozilla culture.] Legal content</p>
+<p>Mozilla projects will often contain legal content in the form of user agreements, privacy statements, etc. When reviewing the translation of legal content, Mozilla localizers should do so according to the criteria concerning accuracy, fluency, style, and terminology found within this style guide and according to Mozilla culture and values. Fluency</p>
+<p>To produce a fluent translation, not only should the translation follow the language’s standard grammar, punctuation, and spelling rules, but it should avoid being ambiguous, incoherent, or inconsistent, and unintelligible.</p>
+<p>To avoid ambiguity, the translator must thoroughly understand the meaning behind the source text, including any references that text might include. For example, if the English source text uses the word, “it”, the translator must know what “it” is to avoid an ambiguous translation. Clearly understanding the source text will also allow a translator to make the source text’s logical connections in their own translation. This helps to keep the translation coherent.</p>
+<p>Inconsistency can pop up in many forms. A translator must be consistent in their use of abbreviations, references, and links within each localization project. They must also be consistent with Mozilla and the localization communities’ style guides and approved terminology. Abbreviations, like terminology, should come from either a standard reference (like a dictionary of abbreviations) or should follow your language’s rules for creating abbreviations. Once used, the abbreviation must remain consistent every place that it is used in the translation. Cross-references (or links) must also be consistently used within a translation. If a text contains a hyperlink URL to a support article in English, the translation should also contain a hyperlink to a translation of that support article (if available) or the English version. Links should not redirect to other pages nor should they be broken and unusable.</p>
+<p>Finally, there are times that a translation simply doesn’t make sense. It’s hard to put your finger on what exactly is wrong with it, but you know it is unintelligible and not fluent. While this is uncommon, it’s important to report these unintelligible translations and offer suggestions to correct them.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../hi-IN/firefox_marketing.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../is/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../hi-IN/firefox_marketing.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../is/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

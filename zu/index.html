@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Zulu (zu) - Documentation for Mozilla localizers</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-817cd79e.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-d2375e2f.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Documentation for Mozilla localizers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mozilla-l10n/styleguides/edit/main/docs/zu/README.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="style-guide-zulu-zu"><a class="header" href="#style-guide-zulu-zu">Style Guide Zulu (zu)</a></h1>
+<h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
+<p>This style guide is intended for translators working on Mozilla projects. It provides in-depth information about the quality standards expected by Mozilla for the translation of all product components. All translators should read this guide before commencing any translation work.</p>
+<p>This guide addresses general translation issues and specifies certain rules of style and usage specific to your language. It should be used as a guideline to avoid common typographic errors, and to maintain consistent terminology and writing style across a project’s components and indeed a product range. The guide should be used in conjunction with the current and previous product-specific glossaries, glossaries of other products of a product range, and the industry standard platform-specific glossaries, such as those provided by Microsoft.</p>
+<p>This document may be updated or completed in the course of translation. Where no specific instruction or recommendation is specified, translators should use the phrasing and style that comply with industry standards.</p>
+<h2 id="general-style-considerations"><a class="header" href="#general-style-considerations">General Style Considerations</a></h2>
+<h2 id="style-guidelines"><a class="header" href="#style-guidelines">Style guidelines</a></h2>
+<p>Follow these basic rules:</p>
+<ul>
+<li>Original American English text tends to be rather casual. In technical texts Zulu tends to adopt the style of the original text because often technical vocabulary is lacking.</li>
+<li>Try to avoid long, nested sentence constructions. If necessary, break up the original sentence and regroup it syntactically.</li>
+<li>Use wording that is succinct, unambiguous, and free of jargon.</li>
+<li>Produce a translation that sounds as it if was originally written in your language, i.e. avoid following the original source sentence structure too closely.</li>
+<li>Always bear in mind who your target audience is (i.e. an experienced computer user, a beginner, or a combination of both groups).</li>
+<li>Use a consistent style throughout all product components and across a product range, to ensure that all Mozilla products can be linguistically identified as part of a group of products.</li>
+</ul>
+<h3 id="style-guidelines-specific-to-mozilla-products"><a class="header" href="#style-guidelines-specific-to-mozilla-products">Style guidelines specific to Mozilla products</a></h3>
+<ul>
+<li>Please refer to the reference documentation supplied by Mozilla and any Mozilla style guides and make a note of anything significant and specific that should be noted with respect to Mozilla.</li>
+</ul>
+<h3 id="reference-terminology"><a class="header" href="#reference-terminology">Reference terminology</a></h3>
+<p>These normative sources must be adhered to. Any deviation from them automatically fails a string in most cases. When more than one solution is allowed in these sources, look for the recommended one in other parts of the Style Guide.</p>
+<ol>
+<li>Pan South African Language Board, 2008; Imithetho Yokubhala Nobhalomagama LwesiZulu (Spelling and Orthography Rules Manual)</li>
+<li>Textbook of Zulu Grammar, Clement M. Doke</li>
+</ol>
+<p>The following terminology sources should be used as reference in the translation:</p>
+<p>These sources are meant to provide supplementary information, background, comparison, etc.</p>
+<ol>
+<li>C. L. S. Nyembezi &amp; G. R. Dent Scholar’s Zulu Dictionary</li>
+<li>M. O. Mbatha Isichazamazwi SesiZulu</li>
+<li>C. M. Doke et al English – Zulu Dictionary</li>
+<li>Oxford School Dictionary English – Zulu</li>
+</ol>
+<h3 id="terminology-not-found-in-the-glossary-or-style-guide"><a class="header" href="#terminology-not-found-in-the-glossary-or-style-guide">Terminology not found in the glossary or style guide</a></h3>
+<p>Please make a log of any terms not found in the glossary or style guide that are used frequently in the materials. Return this log to Rubric so that the terms can be incorporated into the glossary. This increases consistency in large projects.</p>
+<h2 id="abbreviations"><a class="header" href="#abbreviations">Abbreviations</a></h2>
+<h3 id="general-abbreviations"><a class="header" href="#general-abbreviations">General Abbreviations</a></h3>
+<p>Avoid the use of non-standard abbreviations such as min. for minutes.  Where no appropriate abbreviation exists, use the whole word. There are very few abbreviations, if any, in Zulu, for example, AM and PM are replaced with full words in Zulu, i.e. Ekuseni (morning) and Ntambama (afternoon) respectively. But for easy readability these English abbreviations are also acceptable in Zulu</p>
+<h3 id="measurements-and-numerals"><a class="header" href="#measurements-and-numerals">Measurements and Numerals</a></h3>
+<p>Be careful of the difference in use between periods and commas as decimal markers in different languages.</p>
+<h3 id="filename-extensions"><a class="header" href="#filename-extensions">Filename Extensions</a></h3>
+<p>Filename extensions and graphic formats referenced by filename extensions such as BMP, GIF, HTML, PNG, TIFF must not be translated.</p>
+<h2 id="acronyms"><a class="header" href="#acronyms">Acronyms</a></h2>
+<p>Acronyms are made up of the initial letters of several words that are represented by these letters. Some well-known examples are WYSIWYG (What You See Is What You Get), OLE (Object Linking and Embedding), or RAM (Random Access Memory).</p>
+<p>Use recognised translations of acronyms where these exist, but avoid creating new, non-standard acronyms.</p>
+<p>If the source text does not do so, and if possible, spell out an abbreviation or acronym the first time it is used in a document, followed by that abbreviation or acronym in parentheses.</p>
+<pre><code>Examples:
+Data Access Objects (DAO)
+ActiveX data objects (ADO)
+</code></pre>
+<h2 id="articles"><a class="header" href="#articles">Articles</a></h2>
+<h3 id="product-names"><a class="header" href="#product-names">Product Names</a></h3>
+<ul>
+<li>[Mozilla] product names are used without definite or indefinite articles.  Because Zulu, is an agglutinative language, it does not have articles standing on their own, articles are incorporated as prefixes, for example the page (ikhasi). Here ‘i’ is ‘the’ and ‘khasi’ is ‘page.’</li>
+<li>Localized Feature Names</li>
+<li>Translated feature names are handled to fit the structure of the language through prefixes, locative morphemes and so on.</li>
+<li>Example ikhompyutha, ehostela, ehhotela etc</li>
+</ul>
+<p>### Articles for English Borrowed Terms</p>
+<p>When faced with an English loan word previously used in Microsoft products, consider the following options:</p>
+<p>Motivation: Does the English word have any formally motivated features that would allow a straightforward integration into the noun class system of IsiZulu language? English words that are loaned to IsiZulu are categorized as noun class 5(a), therefore they take the (i-) prefix.</p>
+<p>Analogy: Is there an equivalent IsiZulu term whose article could be used?</p>
+<p>Frequency: Is the term used in other technical documentation? If so, what article is used most often?</p>
+<p>The internet may be a helpful reference here.</p>
+<ul>
+<li>Example: (+) i-Microsoft, i-browser, i-firefox etc.</li>
+</ul>
+<h2 id="copyrights-and-trademarks"><a class="header" href="#copyrights-and-trademarks">Copyrights and Trademarks</a></h2>
+<p>Product names are often trademarked or may be trademarked in the future  and are therefore rarely translated. Before translating any product or component name, please verify that it is in fact translatable and not protected in any way. If in doubt, please contact the Rubric Project Manager.</p>
+<p>The same product may be marketed under different names in different countries. One solution is to add a note saying “Marketed as  –––– in the UK etc” the first time the product is mentioned, and then continue to use the name as given in the text.
+Copyright protection is granted to any original work of authorship fixed in any tangible medium of expression from which it can be perceived, reproduced, or communicated. The original author should be credited.
+Example: Onke amalungelo agodliwe, noma amalungelo okushicilela ngawabakwa-Micro</p>
+<h2 id="translation-of-version-strings"><a class="header" href="#translation-of-version-strings">Translation of Version Strings</a></h2>
+<ul>
+<li>Please use the following guidelines when localizing version strings:</li>
+</ul>
+<p>Please follow structure of the source</p>
+<h2 id="gender-neutral-translation"><a class="header" href="#gender-neutral-translation">Gender-neutral Translation</a></h2>
+<p>Sex or gender is not a grammatical feature in IsiZulu, nevertheless there are several ways of conveying gender in the nouns.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>(+)Common</th><th>feminine</th><th>Masculine</th></tr>
+</thead>
+<tbody>
+<tr><td>Inkomo</td><td>inkomazi</td><td>inkunzi</td></tr>
+<tr><td>Inja</td><td>injakazi</td><td>ichalaha</td></tr>
+</tbody>
+</table>
+</div>
+<p>The indication of sex gender with personal nouns, these nouns are followed by the descriptive possessives formed form the Class 4 nouns, „isilisa‟ (male) and „isifazane‟ (female person).</p>
+<pre><code>Isibonelo:
+Umuntu wesilisa
+Umuntu wesifazane
+</code></pre>
+<h2 id="genitive"><a class="header" href="#genitive">Genitive</a></h2>
+<p>A possessive is a word which qualifies a noun. In Zulu possessives are small words that conform to concordial agreement, i.e. the prefix of a noun class determines the form that the possessive assumes. Consider the following examples:</p>
+<pre><code>Umshanelo wami (my broom)
+Umkhumbi kaHulumeni (a ship of the Government)
+Amadoda abo (their husbands)
+</code></pre>
+<p>The possessive relates to the noun, i.e. something that is possessed to that which possesses it.</p>
+<h2 id="localized-term-vs-english-term"><a class="header" href="#localized-term-vs-english-term">Localized term vs. English term</a></h2>
+<p>The preferred language in the computer world is English. Therefore, a translator frequently has to decide whether to use the (correct, but obsolete) translation or simply the English word.</p>
+<ul>
+<li>Gender : Sex or gender is not a grammatical feature in IsiZulu.</li>
+<li>Inflections:  Inflections can be translated in the Zulu structure and does not follow English grammatical rules</li>
+<li>Plural Formation: Unlike in English where plural form is indicated by a suffix, Zulu indicates plural form by a prefix. This is directed by which noun class the word falls into. Most English loan words are in noun class 5 and their plurals are in noun class 6. For example, ikhamera, amakhamera.</li>
+<li>Verbs and Verb Forms: Consistency is key in the translation of verbs. If it is grammatical to omit the predicate “be” in Zulu, you can omit it in error messages, but you should be consistent in your usage across all error messages. Be concise without changing the meaning of the source string. Many technical verbs have no equivalents and are often transliterated, for example, download dawuniloda.</li>
+</ul>
+<h2 id="headings"><a class="header" href="#headings">Headings</a></h2>
+<p>Headings should convey as much information as possible about the ensuing text to help readers locate information quickly.</p>
+<h3 id="capitalization"><a class="header" href="#capitalization">Capitalization</a></h3>
+<p>In English headings all nouns, pronouns, adjectives, verbs, adverbs, and subordinate conjunctions (e.g. that, until, which) are capitalized. The same applies in Zulu, words at the beginning of a sentence are capitalized, pronouns (names of people, surnames, places, languages, months, names of God and gods, days of the week, organizations, headings and titles , books in the bible etc</p>
+<h3 id="in-lists-and-tables"><a class="header" href="#in-lists-and-tables">In Lists and Tables</a></h3>
+<p>Whenever possible, headings of lists and tables should consist of one or two words, preferably active nouns. They should be concise, even if the source uses a longer phrase.</p>
+<h2 id="hyphenation-and-compound-formation"><a class="header" href="#hyphenation-and-compound-formation">Hyphenation and Compound formation</a></h2>
+<p>General Hyphenation Rules The hyphen is used to divide words between syllables, to link parts of a compound word, and to connect the parts of an inverted or imperative verb form.
+Example: (+) Nkosazane Dlamini-Zuma</p>
+<h3 id="en-dash"><a class="header" href="#en-dash">En Dash</a></h3>
+<p>The en dash is used as a minus sign, usually with spaces before and after.</p>
+<p>The en dash is also used in number ranges, such as those specifying page numbers. No spaces are used around the en dash in this case.</p>
+<h3 id="em-dash"><a class="header" href="#em-dash">Em Dash</a></h3>
+<p>The em dash should only be used to emphasize an isolated element or introduce an element that is not essential to the meaning conveyed by the sentence. When a speaker trails away from a certain idea and eventually comes back</p>
+<p>Example: (+) Uthe uMongameli Zuma – ngenkathi ethula iNkulumo yeSizwe – asiqikelele ukuba sisebenzise ugesi ngokucophelela.</p>
+<h3 id="ellipses-suspension-points"><a class="header" href="#ellipses-suspension-points">Ellipses (Suspension Points)</a></h3>
+<p>This means that certain words have been omitted
+Example: (+) Lala sithandwa … uphumule</p>
+<h3 id="english-compounds"><a class="header" href="#english-compounds">English Compounds</a></h3>
+<p>If there is an equivalent it is used, or else the closest equivalent is used following Zulu grammatical rules.</p>
+<h3 id="product-names-1"><a class="header" href="#product-names-1">Product Names</a></h3>
+<h4 id="compounds-with-acronyms-abbreviations-or-numerals"><a class="header" href="#compounds-with-acronyms-abbreviations-or-numerals">Compounds with Acronyms, Abbreviations or Numerals</a></h4>
+<h5 id="acronyms-1"><a class="header" href="#acronyms-1">Acronyms</a></h5>
+<p>Acronyms and abbreviations are very rare in Zulu. The words are normally spelt out. The acronyms that have been accepted in isiZulu do not follow the rule of “first letters of a set of other words”. A generalization is that acronyms that have become part of the everyday lexicon take an initial upper case with the rest of the letters in lower case, for example:</p>
+<pre><code>uMzukazwe - where uM is taken from UMkhandlu
+- zu from wesiZulu
+-kazwe from kazwelonke.
+</code></pre>
+<p>Caution: Do not include a generic term after an acronym or abbreviation if one of the letters in the acronym stands for that term. Even though this might occur in the US-English version, it should be “corrected” in the localized version. The following examples show the redundancy in red for English terms.</p>
+<pre><code>(-) RPC call i-RPC
+(-) HTML language i-HTML
+(-) TCP/IP-Protocol i-TCP
+(-) PIN Number i-PIN
+</code></pre>
+<h5 id="numerals"><a class="header" href="#numerals">Numerals</a></h5>
+<p>Zulu spells out numbers, time etc. Therefore digits are adopted into the language and the source text is followed. Although that is the case, numbers often cannot stand on their own, a prefix will be needed. For example, you have 8 new message will be” Unemiyalezo eyisi-8 emisha. In the case of an unidentified number, for example: You have {{value}} new message, because groups of numbers take different prefixes, it is best to use the neutral prefix ‘ngu’, rather than a prefix that is specifically used for 8, 10, 50 etc. ‘Unemiyalezo engu-{{value}} emisha’. This will be appropriate for any number.</p>
+<h2 id="indexes"><a class="header" href="#indexes">Indexes</a></h2>
+<h3 id="capitalization-prepositions-and-articles"><a class="header" href="#capitalization-prepositions-and-articles">Capitalization, Prepositions and Articles</a></h3>
+<p>Avoid starting an entry with a preposition or an article because of their unfavorable effect on the overall sorting order and general legibility of the index.</p>
+<h2 id="key-names"><a class="header" href="#key-names">Key Names</a></h2>
+<ul>
+<li>On the first mention, use the definite article and “key” in conjunction with the key name, for example, “the ESC key”. On all subsequent references, refer to the key only by its name, for example, “Click ESC”.</li>
+<li>As a rule of thumb, be frugal in your use of the word “key”. Use it if the key name appears alone in the sentence and the actual key name does not appear on the keyboard.</li>
+</ul>
+<h2 id="prepositions"><a class="header" href="#prepositions">Prepositions</a></h2>
+<p>Pay attention to the correct use of prepositions in translations. Influenced by the English language, many translators omit them or change the word order. In Zulu there are no prepositions. The idea of the so-called prepositions in English is incorporated into the verb or as an adverb or locative.</p>
+<h3 id="pronouns"><a class="header" href="#pronouns">Pronouns</a></h3>
+<p>There are four types of pronouns in Zulu, namely, Absolute, Demonstrative, Quantitative and Qualificative.</p>
+<p>Example:</p>
+<p>(+) Absolute: This indicates a certain noun, it does not describe, or limit it but it is rather a „concord‟ converted into a complete word. Abantu = bona, (bona banamanga)</p>
+<p>Demonstrative: There are three positional types of demonstratives, „this or these,‟ „that or those, and that „yonder and those yonder‟
+(+) Ngiyabathanda laba
+(+) Ngiyabathanda labo
+(+) Ngiyabathanda labaya</p>
+<p>Quantitative: There are three main types of quantitative pronouns, all, only, and the numeral roots with a special pronominal prefix in each case. -nke, -dwa, -bili, thathu, ne, hlanu njll
+(+) Wonke umuntu uyahamba
+(+) Ufuna ukudla yedwa
+(+) Bakhuluma bobabili</p>
+<p>Qualificative pronouns: there is no inherent change in the adjective, relative or numerative to form qualificative pronouns.
+Adjective: (+) Omkhulu ufikile
+Relative: (+) Ngifuna lo obomvu
+Enumerative: (+) Ufuna ziphi?</p>
+<h2 id="procedures-and-syntax"><a class="header" href="#procedures-and-syntax">Procedures and Syntax</a></h2>
+<p>Syntax and register differ between IsiZulu and English in the following ways: IsiZulu has a basic SVO word order, relative clauses and possessive phrases follow the head noun and auxiliaries precede the verb.</p>
+<p>Example: Ingane yami enhle iya esikole okokuqala namuhla.</p>
+<h3 id="descriptors"><a class="header" href="#descriptors">Descriptors</a></h3>
+<ul>
+<li>Use the descriptor (menu, button, command, etc.) only if the source text uses it or if it is needed for clarifying the position of a term in the interface.</li>
+</ul>
+<h3 id="procedural-syntax"><a class="header" href="#procedural-syntax">Procedural Syntax</a></h3>
+<ul>
+<li>In procedural text, which tells the user to perform certain actions in a certain number of steps, the order in which interface terms are to appear in the translation is usually top to bottom (i.e. menu, command, dialog box, dialog box controls). Maintain this sequence unless there are technical reasons preventing it.</li>
+<li>Example:</li>
+<li>In the “Extras” menu, click “Settings” and then “Music files”.</li>
+</ul>
+<h3 id="procedural-headings"><a class="header" href="#procedural-headings">Procedural Headings</a></h3>
+<h4 id="status-bar-messages"><a class="header" href="#status-bar-messages">Status Bar Messages</a></h4>
+<ul>
+<li>Please make sure you adequately capture the meaning of messages when translating.</li>
+<li>If you think a source status bar message is ambiguous, query it to make sure you provide the reader with the right information: if you cannot understand it, they are also not certain to. There is nothing more annoying than “help” that doesn’t!</li>
+</ul>
+<h2 id="punctuation"><a class="header" href="#punctuation">Punctuation</a></h2>
+<h3 id="commas-and-other-common-punctuation-marks-please-refer-to-the-official-pan-south-african-language-board-2008-imithetho-yokubhala-nobhalomagana-lwesizulu-spelling-and-orthography-rules-manual"><a class="header" href="#commas-and-other-common-punctuation-marks-please-refer-to-the-official-pan-south-african-language-board-2008-imithetho-yokubhala-nobhalomagana-lwesizulu-spelling-and-orthography-rules-manual">Commas and Other Common Punctuation Marks: Please refer to the official Pan South African Language Board, 2008; Imithetho Yokubhala Nobhalomagana LwesiZulu (Spelling and Orthography Rules Manual)</a></h3>
+<h3 id="in-lists-and-tables-1"><a class="header" href="#in-lists-and-tables-1">In Lists and Tables</a></h3>
+<ul>
+<li>Do not use a comma after bulleted points.</li>
+<li>If the original source entry contains a period, leave it. If the source text does not contain a period, but you split the translation into several independent sentences, put a period at the end of each sentence.</li>
+<li>Never put a period after just one word.</li>
+<li>The result of this method may be that some entries within one table are with and some entries are without a final period. From a technical point of view this is acceptable.</li>
+<li>The same convention applies to captions and callouts</li>
+</ul>
+<h3 id="comma-vs-period-in-numerals"><a class="header" href="#comma-vs-period-in-numerals">Comma vs. Period in Numerals</a></h3>
+<p>English uses a period as decimal separator. Please follow source text.</p>
+<h3 id="version-numbers"><a class="header" href="#version-numbers">Version Numbers</a></h3>
+<ul>
+<li>Please follow source text.</li>
+</ul>
+<h2 id="typographic-conventions"><a class="header" href="#typographic-conventions">Typographic Conventions</a></h2>
+<p>Consistent use of typographic conventions in documentation helps users locate and interpret information easily. Generally speaking, the source format should be followed as closely as possible, i.e. terms with a particular formatting in the source should have the same formatting in the translation.</p>
+<p>If menu, command, option, etc. names are highlighted by bold print in the source, use bold print for the corresponding translated terms. If menu, command, option, etc. names are put in quotes in the source, use quotes for the corresponding terms in the translation.</p>
+<p>Note that in software strings, you must use two double quotes (““xxx”“) to denote names within a string. If you only use a single double quotes (“xxx”), this will cause problems with the compilation, as strings are generally denoted by double quotes.</p>
+<h2 id="wizard-names"><a class="header" href="#wizard-names">Wizard Names</a></h2>
+<p>Should be translated accordingly, if necessary.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../yo/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../yo/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
