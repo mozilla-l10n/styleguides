@@ -1,5 +1,4 @@
 [book]
-multilingual = false
 src = "docs"
 title = "Documentation for Mozilla localizers"
 

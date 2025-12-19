@@ -13,11 +13,11 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: v0.4.40
-      MDBOOKTOC_VERSION: 0.14.2
+      MDBOOK_VERSION: v0.5.2
+      MDBOOKTOC_VERSION: 0.15.2
     steps:
       - name: Clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install mdbook and mdbook-toc
         run: |
           mkdir installed-bins
@@ -26,7 +26,7 @@ jobs:
           echo `pwd`/installed-bins >> $GITHUB_PATH
       - name: Install gh-pages
         run: |
-          npm install gh-pages@"~6.1.1"
+          npm install gh-pages@"~6.3.0"
       - name: Build book
         run: |
             mdbook --version
